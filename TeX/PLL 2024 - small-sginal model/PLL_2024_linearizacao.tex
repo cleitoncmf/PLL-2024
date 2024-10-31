@@ -1,0 +1,342 @@
+\documentclass[12pt,a4paper]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+
+
+\title{PLL 2024 - Linearização}
+
+\begin{document}
+\maketitle
+
+
+
+Equações do PLL no domínio do tempo:
+
+
+
+\begin{equation}
+pll_\alpha = A \sin \theta
+\label{eq:pll:alpha}
+\end{equation}
+
+\begin{equation}
+pll_\beta = A \cos \theta
+\label{eq:pll:beta}
+\end{equation}
+
+\begin{equation}
+\varepsilon_\phi(t)=
+\left(
+v_\alpha - pll_\alpha
+\right)
+\cos \theta -
+\left(
+v_\beta - pll_\beta
+\right)
+\sin \theta
+\label{eq:erro:phi}
+\end{equation}
+
+\begin{equation}
+\varepsilon_A(t)=
+\left(
+v_\alpha - pll_\alpha
+\right)
+\sin \theta +
+\left(
+v_\beta - pll_\beta
+\right)
+\cos \theta
+\label{eq:erro:amp}
+\end{equation}
+
+
+
+
+% ----------------------------
+% ----------------------------
+% ----------------------------
+% ----------------------------
+% ----------------------------
+% ----------------------------
+\section{Linearização Harmônica por Perturbação}
+
+Para realizar a linearização por perturbação, devemos fazer as seguintes substituições:
+
+\begin{equation}
+\varepsilon_\phi =
+\varepsilon_{\phi,ss} + 
+\Delta \varepsilon_\phi
+\end{equation} 
+
+\begin{equation}
+\varepsilon_A =
+\varepsilon_{A,ss} + 
+\Delta \varepsilon_A
+\end{equation} 
+
+
+\begin{equation}
+v_\alpha =
+v_{\alpha,ss} + 
+\Delta v_\alpha
+\end{equation} 
+
+\begin{equation}
+v_\beta =
+v_{\beta,ss} + 
+\Delta v_\beta
+\end{equation} 
+
+
+\begin{equation}
+pll_\alpha =
+pll_{\alpha,ss} + 
+\Delta pll_\alpha
+\end{equation} 
+
+\begin{equation}
+pll_\beta =
+pll_{\beta,ss} + 
+\Delta pll_\beta
+\end{equation} 
+
+
+\begin{equation}
+\theta =
+\theta_{ss} + \Delta \theta
+\end{equation}
+
+\begin{equation}
+A = A_{ss} + \Delta A
+\end{equation}
+
+
+O processo de linearização das equações (\ref{eq:pll:alpha})-(\ref{eq:erro:amp}) será apresentado na sequência. Por ora os resultados ainda conterão termos senoidais/cossenoidais. 
+
+Além disso, vou considerar:
+
+\begin{equation}
+\cos \Delta \theta \approx 1
+\end{equation}
+
+\begin{equation}
+\sin \Delta \theta \approx \Delta \theta
+\end{equation}
+
+% ----------------------------
+% ----------------------------
+% ----------------------------
+\subsection{Linearização da equação (\ref{eq:pll:alpha})}
+
+
+\begin{equation}
+pll_\alpha = A \sin \theta
+\end{equation}
+
+
+
+\begin{equation}
+pll_{\alpha,ss} + \Delta pll_{\alpha} = 
+\left(
+A_{ss} + \Delta A
+\right) 
+\sin ( \theta_{ss} +  \Delta \theta )
+\end{equation}
+
+
+\begin{equation}
+pll_{\alpha,ss} + \Delta pll_{\alpha} = 
+\left(
+A_{ss} + \Delta A
+\right) 
+\left(
+\sin \theta_{ss} \cos \Delta \theta +
+\cos \theta_{ss} \sin \Delta \theta
+\right)
+\end{equation}
+
+
+\begin{equation}
+pll_{\alpha,ss} + \Delta pll_{\alpha} = 
+\left(
+A_{ss} + \Delta A
+\right) 
+\left(
+\sin \theta_{ss}  +
+\cos \theta_{ss} \Delta \theta
+\right)
+\end{equation}
+
+
+Coletando apenas os termos de primeira ordem:
+
+\begin{equation}
+\Delta pll_{\alpha} = 
+A_{ss} \cos \theta_{ss} \Delta \theta +
+\sin \theta_{ss} \Delta A
+\label{eq:pll:alpha:Lin}
+\end{equation}
+
+
+
+% ----------------------------
+% ----------------------------
+% ----------------------------
+\subsection{Linearização da equação (\ref{eq:pll:beta})}
+
+\begin{equation}
+pll_\beta = A \cos \theta
+%\label{eq:pll:beta}
+\end{equation}
+
+\begin{equation}
+pll_{\beta,ss} + \Delta pll_{\beta} = 
+\left(
+A_{ss} + \Delta A
+\right)
+\cos (\theta_{ss} + \Delta \theta )
+\end{equation}
+
+\begin{equation}
+pll_{\beta,ss} + \Delta pll_{\beta} = 
+\left(
+A_{ss} + \Delta A
+\right)
+\left(
+\cos \theta_{ss} \cos \Delta \theta -
+\sin \theta_{ss} \sin \Delta \theta
+\right)
+\end{equation}
+
+
+
+\begin{equation}
+pll_{\beta,ss} + \Delta pll_{\beta} = 
+\left(
+A_{ss} + \Delta A
+\right)
+\left(
+\cos \theta_{ss}  -
+\sin \theta_{ss} \Delta \theta
+\right)
+\end{equation}
+
+
+Coletando os termos de primeira ordem:
+
+\begin{equation}
+\Delta pll_{\beta} = 
+- A_{ss} \sin \theta_{ss} \Delta \theta +
+\cos \theta_{ss} \Delta A
+\label{eq:pll:beta:Lin}
+\end{equation}
+
+
+
+
+% ----------------------------
+% ----------------------------
+% ----------------------------
+\subsection{Linearização da equação (\ref{eq:erro:phi})}
+
+\begin{equation}
+\varepsilon_\phi(t)=
+\left(
+v_\alpha - pll_\alpha
+\right)
+\cos \theta -
+\left(
+v_\beta - pll_\beta
+\right)
+\sin \theta
+%\label{eq:erro:phi}
+\end{equation}
+
+
+\begin{multline}
+\varepsilon_{\phi,ss} + \Delta \varepsilon_\phi =
+\left(
+v_{\alpha,ss} + \Delta v_{\alpha} 
+- pll_{\alpha,ss} - \Delta pll_\alpha
+\right)
+\cos (\theta_{ss} + \Delta \theta)\\ -
+\left(
+v_{\beta,ss} + \Delta v_\beta 
+- pll_{\beta,ss} - \Delta pll_\beta
+\right)
+\sin (\theta_{ss} + \Delta \theta )
+\end{multline}
+
+
+
+\begin{multline}
+\varepsilon_{\phi,ss} + \Delta \varepsilon_\phi =
+\left(
+v_{\alpha,ss} + \Delta v_{\alpha} 
+- pll_{\alpha,ss} - \Delta pll_\alpha
+\right)
+\left(
+\cos \theta_{ss} \cos \Delta \theta -
+\sin \theta_{ss} \sin \Delta \theta
+\right)\\ -
+\left(
+v_{\beta,ss} + \Delta v_\beta 
+- pll_{\beta,ss} - \Delta pll_\beta
+\right)
+\left(
+\sin \theta_{ss} \cos \Delta \theta +
+\cos \theta_{ss} \sin \Delta \theta
+\right)
+\end{multline}
+
+
+
+
+
+
+
+
+\begin{multline}
+\varepsilon_{\phi,ss} + \Delta \varepsilon_\phi =
+\left(
+v_{\alpha,ss} + \Delta v_{\alpha} 
+- pll_{\alpha,ss} - \Delta pll_\alpha
+\right)
+\left(
+\cos \theta_{ss}  -
+\sin \theta_{ss}  \Delta \theta
+\right)\\ -
+\left(
+v_{\beta,ss} + \Delta v_\beta 
+- pll_{\beta,ss} - \Delta pll_\beta
+\right)
+\left(
+\sin \theta_{ss}  +
+\cos \theta_{ss}  \Delta \theta
+\right)
+\end{multline}
+
+
+Coletando os termos de primeira ordem:
+
+
+\begin{multline}
+\Delta \varepsilon_\phi = 
+-v_{\alpha,ss} \sin \theta_{ss}  \Delta \theta
++\cos \theta_{ss} \Delta v_{\alpha} \\
++pll_{\alpha,ss} \sin \theta_{ss}  \Delta \theta
+- \cos \theta_{ss}  \Delta pll_\alpha \\
+- v_{\beta,ss} \cos \theta_{ss}  \Delta \theta
+- \sin \theta_{ss} \Delta v_\beta \\
++ pll_{\beta,ss} \cos \theta_{ss}  \Delta \theta
++ \sin \theta_{ss}  \Delta pll_\beta
+\end{multline}
+
+
+
+
+\end{document}
