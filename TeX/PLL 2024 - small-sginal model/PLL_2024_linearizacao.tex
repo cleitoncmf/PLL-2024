@@ -334,7 +334,329 @@ Coletando os termos de primeira ordem:
 - \sin \theta_{ss} \Delta v_\beta \\
 + pll_{\beta,ss} \cos \theta_{ss}  \Delta \theta
 + \sin \theta_{ss}  \Delta pll_\beta
+\label{eq:erro:phi:Lin}
 \end{multline}
+
+
+
+
+
+
+% ----------------------------
+% ----------------------------
+% ----------------------------
+\subsection{Linearização da equação (\ref{eq:erro:amp})}
+
+\begin{equation}
+\varepsilon_A(t)=
+\left(
+v_\alpha - pll_\alpha
+\right)
+\sin \theta +
+\left(
+v_\beta - pll_\beta
+\right)
+\cos \theta
+%\label{eq:erro:amp}
+\end{equation}
+
+
+\begin{multline}
+\varepsilon_{A,ss} + \Delta\varepsilon_A =
+\left(
+v_{\alpha,ss} + \Delta v_\alpha - 
+pll_{\alpha,ss} + \Delta pll_\alpha
+\right)
+\sin (\theta_{ss} + \Delta)+\\
+\left(
+v_{\beta,ss} + \Delta v_\beta - 
+pll_{\beta,ss} + \Delta pll_\beta
+\right)
+\cos (\theta_{ss} + \Delta \theta)
+%\label{eq:erro:amp}
+\end{multline}
+
+
+
+\begin{multline}
+\varepsilon_{A,ss} + \Delta\varepsilon_A =
+\left(
+v_{\alpha,ss} + \Delta v_\alpha - 
+pll_{\alpha,ss} - \Delta pll_\alpha
+\right)
+\left(
+\sin \theta_{ss} \cos \Delta \theta +
+\cos \theta_{ss} \sin \Delta \theta
+\right)+\\
+\left(
+v_{\beta,ss} + \Delta v_\beta - 
+pll_{\beta,ss} - \Delta pll_\beta
+\right)
+\left(
+\cos \theta_{ss} \cos \Delta \theta -
+\sin \theta_{ss} \sin \Delta \theta
+\right)
+%\label{eq:erro:amp}
+\end{multline}
+
+
+
+
+
+\begin{multline}
+\varepsilon_{A,ss} + \Delta\varepsilon_A =
+\left(
+v_{\alpha,ss} + \Delta v_\alpha - 
+pll_{\alpha,ss} - \Delta pll_\alpha
+\right)
+\left(
+\sin \theta_{ss} +
+\cos \theta_{ss} \Delta \theta
+\right)+\\
+\left(
+v_{\beta,ss} + \Delta v_\beta - 
+pll_{\beta,ss} - \Delta pll_\beta
+\right)
+\left(
+\cos \theta_{ss} -
+\sin \theta_{ss}  \Delta \theta
+\right)
+%\label{eq:erro:amp}
+\end{multline}
+
+
+
+Coletando os termos de primeira ordem:
+
+
+\begin{multline}
+\Delta\varepsilon_A =
+v_{\alpha,ss} \cos \theta_{ss} \Delta \theta 
++ \sin \theta_{ss}  \Delta v_\alpha \\
+- pll_{\alpha,ss} \cos \theta_{ss} \Delta \theta
+- \sin \theta_{ss} \Delta pll_\alpha \\
+- v_{\beta,ss} \sin \theta_{ss}  \Delta \theta
++ \cos \theta_{ss} \Delta v_\beta \\
++ pll_{\beta,ss} \sin \theta_{ss}  \Delta \theta
+- \cos \theta_{ss} \Delta pll_\beta
+\label{eq:erro:amp:Lin}
+\end{multline}
+
+
+
+
+
+
+
+
+
+
+
+
+% ----------------------------
+% ----------------------------
+% ----------------------------
+\subsection{Conjunto de equações linearizadas: versão inicial}
+
+\begin{equation}
+\Delta pll_{\alpha} = 
+A_{ss} \cos \theta_{ss} \Delta \theta +
+\sin \theta_{ss} \Delta A
+%\label{eq:pll:alpha:Lin}
+\end{equation}
+
+
+
+\begin{equation}
+\Delta pll_{\beta} = 
+- A_{ss} \sin \theta_{ss} \Delta \theta +
+\cos \theta_{ss} \Delta A
+%\label{eq:pll:beta:Lin}
+\end{equation}
+
+
+\begin{multline}
+\Delta \varepsilon_\phi = 
+-v_{\alpha,ss} \sin \theta_{ss}  \Delta \theta
++\cos \theta_{ss} \Delta v_{\alpha} \\
++pll_{\alpha,ss} \sin \theta_{ss}  \Delta \theta
+- \cos \theta_{ss}  \Delta pll_\alpha \\
+- v_{\beta,ss} \cos \theta_{ss}  \Delta \theta
+- \sin \theta_{ss} \Delta v_\beta \\
++ pll_{\beta,ss} \cos \theta_{ss}  \Delta \theta
++ \sin \theta_{ss}  \Delta pll_\beta
+%\label{eq:erro:phi:Lin}
+\end{multline}
+
+
+
+\begin{multline}
+\Delta\varepsilon_A =
+v_{\alpha,ss} \cos \theta_{ss} \Delta \theta 
++ \sin \theta_{ss}  \Delta v_\alpha \\
+- pll_{\alpha,ss} \cos \theta_{ss} \Delta \theta
+- \sin \theta_{ss} \Delta pll_\alpha \\
+- v_{\beta,ss} \sin \theta_{ss}  \Delta \theta
++ \cos \theta_{ss} \Delta v_\beta \\
++ pll_{\beta,ss} \sin \theta_{ss}  \Delta \theta
+- \cos \theta_{ss} \Delta pll_\beta
+%\label{eq:erro:amp:Lin}
+\end{multline}
+
+
+
+
+
+
+% ----------------------------
+% ----------------------------
+% ----------------------------
+\subsection{Substituindo $v_{\alpha\beta,ss}$ e $pll_{\alpha\beta,ss}$}
+
+
+N caso do PLL está sendo utilizado para extrair a componente de sequência negativa, podemos escrever:
+
+\begin{equation}
+v_{\alpha,ss} = A_{ss} \sin \theta_{ss}
+\end{equation}
+
+\begin{equation}
+v_{\beta,ss} = A_{ss} \cos \theta_{ss}
+\end{equation}
+
+
+\begin{equation}
+pll_{\alpha,ss} = A_{ss} \sin \theta_{ss}
+\end{equation}
+
+\begin{equation}
+pll_{\beta,ss} = A_{ss} \cos \theta_{ss}
+\end{equation}
+
+
+Substituindo estes resultados em (\ref{eq:erro:phi:Lin}):
+
+\begin{multline}
+\Delta \varepsilon_\phi = 
+- A_{ss} \sin \theta_{ss} \sin \theta_{ss}  \Delta \theta
++ \cos \theta_{ss} \Delta v_{\alpha} \\
++ A_{ss} \sin \theta_{ss} \sin \theta_{ss}  \Delta \theta
+- \cos \theta_{ss}  \Delta pll_\alpha \\
+- A_{ss} \cos \theta_{ss} \cos \theta_{ss}  \Delta \theta
+- \sin \theta_{ss} \Delta v_\beta \\
++ A_{ss} \cos \theta_{ss} \cos \theta_{ss}  \Delta \theta
++ \sin \theta_{ss}  \Delta pll_\beta
+%\label{eq:erro:phi:Lin}
+\end{multline}
+
+\begin{multline}
+\Delta \varepsilon_\phi = 
+- A_{ss} \sin^2 \theta_{ss}  \Delta \theta
++ \cos \theta_{ss} \Delta v_{\alpha} 
++ A_{ss} \sin^2 \theta_{ss}   \Delta \theta
+- \cos \theta_{ss}  \Delta pll_\alpha \\
+- A_{ss} \cos^2 \theta_{ss}  \Delta \theta
+- \sin \theta_{ss} \Delta v_\beta 
++ A_{ss} \cos^2 \theta_{ss}   \Delta \theta
++ \sin \theta_{ss}  \Delta pll_\beta
+%\label{eq:erro:phi:Lin}
+\end{multline}
+
+
+
+\begin{equation}
+\Delta \varepsilon_\phi = 
+ \cos \theta_{ss} \Delta v_{\alpha} 
+- \cos \theta_{ss}  \Delta pll_\alpha 
+- \sin \theta_{ss} \Delta v_\beta 
++ \sin \theta_{ss}  \Delta pll_\beta
+\label{eq:erro:phi:Lin:2}
+\end{equation}
+
+
+
+
+
+Fazendo as substituições em (\ref{eq:erro:amp:Lin}):
+
+
+\begin{multline}
+\Delta\varepsilon_A =
+A_{ss} \sin \theta_{ss} \cos \theta_{ss} \Delta \theta 
++ \sin \theta_{ss}  \Delta v_\alpha \\
+- A_{ss} \sin \theta_{ss} \cos \theta_{ss} \Delta \theta
+- \sin \theta_{ss} \Delta pll_\alpha \\
+- A_{ss} \cos \theta_{ss} \sin \theta_{ss}  \Delta \theta
++ \cos \theta_{ss} \Delta v_\beta \\
++ A_{ss} \cos \theta_{ss} \sin \theta_{ss}  \Delta \theta
+- \cos \theta_{ss} \Delta pll_\beta
+%\label{eq:erro:amp:Lin}
+\end{multline}
+
+
+\begin{equation}
+\Delta\varepsilon_A =
+\sin \theta_{ss}  \Delta v_\alpha 
+- \sin \theta_{ss} \Delta pll_\alpha 
++ \cos \theta_{ss} \Delta v_\beta 
+- \cos \theta_{ss} \Delta pll_\beta
+\label{eq:erro:amp:Lin:2}
+\end{equation}
+
+
+
+
+
+
+
+
+
+
+% ----------------------------
+% ----------------------------
+% ----------------------------
+\subsection{Conjunto de equações linearizadas: versão simplificada}
+
+\begin{equation}
+\Delta pll_{\alpha} = 
+A_{ss} \cos \theta_{ss} \Delta \theta +
+\sin \theta_{ss} \Delta A
+%\label{eq:pll:alpha:Lin}
+\end{equation}
+
+
+
+\begin{equation}
+\Delta pll_{\beta} = 
+- A_{ss} \sin \theta_{ss} \Delta \theta +
+\cos \theta_{ss} \Delta A
+%\label{eq:pll:beta:Lin}
+\end{equation}
+
+
+
+
+\begin{equation}
+\Delta \varepsilon_\phi = 
+\cos \theta_{ss} \Delta v_{\alpha} 
+- \cos \theta_{ss}  \Delta pll_\alpha 
+- \sin \theta_{ss} \Delta v_\beta 
++ \sin \theta_{ss}  \Delta pll_\beta
+%\label{eq:erro:phi:Lin:2}
+\end{equation}
+
+
+\begin{equation}
+\Delta\varepsilon_A =
+\sin \theta_{ss}  \Delta v_\alpha 
+- \sin \theta_{ss} \Delta pll_\alpha 
++ \cos \theta_{ss} \Delta v_\beta 
+- \cos \theta_{ss} \Delta pll_\beta
+%\label{eq:erro:amp:Lin:2}
+\end{equation}
+
+
+
 
 
 
