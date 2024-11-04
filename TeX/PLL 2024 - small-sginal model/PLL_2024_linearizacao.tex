@@ -4,6 +4,7 @@
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{graphicx}
+\usepackage{xcolor}
 
 
 \title{PLL 2024 - Linearização}
@@ -658,7 +659,254 @@ A_{ss} \cos \theta_{ss} \Delta \theta +
 
 
 
+% ----------------------------
+% ----------------------------
+% ----------------------------
+\subsection{Conjunto de equações linearizadas: usando Euler}
 
+
+Antes de começar, temos que lembrar que $\theta_{ss} = \omega_{1}t$. Então:
+
+
+
+
+\begin{equation}
+\Delta pll_{\alpha} = 
+A_{ss} 
+\left(
+\frac{e^{j\omega_1 t} + e^{-j\omega_1 t}}{2}
+\right)
+\Delta \theta +
+\left(
+\frac{e^{j\omega_1 t} - e^{-j\omega_1 t}}{2j}
+\right)
+\Delta A
+\label{eq:pll:alpha:Lin:3}
+\end{equation}
+
+
+
+\begin{equation}
+\Delta pll_{\beta} = 
+- A_{ss} 
+\left(
+\frac{e^{j\omega_1 t} - e^{-j\omega_1 t}}{2j}
+\right) 
+\Delta \theta +
+\left(
+\frac{e^{j\omega_1 t} + e^{-j\omega_1 t}}{2}
+\right)
+\Delta A
+\label{eq:pll:beta:Lin:3}
+\end{equation}
+
+
+
+\begin{multline}
+\Delta \varepsilon_\phi = 
+\left(
+\frac{e^{j\omega_1 t} + e^{-j\omega_1 t}}{2}
+\right)
+\Delta v_{\alpha} 
+- \left(
+\frac{e^{j\omega_1 t} + e^{-j\omega_1 t}}{2}
+\right)
+\Delta pll_\alpha \\
+- \left(
+\frac{e^{j\omega_1 t} - e^{-j\omega_1 t}}{2j}
+\right) 
+\Delta v_\beta 
++ \left(
+\frac{e^{j\omega_1 t} - e^{-j\omega_1 t}}{2j}
+\right) 
+\Delta pll_\beta
+\label{eq:erro:phi:Lin:3}
+\end{multline}
+
+
+
+
+\begin{multline}
+\Delta\varepsilon_A =
+\left(
+\frac{e^{j\omega_1 t} - e^{-j\omega_1 t}}{2j}
+\right) 
+\Delta v_\alpha 
+- \left(
+\frac{e^{j\omega_1 t} - e^{-j\omega_1 t}}{2j}
+\right)
+\Delta pll_\alpha \\
++ \left(
+\frac{e^{j\omega_1 t} + e^{-j\omega_1 t}}{2}
+\right) 
+\Delta v_\beta 
+- \left(
+\frac{e^{j\omega_1 t} + e^{-j\omega_1 t}}{2}
+\right) 
+\Delta pll_\beta
+\label{eq:erro:amp:Lin:3}
+\end{multline}
+
+
+
+
+% ----------------------------
+% ----------------------------
+% ----------------------------
+\subsection{Conjunto de equações linearizadas: Representação usando vetores espaciais}
+
+O objetivo desta seção é reescrever as equações da seção anterior com base nas seguintes definições:
+
+\begin{equation}
+\Delta \vec{v}_{\alpha\beta}  = 
+\Delta v_{\alpha} +
+j \Delta v_{\beta}  
+\end{equation}
+
+\begin{equation}
+\Delta \vec{pll}_{\alpha\beta}  = 
+\Delta pll_{\alpha} +
+j \Delta pll_{\beta}  
+\end{equation}
+
+
+
+
+Primeiramente, podemos combinar as equações (\ref{eq:pll:alpha:Lin:3}) e (\ref{eq:pll:beta:Lin:3}):
+
+{
+\color{blue}
+
+\begin{multline}
+\Delta \vec{pll}_{\alpha\beta} =
+A_{ss} 
+\left(
+\frac{e^{j\omega_1 t} + e^{-j\omega_1 t}}{2}
+\right)
+\Delta \theta +
+\left(
+\frac{e^{j\omega_1 t} - e^{-j\omega_1 t}}{2j}
+\right)
+\Delta A \\ 
++ j\left[
+- A_{ss} 
+\left(
+\frac{e^{j\omega_1 t} - e^{-j\omega_1 t}}{2j}
+\right) 
+\Delta \theta +
+\left(
+\frac{e^{j\omega_1 t} + e^{-j\omega_1 t}}{2}
+\right)
+\Delta A
+\right]
+\end{multline}
+
+
+
+\begin{multline}
+\Delta \vec{pll}_{\alpha\beta} =
+A_{ss} 
+\left(
+\frac{e^{j\omega_1 t} + e^{-j\omega_1 t}}{2}
+\right)
+\Delta \theta +
+j\left(
+\frac{-e^{j\omega_1 t} + e^{-j\omega_1 t}}{2}
+\right)
+\Delta A \\ 
++ \left[
+A_{ss} 
+\left(
+\frac{-e^{j\omega_1 t} + e^{-j\omega_1 t}}{2}
+\right) 
+\Delta \theta +
+j \left(
+\frac{e^{j\omega_1 t} + e^{-j\omega_1 t}}{2}
+\right)
+\Delta A
+\right]
+\end{multline}
+
+
+
+}
+
+\begin{equation}
+\Delta \vec{pll}_{\alpha\beta} =
+A_{ss} e^{-j\omega_1 t} \Delta \theta
++j e^{-j\omega_1 t} \Delta A
+\end{equation}
+
+
+
+
+Agora podemos processar a equação (\ref{eq:erro:phi:Lin:3}):
+
+{
+\color{blue}
+
+\begin{multline}
+\Delta \varepsilon_\phi = 
+\left(
+\frac{e^{j\omega_1 t} + e^{-j\omega_1 t}}{2}
+\right)
+\Delta v_{\alpha} 
+- \left(
+\frac{e^{j\omega_1 t} + e^{-j\omega_1 t}}{2}
+\right)
+\Delta pll_\alpha \\
+- \left(
+\frac{e^{j\omega_1 t} - e^{-j\omega_1 t}}{2j}
+\right) 
+\Delta v_\beta 
++ \left(
+\frac{e^{j\omega_1 t} - e^{-j\omega_1 t}}{2j}
+\right) 
+\Delta pll_\beta
+%\label{eq:erro:phi:Lin:3}
+\end{multline}
+
+
+\begin{multline}
+\Delta \varepsilon_\phi = 
+\left(
+\frac{e^{j\omega_1 t} + e^{-j\omega_1 t}}{2}
+\right)
+\Delta v_{\alpha} 
+- \left(
+\frac{e^{j\omega_1 t} + e^{-j\omega_1 t}}{2}
+\right)
+\Delta pll_\alpha \\
++ j\left(
+\frac{e^{j\omega_1 t} - e^{-j\omega_1 t}}{2}
+\right) 
+\Delta v_\beta 
+- j\left(
+\frac{e^{j\omega_1 t} - e^{-j\omega_1 t}}{2}
+\right) 
+\Delta pll_\beta
+%\label{eq:erro:phi:Lin:3}
+\end{multline}
+
+
+
+\begin{multline}
+\Delta \varepsilon_\phi =
+\frac{1}{2} e^{j\omega_1 t}
+( \Delta v_{\alpha}  + j\Delta v_{\beta} )
++\frac{1}{2} e^{-j\omega_1 t}
+( \Delta v_{\alpha}  - j\Delta v_{\beta} )\\
+-\frac{1}{2} e^{j\omega_1 t}
+( \Delta pll_{\alpha}  + j\Delta pll_{\beta} )
+-\frac{1}{2} e^{-j\omega_1 t}
+( \Delta pll_{\alpha}  - j\Delta pll_{\beta} )
+\end{multline}
+
+
+
+
+
+}
 
 
 \end{document}
