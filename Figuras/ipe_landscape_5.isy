@@ -1,0 +1,42 @@
+<ipestyle name="ipe_landscape_5">
+<symbol name="arrow/normal(spx)">
+<path stroke="sym-stroke" fill="sym-stroke" pen="sym-pen">
+0 0 m
+-1 0.333 l
+-1 -0.333 l
+h
+</path>
+</symbol>
+<arrowsize name="normal" value="7"/>
+<color name="Teste" value="0.152 0.216 0.275"/>
+<color name="Cinza455a64" value="0.270 0.353 0.392"/>
+<color name="Cinza546e7a" value="0.329 0.431 0.478"/>
+<color name="Cinza566573" value="0.337 0.396 0.451"/>
+<color name="black" value="0"/>
+<color name="white" value="1"/>
+<gridsize name="1 pts" value="1"/>
+<gridsize name="2 pts" value="2"/>
+<gridsize name="4 pts" value="4"/>
+<gridsize name="8 pts (~3 mm)" value="8"/>
+<gridsize name="16 pts (~6 mm)" value="16"/>
+<gridsize name="32 pts (~12 mm)" value="32"/>
+<gridsize name="10 pts (~3.5 mm)" value="10"/>
+<gridsize name="20 pts (~7 mm)" value="20"/>
+<gridsize name="14 pts (~5 mm)" value="14"/>
+<gridsize name="28 pts (~10 mm)" value="28"/>
+<gridsize name="56 pts (~20 mm)" value="56"/>
+<dashstyle name="normal" value="[]0"/>
+<opacity name="opaque" value="1"/>
+<pen name="normal" value="0.4"/>
+<symbolsize name="normal" value="3"/>
+<textsize name="normal" value="\normalsize"/>
+<textstretch name="normal" value="1"/>
+<textstyle name="math" type="label" begin="$" end="$"/>
+<textstyle name="normal" begin="" end=""/>
+<textstyle name="normal" type="label" begin="" end=""/>
+<layout paper="1800 1000" origin="0 0" frame="1800 1000"/>
+<textpad left="1" right="1" top="1" bottom="1"/>
+<pagenumberstyle pos="10 10" color="black" size="normal" valign="baseline"></pagenumberstyle>
+<titlestyle pos="0 800" size="large" color="black"  valign="baseline"/>
+<pathstyle cap="0" join="1" fillrule="eofill"/>
+</ipestyle>
