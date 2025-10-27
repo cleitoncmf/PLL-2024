@@ -1,0 +1,169 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+
+
+
+
+
+\begin{document}
+
+
+
+
+
+
+% -----------------------------
+% -----------------------------
+% -----------------------------
+% -----------------------------
+% -----------------------------
+\section{Defining the LUTs}
+
+
+For reducing the computational burden, functions such as $\sqrt{x}$ and $\text{tg}^{-1}(x)$ were implemented through the use of look-up tables (LUTs). Nonetheless, tabling these functions for a large variety of $x$ values tends to compromise immense portions of the FPGA storage space, and thus it is prohibitive. To overcome this issue, the mentioned functions were split into line segments given by:
+%
+\begin{equation}
+	\tilde{f}(x) = m x + n, \text{ for } x_a \leq x < x_b
+\end{equation}
+%
+where $[x_a,x_b]$ is the interval for which $\tilde{f}(x)$ is valid. Thus, instead of storing the different values of $f(x)$, we can table the values of $m$ and $n$ for the different segments of the function. This approach requires some extra computations, say it $\tilde{f}(x) = mx+n$, but significantly reduces the required storage space.
+
+
+
+In this case, coefficients for the line segment in the interval $[x_a,x_b]$ is given by:
+%
+\begin{equation}
+	m = \frac{f(x_b)-f(x_a)}{x_b - x_a}
+\end{equation}  
+%
+\begin{equation}
+	n = f(x_a) - m x_a
+\end{equation}  
+
+
+
+
+
+
+% -----------------------------
+% -----------------------------
+% -----------------------------
+% -----------------------------
+% -----------------------------
+\section{Computing the error for the LUT for $f(x) = \sqrt{x}$}
+
+
+% 1. Define the linear approximation
+\begin{equation}
+\sqrt{x} \approx \tilde{f}_p(x) = m_p x + n_p
+\end{equation}
+where
+\begin{equation}
+m_p = \frac{\sqrt{x_{p+1}} - \sqrt{x_p}}{x_{p+1} - x_p}
+\end{equation}
+\begin{equation}
+n_p = \sqrt{x_p} - m_p x_p
+\end{equation}
+
+% 2. Percent error formula for interval [x_p, x_{p+1}]
+\begin{equation}
+\mathcal{E}rr = \frac{\sqrt{x} - \tilde{f}_p(x)}{\sqrt{x}}
+\end{equation}
+\begin{equation}
+= \frac{\sqrt{x} - (m_p x + n_p)}{\sqrt{x}}
+\end{equation}
+\begin{equation}
+= \frac{\sqrt{x} - m_p x - (\sqrt{x_p} - m_p x_p)}{\sqrt{x}}
+\end{equation}
+\begin{equation}
+= \frac{\sqrt{x} - \sqrt{x_p} + m_p (x_p - x)}{\sqrt{x}}
+\end{equation}
+
+% 3. Use interval variables
+Let $\Delta x_p = x_{p+1} - x_p$ and $\Delta x = x - x_p$, then $x = x_p + \Delta x$:
+\begin{equation}
+m_p = \frac{\sqrt{x_p + \Delta x_p} - \sqrt{x_p}}{\Delta x_p}
+\end{equation}
+\begin{equation}
+\mathcal{E}rr = \frac{\sqrt{x_p + \Delta x} - \sqrt{x_p}}{\sqrt{x_p + \Delta x}} - \frac{m_p \Delta x}{\sqrt{x_p + \Delta x}}
+\end{equation}
+
+% 4. Compact result
+\begin{equation}
+\mathcal{E}rr = 1 - \frac{\sqrt{x_p}}{\sqrt{x_p + \Delta x}} - \frac{m_p \Delta x}{\sqrt{x_p + \Delta x}}
+\end{equation}
+where
+\begin{equation}
+m_p = \frac{\sqrt{x_p + \Delta x_p} - \sqrt{x_p}}{\Delta x_p}
+\end{equation}
+
+
+
+
+
+
+
+
+% -----------------------------
+% -----------------------------
+% -----------------------------
+% -----------------------------
+% -----------------------------
+\section{Computing the error for the LUT for $f(x) = \text{tg}^{-1}(x)$}
+
+
+
+% 1. Define the linear approximation
+\begin{equation}
+\arctan(x) \approx \tilde{f}_p(x) = m_p x + n_p
+\end{equation}
+where
+\begin{equation}
+m_p = \frac{\arctan(x_{p+1}) - \arctan(x_p)}{x_{p+1} - x_p}
+\end{equation}
+\begin{equation}
+n_p = \arctan(x_p) - m_p x_p
+\end{equation}
+
+% 2. Percent error formula for interval [x_p, x_{p+1}]
+\begin{equation}
+\mathcal{E}rr = \frac{\arctan(x) - \tilde{f}_p(x)}{\arctan(x)}
+\end{equation}
+\begin{equation}
+= \frac{\arctan(x) - (m_p x + n_p)}{\arctan(x)}
+\end{equation}
+\begin{equation}
+= \frac{\arctan(x) - m_p x - (\arctan(x_p) - m_p x_p)}{\arctan(x)}
+\end{equation}
+\begin{equation}
+= \frac{\arctan(x) - \arctan(x_p) + m_p (x_p - x)}{\arctan(x)}
+\end{equation}
+
+% 3. Use interval variables
+Let $\Delta x_p = x_{p+1} - x_p$ and $\Delta x = x - x_p$, then $x = x_p + \Delta x$:
+\begin{equation}
+m_p = \frac{\arctan(x_p + \Delta x_p) - \arctan(x_p)}{\Delta x_p}
+\end{equation}
+\begin{equation}
+\mathcal{E}rr = \frac{\arctan(x_p + \Delta x) - \arctan(x_p)}{\arctan(x_p + \Delta x)} - \frac{m_p \Delta x}{\arctan(x_p + \Delta x)}
+\end{equation}
+
+% 4. Compact result
+\begin{equation}
+\mathcal{E}rr = 1 - \frac{\arctan(x_p)}{\arctan(x_p + \Delta x)} - \frac{m_p \Delta x}{\arctan(x_p + \Delta x)}
+\end{equation}
+where
+\begin{equation}
+m_p = \frac{\arctan(x_p + \Delta x_p) - \arctan(x_p)}{\Delta x_p}
+\end{equation}
+
+
+
+
+
+
+
+\end{document}
