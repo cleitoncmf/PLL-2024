@@ -108,17 +108,36 @@ def find_interval(x,vector_xp):
 
 # Computing the functions
 f_sqrt = np.sqrt(x)
-f_atg = np.atan(x)
+f_atg = np.arctan(x)
 f_inv_x = 1/x
 
-# Computing the approximated functions
-for xp in list_xp_cases:
-
-    for idx,item_xp in enumerate(xp):
 
 
-        if( item_xp < xp[-1] ):
-            m_sqrt,n_sqrt = computa_sqrt_approx(xa = item_xp,xb = xp[idx+1])
+def piecewise_linear_sqrt_approx(x,xp, approx_func):
+
+    # xp: Vector of interval points (length N)
+    # x: Points to evaluate approximation (length N2 >> N)
+    approx = np.zeros_like(x)
+    for k in range(len(xp)-1):
+        xa = xp[k]
+        xb = xp[k+1]
+        m, n = computa_sqrt_approx(xa, xb)
+        # Find indices of x lying within [xa, xb)
+        idx = (x >= xa) & (x < xb)
+        approx[idx] = m * x[idx] + n
+    # For last interval (include xb)
+    idx = (x >= xp[-2]) & (x <= xp[-1])
+    if np.any(idx):
+        m, n = computa_sqrt_approx(xp[-2], xp[-1])
+        approx[idx] = m * x[idx] + n
+    return approx
+
+teste = piecewise_linear_sqrt_approx(x,xp_1000, computa_sqrt_approx)
 
 
+error = (f_sqrt - teste)/teste
 
+plt.plot(x,error)
+
+plt.xlim([xp_min,xp_max])
+plt.ylim([-0.01,0.01])
