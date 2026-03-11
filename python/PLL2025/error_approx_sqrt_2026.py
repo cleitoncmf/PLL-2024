@@ -1,6 +1,11 @@
+# Python script to plot the error in the sqrt approximation: não funciona.
 from turtle import color
 import numpy as np
 import matplotlib.pyplot as plt
+import pandas as pd
+
+
+from CMF_support_modules.Formated_plots import F_formatedplot
 
 
 # Domain of the functions
@@ -8,6 +13,8 @@ xp_min = 10
 xp_max = 32768
 
 x = np.linspace(xp_min,xp_max,100000)
+
+
 
 
 
@@ -33,6 +40,7 @@ def computa_approx(xa,xb,func):
 
 
 
+# Função para aproximar por linhas
 def piecewise_linear_approx(x,xp, approx_func):
 
     # xp: Vector of interval points (length N)
@@ -71,9 +79,5 @@ for idx,item in enumerate(xp_max_list):
     )
 
 
-for curve in Error_sqrt:
-
-    plt.plot(x,curve)
-
-#plt.ylim([-0.02,0.005])
-plt.xlim([0,500])
+# Data frame
+DF_teste = pd.DataFrame(Error_sqrt[0])
