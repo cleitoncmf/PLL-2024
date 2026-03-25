@@ -1,10 +1,10 @@
 from turtle import color
 import numpy as np
 import matplotlib.pyplot as plt
-
+from matplotlib.patches import Rectangle
 
 # Domain of the functions
-xp_min = 10
+xp_min = 0
 xp_max = 32768
 
 x = np.linspace(xp_min,xp_max,100000)
@@ -71,9 +71,29 @@ for idx,item in enumerate(xp_max_list):
     )
 
 
+
+
+
+
 for curve in Error_sqrt:
 
     plt.plot(x,curve)
 
 #plt.ylim([-0.02,0.005])
-plt.xlim([0,500])
+plt.xlim([10,50])
+
+
+plt.legend(xp_max_list)
+
+
+
+ax = plt.gca()  # get current axes
+
+# Red square: bottom-left at (x0, y0), with side length L (in data units)
+square = Rectangle((0, -0.1), 10000, -1000,
+                   edgecolor='none',
+                   facecolor='red',   # or e.g. 'red' for filled
+                   alpha=0.3,
+                   linewidth=2)
+
+ax.add_patch(square)
