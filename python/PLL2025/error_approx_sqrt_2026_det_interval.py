@@ -10,7 +10,7 @@ from CMF_support_modules.Formated_plots import F_formatedplot
 
 
 # Domain of the functions
-xp_min = 1
+xp_min = 10000
 #xp_max = 32768
 xp_max = 32000
 
@@ -21,7 +21,7 @@ x = np.linspace(xp_min,xp_max,100000)
 
 
 # Number of intervals
-xp_max_list = [500,750,1000,5000]
+xp_max_list = [5]
 
 
 
@@ -97,8 +97,8 @@ fig,ax,lines = F_formatedplot(  dataFrameList=DF_list_error_sqrt,
                                 Xlabel = 'x',
                                 Ylabel = 'Error')
 
-min_x = 1
-max_x = 250
+min_x = xp_min
+max_x = xp_max
 ax.set_xlim([min_x,max_x])
 
 
@@ -120,8 +120,8 @@ square = Rectangle((0, -0.05), 10000, -1000,
 ax.add_patch(square)
 
 
-plt.savefig('./graphs/Errors_sqrt_mult_250.pdf', bbox_inches='tight')
-plt.savefig('./graphs/Errors_sqrt_mult_250.svg', bbox_inches='tight')
+#plt.savefig('./graphs/Errors_sqrt_mult_250.pdf', bbox_inches='tight')
+#plt.savefig('./graphs/Errors_sqrt_mult_250.svg', bbox_inches='tight')
 
 plt.show()
 

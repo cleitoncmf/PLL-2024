@@ -12,7 +12,7 @@ from CMF_support_modules.Formated_plots import F_formatedplot
 # Domain of the functions
 xp_min = 1
 #xp_max = 32768
-xp_max = 32000
+xp_max = 10
 
 x = np.linspace(xp_min,xp_max,100000)
 
@@ -21,7 +21,7 @@ x = np.linspace(xp_min,xp_max,100000)
 
 
 # Number of intervals
-xp_max_list = [500,750,1000,5000]
+xp_max_list = [5]
 
 
 
@@ -64,26 +64,26 @@ def piecewise_linear_approx(x,xp, approx_func):
 
 # Computing the functions
 f_sqrt = np.sqrt(x)
-f_atg = np.arctan(x)
+f_atg = np.atan(x)
 f_inv_x = 1/x
 
 
 
 # Computing the approximated functions errors
-Error_sqrt = []
+Error_atg = []
 
-DF_list_error_sqrt = []
+DF_list_error_atg = []
 
 
 
 
 for idx,item in enumerate(xp_max_list):
 
-    Error = ( piecewise_linear_approx(x,xp = list_xp_cases[idx], approx_func=np.sqrt) -f_sqrt)/( f_sqrt )
+    Error = ( piecewise_linear_approx(x,xp = list_xp_cases[idx], approx_func=np.atan) -f_atg)/( f_atg )
 
     df = pd.DataFrame({'x': x, 'Error': Error})
 
-    DF_list_error_sqrt.append(df)
+    DF_list_error_atg.append(df)
 
 
 
@@ -91,14 +91,14 @@ for idx,item in enumerate(xp_max_list):
 
 
 # Ploting the figure
-fig,ax,lines = F_formatedplot(  dataFrameList=DF_list_error_sqrt,
+fig,ax,lines = F_formatedplot(  dataFrameList=DF_list_error_atg,
                                 Xsymbol='x',
                                 Ysymbol='Error',
                                 Xlabel = 'x',
                                 Ylabel = 'Error')
 
-min_x = 1
-max_x = 250
+min_x = xp_min
+max_x = xp_max
 ax.set_xlim([min_x,max_x])
 
 
@@ -120,8 +120,8 @@ square = Rectangle((0, -0.05), 10000, -1000,
 ax.add_patch(square)
 
 
-plt.savefig('./graphs/Errors_sqrt_mult_250.pdf', bbox_inches='tight')
-plt.savefig('./graphs/Errors_sqrt_mult_250.svg', bbox_inches='tight')
+#plt.savefig('./graphs/Errors_sqrt_mult_250.pdf', bbox_inches='tight')
+#plt.savefig('./graphs/Errors_sqrt_mult_250.svg', bbox_inches='tight')
 
 plt.show()
 

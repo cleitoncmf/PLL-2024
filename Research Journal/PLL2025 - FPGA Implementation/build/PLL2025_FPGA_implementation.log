@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.24)  25 MAR 2026 16:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.24)  1 APR 2026 13:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -107,10 +107,59 @@ LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
+(C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
+
+(C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+
+(C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+)
+(C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
+Package xcolor Info: Model `RGB' extended on input line 1365.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1367.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
+(C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+(C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 106.
+)
+\Gin@req@height=\dimen158
+\Gin@req@width=\dimen159
+) (C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count295
+\float@exts=\toks25
+\float@box=\box55
+\@float@everytoks=\toks26
+\@floatcapt=\box56
+)
 (C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count295
+\l__color_backend_stack_int=\count296
 )
 (C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\Research Journal\PLL2025 - F
 PGA Implementation\build\PLL2025_FPGA_implementation.aux)
@@ -130,10 +179,35 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
+
+(C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count297
+\scratchdimen=\dimen160
+\scratchbox=\box57
+\nofMPsegments=\count298
+\nofMParguments=\count299
+\everyMPshowfont=\toks27
+\MPscratchCnt=\count300
+\MPscratchDim=\dimen161
+\MPnumerator=\count301
+\makeMPintoPDFobject=\count302
+\everyMPtoPDFconversion=\toks28
+)
+(C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
 LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
 
-
-(C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
@@ -142,10 +216,29 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
 (C:\Users\cleit\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
+<./figures/Errors_sqrt_mult_250.pdf, id=1, 1094.75626pt x 497.55511pt>
+File: ./figures/Errors_sqrt_mult_250.pdf Graphic file (type pdf)
+<use ./figures/Errors_sqrt_mult_250.pdf>
+Package pdftex.def Info: ./figures/Errors_sqrt_mult_250.pdf  used on input line
+ 52.
+(pdftex.def)             Requested size: 370.49881pt x 168.3845pt.
+<./figures/approx_methodology.pdf, id=2, 276.76399pt x 137.17047pt>
+File: ./figures/approx_methodology.pdf Graphic file (type pdf)
+<use ./figures/approx_methodology.pdf>
+Package pdftex.def Info: ./figures/approx_methodology.pdf  used on input line 6
+5.
+(pdftex.def)             Requested size: 370.49881pt x 183.63582pt.
+<./figures/LUT_General.pdf, id=3, 380.33995pt x 193.12149pt>
+File: ./figures/LUT_General.pdf Graphic file (type pdf)
+<use ./figures/LUT_General.pdf>
+Package pdftex.def Info: ./figures/LUT_General.pdf  used on input line 77.
+(pdftex.def)             Requested size: 370.49881pt x 188.13504pt.
+
 [1
 
-{C:/Users/cleit/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-[3]
+{C:/Users/cleit/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2 <./figure
+s/Errors_sqrt_mult_250.pdf> <./figures/approx_methodology.pdf>] [3 <./figures/L
+UT_General.pdf>]
 (C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\Research Journal\PLL2025 - F
 PGA Implementation\build\PLL2025_FPGA_implementation.aux)
  ***********
@@ -154,28 +247,26 @@ L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1735 strings out of 467871
- 25767 string characters out of 5418376
- 444733 words of memory out of 5000000
- 30645 multiletter control sequences out of 15000+600000
- 635242 words of font info for 69 fonts, out of 8000000 for 9000
+ 3156 strings out of 467871
+ 47645 string characters out of 5418376
+ 456694 words of memory out of 5000000
+ 32020 multiletter control sequences out of 15000+600000
+ 632972 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 56i,6n,65p,508b,138s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,6n,65p,876b,246s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmex10.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmmi12.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/font
-s/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/cleit/AppData/Local/Programs/MiK
-TeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/cleit/AppData/Local/Prog
-rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/cleit/AppData/Lo
-cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/cleit/App
-Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/
-cleit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+fonts/cm/cmmi12.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/p
+ublic/amsfonts/cm/cmmi8.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/cleit/AppData/Local/Programs/MiKT
+eX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/cleit/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cleit/AppData/Loc
+al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 Output written on "C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\Research J
 ournal\PLL2025 - FPGA Implementation\build\PLL2025_FPGA_implementation.pdf" (3 
-pages, 101499 bytes).
+pages, 239725 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 180 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 
