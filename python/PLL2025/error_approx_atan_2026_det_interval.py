@@ -10,9 +10,9 @@ from CMF_support_modules.Formated_plots import F_formatedplot
 
 
 # Domain of the functions
-xp_min = 1
+xp_min = 1000
 #xp_max = 32768
-xp_max = 10
+xp_max = 32000
 
 x = np.linspace(xp_min,xp_max,100000)
 
@@ -21,7 +21,7 @@ x = np.linspace(xp_min,xp_max,100000)
 
 
 # Number of intervals
-xp_max_list = [5]
+xp_max_list = [2]
 
 
 

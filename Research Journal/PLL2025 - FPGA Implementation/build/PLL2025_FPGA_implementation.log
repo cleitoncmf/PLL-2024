@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.24)  1 APR 2026 13:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.3.24)  1 APR 2026 17:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -236,9 +236,12 @@ Package pdftex.def Info: ./figures/LUT_General.pdf  used on input line 77.
 
 [1
 
-{C:/Users/cleit/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2 <./figure
-s/Errors_sqrt_mult_250.pdf> <./figures/approx_methodology.pdf>] [3 <./figures/L
-UT_General.pdf>]
+{C:/Users/cleit/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+
+LaTeX Warning: Text page 2 contains only floats.
+
+[2 <./figures/Errors_sqrt_mult_250.pdf> <./figures/approx_methodology.pdf>]
+[3 <./figures/LUT_General.pdf>]
 (C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\Research Journal\PLL2025 - F
 PGA Implementation\build\PLL2025_FPGA_implementation.aux)
  ***********
@@ -247,13 +250,13 @@ L3 programming layer <2025-12-24>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 3156 strings out of 467871
- 47645 string characters out of 5418376
- 456694 words of memory out of 5000000
- 32020 multiletter control sequences out of 15000+600000
- 632972 words of font info for 60 fonts, out of 8000000 for 9000
+ 3161 strings out of 467871
+ 47772 string characters out of 5418376
+ 459694 words of memory out of 5000000
+ 32025 multiletter control sequences out of 15000+600000
+ 633279 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,876b,246s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,9n,65p,876b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/
 cmbx12.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
 fonts/cm/cmmi12.pfb><C:/Users/cleit/AppData/Local/Programs/MiKTeX/fonts/type1/p
@@ -264,7 +267,7 @@ ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/cleit/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
 Output written on "C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\Research J
 ournal\PLL2025 - FPGA Implementation\build\PLL2025_FPGA_implementation.pdf" (3 
-pages, 239725 bytes).
+pages, 243897 bytes).
 PDF statistics:
  180 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

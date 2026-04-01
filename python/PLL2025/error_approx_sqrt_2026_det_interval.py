@@ -21,7 +21,7 @@ x = np.linspace(xp_min,xp_max,100000)
 
 
 # Number of intervals
-xp_max_list = [5]
+xp_max_list = [4]
 
 
 
