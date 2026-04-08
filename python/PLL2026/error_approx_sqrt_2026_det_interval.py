@@ -1,5 +1,5 @@
 # Python script to plot the error in the sqrt approximation: 
-from turtle import color
+#from turtle import color
 import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib.patches import Rectangle
