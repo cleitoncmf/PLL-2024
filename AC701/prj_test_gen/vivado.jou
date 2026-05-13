@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May 13 12:11:49 2026
+# Process ID: 8732
+# Current directory: C:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/prj_test_gen
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21480 C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\prj_test_gen\prj_test_gen.xpr
+# Log file: C:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/prj_test_gen/vivado.log
+# Journal file: C:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/prj_test_gen\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/prj_test_gen/prj_test_gen.xpr
+update_compile_order -fileset sources_1

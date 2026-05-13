@@ -1,0 +1,41 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 29643cb4d3a141b8817ccda0cc5ba468 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L sim_clk_gen_v1_0_2 -L xlconstant_v1_1_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot design_1_wrapper_behav xil_defaultlib.design_1_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-5021] port 'ap_done' is not connected on this instance [C:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/prj_test_gen/prj_test_gen.ip_user_files/bd/design_1/sim/design_1.v:26]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling module sim_clk_gen_v1_0_2.sim_clk_gen(CLOCK_PERIOD=10,RESE...
+Compiling module xil_defaultlib.design_1_sim_clk_gen_0_0
+Compiling module sim_clk_gen_v1_0_2.sim_clk_gen(CLOCK_PERIOD=1000.0,...
+Compiling module xil_defaultlib.design_1_sim_clk_gen_0_1
+Compiling architecture rtl of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_sin_2000_table_r_rom [sin_gen_varamp2_3phi_x64_sin_200...]
+Compiling architecture arch of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_sin_2000_table_r [sin_gen_varamp2_3phi_x64_sin_200...]
+Compiling architecture behav of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_mul_64s_58ns_121_5_1_Multiplier_0 [sin_gen_varamp2_3phi_x64_mul_64s...]
+Compiling architecture arch of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_mul_64s_58ns_121_5_1 [\sin_gen_varAmp2_3phi_x64_mul_64...]
+Compiling architecture behav of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_sin_2000 [sin_gen_varamp2_3phi_x64_sin_200...]
+Compiling architecture behav of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_mul_64s_31ns_94_5_1_Multiplier_1 [sin_gen_varamp2_3phi_x64_mul_64s...]
+Compiling architecture arch of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_mul_64s_31ns_94_5_1 [\sin_gen_varAmp2_3phi_x64_mul_64...]
+Compiling architecture behav of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_mul_50s_64s_112_5_1_Multiplier_2 [sin_gen_varamp2_3phi_x64_mul_50s...]
+Compiling architecture arch of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_mul_50s_64s_112_5_1 [\sin_gen_varAmp2_3phi_x64_mul_50...]
+Compiling architecture behav of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64 [sin_gen_varamp2_3phi_x64_default]
+Compiling architecture design_1_sin_gen_varamp2_3phi_0_0_arch of entity xil_defaultlib.design_1_sin_gen_varAmp2_3phi_0_0 [design_1_sin_gen_varamp2_3phi_0_...]
+Compiling module xlconstant_v1_1_7.xlconstant_v1_1_7_xlconstant
+Compiling module xil_defaultlib.design_1_xlconstant_0_0
+Compiling module xlconstant_v1_1_7.xlconstant_v1_1_7_xlconstant(CON...
+Compiling module xil_defaultlib.design_1_xlconstant_0_1
+Compiling module xil_defaultlib.design_1_xlconstant_1_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot design_1_wrapper_behav

@@ -1,0 +1,23 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Wed May 13 12:11:49 2026
+# Process ID: 8732
+# Current directory: C:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/prj_test_gen
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent21480 C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\prj_test_gen\prj_test_gen.xpr
+# Log file: C:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/prj_test_gen/vivado.log
+# Journal file: C:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/prj_test_gen\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/prj_test_gen/prj_test_gen.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp2_3phi_x64'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp_3phi_x64'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:06 . Memory (MB): peak = 1200.539 ; gain = 0.000
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed May 13 18:11:39 2026...

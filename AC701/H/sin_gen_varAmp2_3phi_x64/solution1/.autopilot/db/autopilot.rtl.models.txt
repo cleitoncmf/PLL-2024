@@ -1,0 +1,6 @@
+sin_gen_varAmp2_3phi_x64_mul_64s_58ns_121_5_1
+sin_gen_varAmp2_3phi_x64_sin_2000_table_r
+sin_gen_varAmp2_3phi_x64_mul_64s_31ns_94_5_1
+sin_gen_varAmp2_3phi_x64_mul_50s_64s_112_5_1
+sin_2000
+sin_gen_varAmp2_3phi_x64

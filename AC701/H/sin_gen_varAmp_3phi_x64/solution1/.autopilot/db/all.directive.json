@@ -1,0 +1,15 @@
+{"sourceFile": [{
+      "name": "",
+      "directive": [{
+          "functionName": "sin_gen_varAmp_3phi_x64",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "sin_gen_varAmp_3phi_x64"
+              }]
+          }
+        }]
+    }]}

@@ -1,0 +1,1408 @@
+<profile>
+    <ReportVersion>
+        <Version>2020.2</Version>
+    </ReportVersion>
+    <UserAssignments>
+        <unit>ns</unit>
+        <ProductFamily>artix7</ProductFamily>
+        <Part>xc7a200t-fbg676-2</Part>
+        <TopModelName>sin_gen_varAmp_3phi_x64</TopModelName>
+        <TargetClockPeriod>10.00</TargetClockPeriod>
+        <ClockUncertainty>2.70</ClockUncertainty>
+        <FlowTarget>vivado</FlowTarget>
+    </UserAssignments>
+    <PerformanceEstimates>
+        <PipelineType>none</PipelineType>
+        <SummaryOfTimingAnalysis>
+            <unit>ns</unit>
+            <EstimatedClockPeriod>7.002</EstimatedClockPeriod>
+        </SummaryOfTimingAnalysis>
+        <SummaryOfOverallLatency>
+            <unit>clock cycles</unit>
+            <Best-caseLatency>undef</Best-caseLatency>
+            <Average-caseLatency>undef</Average-caseLatency>
+            <Worst-caseLatency>undef</Worst-caseLatency>
+            <Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+            <Interval-min>undef</Interval-min>
+            <Interval-max>undef</Interval-max>
+        </SummaryOfOverallLatency>
+    </PerformanceEstimates>
+    <AreaEstimates>
+        <Resources>
+            <BRAM_18K>24</BRAM_18K>
+            <DSP>42</DSP>
+            <FF>13139</FF>
+            <LUT>11369</LUT>
+            <URAM>0</URAM>
+        </Resources>
+        <AvailableResources>
+            <BRAM_18K>730</BRAM_18K>
+            <DSP>740</DSP>
+            <FF>269200</FF>
+            <LUT>134600</LUT>
+            <URAM>0</URAM>
+        </AvailableResources>
+    </AreaEstimates>
+    <InterfaceSummary>
+        <RtlPorts>
+            <name>ap_clk</name>
+            <Object>sin_gen_varAmp_3phi_x64</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_rst</name>
+            <Object>sin_gen_varAmp_3phi_x64</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_start</name>
+            <Object>sin_gen_varAmp_3phi_x64</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_done</name>
+            <Object>sin_gen_varAmp_3phi_x64</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_idle</name>
+            <Object>sin_gen_varAmp_3phi_x64</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>ap_ready</name>
+            <Object>sin_gen_varAmp_3phi_x64</Object>
+            <Type>return value</Type>
+            <Scope/>
+            <IOProtocol>ap_ctrl_hs</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+        </RtlPorts>
+        <RtlPorts>
+            <name>sinc</name>
+            <Object>sinc</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>opt</name>
+            <Object>opt</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>1</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>f</name>
+            <Object>f</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>A_1p</name>
+            <Object>A_1p</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>Ang_1p</name>
+            <Object>Ang_1p</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>A_1n</name>
+            <Object>A_1n</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>Ang_1n</name>
+            <Object>Ang_1n</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>A_5p</name>
+            <Object>A_5p</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>Ang_5p</name>
+            <Object>Ang_5p</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>A_5n</name>
+            <Object>A_5n</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>Ang_5n</name>
+            <Object>Ang_5n</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>A_7p</name>
+            <Object>A_7p</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>Ang_7p</name>
+            <Object>Ang_7p</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>A_7n</name>
+            <Object>A_7n</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>Ang_7n</name>
+            <Object>Ang_7n</Object>
+            <Type>scalar</Type>
+            <Scope/>
+            <IOProtocol>ap_none</IOProtocol>
+            <IOConfig/>
+            <Dir>in</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>vout_a</name>
+            <Object>vout_a</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>vout_a_ap_vld</name>
+            <Object>vout_a</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>vout_b</name>
+            <Object>vout_b</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>vout_b_ap_vld</name>
+            <Object>vout_b</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>vout_c</name>
+            <Object>vout_c</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>vout_c_ap_vld</name>
+            <Object>vout_c</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>wtout</name>
+            <Object>wtout</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>wtout_ap_vld</name>
+            <Object>wtout</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+    </InterfaceSummary>
+    <RTLDesignHierarchy>
+        <TopModule>
+            <ModuleName>sin_gen_varAmp_3phi_x64</ModuleName>
+            <InstancesList>
+                <Instance>
+                    <InstName>grp_sin_2000_fu_218</InstName>
+                    <ModuleName>sin_2000</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>218</ID>
+                </Instance>
+                <Instance>
+                    <InstName>grp_sin_2000_fu_225</InstName>
+                    <ModuleName>sin_2000</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>225</ID>
+                </Instance>
+                <Instance>
+                    <InstName>grp_sin_2000_fu_232</InstName>
+                    <ModuleName>sin_2000</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>232</ID>
+                </Instance>
+                <Instance>
+                    <InstName>grp_sin_2000_fu_239</InstName>
+                    <ModuleName>sin_2000</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>239</ID>
+                </Instance>
+            </InstancesList>
+        </TopModule>
+    </RTLDesignHierarchy>
+    <ModuleInformation>
+        <Module>
+            <Name>sin_2000</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>7.002</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>undef</Best-caseLatency>
+                    <Average-caseLatency>undef</Average-caseLatency>
+                    <Worst-caseLatency>undef</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>undef</PipelineInitiationInterval>
+                    <PipelineType>none</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <VITIS_LOOP_124_1>
+                        <Name>VITIS_LOOP_124_1</Name>
+                        <TripCount>undef</TripCount>
+                        <Latency>undef</Latency>
+                        <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+                        <PipelineII>1</PipelineII>
+                        <PipelineDepth>1</PipelineDepth>
+                    </VITIS_LOOP_124_1>
+                    <VITIS_LOOP_128_2>
+                        <Name>VITIS_LOOP_128_2</Name>
+                        <TripCount>undef</TripCount>
+                        <Latency>undef</Latency>
+                        <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+                        <PipelineII>1</PipelineII>
+                        <PipelineDepth>1</PipelineDepth>
+                    </VITIS_LOOP_128_2>
+                </SummaryOfLoopLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <BRAM_18K>6</BRAM_18K>
+                    <AVAIL_BRAM>730</AVAIL_BRAM>
+                    <UTIL_BRAM>~0</UTIL_BRAM>
+                    <DSP>4</DSP>
+                    <AVAIL_DSP>740</AVAIL_DSP>
+                    <UTIL_DSP>~0</UTIL_DSP>
+                    <FF>952</FF>
+                    <AVAIL_FF>269200</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>1280</LUT>
+                    <AVAIL_LUT>134600</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <InterfaceSummary>
+                <RtlPorts>
+                    <name>ap_clk</name>
+                    <Object>sin_2000</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_rst</name>
+                    <Object>sin_2000</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_start</name>
+                    <Object>sin_2000</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_done</name>
+                    <Object>sin_2000</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_idle</name>
+                    <Object>sin_2000</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_ready</name>
+                    <Object>sin_2000</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_return</name>
+                    <Object>sin_2000</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>50</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>theta_in</name>
+                    <Object>theta_in</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+            </InterfaceSummary>
+        </Module>
+        <Module>
+            <Name>sin_gen_varAmp_3phi_x64</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>7.002</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>undef</Best-caseLatency>
+                    <Average-caseLatency>undef</Average-caseLatency>
+                    <Worst-caseLatency>undef</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>undef</PipelineInitiationInterval>
+                    <PipelineType>none</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <BRAM_18K>24</BRAM_18K>
+                    <AVAIL_BRAM>730</AVAIL_BRAM>
+                    <UTIL_BRAM>3</UTIL_BRAM>
+                    <DSP>42</DSP>
+                    <AVAIL_DSP>740</AVAIL_DSP>
+                    <UTIL_DSP>5</UTIL_DSP>
+                    <FF>13139</FF>
+                    <AVAIL_FF>269200</AVAIL_FF>
+                    <UTIL_FF>4</UTIL_FF>
+                    <LUT>11369</LUT>
+                    <AVAIL_LUT>134600</AVAIL_LUT>
+                    <UTIL_LUT>8</UTIL_LUT>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <InterfaceSummary>
+                <RtlPorts>
+                    <name>ap_clk</name>
+                    <Object>sin_gen_varAmp_3phi_x64</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_rst</name>
+                    <Object>sin_gen_varAmp_3phi_x64</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_start</name>
+                    <Object>sin_gen_varAmp_3phi_x64</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_done</name>
+                    <Object>sin_gen_varAmp_3phi_x64</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_idle</name>
+                    <Object>sin_gen_varAmp_3phi_x64</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_ready</name>
+                    <Object>sin_gen_varAmp_3phi_x64</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>sinc</name>
+                    <Object>sinc</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>opt</name>
+                    <Object>opt</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>f</name>
+                    <Object>f</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>A_1p</name>
+                    <Object>A_1p</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>Ang_1p</name>
+                    <Object>Ang_1p</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>A_1n</name>
+                    <Object>A_1n</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>Ang_1n</name>
+                    <Object>Ang_1n</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>A_5p</name>
+                    <Object>A_5p</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>Ang_5p</name>
+                    <Object>Ang_5p</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>A_5n</name>
+                    <Object>A_5n</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>Ang_5n</name>
+                    <Object>Ang_5n</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>A_7p</name>
+                    <Object>A_7p</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>Ang_7p</name>
+                    <Object>Ang_7p</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>A_7n</name>
+                    <Object>A_7n</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>Ang_7n</name>
+                    <Object>Ang_7n</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>vout_a</name>
+                    <Object>vout_a</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>vout_a_ap_vld</name>
+                    <Object>vout_a</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>vout_b</name>
+                    <Object>vout_b</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>vout_b_ap_vld</name>
+                    <Object>vout_b</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>vout_c</name>
+                    <Object>vout_c</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>vout_c_ap_vld</name>
+                    <Object>vout_c</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>wtout</name>
+                    <Object>wtout</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>wtout_ap_vld</name>
+                    <Object>wtout</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+            </InterfaceSummary>
+        </Module>
+    </ModuleInformation>
+    <FIFOInformation/>
+    <Args>
+        <Arg ArgName="sinc" index="0" direction="in" srcType="ap_uint&lt;1&gt;" srcSize="8">
+            <hwRefs>
+                <hwRef type="port" interface="sinc" name="sinc" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="opt" index="1" direction="in" srcType="ap_uint&lt;1&gt;" srcSize="8">
+            <hwRefs>
+                <hwRef type="port" interface="opt" name="opt" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="f" index="2" direction="in" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="f" name="f" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="A_1p" index="3" direction="in" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="A_1p" name="A_1p" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="Ang_1p" index="4" direction="in" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="Ang_1p" name="Ang_1p" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="A_1n" index="5" direction="in" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="A_1n" name="A_1n" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="Ang_1n" index="6" direction="in" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="Ang_1n" name="Ang_1n" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="A_5p" index="7" direction="in" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="A_5p" name="A_5p" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="Ang_5p" index="8" direction="in" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="Ang_5p" name="Ang_5p" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="A_5n" index="9" direction="in" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="A_5n" name="A_5n" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="Ang_5n" index="10" direction="in" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="Ang_5n" name="Ang_5n" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="A_7p" index="11" direction="in" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="A_7p" name="A_7p" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="Ang_7p" index="12" direction="in" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="Ang_7p" name="Ang_7p" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="A_7n" index="13" direction="in" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="A_7n" name="A_7n" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="Ang_7n" index="14" direction="in" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="Ang_7n" name="Ang_7n" usage="data" direction="in"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="vout_a" index="15" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="vout_a" name="vout_a" usage="data" direction="out"/>
+                <hwRef type="port" interface="vout_a_ap_vld" name="vout_a_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="vout_b" index="16" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="vout_b" name="vout_b" usage="data" direction="out"/>
+                <hwRef type="port" interface="vout_b_ap_vld" name="vout_b_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="vout_c" index="17" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="vout_c" name="vout_c" usage="data" direction="out"/>
+                <hwRef type="port" interface="vout_c_ap_vld" name="vout_c_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="wtout" index="18" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="wtout" name="wtout" usage="data" direction="out"/>
+                <hwRef type="port" interface="wtout_ap_vld" name="wtout_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+    </Args>
+    <Interfaces>
+        <Interface InterfaceName="A_1n" type="data" busTypeName="data" mode="slave" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="A_1n">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>A_1n</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="A_1n"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="A_1p" type="data" busTypeName="data" mode="slave" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="A_1p">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>A_1p</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="A_1p"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="A_5n" type="data" busTypeName="data" mode="slave" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="A_5n">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>A_5n</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="A_5n"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="A_5p" type="data" busTypeName="data" mode="slave" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="A_5p">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>A_5p</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="A_5p"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="A_7n" type="data" busTypeName="data" mode="slave" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="A_7n">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>A_7n</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="A_7n"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="A_7p" type="data" busTypeName="data" mode="slave" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="A_7p">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>A_7p</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="A_7p"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="Ang_1n" type="data" busTypeName="data" mode="slave" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="Ang_1n">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>Ang_1n</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="Ang_1n"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="Ang_1p" type="data" busTypeName="data" mode="slave" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="Ang_1p">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>Ang_1p</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="Ang_1p"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="Ang_5n" type="data" busTypeName="data" mode="slave" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="Ang_5n">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>Ang_5n</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="Ang_5n"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="Ang_5p" type="data" busTypeName="data" mode="slave" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="Ang_5p">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>Ang_5p</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="Ang_5p"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="Ang_7n" type="data" busTypeName="data" mode="slave" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="Ang_7n">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>Ang_7n</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="Ang_7n"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="Ang_7p" type="data" busTypeName="data" mode="slave" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="Ang_7p">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>Ang_7p</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="Ang_7p"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="ap_clk" type="clock" busTypeName="clock" mode="slave">
+            <busParams>
+                <busParam busParamName="ASSOCIATED_RESET">ap_rst</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_clk">CLK</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_clk</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="ap_ctrl" type="ap_ctrl" busTypeName="acc_handshake" mode="slave">
+            <portMaps>
+                <portMap portMapName="ap_start">start</portMap>
+                <portMap portMapName="ap_done">done</portMap>
+                <portMap portMapName="ap_idle">idle</portMap>
+                <portMap portMapName="ap_ready">ready</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_done</port>
+                <port>ap_idle</port>
+                <port>ap_ready</port>
+                <port>ap_start</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="ap_rst" type="reset" busTypeName="reset" mode="slave">
+            <busParams>
+                <busParam busParamName="POLARITY">ACTIVE_HIGH</busParam>
+            </busParams>
+            <portMaps>
+                <portMap portMapName="ap_rst">RST</portMap>
+            </portMaps>
+            <ports>
+                <port>ap_rst</port>
+            </ports>
+        </Interface>
+        <Interface InterfaceName="f" type="data" busTypeName="data" mode="slave" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="f">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>f</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="f"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="opt" type="data" busTypeName="data" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="opt">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>opt</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="opt"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="sinc" type="data" busTypeName="data" mode="slave" dataWidth="1">
+            <portMaps>
+                <portMap portMapName="sinc">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>sinc</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="sinc"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="vout_a" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="vout_a">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>vout_a</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="vout_a"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="vout_b" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="vout_b">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>vout_b</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="vout_b"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="vout_c" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="vout_c">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>vout_c</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="vout_c"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="wtout" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="wtout">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>wtout</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="wtout"/>
+            </constraints>
+        </Interface>
+    </Interfaces>
+    <ReportHWInterface>
+        <section name="HW Interfaces" level="0">
+            <item name="REGISTER">
+                <table>
+                    <keys size="3">Interface, Mode, Bitwidth</keys>
+                    <column name="A_1n">ap_none, 64</column>
+                    <column name="A_1p">ap_none, 64</column>
+                    <column name="A_5n">ap_none, 64</column>
+                    <column name="A_5p">ap_none, 64</column>
+                    <column name="A_7n">ap_none, 64</column>
+                    <column name="A_7p">ap_none, 64</column>
+                    <column name="Ang_1n">ap_none, 64</column>
+                    <column name="Ang_1p">ap_none, 64</column>
+                    <column name="Ang_5n">ap_none, 64</column>
+                    <column name="Ang_5p">ap_none, 64</column>
+                    <column name="Ang_7n">ap_none, 64</column>
+                    <column name="Ang_7p">ap_none, 64</column>
+                    <column name="f">ap_none, 64</column>
+                    <column name="opt">ap_none, 1</column>
+                    <column name="sinc">ap_none, 1</column>
+                    <column name="vout_a">ap_none, 64</column>
+                    <column name="vout_b">ap_none, 64</column>
+                    <column name="vout_c">ap_none, 64</column>
+                    <column name="wtout">ap_none, 64</column>
+                </table>
+            </item>
+            <item name="TOP LEVEL CONTROL">
+                <table>
+                    <keys size="3">Interface, Type, Ports</keys>
+                    <column name="ap_clk">clock, ap_clk</column>
+                    <column name="ap_rst">reset, ap_rst</column>
+                    <column name="ap_ctrl">ap_ctrl_hs, ap_done ap_idle ap_ready ap_start</column>
+                </table>
+            </item>
+        </section>
+    </ReportHWInterface>
+    <ReportSWInterface>
+        <section name="SW I/O Information" level="0">
+            <item name="Top Function Arguments">
+                <table isCollapsed="1">
+                    <keys size="3">Argument, Direction, Datatype</keys>
+                    <column name="sinc">in, ap_uint&lt;1&gt;</column>
+                    <column name="opt">in, ap_uint&lt;1&gt;</column>
+                    <column name="f">in, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;</column>
+                    <column name="A_1p">in, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;</column>
+                    <column name="Ang_1p">in, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;</column>
+                    <column name="A_1n">in, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;</column>
+                    <column name="Ang_1n">in, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;</column>
+                    <column name="A_5p">in, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;</column>
+                    <column name="Ang_5p">in, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;</column>
+                    <column name="A_5n">in, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;</column>
+                    <column name="Ang_5n">in, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;</column>
+                    <column name="A_7p">in, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;</column>
+                    <column name="Ang_7p">in, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;</column>
+                    <column name="A_7n">in, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;</column>
+                    <column name="Ang_7n">in, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;</column>
+                    <column name="vout_a">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                    <column name="vout_b">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                    <column name="vout_c">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                    <column name="wtout">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                </table>
+            </item>
+            <item name="SW-to-HW Mapping">
+                <table isCollapsed="1">
+                    <keys size="3">Argument, HW Name, HW Type</keys>
+                    <column name="sinc">sinc, port</column>
+                    <column name="opt">opt, port</column>
+                    <column name="f">f, port</column>
+                    <column name="A_1p">A_1p, port</column>
+                    <column name="Ang_1p">Ang_1p, port</column>
+                    <column name="A_1n">A_1n, port</column>
+                    <column name="Ang_1n">Ang_1n, port</column>
+                    <column name="A_5p">A_5p, port</column>
+                    <column name="Ang_5p">Ang_5p, port</column>
+                    <column name="A_5n">A_5n, port</column>
+                    <column name="Ang_5n">Ang_5n, port</column>
+                    <column name="A_7p">A_7p, port</column>
+                    <column name="Ang_7p">Ang_7p, port</column>
+                    <column name="A_7n">A_7n, port</column>
+                    <column name="Ang_7n">Ang_7n, port</column>
+                    <column name="vout_a">vout_a, port</column>
+                    <column name="vout_a">vout_a_ap_vld, port</column>
+                    <column name="vout_b">vout_b, port</column>
+                    <column name="vout_b">vout_b_ap_vld, port</column>
+                    <column name="vout_c">vout_c, port</column>
+                    <column name="vout_c">vout_c_ap_vld, port</column>
+                    <column name="wtout">wtout, port</column>
+                    <column name="wtout">wtout_ap_vld, port</column>
+                </table>
+            </item>
+        </section>
+    </ReportSWInterface>
+    <ReportBurst>
+        <section name="M_AXI Burst Information" level="0">
+            <item name="Burst Missed">
+                <table>
+                    <keys size="4">Variable, Problem, Resolution, Location</keys>
+                    <column name="">Cannot analyze the loop bounds of 'VITIS_LOOP_128_2', 214-252, ../../C-Codes/Fixed_x64/sin_gen_varAmp_3phi_x64.cpp:128:20</column>
+                    <column name="">Cannot analyze the loop bounds of 'VITIS_LOOP_124_1', 214-252, ../../C-Codes/Fixed_x64/sin_gen_varAmp_3phi_x64.cpp:124:20</column>
+                </table>
+            </item>
+        </section>
+    </ReportBurst>
+</profile>
+
