@@ -800,28 +800,116 @@ data_t sin_2000(data_t theta_in){
 }
 
 
+// função que implementa uma busca binária
+int busca_binaria(data_t *vetor, Tamanho, valor){
 
+
+    int intervalo_begin = 0;
+    int intervalo_end = Tamanho-1;
+
+    int half_list;
+
+
+    while( (intervalo_end-intervalo_begin)>1 ){
+
+        half_list = intervalo_begin + floor(0.5*(intervalo_end-intervalo_begin));
+
+        if( valor > *(vetor + half_list) ){
+            intervalo_begin = half_list; 
+        }
+        else{
+            intervalo_end = half_list;
+        }
+
+    }
+
+    return intervalo_begin;
+
+}
 
 
 
 data_t SQRT_LUT(data_t x){
 
-    //int idx = (int)(4*(x+20));
-
     data_t y;
-
-    data_t x0[63] = {
-
-    };
-
-    data_t DX[63] = {
-
-    };
-
-    // Determinação do intervalo (fazer busca binária)
+    int idx;
     
 
+    
 
+    
+
+    // marcadores
+    data_t table_mark[64]{
+        data_t(0.100000000000),
+        data_t(0.175000000000),
+        data_t(0.250000000000),
+        data_t(0.325000000000),
+        data_t(0.400000000000),
+        data_t(0.475000000000),
+        data_t(0.550000000000),
+        data_t(0.625000000000),
+        data_t(0.700000000000),
+        data_t(0.775000000000),
+        data_t(0.850000000000),
+        data_t(0.925000000000),
+        data_t(1.000000000000),
+        data_t(1.750000000000),
+        data_t(2.500000000000),
+        data_t(3.250000000000),
+        data_t(4.000000000000),
+        data_t(4.750000000000),
+        data_t(5.500000000000),
+        data_t(6.250000000000),
+        data_t(7.000000000000),
+        data_t(7.750000000000),
+        data_t(8.500000000000),
+        data_t(9.250000000000),
+        data_t(10.000000000000),
+        data_t(17.500000000000),
+        data_t(25.000000000000),
+        data_t(32.500000000000),
+        data_t(40.000000000000),
+        data_t(47.500000000000),
+        data_t(55.000000000000),
+        data_t(62.500000000000),
+        data_t(70.000000000000),
+        data_t(77.500000000000),
+        data_t(85.000000000000),
+        data_t(92.500000000000),
+        data_t(100.000000000000),
+        data_t(175.000000000000),
+        data_t(250.000000000000),
+        data_t(325.000000000000),
+        data_t(400.000000000000),
+        data_t(475.000000000000),
+        data_t(550.000000000000),
+        data_t(625.000000000000),
+        data_t(700.000000000000),
+        data_t(775.000000000000),
+        data_t(850.000000000000),
+        data_t(925.000000000000),
+        data_t(1000.000000000000),
+        data_t(1750.000000000000),
+        data_t(2500.000000000000),
+        data_t(3250.000000000000),
+        data_t(4000.000000000000),
+        data_t(4750.000000000000),
+        data_t(5500.000000000000),
+        data_t(6250.000000000000),
+        data_t(7000.000000000000),
+        data_t(7750.000000000000),
+        data_t(8500.000000000000),
+        data_t(9250.000000000000),
+        data_t(10000.000000000000),
+        data_t(17333.333333333332),
+        data_t(24666.666666666664),
+        data_t(32000.000000000000)
+    };
+
+
+
+    // LUT
     data_t table_m[63] = {
         data_t(1.361363296669),
         data_t(1.088933156439),
@@ -956,11 +1044,60 @@ data_t SQRT_LUT(data_t x){
     };
 
 
+
+    // Determinação do intervalo (fazer busca binária)
+    idx = busca_binaria(table_mark, 64, x);
+
+    y = table_m[idx]*x + table_n[idx];
+
+    return y;
+
+
 }
 
 
 
 data_t ATAN_LUT(data_t x){
+
+    data_t y;
+    int idx;
+
+
+    // marcadores
+    data_t table_mark[32]{
+        data_t(0.000000000000),
+        data_t(0.166666666667),
+        data_t(0.333333333333),
+        data_t(0.500000000000),
+        data_t(0.666666666667),
+        data_t(0.833333333333),
+        data_t(1.000000000000),
+        data_t(1.333333333333),
+        data_t(1.666666666667),
+        data_t(2.000000000000),
+        data_t(2.888888888889),
+        data_t(3.777777777778),
+        data_t(4.666666666667),
+        data_t(5.555555555556),
+        data_t(6.444444444444),
+        data_t(7.333333333333),
+        data_t(8.222222222222),
+        data_t(9.111111111111),
+        data_t(10.000000000000),
+        data_t(25.000000000000),
+        data_t(40.000000000000),
+        data_t(55.000000000000),
+        data_t(70.000000000000),
+        data_t(85.000000000000),
+        data_t(100.000000000000),
+        data_t(250.000000000000),
+        data_t(400.000000000000),
+        data_t(550.000000000000),
+        data_t(700.000000000000),
+        data_t(850.000000000000),
+        data_t(1000.000000000000),
+        data_t(32000.000000000000)
+    };
 
 
 
@@ -1032,6 +1169,14 @@ data_t ATAN_LUT(data_t x){
         data_t(1.568619857936),
         data_t(1.569765077139)        
     };
+
+
+    // Determinação do intervalo (fazer busca binária)
+    idx = busca_binaria(table_mark, 64, x);
+
+    y = table_m[idx]*x + table_n[idx];
+
+    return y;
 
 
 }

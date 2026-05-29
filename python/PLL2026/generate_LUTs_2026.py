@@ -72,7 +72,7 @@ def generate_file_data_list(fileName, val_array):
 
         print(item)
 
-        f.write('data_t(' + f'{item[0]:.12f}' + '),\n')
+        f.write('data_t(' + f'{item:.12f}' + '),\n')
         
 
     f.close()
@@ -127,10 +127,19 @@ atan_marks = np.unique(
 
 
 
+# Geração dos marcadores da raiz quadrada
+filename_sqrt_mark = '.\\LUTs\\SQRT_MARK_List'
+generate_file_data_list(filename_sqrt_mark,sqrt_marks)
+
 # Geração da LUT da raiz quadrada
 filename_sqrt = '.\\LUTs\\LUT_SQRT'
 generate_LUT(fileName=filename_sqrt, approx_func=np.sqrt, Xp=sqrt_marks)
 
+
+
+# Geração dos marcadores da arcotangente
+filename_atan_mark = '.\\LUTs\\ATAN_MARK_List'
+generate_file_data_list(filename_atan_mark,atan_marks)
 
 
 # Geração da LUT da arcotangente
