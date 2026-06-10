@@ -25,31 +25,40 @@ typedef ap_uint<1> uint1_t;
 #define pi2 data_t(6.283185307179586)
 #define pi2Ts data_t(3.14159265358979e-6)
 
+#define pi6 data_t(18.849555921538759)
+#define pi4 data_t(12.566370614359172)
+
 
 // Constantes dos PLLs
-#define Kpf data_t(30.0)
-#define Kif data_t(1000.0)
-#define w0 data_t(300.0)
-#define wc data_t(120.0)
-#define K data_t(2.0)
+#define ki_phi data_t(1000)
+#define kp_phi data_t(20)
+#define wcd data_t(1884.95)
+#define wca data_t(7539.82)
+#define w0 data_t(300)
+#define k_alfa data_t(0.666666666666667)
+#define k_beta data_t(0.577350269189626)
 
-#define k_alfa data_t(0.66666666667)
-#define k_beta data_t(0.57735026919)
 
 
 // Cabeçalho
 data_t sin_2000(data_t theta);
 data_t cos_2000(data_t theta);
-void PLL2026_x64(uint1_t sinc,  data_t vin,
-                                    data_t *wout,
-                                    data_t *vdout,
-                                    data_t *vqout,
-                                    data_t *yout,
-                                    data_t *thetaout,
-                                    data_t *Aout,
-                                    data_t *valphaout,
-                                    data_t *vbetaout,
-                                    data_t *vsigmaout);
+data_t wrap_2pi(data_t angulo_in);
+data_t ATAN_LUT(data_t x);
+data_t SQRT_LUT(data_t x);
+int busca_binaria(data_t *vetor, int Tamanho, data_t valor);
+void PLL2026_x64(uint1_t sinc,  
+                    data_t vin_a,
+                    data_t vin_b,
+                    data_t vin_c,
+                    data_t *w_out,
+                    data_t *theta_out,
+                    data_t *pll_alpha_out,
+                    data_t *pll_beta_out,
+                    data_t *amp_vPos_out,
+                    data_t *Amp_vneg_out,
+                    data_t *delta_out
+                    );
 
 
 

@@ -9,11 +9,12 @@ void PLL2026_x64(uint1_t sinc,
                     data_t vin_b,
                     data_t vin_c,
                     data_t *w_out,
-                    data_t *vd_out,
-                    data_t *vq_out,
                     data_t *theta_out,
                     data_t *pll_alpha_out,
-                    data_t *pll_beta_out
+                    data_t *pll_beta_out,
+                    data_t *amp_vPos_out,
+                    data_t *Amp_vneg_out,
+                    data_t *delta_out
                     ){
 
 
@@ -50,8 +51,13 @@ void PLL2026_x64(uint1_t sinc,
 
     static data_t w;
 
+    static data_t delta_raw_base;
     static data_t delta_raw;
+    static data_t Amp_vneg_raw_base;
     static data_t Amp_vneg_raw;
+
+    static data_t v_alfa;
+    static data_t v_beta;
 
 
 
@@ -87,9 +93,10 @@ void PLL2026_x64(uint1_t sinc,
 
 
         // Atualização das variáveis: SRF
-        theta = theta_new;
-        wi = wi_new;
-        A = A_new;
+        theta1_old = theta1;
+        wi_old = wi;
+        delta_old = delta;
+        Amp_vneg_old = Amp_vneg;
 
 
         // Computação dos sinais no domínio alfa-beta
@@ -134,8 +141,22 @@ void PLL2026_x64(uint1_t sinc,
             theta1 = 0;
         }
         else{
-            theta1 = theta_old + Ts*w;
+            theta1 = theta1_old + Ts*w;
         }
+
+
+        // Computação das informações de sequência negativa
+        delta_raw_base = ATAN_LUT(v2_q_limpo / (v2_d_limpo+0.1) );
+
+
+
+        delta_raw = delta_raw_base;
+
+
+
+        Amp_vneg_raw_base = v2_q_limpo*v2_q_limpo + v2_d_limpo*v2_d_limpo;
+        Amp_vneg_raw = SQRT_LUT(Amp_vneg_raw_base);
+
 
 
         // Filtragem do delta da seq negativa
@@ -163,15 +184,16 @@ void PLL2026_x64(uint1_t sinc,
     }
 
 
-    *wout = w;
-    *vdout = vd;
-    *vqout = vq;
-    *yout = y;
-    *thetaout = theta;
-    *Aout = A;
-    *valphaout = valpha;
-    *vbetaout = vbeta;
-    *vsigmaout = vsigma;
+    *w_out = w;
+    *theta_out = theta1;
+    *pll_alpha_out = pll_alfa;
+    *pll_beta_out = pll_beta;
+    *amp_vPos_out = amp_vPos;
+    *Amp_vneg_out = Amp_vneg;
+    *delta_out = delta; 
+
+
+
 
 
 }
@@ -801,7 +823,7 @@ data_t sin_2000(data_t theta_in){
 
 
 // função que implementa uma busca binária
-int busca_binaria(data_t *vetor, Tamanho, valor){
+int busca_binaria(data_t *vetor, int Tamanho, data_t valor){
 
 
     int intervalo_begin = 0;

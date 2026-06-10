@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="PLL2026_x64.cpp" path="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\C-Codes\Fixed_x64\PLL2026_x64.cpp"/>
+    <originFiles name="PLL2026_x64.h" path="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\C-Codes\Fixed_x64\PLL2026_x64.h"/>
+  </source>
+  <testbench/>
+</autopilotfilemapping:AutoPilotFileMapping>
