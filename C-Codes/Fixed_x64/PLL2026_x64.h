@@ -46,6 +46,7 @@ data_t cos_2000(data_t theta);
 data_t wrap_2pi(data_t angulo_in);
 data_t ATAN_LUT(data_t x);
 data_t SQRT_LUT(data_t x);
+data_t INV_LUT(data_t x);
 int busca_binaria(data_t *vetor, int Tamanho, data_t valor);
 void PLL2026_x64(uint1_t sinc,  
                     data_t vin_a,

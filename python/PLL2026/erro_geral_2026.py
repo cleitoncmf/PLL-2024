@@ -56,6 +56,31 @@ atan_marks = np.unique(
 
 
 
+# Domínio da função inv
+x_inv_min = 0.01
+x_inv_max = 1000
+
+x_inv = np.linspace(x_inv_min,x_inv_max,100000)
+
+
+
+
+# Intervalos de linearização para a função inv
+inv_marks = np.unique(
+        np.concatenate( (
+            np.linspace(0.01,0.02,6),
+            np.linspace(0.02,0.1,19),
+            np.linspace(0.1,0.2,6),
+            np.linspace(0.2,1,19),
+            np.linspace(1,2,6),
+            np.linspace(2,10,19),
+            np.linspace(10,20,6),
+            np.linspace(20,100,19),
+            np.linspace(100,200,6),
+            np.linspace(200,1000,19),            
+    ) ) )
+
+
 
 
 
@@ -94,8 +119,13 @@ def piecewise_linear_approx(x,xp, approx_func):
 # Computing the functions
 f_sqrt = np.sqrt(x_sqrt)
 f_atan = np.arctan(x_atan)
-#f_inv_x = 1/x
+f_inv = 1/x_inv
 
+
+
+# defining the inverse function
+def inv(x):
+    return 1/x
 
 
 # Cálculo do erro de aproximação da função sqrt
@@ -160,8 +190,42 @@ plt.show()
 
 
 
+# Cálculo do erro de aproximação da função inv
+Error_inv = ( piecewise_linear_approx(x = x_inv,xp = inv_marks, approx_func=inv) -f_inv)/( f_inv )
+df_inv = pd.DataFrame({'x': x_inv, 'Error': Error_inv, 'Error_perc': Error_inv*100})
+
+
+
+
+
+
+# Ploting the figure
+fig,ax,lines = F_formatedplot(  dataFrameList=[df_inv],
+                                Xsymbol='x',
+                                Ysymbol='Error',
+                                Xlabel = 'x',
+                                Ylabel = 'Error')
+
+
+min_x = min(df_inv['x'])
+max_x = max(df_inv['x'])
+ax.set_xlim([min_x,max_x])
+
+ax.set_xscale('log')
+
+plt.savefig('./graphs/Errors_inv_mult.pdf', bbox_inches='tight')
+plt.savefig('./graphs/Errors_inv_mult.svg', bbox_inches='tight')
+
+plt.show()
+
+
+
+
+
+
+
 # Ploting both errors
-fig,ax,lines = F_formatedplot(  dataFrameList=[df_sqrt,df_atan],
+fig,ax,lines = F_formatedplot(  dataFrameList=[df_sqrt,df_atan,df_inv],
                                 Xsymbol='x',
                                 Ysymbol='Error_perc',
                                 Xlabel = 'x',
@@ -175,7 +239,7 @@ ax.set_xlim([min_x,max_x])
 ax.set_xscale('log')
 
 
-ax.legend([r'$\sqrt{x}$', r'$\arctan(x)$'], fontsize=20)
+ax.legend([r'$\sqrt{x}$', r'$\arctan(x)$', r'$inv(x)$'], fontsize=20)
 
 plt.savefig('./graphs/Errors_sqrt_atan_mult.pdf', bbox_inches='tight')
 plt.savefig('./graphs/Errors_sqrt_atan_mult.svg', bbox_inches='tight')

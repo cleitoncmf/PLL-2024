@@ -3,6 +3,11 @@ import numpy as np
 
 
 
+# defining the inverse function
+def inv(x):
+    return 1/x
+
+
 
 
 # Definition of the approximated functions
@@ -127,6 +132,35 @@ atan_marks = np.unique(
 
 
 
+
+
+# Domínio da função inv
+x_inv_min = 0.01
+x_inv_max = 1000
+
+x_inv = np.linspace(x_inv_min,x_inv_max,100000)
+
+
+
+
+# Intervalos de linearização para a função inv
+inv_marks = np.unique(
+        np.concatenate( (
+            np.linspace(0.01,0.02,6),
+            np.linspace(0.02,0.1,19),
+            np.linspace(0.1,0.2,6),
+            np.linspace(0.2,1,19),
+            np.linspace(1,2,6),
+            np.linspace(2,10,19),
+            np.linspace(10,20,6),
+            np.linspace(20,100,19),
+            np.linspace(100,200,6),
+            np.linspace(200,1000,19),            
+    ) ) )
+
+
+
+
 # Geração dos marcadores da raiz quadrada
 filename_sqrt_mark = '.\\LUTs\\SQRT_MARK_List'
 generate_file_data_list(filename_sqrt_mark,sqrt_marks)
@@ -145,4 +179,18 @@ generate_file_data_list(filename_atan_mark,atan_marks)
 # Geração da LUT da arcotangente
 filename_atan = '.\\LUTs\\LUT_ATAN'
 generate_LUT(fileName=filename_atan, approx_func=np.atan, Xp=atan_marks)
+
+
+
+
+
+
+# Geração dos marcadores da inversa
+filename_inv_mark = '.\\LUTs\\INV_MARK_List'
+generate_file_data_list(filename_inv_mark,inv_marks)
+
+
+# Geração da LUT da inversa
+filename_inv = '.\\LUTs\\LUT_INV'
+generate_LUT(fileName=filename_inv, approx_func=inv, Xp=inv_marks)
 

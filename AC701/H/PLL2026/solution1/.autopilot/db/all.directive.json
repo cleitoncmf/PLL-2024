@@ -1,6 +1,7 @@
 {"sourceFile": [{
       "name": "",
-      "directive": [{
+      "directive": [
+        {
           "functionName": "PLL2026_x64",
           "label": "",
           "functionLabel": "",
@@ -11,5 +12,18 @@
                 "value": "PLL2026_x64"
               }]
           }
-        }]
+        },
+        {
+          "functionName": "PLL2026_x64",
+          "label": "",
+          "functionLabel": "",
+          "pragma": {
+            "name": "TOP",
+            "option": [{
+                "name": "name",
+                "value": "PLL2026_x64"
+              }]
+          }
+        }
+      ]
     }]}
