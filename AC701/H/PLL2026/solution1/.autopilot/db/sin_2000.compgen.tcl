@@ -88,7 +88,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_multicycle_mul, che
 # Memory (RAM/ROM)  definition:
 set ID 3
 set hasByteEnable 0
-set MemName PLL2026_x64_sin_2000_table_r
+set MemName PLL2026_x64_sin_2000_table_V
 set CoreName ap_simcore_mem
 set PortList { 1 1 1 }
 set DataWd 49

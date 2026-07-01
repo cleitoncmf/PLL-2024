@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1781722482052">
-  <ports id="1" name="theta_in" type="PortType" originalName="angulo_in.V" coreId="1764713065" bitwidth="64">
+<cdfg:DBCdfg xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:cdfg="http://www.autoesl.com/DBCdfg" timeStamp="1782940872844">
+  <ports id="1" name="theta_in" type="PortType" originalName="angulo_in.V" coreId="1735355503" bitwidth="64">
     <dataOutputObjs>read</dataOutputObjs>
   </ports>
   <ports id="11" name="ap_return" direction="DirOut">
@@ -138,8 +138,8 @@
   <edges id="300" source_obj="//@blocks.0/@node_objs.85" sink_obj="//@blocks.0/@node_objs.86"/>
   <edges source_obj="//@blocks.0/@node_objs.86" sink_obj="//@ports.1"/>
   <blocks id="91" name="sin_2000" type="BlockType">
-    <node_objs xsi:type="cdfg:CdfgNode" id="4" name="theta_in_read" lineNumber="208" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." coreId="1600742514" contextFuncName="wrap_2pi" bitwidth="64" opcode="read" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="208" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="4" name="theta_in_read" lineNumber="296" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." coreId="48" contextFuncName="wrap_2pi" bitwidth="64" opcode="read" m_display="0" m_topoIndex="1" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="296" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>theta_in</dataInputObjs>
       <dataOutputObjs>icmp</dataOutputObjs>
       <dataOutputObjs>add</dataOutputObjs>
@@ -159,7 +159,7 @@
       <dataOutputObjs>add</dataOutputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="5" name="icmp_ln1494" lineNumber="1494" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1494_fu_111_p2" opType="icmp" coreId="841966703" contextFuncName="operator_gt_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="2" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="5" name="icmp_ln1494" lineNumber="1494" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1494_fu_111_p2" opType="icmp" coreId="4294967292" contextFuncName="operator_gt_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="2" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="1494" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator&amp;gt;&amp;lt;64, 16, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>read</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
@@ -173,20 +173,20 @@
       <dataOutputObjs>select</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="7" name="icmp_ln1494_1" lineNumber="1494" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1494_1_fu_123_p2" opType="icmp" coreId="1600742514" contextFuncName="operator_gt_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="4" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="7" name="icmp_ln1494_1" lineNumber="1494" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1494_1_fu_123_p2" opType="icmp" coreId="48" contextFuncName="operator_gt_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="4" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="1494" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator&amp;gt;&amp;lt;64, 16, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>read</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="8" name="icmp_ln1495" lineNumber="1495" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1495_fu_129_p2" opType="icmp" coreId="1882155363" contextFuncName="operator_lt_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="5" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="8" name="icmp_ln1495" lineNumber="1495" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1495_fu_129_p2" opType="icmp" coreId="0" contextFuncName="operator_lt_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="5" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="1495" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator&amp;lt;&amp;lt;64, 16, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>read</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="9" name="and_ln219" lineNumber="219" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln219_fu_135_p2" opType="and" coreId="808595300" contextFuncName="wrap_2pi" bitwidth="1" opcode="and" m_display="0" m_delay="0.8" m_topoIndex="6" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="219" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="9" name="and_ln307" lineNumber="307" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln307_fu_135_p2" opType="and" coreId="1853187616" contextFuncName="wrap_2pi" bitwidth="1" opcode="and" m_display="0" m_delay="0.8" m_topoIndex="6" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="307" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>icmp</dataInputObjs>
       <dataInputObjs>icmp</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
@@ -198,20 +198,20 @@
       <dataOutputObjs>select</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="11" name="icmp_ln1494_2" lineNumber="1494" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1494_2_fu_147_p2" opType="icmp" coreId="841966703" contextFuncName="operator_gt_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="8" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="11" name="icmp_ln1494_2" lineNumber="1494" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1494_2_fu_147_p2" opType="icmp" coreId="1885415456" contextFuncName="operator_gt_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="8" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="1494" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator&amp;gt;&amp;lt;64, 16, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>read</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="12" name="icmp_ln1495_1" lineNumber="1495" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1495_1_fu_153_p2" opType="icmp" coreId="808595300" contextFuncName="operator_lt_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="9" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="12" name="icmp_ln1495_1" lineNumber="1495" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1495_1_fu_153_p2" opType="icmp" coreId="875969636" contextFuncName="operator_lt_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="9" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="1495" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator&amp;lt;&amp;lt;64, 16, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>read</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="13" name="and_ln222" lineNumber="222" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln222_fu_159_p2" opType="and" coreId="841966703" contextFuncName="wrap_2pi" bitwidth="1" opcode="and" m_display="0" m_delay="0.8" m_topoIndex="10" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="222" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="13" name="and_ln310" lineNumber="310" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln310_fu_159_p2" opType="and" coreId="807414835" contextFuncName="wrap_2pi" bitwidth="1" opcode="and" m_display="0" m_delay="0.8" m_topoIndex="10" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="310" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>icmp</dataInputObjs>
       <dataInputObjs>icmp</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
@@ -223,20 +223,20 @@
       <dataOutputObjs>select</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="15" name="icmp_ln1494_3" lineNumber="1494" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1494_3_fu_171_p2" opType="icmp" coreId="1600742514" contextFuncName="operator_gt_65_17_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="12" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="15" name="icmp_ln1494_3" lineNumber="1494" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1494_3_fu_171_p2" opType="icmp" coreId="656437108" contextFuncName="operator_gt_65_17_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="12" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="1494" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator&amp;gt;&amp;lt;65, 17, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>read</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="16" name="tmp_1" lineNumber="1495" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="tmp_1_fu_177_p3" coreId="808595300" contextFuncName="operator_lt_32_32_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="bitselect" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="16" name="tmp_1" lineNumber="1495" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="tmp_1_fu_177_p3" coreId="1834970975" contextFuncName="operator_lt_32_32_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="bitselect" m_display="0" m_topoIndex="13" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="1495" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator&amp;lt;&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>read</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="17" name="and_ln225" lineNumber="225" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln225_fu_185_p2" opType="and" coreId="1600742514" contextFuncName="wrap_2pi" bitwidth="1" opcode="and" m_display="0" m_delay="0.8" m_topoIndex="14" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="225" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="17" name="and_ln313" lineNumber="313" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln313_fu_185_p2" opType="and" coreId="1885415456" contextFuncName="wrap_2pi" bitwidth="1" opcode="and" m_display="0" m_delay="0.8" m_topoIndex="14" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="313" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>icmp</dataInputObjs>
       <dataInputObjs>bitselect</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
@@ -248,13 +248,13 @@
       <dataOutputObjs>select</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="19" name="icmp_ln1494_4" lineNumber="1494" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1494_4_fu_197_p2" opType="icmp" coreId="1919954793" contextFuncName="operator_gt_65_17_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="16" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="19" name="icmp_ln1494_4" lineNumber="1494" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1494_4_fu_197_p2" opType="icmp" coreId="1869438833" contextFuncName="operator_gt_65_17_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="16" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="1494" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator&amp;gt;&amp;lt;65, 17, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>read</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="20" name="icmp_ln1495_2" lineNumber="1495" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1495_2_fu_203_p2" opType="icmp" coreId="808595300" contextFuncName="operator_lt_65_17_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="17" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="20" name="icmp_ln1495_2" lineNumber="1495" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1495_2_fu_203_p2" opType="icmp" coreId="1768316784" contextFuncName="operator_lt_65_17_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="17" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="1495" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator&amp;lt;&amp;lt;65, 17, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>read</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
@@ -266,7 +266,7 @@
       <dataOutputObjs>select</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="22" name="icmp_ln1495_3" lineNumber="1495" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1495_3_fu_215_p2" opType="icmp" coreId="792359464" contextFuncName="operator_lt_65_17_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="19" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="22" name="icmp_ln1495_3" lineNumber="1495" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln1495_3_fu_215_p2" opType="icmp" coreId="1834970975" contextFuncName="operator_lt_65_17_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="icmp" m_display="0" m_delay="2.34" m_topoIndex="19" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="1495" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator&amp;lt;&amp;lt;65, 17, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>read</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
@@ -278,8 +278,8 @@
       <dataOutputObjs>select</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="24" name="select_ln231" lineNumber="231" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="select_ln231_fu_227_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="wrap_2pi" bitwidth="64" opcode="select" m_display="0" m_topoIndex="21" m_clusterGroupNumber="1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="231" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="24" name="select_ln319" lineNumber="319" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="select_ln319_fu_227_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="wrap_2pi" bitwidth="64" opcode="select" m_display="0" m_topoIndex="21" m_clusterGroupNumber="1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="319" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>icmp</dataInputObjs>
       <dataInputObjs>add</dataInputObjs>
       <dataInputObjs>read</dataInputObjs>
@@ -292,103 +292,103 @@
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="26" name="xor_ln1494" lineNumber="1494" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="xor_ln1494_fu_243_p2" opType="xor" coreId="808595300" contextFuncName="operator_gt_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="23" m_clusterGroupNumber="2">
+    <node_objs xsi:type="cdfg:CdfgNode" id="26" name="xor_ln1494" lineNumber="1494" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="xor_ln1494_fu_243_p2" opType="xor" coreId="741749024" contextFuncName="operator_gt_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="23" m_clusterGroupNumber="2">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="1494" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator&amp;gt;&amp;lt;64, 16, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>icmp</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="27" name="and_ln219_1" lineNumber="219" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln219_1_fu_249_p2" opType="and" coreId="1919954793" contextFuncName="wrap_2pi" bitwidth="1" opcode="and" m_display="0" m_topoIndex="24" m_clusterGroupNumber="2">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="219" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="27" name="and_ln307_1" lineNumber="307" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln307_1_fu_249_p2" opType="and" coreId="539767593" contextFuncName="wrap_2pi" bitwidth="1" opcode="and" m_display="0" m_topoIndex="24" m_clusterGroupNumber="2">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="307" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>and</dataInputObjs>
       <dataInputObjs>xor</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="28" name="angulo_V_8" lineNumber="219" originalName="angulo.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="angulo_V_8_fu_255_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="wrap_2pi" bitwidth="64" opcode="select" m_display="0" m_delay="0.83" m_topoIndex="25" m_clusterGroupNumber="2">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="219" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="28" name="angulo_V_8" lineNumber="307" originalName="angulo.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="angulo_V_8_fu_255_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="wrap_2pi" bitwidth="64" opcode="select" m_display="0" m_delay="0.83" m_topoIndex="25" m_clusterGroupNumber="2">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="307" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>and</dataInputObjs>
       <dataInputObjs>add</dataInputObjs>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="29" name="or_ln219" lineNumber="219" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="or_ln219_fu_263_p2" opType="or" coreId="792359464" contextFuncName="wrap_2pi" bitwidth="1" opcode="or" m_display="0" m_delay="0.8" m_topoIndex="26" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="219" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="29" name="or_ln307" lineNumber="307" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="or_ln307_fu_263_p2" opType="or" coreId="1701080941" contextFuncName="wrap_2pi" bitwidth="1" opcode="or" m_display="0" m_delay="0.8" m_topoIndex="26" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="307" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>icmp</dataInputObjs>
       <dataInputObjs>and</dataInputObjs>
       <dataOutputObjs>xor</dataOutputObjs>
       <dataOutputObjs>or</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="30" name="xor_ln219" lineNumber="219" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="xor_ln219_fu_269_p2" opType="xor" coreId="1919954793" contextFuncName="wrap_2pi" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="27" m_clusterGroupNumber="3">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="219" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="30" name="xor_ln307" lineNumber="307" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="xor_ln307_fu_269_p2" opType="xor" coreId="1013281633" contextFuncName="wrap_2pi" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="27" m_clusterGroupNumber="3">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="307" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>or</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="31" name="and_ln222_1" lineNumber="222" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln222_1_fu_275_p2" opType="and" coreId="792359464" contextFuncName="wrap_2pi" bitwidth="1" opcode="and" m_display="0" m_topoIndex="28" m_clusterGroupNumber="3">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="222" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="31" name="and_ln310_1" lineNumber="310" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln310_1_fu_275_p2" opType="and" coreId="2003368417" contextFuncName="wrap_2pi" bitwidth="1" opcode="and" m_display="0" m_topoIndex="28" m_clusterGroupNumber="3">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="310" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>and</dataInputObjs>
       <dataInputObjs>xor</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="32" name="angulo_V_9" lineNumber="222" originalName="angulo.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="angulo_V_9_fu_281_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="wrap_2pi" bitwidth="64" opcode="select" m_display="0" m_delay="0.83" m_topoIndex="29" m_clusterGroupNumber="3">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="222" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="32" name="angulo_V_9" lineNumber="310" originalName="angulo.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="angulo_V_9_fu_281_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="wrap_2pi" bitwidth="64" opcode="select" m_display="0" m_delay="0.83" m_topoIndex="29" m_clusterGroupNumber="3">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="310" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>and</dataInputObjs>
       <dataInputObjs>add</dataInputObjs>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="33" name="or_ln222" lineNumber="222" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="or_ln222_fu_289_p2" opType="or" coreId="4294967292" contextFuncName="wrap_2pi" bitwidth="1" opcode="or" m_display="0" m_delay="0.8" m_topoIndex="30" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="222" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="33" name="or_ln310" lineNumber="310" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="or_ln310_fu_289_p2" opType="or" coreId="1601200424" contextFuncName="wrap_2pi" bitwidth="1" opcode="or" m_display="0" m_delay="0.8" m_topoIndex="30" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="310" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>or</dataInputObjs>
       <dataInputObjs>and</dataInputObjs>
       <dataOutputObjs>xor</dataOutputObjs>
       <dataOutputObjs>or</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="34" name="xor_ln222" lineNumber="222" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="xor_ln222_fu_295_p2" opType="xor" coreId="808595300" contextFuncName="wrap_2pi" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="31" m_clusterGroupNumber="4">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="222" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="34" name="xor_ln310" lineNumber="310" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="xor_ln310_fu_295_p2" opType="xor" coreId="741681509" contextFuncName="wrap_2pi" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="31" m_clusterGroupNumber="4">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="310" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>or</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="35" name="and_ln225_1" lineNumber="225" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln225_1_fu_301_p2" opType="and" coreId="528095640" contextFuncName="wrap_2pi" bitwidth="1" opcode="and" m_display="0" m_topoIndex="32" m_clusterGroupNumber="4">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="225" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="35" name="and_ln313_1" lineNumber="313" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln313_1_fu_301_p2" opType="and" coreId="690634288" contextFuncName="wrap_2pi" bitwidth="1" opcode="and" m_display="0" m_topoIndex="32" m_clusterGroupNumber="4">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="313" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>and</dataInputObjs>
       <dataInputObjs>xor</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="36" name="angulo_V_10" lineNumber="225" originalName="angulo.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="angulo_V_10_fu_307_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="wrap_2pi" bitwidth="64" opcode="select" m_display="0" m_delay="0.83" m_topoIndex="33" m_clusterGroupNumber="4">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="225" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="36" name="angulo_V_10" lineNumber="313" originalName="angulo.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="angulo_V_10_fu_307_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="wrap_2pi" bitwidth="64" opcode="select" m_display="0" m_delay="0.83" m_topoIndex="33" m_clusterGroupNumber="4">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="313" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>and</dataInputObjs>
       <dataInputObjs>add</dataInputObjs>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="37" name="or_ln225" lineNumber="225" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="or_ln225_fu_315_p2" opType="or" coreId="13" contextFuncName="wrap_2pi" bitwidth="1" opcode="or" m_display="0" m_topoIndex="34" m_clusterGroupNumber="5">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="225" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="37" name="or_ln313" lineNumber="313" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="or_ln313_fu_315_p2" opType="or" coreId="909189164" contextFuncName="wrap_2pi" bitwidth="1" opcode="or" m_display="0" m_topoIndex="34" m_clusterGroupNumber="5">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="313" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>or</dataInputObjs>
       <dataInputObjs>and</dataInputObjs>
       <dataOutputObjs>xor</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="38" name="xor_ln225" lineNumber="225" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="xor_ln225_fu_321_p2" opType="xor" coreId="528089160" contextFuncName="wrap_2pi" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="35" m_clusterGroupNumber="5">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="225" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="38" name="xor_ln313" lineNumber="313" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="xor_ln313_fu_321_p2" opType="xor" coreId="1701080941" contextFuncName="wrap_2pi" bitwidth="1" opcode="xor" m_display="0" m_topoIndex="35" m_clusterGroupNumber="5">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="313" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>or</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="39" name="and_ln228" lineNumber="228" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln228_fu_327_p2" opType="and" coreId="1" contextFuncName="wrap_2pi" bitwidth="1" opcode="and" m_display="0" m_topoIndex="36" m_clusterGroupNumber="5">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="228" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="39" name="and_ln316" lineNumber="316" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln316_fu_327_p2" opType="and" coreId="2147483647" contextFuncName="wrap_2pi" bitwidth="1" opcode="and" m_display="0" m_topoIndex="36" m_clusterGroupNumber="5">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="316" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>icmp</dataInputObjs>
       <dataInputObjs>xor</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="40" name="and_ln228_1" lineNumber="228" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln228_1_fu_333_p2" opType="and" coreId="609753950" contextFuncName="wrap_2pi" bitwidth="1" opcode="and" m_display="0" m_topoIndex="37" m_clusterGroupNumber="5">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="228" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="40" name="and_ln316_1" lineNumber="316" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln316_1_fu_333_p2" opType="and" coreId="543450478" contextFuncName="wrap_2pi" bitwidth="1" opcode="and" m_display="0" m_topoIndex="37" m_clusterGroupNumber="5">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="316" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>and</dataInputObjs>
       <dataInputObjs>icmp</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="41" name="angulo_V" lineNumber="228" originalName="angulo.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="angulo_V_fu_339_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="wrap_2pi" bitwidth="64" opcode="select" m_display="0" m_delay="0.83" m_topoIndex="38" m_clusterGroupNumber="5">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="228" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="41" name="angulo_V" lineNumber="316" originalName="angulo.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="angulo_V_fu_339_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="wrap_2pi" bitwidth="64" opcode="select" m_display="0" m_delay="0.83" m_topoIndex="38" m_clusterGroupNumber="5">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="316" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="wrap_2pi"/>
       <dataInputObjs>and</dataInputObjs>
       <dataInputObjs>add</dataInputObjs>
       <dataInputObjs>select</dataInputObjs>
@@ -402,13 +402,13 @@
       <dataOutputObjs>bitset</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="43" name="p_Result_2" lineNumber="104" originalName="__Result__" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_ref.h" fileDirectory=".." rtlName="p_Result_2_fu_360_p4" coreId="1" contextFuncName="operator_assign" bitwidth="64" opcode="bitset" nodeLabel="1.0" m_display="0" m_topoIndex="41" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="43" name="p_Result_2" lineNumber="104" originalName="__Result__" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_ref.h" fileDirectory=".." rtlName="p_Result_2_fu_360_p4" coreId="1886413614" contextFuncName="operator_assign" bitwidth="64" opcode="bitset" nodeLabel="1.0" m_display="0" m_topoIndex="41" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_ref.h" linenumber="104" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator="/>
       <dataInputObjs>sub</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="44" name="p_Result_s" lineNumber="99" originalName="__Result__" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_ref.h" fileDirectory=".." rtlName="p_Result_s_reg_580" coreId="1" contextFuncName="operator_bool" bitwidth="1" opcode="bitselect" m_display="0" m_topoIndex="39" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="44" name="p_Result_s" lineNumber="99" originalName="__Result__" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_ref.h" fileDirectory=".." rtlName="p_Result_s_reg_580" coreId="1953393013" contextFuncName="operator_bool" bitwidth="1" opcode="bitselect" m_display="0" m_topoIndex="39" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_ref.h" linenumber="99" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator bool"/>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
@@ -422,12 +422,12 @@
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>sext</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="46" name="sext_ln1118" lineNumber="1118" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." coreId="1" contextFuncName="operator_mul_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="121" opcode="sext" nodeLabel="2.0" m_display="0" m_topoIndex="43" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="46" name="sext_ln1118" lineNumber="1118" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." coreId="1768316784" contextFuncName="operator_mul_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="121" opcode="sext" nodeLabel="2.0" m_display="0" m_topoIndex="43" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="1118" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator*&amp;lt;64, 16, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>mul</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="47" name="r_V" lineNumber="1118" originalName="r.V" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="mul_64s_58ns_121_5_1_U1" opType="mul" coreId="3897423064" contextFuncName="operator_mul_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="121" opcode="mul" nodeLabel="2.0" nodeLatency="4" m_display="0" m_delay="5.71" m_topoIndex="44" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="47" name="r_V" lineNumber="1118" originalName="r.V" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="mul_64s_58ns_121_5_1_U1" opType="mul" coreId="1701080941" contextFuncName="operator_mul_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="121" opcode="mul" nodeLabel="2.0" nodeLatency="4" m_display="0" m_delay="5.71" m_topoIndex="44" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="1118" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator*&amp;lt;64, 16, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>sext</dataInputObjs>
       <dataOutputObjs>partselect</dataOutputObjs>
@@ -435,31 +435,31 @@
       <dataOutputObjs>trunc</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="48" name="ret_V" lineNumber="835" originalName="ret.V" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="ret_V_reg_601" coreId="1" contextFuncName="to_ap_int_base" bitwidth="25" opcode="partselect" nodeLabel="6.0" m_display="0" m_topoIndex="45" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="48" name="ret_V" lineNumber="835" originalName="ret.V" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="ret_V_reg_601" coreId="539767862" contextFuncName="to_ap_int_base" bitwidth="25" opcode="partselect" nodeLabel="6.0" m_display="0" m_topoIndex="45" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="835" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="to_ap_int_base"/>
       <dataInputObjs>mul</dataInputObjs>
       <dataOutputObjs>sext</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="49" name="sext_ln831" lineNumber="831" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="sext_ln831_fu_399_p1" coreId="528086136" contextFuncName="to_ap_int_base" bitwidth="26" opcode="sext" nodeLabel="7.0" m_display="0" m_topoIndex="47" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="49" name="sext_ln831" lineNumber="831" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="sext_ln831_fu_399_p1" coreId="1701080941" contextFuncName="to_ap_int_base" bitwidth="26" opcode="sext" nodeLabel="7.0" m_display="0" m_topoIndex="47" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="831" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="to_ap_int_base"/>
       <dataInputObjs>partselect</dataInputObjs>
       <dataOutputObjs>add</dataOutputObjs>
       <dataOutputObjs>select</dataOutputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="50" name="p_Result_1" lineNumber="850" originalName="__Result__" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="p_Result_1_fu_402_p3" coreId="13" contextFuncName="to_ap_int_base" bitwidth="1" opcode="bitselect" nodeLabel="7.0" m_display="0" m_topoIndex="48" m_clusterGroupNumber="6">
+    <node_objs xsi:type="cdfg:CdfgNode" id="50" name="p_Result_1" lineNumber="850" originalName="__Result__" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="p_Result_1_fu_402_p3" coreId="858350948" contextFuncName="to_ap_int_base" bitwidth="1" opcode="bitselect" nodeLabel="7.0" m_display="0" m_topoIndex="48" m_clusterGroupNumber="6">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="850" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="to_ap_int_base"/>
       <dataInputObjs>mul</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="51" name="trunc_ln851" lineNumber="851" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="trunc_ln851_fu_395_p1" coreId="609735673" contextFuncName="to_ap_int_base" bitwidth="96" opcode="trunc" nodeLabel="6.0" m_display="0" m_topoIndex="46" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="51" name="trunc_ln851" lineNumber="851" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="trunc_ln851_fu_395_p1" coreId="1630019628" contextFuncName="to_ap_int_base" bitwidth="96" opcode="trunc" nodeLabel="6.0" m_display="0" m_topoIndex="46" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="851" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="to_ap_int_base"/>
       <dataInputObjs>mul</dataInputObjs>
       <dataOutputObjs>icmp</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="52" name="icmp_ln851" lineNumber="851" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln851_fu_409_p2" opType="icmp" coreId="528088240" contextFuncName="to_ap_int_base" bitwidth="1" opcode="icmp" nodeLabel="7.0" m_display="0" m_delay="2.62" m_topoIndex="49" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="52" name="icmp_ln851" lineNumber="851" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="icmp_ln851_fu_409_p2" opType="icmp" coreId="1935627349" contextFuncName="to_ap_int_base" bitwidth="1" opcode="icmp" nodeLabel="7.0" m_display="0" m_delay="2.62" m_topoIndex="49" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="851" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="to_ap_int_base"/>
       <dataInputObjs>trunc</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
@@ -488,7 +488,7 @@
       <dataOutputObjs>icmp</dataOutputObjs>
       <dataOutputObjs>icmp</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="56" name="trunc_ln831" lineNumber="831" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="trunc_ln831_fu_436_p1" coreId="4294967292" contextFuncName="to_ap_int_base" bitwidth="9" opcode="trunc" nodeLabel="7.0" m_display="0" m_topoIndex="53" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="56" name="trunc_ln831" lineNumber="831" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." rtlName="trunc_ln831_fu_436_p1" coreId="1768316784" contextFuncName="to_ap_int_base" bitwidth="9" opcode="trunc" nodeLabel="7.0" m_display="0" m_topoIndex="53" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="831" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="to_ap_int_base"/>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>zext</dataOutputObjs>
@@ -496,92 +496,92 @@
       <dataOutputObjs>add</dataOutputObjs>
       <dataOutputObjs>sub</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="57" name="icmp_ln798" lineNumber="798" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="icmp_ln798_fu_440_p2" opType="icmp" coreId="4294967292" contextFuncName="sin_2000" bitwidth="1" opcode="icmp" nodeLabel="7.0" m_display="0" m_delay="2.06" m_topoIndex="54" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="798" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="57" name="icmp_ln886" lineNumber="886" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="icmp_ln886_fu_440_p2" opType="icmp" coreId="1629498430" contextFuncName="sin_2000" bitwidth="1" opcode="icmp" nodeLabel="7.0" m_display="0" m_delay="2.06" m_topoIndex="54" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="886" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
       <dataOutputObjs>xor</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="58" name="zext_ln799" lineNumber="799" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="zext_ln799_fu_458_p1" coreId="528092992" contextFuncName="sin_2000" bitwidth="64" opcode="zext" nodeLabel="8.0" m_display="0" m_topoIndex="57" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="799" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="58" name="zext_ln887" lineNumber="887" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="zext_ln887_fu_458_p1" coreId="708718624" contextFuncName="sin_2000" bitwidth="64" opcode="zext" nodeLabel="8.0" m_display="0" m_topoIndex="57" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="887" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>trunc</dataInputObjs>
       <dataOutputObjs>getelementptr</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="59" name="table_addr" lineNumber="799" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." coreId="3897423064" contextFuncName="sin_2000" bitwidth="9" opcode="getelementptr" nodeLabel="8.0" m_display="0" m_topoIndex="58" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="799" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="59" name="table_V_addr" lineNumber="887" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." coreId="740965936" contextFuncName="sin_2000" bitwidth="9" opcode="getelementptr" nodeLabel="8.0" m_display="0" m_topoIndex="58" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="887" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>zext</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="60" name="out_sin_V" lineNumber="799" originalName="out_sin.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." coreName="ROM" implIndex="auto" control="auto" opType="rom" coreId="95" contextFuncName="sin_2000" bitwidth="49" opcode="load" nodeLabel="8.0" nodeLatency="1" m_display="0" m_delay="2.77" m_topoIndex="59" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="799" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="60" name="out_sin_V" lineNumber="887" originalName="out_sin.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." coreName="ROM" implIndex="auto" control="auto" opType="rom" coreId="95" contextFuncName="sin_2000" bitwidth="49" opcode="load" nodeLabel="8.0" nodeLatency="1" m_display="0" m_delay="2.77" m_topoIndex="59" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="887" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>zext</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="61" name="zext_ln789" lineNumber="789" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="zext_ln789_fu_492_p1" coreId="2019517541" contextFuncName="sin_2000" bitwidth="50" opcode="zext" nodeLabel="9.0" m_display="0" m_topoIndex="72" m_clusterGroupNumber="7">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="789" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="61" name="zext_ln877" lineNumber="877" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="zext_ln877_fu_492_p1" coreId="742273340" contextFuncName="sin_2000" bitwidth="50" opcode="zext" nodeLabel="9.0" m_display="0" m_topoIndex="72" m_clusterGroupNumber="7">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="877" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>load</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="62" name="icmp_ln801" lineNumber="801" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="icmp_ln801_fu_446_p2" opType="icmp" coreId="1601200424" contextFuncName="sin_2000" bitwidth="1" opcode="icmp" nodeLabel="7.0" m_display="0" m_delay="2.06" m_topoIndex="55" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="801" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="62" name="icmp_ln889" lineNumber="889" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="icmp_ln889_fu_446_p2" opType="icmp" coreId="539765310" contextFuncName="sin_2000" bitwidth="1" opcode="icmp" nodeLabel="7.0" m_display="0" m_delay="2.06" m_topoIndex="55" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="889" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <dataOutputObjs>xor</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="63" name="sub_ln803" lineNumber="803" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="sub_ln803_fu_462_p2" coreName="Adder" implIndex="fabric" control="auto" opType="sub" coreId="1" contextFuncName="sin_2000" bitwidth="9" opcode="sub" nodeLabel="8.0" m_display="0" m_delay="1.73" m_topoIndex="60" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="803" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="63" name="sub_ln891" lineNumber="891" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="sub_ln891_fu_462_p2" coreName="Adder" implIndex="fabric" control="auto" opType="sub" coreId="1" contextFuncName="sin_2000" bitwidth="9" opcode="sub" nodeLabel="8.0" m_display="0" m_delay="1.73" m_topoIndex="60" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="891" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>trunc</dataInputObjs>
       <dataOutputObjs>zext</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="64" name="zext_ln803" lineNumber="803" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="zext_ln803_fu_467_p1" coreId="1043341356" contextFuncName="sin_2000" bitwidth="64" opcode="zext" nodeLabel="8.0" m_display="0" m_topoIndex="61" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="803" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="64" name="zext_ln891" lineNumber="891" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="zext_ln891_fu_467_p1" coreId="2005203468" contextFuncName="sin_2000" bitwidth="64" opcode="zext" nodeLabel="8.0" m_display="0" m_topoIndex="61" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="891" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>sub</dataInputObjs>
       <dataOutputObjs>getelementptr</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="65" name="table_addr_1" lineNumber="803" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." coreId="741749024" contextFuncName="sin_2000" bitwidth="9" opcode="getelementptr" nodeLabel="8.0" m_display="0" m_topoIndex="62" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="803" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="65" name="table_V_addr_1" lineNumber="891" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." coreId="1885415456" contextFuncName="sin_2000" bitwidth="9" opcode="getelementptr" nodeLabel="8.0" m_display="0" m_topoIndex="62" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="891" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>zext</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="66" name="out_sin_V_1" lineNumber="803" originalName="out_sin.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." coreName="ROM" implIndex="auto" control="auto" opType="rom" coreId="95" contextFuncName="sin_2000" bitwidth="49" opcode="load" nodeLabel="8.0" nodeLatency="1" m_display="0" m_delay="2.77" m_topoIndex="63" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="803" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="66" name="out_sin_V_1" lineNumber="891" originalName="out_sin.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." coreName="ROM" implIndex="auto" control="auto" opType="rom" coreId="95" contextFuncName="sin_2000" bitwidth="49" opcode="load" nodeLabel="8.0" nodeLatency="1" m_display="0" m_delay="2.77" m_topoIndex="63" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="891" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>zext</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="67" name="zext_ln789_1" lineNumber="789" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="zext_ln789_1_fu_496_p1" coreId="1717530721" contextFuncName="sin_2000" bitwidth="50" opcode="zext" nodeLabel="9.0" m_display="0" m_topoIndex="73" m_clusterGroupNumber="7">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="789" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="67" name="zext_ln877_1" lineNumber="877" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="zext_ln877_1_fu_496_p1" coreId="909927525" contextFuncName="sin_2000" bitwidth="50" opcode="zext" nodeLabel="9.0" m_display="0" m_topoIndex="73" m_clusterGroupNumber="7">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="877" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>load</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="68" name="icmp_ln805" lineNumber="805" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="icmp_ln805_fu_452_p2" opType="icmp" coreId="744846706" contextFuncName="sin_2000" bitwidth="1" opcode="icmp" nodeLabel="7.0" m_display="0" m_delay="2.06" m_topoIndex="56" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="805" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="68" name="icmp_ln893" lineNumber="893" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="icmp_ln893_fu_452_p2" opType="icmp" coreId="1885415456" contextFuncName="sin_2000" bitwidth="1" opcode="icmp" nodeLabel="7.0" m_display="0" m_delay="2.06" m_topoIndex="56" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="893" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="69" name="n_aux" lineNumber="806" originalName="n_aux" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="n_aux_fu_472_p2" coreName="Adder" implIndex="fabric" control="auto" opType="add" coreId="1" contextFuncName="sin_2000" bitwidth="9" opcode="add" nodeLabel="8.0" m_display="0" m_delay="1.73" m_topoIndex="64" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="806" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="69" name="n_aux" lineNumber="894" originalName="n_aux" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="n_aux_fu_472_p2" coreName="Adder" implIndex="fabric" control="auto" opType="add" coreId="1" contextFuncName="sin_2000" bitwidth="9" opcode="add" nodeLabel="8.0" m_display="0" m_delay="1.73" m_topoIndex="64" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="894" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>trunc</dataInputObjs>
       <dataOutputObjs>zext</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="70" name="zext_ln807" lineNumber="807" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="zext_ln807_fu_477_p1" coreId="1601134448" contextFuncName="sin_2000" bitwidth="64" opcode="zext" nodeLabel="8.0" m_display="0" m_topoIndex="65" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="807" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="70" name="zext_ln895" lineNumber="895" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="zext_ln895_fu_477_p1" coreId="1885413420" contextFuncName="sin_2000" bitwidth="64" opcode="zext" nodeLabel="8.0" m_display="0" m_topoIndex="65" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="895" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>add</dataInputObjs>
       <dataOutputObjs>getelementptr</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="71" name="table_addr_2" lineNumber="703" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." coreId="1869438831" contextFuncName="operator_assign_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="9" opcode="getelementptr" nodeLabel="8.0" m_display="0" m_topoIndex="66" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="71" name="table_V_addr_2" lineNumber="703" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." coreId="1902080097" contextFuncName="operator_assign_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="9" opcode="getelementptr" nodeLabel="8.0" m_display="0" m_topoIndex="66" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="703" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator=&amp;lt;64, 16, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>zext</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="72" name="table_load" lineNumber="703" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." coreName="ROM" implIndex="auto" control="auto" opType="rom" coreId="95" contextFuncName="operator_assign_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="49" opcode="load" nodeLabel="8.0" nodeLatency="1" m_display="0" m_delay="2.77" m_topoIndex="67" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="72" name="table_V_load" lineNumber="703" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." coreName="ROM" implIndex="auto" control="auto" opType="rom" coreId="95" contextFuncName="operator_assign_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="49" opcode="load" nodeLabel="8.0" nodeLatency="1" m_display="0" m_delay="2.77" m_topoIndex="67" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="703" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator=&amp;lt;64, 16, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>sub</dataOutputObjs>
@@ -592,29 +592,29 @@
       <dataOutputObjs>sext</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="74" name="sext_ln789" lineNumber="789" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="sext_ln789_fu_506_p1" coreId="539767593" contextFuncName="sin_2000" bitwidth="50" opcode="sext" nodeLabel="9.0" m_display="0" m_topoIndex="75" m_clusterGroupNumber="8">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="789" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="74" name="sext_ln877" lineNumber="877" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="sext_ln877_fu_506_p1" coreId="1902080097" contextFuncName="sin_2000" bitwidth="50" opcode="sext" nodeLabel="9.0" m_display="0" m_topoIndex="75" m_clusterGroupNumber="8">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="877" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>sub</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="75" name="sub_ln811" lineNumber="811" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="sub_ln811_fu_482_p2" coreName="Adder" implIndex="fabric" control="auto" opType="sub" coreId="1" contextFuncName="sin_2000" bitwidth="9" opcode="sub" nodeLabel="8.0" m_display="0" m_delay="1.73" m_topoIndex="68" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="811" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="75" name="sub_ln899" lineNumber="899" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="sub_ln899_fu_482_p2" coreName="Adder" implIndex="fabric" control="auto" opType="sub" coreId="1" contextFuncName="sin_2000" bitwidth="9" opcode="sub" nodeLabel="8.0" m_display="0" m_delay="1.73" m_topoIndex="68" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="899" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>trunc</dataInputObjs>
       <dataOutputObjs>zext</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="76" name="zext_ln811" lineNumber="811" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="zext_ln811_fu_487_p1" coreId="1629498410" contextFuncName="sin_2000" bitwidth="64" opcode="zext" nodeLabel="8.0" m_display="0" m_topoIndex="69" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="811" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="76" name="zext_ln899" lineNumber="899" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="zext_ln899_fu_487_p1" coreId="2020173407" contextFuncName="sin_2000" bitwidth="64" opcode="zext" nodeLabel="8.0" m_display="0" m_topoIndex="69" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="899" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>sub</dataInputObjs>
       <dataOutputObjs>getelementptr</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="77" name="table_addr_3" lineNumber="703" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." coreId="1834971487" contextFuncName="operator_assign_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="9" opcode="getelementptr" nodeLabel="8.0" m_display="0" m_topoIndex="70" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="77" name="table_V_addr_3" lineNumber="703" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." coreId="842019404" contextFuncName="operator_assign_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="9" opcode="getelementptr" nodeLabel="8.0" m_display="0" m_topoIndex="70" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="703" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator=&amp;lt;64, 16, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>zext</dataInputObjs>
       <dataOutputObjs>load</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="78" name="table_load_1" lineNumber="703" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." coreName="ROM" implIndex="auto" control="auto" opType="rom" coreId="95" contextFuncName="operator_assign_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="49" opcode="load" nodeLabel="8.0" nodeLatency="1" m_display="0" m_delay="2.77" m_topoIndex="71" m_clusterGroupNumber="-1">
+    <node_objs xsi:type="cdfg:CdfgNode" id="78" name="table_V_load_1" lineNumber="703" fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" fileDirectory=".." coreName="ROM" implIndex="auto" control="auto" opType="rom" coreId="95" contextFuncName="operator_assign_64_16_true_AP_TRN_AP_WRAP_0" bitwidth="49" opcode="load" nodeLabel="8.0" nodeLatency="1" m_display="0" m_delay="2.77" m_topoIndex="71" m_clusterGroupNumber="-1">
       <inlineStackInfo fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h" linenumber="703" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="operator=&amp;lt;64, 16, true, AP_TRN, AP_WRAP, 0&amp;gt;"/>
       <dataInputObjs>getelementptr</dataInputObjs>
       <dataOutputObjs>sub</dataOutputObjs>
@@ -625,51 +625,51 @@
       <dataOutputObjs>sext</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="80" name="sext_ln789_1" lineNumber="789" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="sext_ln789_1_fu_516_p1" coreId="656437108" contextFuncName="sin_2000" bitwidth="50" opcode="sext" nodeLabel="9.0" m_display="0" m_topoIndex="77" m_clusterGroupNumber="7">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="789" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="80" name="sext_ln877_1" lineNumber="877" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="sext_ln877_1_fu_516_p1" coreId="1734439795" contextFuncName="sin_2000" bitwidth="50" opcode="sext" nodeLabel="9.0" m_display="0" m_topoIndex="77" m_clusterGroupNumber="7">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="877" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>sub</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="81" name="out_sin_V_4" lineNumber="798" originalName="out_sin.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="out_sin_V_4_fu_520_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="sin_2000" bitwidth="50" opcode="select" nodeLabel="9.0" m_display="0" m_topoIndex="78" m_clusterGroupNumber="7">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="798" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="81" name="out_sin_V_4" lineNumber="886" originalName="out_sin.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="out_sin_V_4_fu_520_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="sin_2000" bitwidth="50" opcode="select" nodeLabel="9.0" m_display="0" m_topoIndex="78" m_clusterGroupNumber="7">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="886" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>icmp</dataInputObjs>
       <dataInputObjs>zext</dataInputObjs>
       <dataInputObjs>sext</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="82" name="xor_ln798" lineNumber="798" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="xor_ln798_fu_527_p2" opType="xor" coreId="1601134448" contextFuncName="sin_2000" bitwidth="1" opcode="xor" nodeLabel="9.0" m_display="0" m_topoIndex="79" m_clusterGroupNumber="7">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="798" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="82" name="xor_ln886" lineNumber="886" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="xor_ln886_fu_527_p2" opType="xor" coreId="673197110" contextFuncName="sin_2000" bitwidth="1" opcode="xor" nodeLabel="9.0" m_display="0" m_topoIndex="79" m_clusterGroupNumber="7">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="886" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>icmp</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="83" name="and_ln801" lineNumber="801" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln801_fu_532_p2" opType="and" coreId="740965936" contextFuncName="sin_2000" bitwidth="1" opcode="and" nodeLabel="9.0" m_display="0" m_topoIndex="80" m_clusterGroupNumber="7">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="801" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="83" name="and_ln889" lineNumber="889" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln889_fu_532_p2" opType="and" coreId="1834971487" contextFuncName="sin_2000" bitwidth="1" opcode="and" nodeLabel="9.0" m_display="0" m_topoIndex="80" m_clusterGroupNumber="7">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="889" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>icmp</dataInputObjs>
       <dataInputObjs>xor</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="84" name="out_sin_V_5" lineNumber="801" originalName="out_sin.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="out_sin_V_5_fu_537_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="sin_2000" bitwidth="50" opcode="select" nodeLabel="9.0" m_display="0" m_delay="0.8" m_topoIndex="81" m_clusterGroupNumber="7">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="801" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="84" name="out_sin_V_5" lineNumber="889" originalName="out_sin.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="out_sin_V_5_fu_537_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="sin_2000" bitwidth="50" opcode="select" nodeLabel="9.0" m_display="0" m_delay="0.8" m_topoIndex="81" m_clusterGroupNumber="7">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="889" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>and</dataInputObjs>
       <dataInputObjs>zext</dataInputObjs>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="85" name="xor_ln801" lineNumber="801" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="xor_ln801_fu_545_p2" opType="xor" coreId="1885413420" contextFuncName="sin_2000" bitwidth="1" opcode="xor" nodeLabel="9.0" m_display="0" m_topoIndex="82" m_clusterGroupNumber="8">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="801" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="85" name="xor_ln889" lineNumber="889" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="xor_ln889_fu_545_p2" opType="xor" coreId="694510703" contextFuncName="sin_2000" bitwidth="1" opcode="xor" nodeLabel="9.0" m_display="0" m_topoIndex="82" m_clusterGroupNumber="8">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="889" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>icmp</dataInputObjs>
       <dataOutputObjs>and</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="86" name="and_ln805" lineNumber="805" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln805_fu_550_p2" opType="and" coreId="1868525665" contextFuncName="sin_2000" bitwidth="1" opcode="and" nodeLabel="9.0" m_display="0" m_topoIndex="83" m_clusterGroupNumber="8">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="805" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="86" name="and_ln893" lineNumber="893" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="and_ln893_fu_550_p2" opType="and" coreId="775173737" contextFuncName="sin_2000" bitwidth="1" opcode="and" nodeLabel="9.0" m_display="0" m_topoIndex="83" m_clusterGroupNumber="8">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="893" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>icmp</dataInputObjs>
       <dataInputObjs>xor</dataInputObjs>
       <dataOutputObjs>select</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="87" name="out_sin_V_6" lineNumber="805" originalName="out_sin.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="out_sin_V_6_fu_555_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="sin_2000" bitwidth="50" opcode="select" nodeLabel="9.0" m_display="0" m_delay="0.8" m_topoIndex="84" m_clusterGroupNumber="8">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="805" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="87" name="out_sin_V_6" lineNumber="893" originalName="out_sin.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="out_sin_V_6_fu_555_p3" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="sin_2000" bitwidth="50" opcode="select" nodeLabel="9.0" m_display="0" m_delay="0.8" m_topoIndex="84" m_clusterGroupNumber="8">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="893" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>and</dataInputObjs>
       <dataInputObjs>sext</dataInputObjs>
       <dataInputObjs>select</dataInputObjs>
@@ -682,36 +682,36 @@
       <dataOutputObjs>select</dataOutputObjs>
       <constName>empty</constName>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="89" name="out_sin_V_8" lineNumber="814" originalName="out_sin.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="ap_return" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="sin_2000" bitwidth="50" opcode="select" nodeLabel="10.0" m_display="0" m_delay="0.74" m_topoIndex="86" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="814" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="89" name="out_sin_V_8" lineNumber="902" originalName="out_sin.V" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." rtlName="ap_return" coreName="Sel" implIndex="auto_sel" control="auto" opType="select" coreId="73" contextFuncName="sin_2000" bitwidth="50" opcode="select" nodeLabel="10.0" m_display="0" m_delay="0.74" m_topoIndex="86" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="902" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>bitselect</dataInputObjs>
       <dataInputObjs>sub</dataInputObjs>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>ret</dataOutputObjs>
     </node_objs>
-    <node_objs xsi:type="cdfg:CdfgNode" id="90" name="_ln821" lineNumber="821" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." coreId="1601200416" contextFuncName="sin_2000" opcode="ret" nodeLabel="10.0" m_display="0" m_topoIndex="87" m_clusterGroupNumber="-1">
-      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="821" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
+    <node_objs xsi:type="cdfg:CdfgNode" id="90" name="_ln909" lineNumber="909" fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" fileDirectory=".." coreId="673197109" contextFuncName="sin_2000" opcode="ret" nodeLabel="10.0" m_display="0" m_topoIndex="87" m_clusterGroupNumber="-1">
+      <inlineStackInfo fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp" linenumber="909" fileDirectory="C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H" functionName="sin_2000"/>
       <dataInputObjs>select</dataInputObjs>
       <dataOutputObjs>ap_return</dataOutputObjs>
     </node_objs>
     <fileValidLineNumbers fileName="../../C-Codes/Fixed_x64/PLL2026_x64.cpp">
-      <validLinenumbers>208</validLinenumbers>
-      <validLinenumbers>219</validLinenumbers>
-      <validLinenumbers>222</validLinenumbers>
-      <validLinenumbers>225</validLinenumbers>
-      <validLinenumbers>231</validLinenumbers>
-      <validLinenumbers>228</validLinenumbers>
-      <validLinenumbers>798</validLinenumbers>
-      <validLinenumbers>799</validLinenumbers>
-      <validLinenumbers>789</validLinenumbers>
-      <validLinenumbers>801</validLinenumbers>
-      <validLinenumbers>803</validLinenumbers>
-      <validLinenumbers>805</validLinenumbers>
-      <validLinenumbers>806</validLinenumbers>
-      <validLinenumbers>807</validLinenumbers>
-      <validLinenumbers>811</validLinenumbers>
-      <validLinenumbers>814</validLinenumbers>
-      <validLinenumbers>821</validLinenumbers>
+      <validLinenumbers>296</validLinenumbers>
+      <validLinenumbers>307</validLinenumbers>
+      <validLinenumbers>310</validLinenumbers>
+      <validLinenumbers>313</validLinenumbers>
+      <validLinenumbers>319</validLinenumbers>
+      <validLinenumbers>316</validLinenumbers>
+      <validLinenumbers>886</validLinenumbers>
+      <validLinenumbers>887</validLinenumbers>
+      <validLinenumbers>877</validLinenumbers>
+      <validLinenumbers>889</validLinenumbers>
+      <validLinenumbers>891</validLinenumbers>
+      <validLinenumbers>893</validLinenumbers>
+      <validLinenumbers>894</validLinenumbers>
+      <validLinenumbers>895</validLinenumbers>
+      <validLinenumbers>899</validLinenumbers>
+      <validLinenumbers>902</validLinenumbers>
+      <validLinenumbers>909</validLinenumbers>
     </fileValidLineNumbers>
     <fileValidLineNumbers fileName="C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h">
       <validLinenumbers>1494</validLinenumbers>
@@ -745,32 +745,32 @@
   <ScheduleInfo time="8"/>
   <ScheduleInfo time="9"/>
   <ScheduleInfo time="10"/>
-  <regnodes realName="icmp_ln798_reg_619">
-    <nodeIds>57</nodeIds>
+  <regnodes realName="icmp_ln889_reg_625">
+    <nodeIds>62</nodeIds>
   </regnodes>
   <regnodes realName="p_Result_s_reg_580">
     <nodeIds>44</nodeIds>
   </regnodes>
-  <regnodes realName="table_addr_3_reg_651">
+  <regnodes realName="table_V_addr_3_reg_651">
     <nodeIds>77</nodeIds>
-  </regnodes>
-  <regnodes realName="table_addr_reg_636">
-    <nodeIds>59</nodeIds>
-  </regnodes>
-  <regnodes realName="table_addr_1_reg_641">
-    <nodeIds>65</nodeIds>
   </regnodes>
   <regnodes realName="trunc_ln831_reg_611">
     <nodeIds>56</nodeIds>
   </regnodes>
-  <regnodes realName="icmp_ln805_reg_631">
-    <nodeIds>68</nodeIds>
-  </regnodes>
   <regnodes realName="trunc_ln851_reg_606">
     <nodeIds>51</nodeIds>
   </regnodes>
+  <regnodes realName="icmp_ln893_reg_631">
+    <nodeIds>68</nodeIds>
+  </regnodes>
+  <regnodes realName="table_V_addr_reg_636">
+    <nodeIds>59</nodeIds>
+  </regnodes>
   <regnodes realName="r_V_reg_596">
     <nodeIds>47</nodeIds>
+  </regnodes>
+  <regnodes realName="table_V_addr_2_reg_646">
+    <nodeIds>71</nodeIds>
   </regnodes>
   <regnodes realName="ret_V_reg_601">
     <nodeIds>48</nodeIds>
@@ -778,53 +778,35 @@
   <regnodes realName="out_sin_V_6_reg_656">
     <nodeIds>87</nodeIds>
   </regnodes>
-  <regnodes realName="icmp_ln801_reg_625">
-    <nodeIds>62</nodeIds>
-  </regnodes>
   <regnodes realName="sext_ln1118_reg_591">
     <nodeIds>46</nodeIds>
   </regnodes>
   <regnodes realName="angulo_V_reg_574">
     <nodeIds>41</nodeIds>
   </regnodes>
-  <regnodes realName="table_addr_2_reg_646">
-    <nodeIds>71</nodeIds>
+  <regnodes realName="table_V_addr_1_reg_641">
+    <nodeIds>65</nodeIds>
+  </regnodes>
+  <regnodes realName="icmp_ln886_reg_619">
+    <nodeIds>57</nodeIds>
   </regnodes>
   <regnodes realName="theta_abs_V_reg_586">
     <nodeIds>45</nodeIds>
   </regnodes>
-  <expressionNodes realName="xor_ln798_fu_527">
-    <nodeIds>82</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="xor_ln801_fu_545">
-    <nodeIds>85</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="and_ln225_fu_185">
-    <nodeIds>17</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="or_ln222_fu_289">
-    <nodeIds>33</nodeIds>
+  <expressionNodes realName="or_ln313_fu_315">
+    <nodeIds>37</nodeIds>
   </expressionNodes>
   <expressionNodes realName="icmp_ln1494_4_fu_197">
     <nodeIds>19</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="and_ln801_fu_532">
-    <nodeIds>83</nodeIds>
+  <expressionNodes realName="and_ln307_1_fu_249">
+    <nodeIds>27</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="icmp_ln798_fu_440">
-    <nodeIds>57</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="sext_ln789_fu_506">
-    <nodeIds>74</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="or_ln219_fu_263">
-    <nodeIds>29</nodeIds>
+  <expressionNodes realName="icmp_ln893_fu_452">
+    <nodeIds>68</nodeIds>
   </expressionNodes>
   <expressionNodes realName="out_sin_V_5_fu_537">
     <nodeIds>84</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="and_ln228_1_fu_333">
-    <nodeIds>40</nodeIds>
   </expressionNodes>
   <expressionNodes realName="icmp_ln851_fu_409">
     <nodeIds>52</nodeIds>
@@ -835,23 +817,23 @@
   <expressionNodes realName="trunc_ln831_fu_436">
     <nodeIds>56</nodeIds>
   </expressionNodes>
+  <expressionNodes realName="table_V_addr_3_gep_fu_103">
+    <nodeIds>77</nodeIds>
+  </expressionNodes>
   <expressionNodes realName="icmp_ln1495_2_fu_203">
     <nodeIds>20</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="zext_ln799_fu_458">
-    <nodeIds>58</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="icmp_ln805_fu_452">
-    <nodeIds>68</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="zext_ln789_1_fu_496">
-    <nodeIds>67</nodeIds>
+  <expressionNodes realName="xor_ln886_fu_527">
+    <nodeIds>82</nodeIds>
   </expressionNodes>
   <expressionNodes realName="angulo_V_8_fu_255">
     <nodeIds>28</nodeIds>
   </expressionNodes>
   <expressionNodes realName="n_aux_fu_472">
     <nodeIds>69</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln891_fu_467">
+    <nodeIds>64</nodeIds>
   </expressionNodes>
   <expressionNodes realName="angulo_V_9_fu_281">
     <nodeIds>32</nodeIds>
@@ -871,8 +853,8 @@
   <expressionNodes realName="trunc_ln851_fu_395">
     <nodeIds>51</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="or_ln225_fu_315">
-    <nodeIds>37</nodeIds>
+  <expressionNodes realName="or_ln310_fu_289">
+    <nodeIds>33</nodeIds>
   </expressionNodes>
   <expressionNodes realName="ret_V_fu_385">
     <nodeIds>48</nodeIds>
@@ -883,26 +865,35 @@
   <expressionNodes realName="ret_V_2_fu_428">
     <nodeIds>55</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="icmp_ln801_fu_446">
-    <nodeIds>62</nodeIds>
+  <expressionNodes realName="and_ln316_1_fu_333">
+    <nodeIds>40</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="sext_ln877_1_fu_516">
+    <nodeIds>80</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="table_V_addr_gep_fu_66">
+    <nodeIds>59</nodeIds>
   </expressionNodes>
   <expressionNodes realName="out_sin_V_4_fu_520">
     <nodeIds>81</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="and_ln222_fu_159">
-    <nodeIds>13</nodeIds>
+  <expressionNodes realName="table_V_addr_2_gep_fu_95">
+    <nodeIds>71</nodeIds>
   </expressionNodes>
   <expressionNodes realName="theta_abs_V_fu_370">
     <nodeIds>45</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="and_ln219_1_fu_249">
-    <nodeIds>27</nodeIds>
+  <expressionNodes realName="icmp_ln886_fu_440">
+    <nodeIds>57</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="sext_ln877_fu_506">
+    <nodeIds>74</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="sub_ln899_fu_482">
+    <nodeIds>75</nodeIds>
   </expressionNodes>
   <expressionNodes realName="angulo_V_6_fu_221">
     <nodeIds>23</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="sext_ln789_1_fu_516">
-    <nodeIds>80</nodeIds>
   </expressionNodes>
   <expressionNodes realName="angulo_V_3_fu_165">
     <nodeIds>14</nodeIds>
@@ -916,29 +907,20 @@
   <expressionNodes realName="xor_ln1494_fu_243">
     <nodeIds>26</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="xor_ln225_fu_321">
-    <nodeIds>38</nodeIds>
-  </expressionNodes>
   <expressionNodes realName="add_ln691_fu_414">
     <nodeIds>53</nodeIds>
   </expressionNodes>
   <expressionNodes realName="angulo_V_5_fu_209">
     <nodeIds>21</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="xor_ln219_fu_269">
-    <nodeIds>30</nodeIds>
+  <expressionNodes realName="xor_ln310_fu_295">
+    <nodeIds>34</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="and_ln228_fu_327">
-    <nodeIds>39</nodeIds>
+  <expressionNodes realName="and_ln307_fu_135">
+    <nodeIds>9</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="sub_ln803_fu_462">
-    <nodeIds>63</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="table_addr_2_gep_fu_95">
-    <nodeIds>71</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="table_addr_3_gep_fu_103">
-    <nodeIds>77</nodeIds>
+  <expressionNodes realName="and_ln313_1_fu_301">
+    <nodeIds>35</nodeIds>
   </expressionNodes>
   <expressionNodes realName="out_sin_V_6_fu_555">
     <nodeIds>87</nodeIds>
@@ -955,11 +937,17 @@
   <expressionNodes realName="sext_ln831_fu_399">
     <nodeIds>49</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="sub_ln811_fu_482">
-    <nodeIds>75</nodeIds>
+  <expressionNodes realName="and_ln310_fu_159">
+    <nodeIds>13</nodeIds>
   </expressionNodes>
   <expressionNodes realName="angulo_V_7_fu_235">
     <nodeIds>25</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="xor_ln889_fu_545">
+    <nodeIds>85</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln877_fu_492">
+    <nodeIds>61</nodeIds>
   </expressionNodes>
   <expressionNodes realName="out_sin_V_3_fu_510">
     <nodeIds>79</nodeIds>
@@ -967,20 +955,23 @@
   <expressionNodes realName="sub_ln703_fu_563">
     <nodeIds>88</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="select_ln231_fu_227">
-    <nodeIds>24</nodeIds>
+  <expressionNodes realName="and_ln889_fu_532">
+    <nodeIds>83</nodeIds>
   </expressionNodes>
   <expressionNodes realName="p_Result_2_fu_360">
     <nodeIds>43</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="table_addr_gep_fu_66">
-    <nodeIds>59</nodeIds>
+  <expressionNodes realName="xor_ln313_fu_321">
+    <nodeIds>38</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="xor_ln222_fu_295">
-    <nodeIds>34</nodeIds>
+  <expressionNodes realName="and_ln893_fu_550">
+    <nodeIds>86</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="and_ln222_1_fu_275">
-    <nodeIds>31</nodeIds>
+  <expressionNodes realName="xor_ln307_fu_269">
+    <nodeIds>30</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln899_fu_487">
+    <nodeIds>76</nodeIds>
   </expressionNodes>
   <expressionNodes realName="angulo_V_1_fu_117">
     <nodeIds>6</nodeIds>
@@ -988,14 +979,17 @@
   <expressionNodes realName="select_ln850_fu_420">
     <nodeIds>54</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="and_ln219_fu_135">
-    <nodeIds>9</nodeIds>
+  <expressionNodes realName="and_ln316_fu_327">
+    <nodeIds>39</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="and_ln805_fu_550">
-    <nodeIds>86</nodeIds>
+  <expressionNodes realName="and_ln313_fu_185">
+    <nodeIds>17</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="zext_ln803_fu_467">
-    <nodeIds>64</nodeIds>
+  <expressionNodes realName="select_ln319_fu_227">
+    <nodeIds>24</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="table_V_addr_1_gep_fu_79">
+    <nodeIds>65</nodeIds>
   </expressionNodes>
   <expressionNodes realName="angulo_V_10_fu_307">
     <nodeIds>36</nodeIds>
@@ -1003,23 +997,17 @@
   <expressionNodes realName="sext_ln1118_fu_376">
     <nodeIds>46</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="zext_ln811_fu_487">
-    <nodeIds>76</nodeIds>
+  <expressionNodes realName="or_ln307_fu_263">
+    <nodeIds>29</nodeIds>
   </expressionNodes>
   <expressionNodes realName="icmp_ln1494_fu_111">
     <nodeIds>5</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="zext_ln807_fu_477">
-    <nodeIds>70</nodeIds>
-  </expressionNodes>
   <expressionNodes realName="out_sin_V_2_fu_500">
     <nodeIds>73</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="and_ln225_1_fu_301">
-    <nodeIds>35</nodeIds>
-  </expressionNodes>
-  <expressionNodes realName="zext_ln789_fu_492">
-    <nodeIds>61</nodeIds>
+  <expressionNodes realName="zext_ln877_1_fu_496">
+    <nodeIds>67</nodeIds>
   </expressionNodes>
   <expressionNodes realName="p_Result_s_fu_347">
     <nodeIds>44</nodeIds>
@@ -1027,11 +1015,23 @@
   <expressionNodes realName="icmp_ln1495_fu_129">
     <nodeIds>8</nodeIds>
   </expressionNodes>
-  <expressionNodes realName="table_addr_1_gep_fu_79">
-    <nodeIds>65</nodeIds>
+  <expressionNodes realName="icmp_ln889_fu_446">
+    <nodeIds>62</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="and_ln310_1_fu_275">
+    <nodeIds>31</nodeIds>
   </expressionNodes>
   <expressionNodes realName="icmp_ln1495_1_fu_153">
     <nodeIds>12</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="sub_ln891_fu_462">
+    <nodeIds>63</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln887_fu_458">
+    <nodeIds>58</nodeIds>
+  </expressionNodes>
+  <expressionNodes realName="zext_ln895_fu_477">
+    <nodeIds>70</nodeIds>
   </expressionNodes>
   <moduleNodes realName="grp_fu_379">
     <nodeIds>47</nodeIds>
@@ -1039,14 +1039,14 @@
   <ioNodes realName="theta_in_read_read_fu_60">
     <nodeIds>4</nodeIds>
   </ioNodes>
-  <memoryPorts dataString="table_r">
+  <memoryPorts dataString="table_V">
     <nodeIds>60</nodeIds>
     <nodeIds>78</nodeIds>
   </memoryPorts>
-  <memoryPorts dataString="table_r" portID="1">
+  <memoryPorts dataString="table_V" portID="1">
     <nodeIds>72</nodeIds>
   </memoryPorts>
-  <memoryPorts dataString="table_r" portID="2">
+  <memoryPorts dataString="table_V" portID="2">
     <nodeIds>66</nodeIds>
   </memoryPorts>
   <ioPorts name="theta_in">

@@ -13,9 +13,18 @@ set C_modelName {PLL2026_x64}
 set C_modelType { void 0 }
 set C_modelArgList {
 	{ sinc int 1 regular  }
+	{ EN1 int 1 regular  }
+	{ EN2 int 1 regular  }
+	{ EN3 int 1 regular  }
+	{ EN4 int 1 regular  }
+	{ EN5 int 1 regular  }
+	{ EN6 int 1 regular  }
 	{ vin_a int 64 regular  }
 	{ vin_b int 64 regular  }
 	{ vin_c int 64 regular  }
+	{ in_1 int 64 regular  }
+	{ in_2 int 64 regular  }
+	{ in_3 int 64 regular  }
 	{ w_out int 64 regular {pointer 1}  }
 	{ theta_out int 64 regular {pointer 1}  }
 	{ pll_alpha_out int 64 regular {pointer 1}  }
@@ -23,21 +32,40 @@ set C_modelArgList {
 	{ amp_vPos_out int 64 regular {pointer 1}  }
 	{ Amp_vneg_out int 64 regular {pointer 1}  }
 	{ delta_out int 64 regular {pointer 1}  }
+	{ v_alfa_in int 64 regular {pointer 1}  }
+	{ v_beta_in int 64 regular {pointer 1}  }
+	{ Amp_vneg_raw_base_out int 64 regular {pointer 1}  }
+	{ q_inv_d_out int 64 regular {pointer 1}  }
+	{ v2_d_limpo_out int 64 regular {pointer 1}  }
 }
 set C_modelArgMapList {[ 
 	{ "Name" : "sinc", "interface" : "wire", "bitwidth" : 1, "direction" : "READONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "sinc","cData": "int1","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
+ 	{ "Name" : "EN1", "interface" : "wire", "bitwidth" : 1, "direction" : "READONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "EN1","cData": "int1","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
+ 	{ "Name" : "EN2", "interface" : "wire", "bitwidth" : 1, "direction" : "READONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "EN2","cData": "int1","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
+ 	{ "Name" : "EN3", "interface" : "wire", "bitwidth" : 1, "direction" : "READONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "EN3","cData": "int1","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
+ 	{ "Name" : "EN4", "interface" : "wire", "bitwidth" : 1, "direction" : "READONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "EN4","cData": "int1","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
+ 	{ "Name" : "EN5", "interface" : "wire", "bitwidth" : 1, "direction" : "READONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "EN5","cData": "int1","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
+ 	{ "Name" : "EN6", "interface" : "wire", "bitwidth" : 1, "direction" : "READONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "EN6","cData": "int1","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
  	{ "Name" : "vin_a", "interface" : "wire", "bitwidth" : 64, "direction" : "READONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "vin_a","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
  	{ "Name" : "vin_b", "interface" : "wire", "bitwidth" : 64, "direction" : "READONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "vin_b","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
  	{ "Name" : "vin_c", "interface" : "wire", "bitwidth" : 64, "direction" : "READONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "vin_c","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
+ 	{ "Name" : "in_1", "interface" : "wire", "bitwidth" : 64, "direction" : "READONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "in_1","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
+ 	{ "Name" : "in_2", "interface" : "wire", "bitwidth" : 64, "direction" : "READONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "in_2","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
+ 	{ "Name" : "in_3", "interface" : "wire", "bitwidth" : 64, "direction" : "READONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "in_3","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
  	{ "Name" : "w_out", "interface" : "wire", "bitwidth" : 64, "direction" : "WRITEONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "w_out","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
  	{ "Name" : "theta_out", "interface" : "wire", "bitwidth" : 64, "direction" : "WRITEONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "theta_out","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
  	{ "Name" : "pll_alpha_out", "interface" : "wire", "bitwidth" : 64, "direction" : "WRITEONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "pll_alpha_out","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
  	{ "Name" : "pll_beta_out", "interface" : "wire", "bitwidth" : 64, "direction" : "WRITEONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "pll_beta_out","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
  	{ "Name" : "amp_vPos_out", "interface" : "wire", "bitwidth" : 64, "direction" : "WRITEONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "amp_vPos_out","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
  	{ "Name" : "Amp_vneg_out", "interface" : "wire", "bitwidth" : 64, "direction" : "WRITEONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "Amp_vneg_out","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
- 	{ "Name" : "delta_out", "interface" : "wire", "bitwidth" : 64, "direction" : "WRITEONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "delta_out","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} ]}
+ 	{ "Name" : "delta_out", "interface" : "wire", "bitwidth" : 64, "direction" : "WRITEONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "delta_out","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
+ 	{ "Name" : "v_alfa_in", "interface" : "wire", "bitwidth" : 64, "direction" : "WRITEONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "v_alfa_in","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
+ 	{ "Name" : "v_beta_in", "interface" : "wire", "bitwidth" : 64, "direction" : "WRITEONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "v_beta_in","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
+ 	{ "Name" : "Amp_vneg_raw_base_out", "interface" : "wire", "bitwidth" : 64, "direction" : "WRITEONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "Amp_vneg_raw_base_out","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
+ 	{ "Name" : "q_inv_d_out", "interface" : "wire", "bitwidth" : 64, "direction" : "WRITEONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "q_inv_d_out","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} , 
+ 	{ "Name" : "v2_d_limpo_out", "interface" : "wire", "bitwidth" : 64, "direction" : "WRITEONLY", "bitSlice":[{"low":0,"up":0,"cElement": [{"cName": "v2_d_limpo_out","cData": "long","bit_use": { "low": 0,"up": 0},"cArray": [{"low" : 0,"up" : 0,"step" : 0}]}]}]} ]}
 # RTL Port declarations: 
-set portNum 24
+set portNum 43
 set portList { 
 	{ ap_clk sc_in sc_logic 1 clock -1 } 
 	{ ap_rst sc_in sc_logic 1 reset -1 active_high_sync } 
@@ -46,23 +74,42 @@ set portList {
 	{ ap_idle sc_out sc_logic 1 done -1 } 
 	{ ap_ready sc_out sc_logic 1 ready -1 } 
 	{ sinc sc_in sc_lv 1 signal 0 } 
-	{ vin_a sc_in sc_lv 64 signal 1 } 
-	{ vin_b sc_in sc_lv 64 signal 2 } 
-	{ vin_c sc_in sc_lv 64 signal 3 } 
-	{ w_out sc_out sc_lv 64 signal 4 } 
-	{ w_out_ap_vld sc_out sc_logic 1 outvld 4 } 
-	{ theta_out sc_out sc_lv 64 signal 5 } 
-	{ theta_out_ap_vld sc_out sc_logic 1 outvld 5 } 
-	{ pll_alpha_out sc_out sc_lv 64 signal 6 } 
-	{ pll_alpha_out_ap_vld sc_out sc_logic 1 outvld 6 } 
-	{ pll_beta_out sc_out sc_lv 64 signal 7 } 
-	{ pll_beta_out_ap_vld sc_out sc_logic 1 outvld 7 } 
-	{ amp_vPos_out sc_out sc_lv 64 signal 8 } 
-	{ amp_vPos_out_ap_vld sc_out sc_logic 1 outvld 8 } 
-	{ Amp_vneg_out sc_out sc_lv 64 signal 9 } 
-	{ Amp_vneg_out_ap_vld sc_out sc_logic 1 outvld 9 } 
-	{ delta_out sc_out sc_lv 64 signal 10 } 
-	{ delta_out_ap_vld sc_out sc_logic 1 outvld 10 } 
+	{ EN1 sc_in sc_lv 1 signal 1 } 
+	{ EN2 sc_in sc_lv 1 signal 2 } 
+	{ EN3 sc_in sc_lv 1 signal 3 } 
+	{ EN4 sc_in sc_lv 1 signal 4 } 
+	{ EN5 sc_in sc_lv 1 signal 5 } 
+	{ EN6 sc_in sc_lv 1 signal 6 } 
+	{ vin_a sc_in sc_lv 64 signal 7 } 
+	{ vin_b sc_in sc_lv 64 signal 8 } 
+	{ vin_c sc_in sc_lv 64 signal 9 } 
+	{ in_1 sc_in sc_lv 64 signal 10 } 
+	{ in_2 sc_in sc_lv 64 signal 11 } 
+	{ in_3 sc_in sc_lv 64 signal 12 } 
+	{ w_out sc_out sc_lv 64 signal 13 } 
+	{ w_out_ap_vld sc_out sc_logic 1 outvld 13 } 
+	{ theta_out sc_out sc_lv 64 signal 14 } 
+	{ theta_out_ap_vld sc_out sc_logic 1 outvld 14 } 
+	{ pll_alpha_out sc_out sc_lv 64 signal 15 } 
+	{ pll_alpha_out_ap_vld sc_out sc_logic 1 outvld 15 } 
+	{ pll_beta_out sc_out sc_lv 64 signal 16 } 
+	{ pll_beta_out_ap_vld sc_out sc_logic 1 outvld 16 } 
+	{ amp_vPos_out sc_out sc_lv 64 signal 17 } 
+	{ amp_vPos_out_ap_vld sc_out sc_logic 1 outvld 17 } 
+	{ Amp_vneg_out sc_out sc_lv 64 signal 18 } 
+	{ Amp_vneg_out_ap_vld sc_out sc_logic 1 outvld 18 } 
+	{ delta_out sc_out sc_lv 64 signal 19 } 
+	{ delta_out_ap_vld sc_out sc_logic 1 outvld 19 } 
+	{ v_alfa_in sc_out sc_lv 64 signal 20 } 
+	{ v_alfa_in_ap_vld sc_out sc_logic 1 outvld 20 } 
+	{ v_beta_in sc_out sc_lv 64 signal 21 } 
+	{ v_beta_in_ap_vld sc_out sc_logic 1 outvld 21 } 
+	{ Amp_vneg_raw_base_out sc_out sc_lv 64 signal 22 } 
+	{ Amp_vneg_raw_base_out_ap_vld sc_out sc_logic 1 outvld 22 } 
+	{ q_inv_d_out sc_out sc_lv 64 signal 23 } 
+	{ q_inv_d_out_ap_vld sc_out sc_logic 1 outvld 23 } 
+	{ v2_d_limpo_out sc_out sc_lv 64 signal 24 } 
+	{ v2_d_limpo_out_ap_vld sc_out sc_logic 1 outvld 24 } 
 }
 set NewPortList {[ 
 	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
@@ -72,9 +119,18 @@ set NewPortList {[
  	{ "name": "ap_idle", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "done", "bundle":{"name": "ap_idle", "role": "default" }} , 
  	{ "name": "ap_ready", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "ready", "bundle":{"name": "ap_ready", "role": "default" }} , 
  	{ "name": "sinc", "direction": "in", "datatype": "sc_lv", "bitwidth":1, "type": "signal", "bundle":{"name": "sinc", "role": "default" }} , 
+ 	{ "name": "EN1", "direction": "in", "datatype": "sc_lv", "bitwidth":1, "type": "signal", "bundle":{"name": "EN1", "role": "default" }} , 
+ 	{ "name": "EN2", "direction": "in", "datatype": "sc_lv", "bitwidth":1, "type": "signal", "bundle":{"name": "EN2", "role": "default" }} , 
+ 	{ "name": "EN3", "direction": "in", "datatype": "sc_lv", "bitwidth":1, "type": "signal", "bundle":{"name": "EN3", "role": "default" }} , 
+ 	{ "name": "EN4", "direction": "in", "datatype": "sc_lv", "bitwidth":1, "type": "signal", "bundle":{"name": "EN4", "role": "default" }} , 
+ 	{ "name": "EN5", "direction": "in", "datatype": "sc_lv", "bitwidth":1, "type": "signal", "bundle":{"name": "EN5", "role": "default" }} , 
+ 	{ "name": "EN6", "direction": "in", "datatype": "sc_lv", "bitwidth":1, "type": "signal", "bundle":{"name": "EN6", "role": "default" }} , 
  	{ "name": "vin_a", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "vin_a", "role": "default" }} , 
  	{ "name": "vin_b", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "vin_b", "role": "default" }} , 
  	{ "name": "vin_c", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "vin_c", "role": "default" }} , 
+ 	{ "name": "in_1", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "in_1", "role": "default" }} , 
+ 	{ "name": "in_2", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "in_2", "role": "default" }} , 
+ 	{ "name": "in_3", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "in_3", "role": "default" }} , 
  	{ "name": "w_out", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "w_out", "role": "default" }} , 
  	{ "name": "w_out_ap_vld", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "outvld", "bundle":{"name": "w_out", "role": "ap_vld" }} , 
  	{ "name": "theta_out", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "theta_out", "role": "default" }} , 
@@ -88,10 +144,20 @@ set NewPortList {[
  	{ "name": "Amp_vneg_out", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "Amp_vneg_out", "role": "default" }} , 
  	{ "name": "Amp_vneg_out_ap_vld", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "outvld", "bundle":{"name": "Amp_vneg_out", "role": "ap_vld" }} , 
  	{ "name": "delta_out", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "delta_out", "role": "default" }} , 
- 	{ "name": "delta_out_ap_vld", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "outvld", "bundle":{"name": "delta_out", "role": "ap_vld" }}  ]}
+ 	{ "name": "delta_out_ap_vld", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "outvld", "bundle":{"name": "delta_out", "role": "ap_vld" }} , 
+ 	{ "name": "v_alfa_in", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "v_alfa_in", "role": "default" }} , 
+ 	{ "name": "v_alfa_in_ap_vld", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "outvld", "bundle":{"name": "v_alfa_in", "role": "ap_vld" }} , 
+ 	{ "name": "v_beta_in", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "v_beta_in", "role": "default" }} , 
+ 	{ "name": "v_beta_in_ap_vld", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "outvld", "bundle":{"name": "v_beta_in", "role": "ap_vld" }} , 
+ 	{ "name": "Amp_vneg_raw_base_out", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "Amp_vneg_raw_base_out", "role": "default" }} , 
+ 	{ "name": "Amp_vneg_raw_base_out_ap_vld", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "outvld", "bundle":{"name": "Amp_vneg_raw_base_out", "role": "ap_vld" }} , 
+ 	{ "name": "q_inv_d_out", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "q_inv_d_out", "role": "default" }} , 
+ 	{ "name": "q_inv_d_out_ap_vld", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "outvld", "bundle":{"name": "q_inv_d_out", "role": "ap_vld" }} , 
+ 	{ "name": "v2_d_limpo_out", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "v2_d_limpo_out", "role": "default" }} , 
+ 	{ "name": "v2_d_limpo_out_ap_vld", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "outvld", "bundle":{"name": "v2_d_limpo_out", "role": "ap_vld" }}  ]}
 
 set RtlHierarchyInfo {[
-	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "5", "6", "7", "8", "14", "17", "20", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48"],
+	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "7", "10", "16", "22", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47"],
 		"CDFG" : "PLL2026_x64",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
@@ -106,9 +172,18 @@ set RtlHierarchyInfo {[
 		"HasNonBlockingOperation" : "0",
 		"Port" : [
 			{"Name" : "sinc", "Type" : "None", "Direction" : "I"},
+			{"Name" : "EN1", "Type" : "None", "Direction" : "I"},
+			{"Name" : "EN2", "Type" : "None", "Direction" : "I"},
+			{"Name" : "EN3", "Type" : "None", "Direction" : "I"},
+			{"Name" : "EN4", "Type" : "None", "Direction" : "I"},
+			{"Name" : "EN5", "Type" : "None", "Direction" : "I"},
+			{"Name" : "EN6", "Type" : "None", "Direction" : "I"},
 			{"Name" : "vin_a", "Type" : "None", "Direction" : "I"},
 			{"Name" : "vin_b", "Type" : "None", "Direction" : "I"},
 			{"Name" : "vin_c", "Type" : "None", "Direction" : "I"},
+			{"Name" : "in_1", "Type" : "None", "Direction" : "I"},
+			{"Name" : "in_2", "Type" : "None", "Direction" : "I"},
+			{"Name" : "in_3", "Type" : "None", "Direction" : "I"},
 			{"Name" : "w_out", "Type" : "Vld", "Direction" : "O"},
 			{"Name" : "theta_out", "Type" : "Vld", "Direction" : "O"},
 			{"Name" : "pll_alpha_out", "Type" : "Vld", "Direction" : "O"},
@@ -116,48 +191,116 @@ set RtlHierarchyInfo {[
 			{"Name" : "amp_vPos_out", "Type" : "Vld", "Direction" : "O"},
 			{"Name" : "Amp_vneg_out", "Type" : "Vld", "Direction" : "O"},
 			{"Name" : "delta_out", "Type" : "Vld", "Direction" : "O"},
+			{"Name" : "v_alfa_in", "Type" : "Vld", "Direction" : "O"},
+			{"Name" : "v_beta_in", "Type" : "Vld", "Direction" : "O"},
+			{"Name" : "Amp_vneg_raw_base_out", "Type" : "Vld", "Direction" : "O"},
+			{"Name" : "q_inv_d_out", "Type" : "Vld", "Direction" : "O"},
+			{"Name" : "v2_d_limpo_out", "Type" : "Vld", "Direction" : "O"},
 			{"Name" : "aux_sinc_V", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "theta1_V", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "delta_V", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "Amp_vneg_V", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "v_alfa_V", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "v_beta_V", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "amp_vPos_V", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "v2_d_limpo_V", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "wi_V", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "table_r", "Type" : "Memory", "Direction" : "I",
+			{"Name" : "table_V", "Type" : "Memory", "Direction" : "I",
 				"SubConnect" : [
-					{"ID" : "14", "SubInstance" : "grp_cos_2000_fu_489", "Port" : "table_r"},
-					{"ID" : "17", "SubInstance" : "grp_cos_2000_fu_496", "Port" : "table_r"},
-					{"ID" : "20", "SubInstance" : "grp_sin_2000_fu_503", "Port" : "table_r"}]},
+					{"ID" : "4", "SubInstance" : "grp_cos_2000_fu_600", "Port" : "table_V"},
+					{"ID" : "7", "SubInstance" : "grp_cos_2000_fu_607", "Port" : "table_V"},
+					{"ID" : "22", "SubInstance" : "grp_sin_2000_fu_636", "Port" : "table_V"}]},
 			{"Name" : "v1_q_comp_V", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "v1_d_comp_V", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "w_V", "Type" : "OVld", "Direction" : "IO"},
-			{"Name" : "mask_table", "Type" : "Memory", "Direction" : "I",
+			{"Name" : "table_mark_V_1", "Type" : "Memory", "Direction" : "I",
 				"SubConnect" : [
-					{"ID" : "8", "SubInstance" : "grp_INV_LUT_fu_476", "Port" : "mask_table"}]},
-			{"Name" : "table_mark", "Type" : "Memory", "Direction" : "I",
+					{"ID" : "16", "SubInstance" : "grp_INV_LUT_fu_625", "Port" : "table_mark_V_1"}]},
+			{"Name" : "table_m_V_1", "Type" : "Memory", "Direction" : "I",
 				"SubConnect" : [
-					{"ID" : "8", "SubInstance" : "grp_INV_LUT_fu_476", "Port" : "table_mark"}]},
-			{"Name" : "table_m", "Type" : "Memory", "Direction" : "I",
+					{"ID" : "16", "SubInstance" : "grp_INV_LUT_fu_625", "Port" : "table_m_V_1"}]},
+			{"Name" : "table_n_V_1", "Type" : "Memory", "Direction" : "I",
 				"SubConnect" : [
-					{"ID" : "8", "SubInstance" : "grp_INV_LUT_fu_476", "Port" : "table_m"}]},
-			{"Name" : "table_n", "Type" : "Memory", "Direction" : "I",
+					{"ID" : "16", "SubInstance" : "grp_INV_LUT_fu_625", "Port" : "table_n_V_1"}]},
+			{"Name" : "q_inv_d_V", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "table_mark_V_2", "Type" : "Memory", "Direction" : "I",
 				"SubConnect" : [
-					{"ID" : "8", "SubInstance" : "grp_INV_LUT_fu_476", "Port" : "table_n"}]},
-			{"Name" : "table_mark_1", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "table_m_2", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "table_n_3", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "table_mark_4", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "table_m_5", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "table_n_6", "Type" : "Memory", "Direction" : "I"},
+					{"ID" : "10", "SubInstance" : "grp_ATAN_LUT_signed_fu_614", "Port" : "table_mark_V_2"}]},
+			{"Name" : "table_m_V_2", "Type" : "Memory", "Direction" : "I",
+				"SubConnect" : [
+					{"ID" : "10", "SubInstance" : "grp_ATAN_LUT_signed_fu_614", "Port" : "table_m_V_2"}]},
+			{"Name" : "table_n_V_2", "Type" : "Memory", "Direction" : "I",
+				"SubConnect" : [
+					{"ID" : "10", "SubInstance" : "grp_ATAN_LUT_signed_fu_614", "Port" : "table_n_V_2"}]},
+			{"Name" : "Amp_vneg_raw_base_V", "Type" : "OVld", "Direction" : "IO"},
+			{"Name" : "table_mark_V", "Type" : "Memory", "Direction" : "I"},
+			{"Name" : "table_m_V", "Type" : "Memory", "Direction" : "I"},
+			{"Name" : "table_n_V", "Type" : "Memory", "Direction" : "I"},
 			{"Name" : "pll_alfa_V", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "pll_beta_V", "Type" : "OVld", "Direction" : "IO"}]},
-	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mask_table_U", "Parent" : "0"},
-	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_mark_1_U", "Parent" : "0"},
-	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_m_2_U", "Parent" : "0"},
-	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_n_3_U", "Parent" : "0"},
-	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_mark_4_U", "Parent" : "0"},
-	{"ID" : "6", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_m_5_U", "Parent" : "0"},
-	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_n_6_U", "Parent" : "0"},
-	{"ID" : "8", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_INV_LUT_fu_476", "Parent" : "0", "Child" : ["9", "10", "11", "12", "13"],
+	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_mark_V_U", "Parent" : "0"},
+	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_m_V_U", "Parent" : "0"},
+	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_n_V_U", "Parent" : "0"},
+	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_cos_2000_fu_600", "Parent" : "0", "Child" : ["5", "6"],
+		"CDFG" : "cos_2000",
+		"Protocol" : "ap_ctrl_hs",
+		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
+		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
+		"II" : "0",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "12", "EstimateLatencyMax" : "12",
+		"Combinational" : "0",
+		"Datapath" : "0",
+		"ClockEnable" : "0",
+		"HasSubDataflow" : "0",
+		"InDataflowNetwork" : "0",
+		"HasNonBlockingOperation" : "0",
+		"Port" : [
+			{"Name" : "theta_in", "Type" : "None", "Direction" : "I"},
+			{"Name" : "table_V", "Type" : "Memory", "Direction" : "I"}]},
+	{"ID" : "5", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_cos_2000_fu_600.table_V_U", "Parent" : "4"},
+	{"ID" : "6", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_cos_2000_fu_600.mul_64s_58ns_121_5_1_U5", "Parent" : "4"},
+	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_cos_2000_fu_607", "Parent" : "0", "Child" : ["8", "9"],
+		"CDFG" : "cos_2000",
+		"Protocol" : "ap_ctrl_hs",
+		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
+		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
+		"II" : "0",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "12", "EstimateLatencyMax" : "12",
+		"Combinational" : "0",
+		"Datapath" : "0",
+		"ClockEnable" : "0",
+		"HasSubDataflow" : "0",
+		"InDataflowNetwork" : "0",
+		"HasNonBlockingOperation" : "0",
+		"Port" : [
+			{"Name" : "theta_in", "Type" : "None", "Direction" : "I"},
+			{"Name" : "table_V", "Type" : "Memory", "Direction" : "I"}]},
+	{"ID" : "8", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_cos_2000_fu_607.table_V_U", "Parent" : "7"},
+	{"ID" : "9", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_cos_2000_fu_607.mul_64s_58ns_121_5_1_U5", "Parent" : "7"},
+	{"ID" : "10", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_ATAN_LUT_signed_fu_614", "Parent" : "0", "Child" : ["11", "12", "13", "14", "15"],
+		"CDFG" : "ATAN_LUT_signed",
+		"Protocol" : "ap_ctrl_hs",
+		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
+		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
+		"II" : "0",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "-1", "EstimateLatencyMax" : "-1",
+		"Combinational" : "0",
+		"Datapath" : "0",
+		"ClockEnable" : "0",
+		"HasSubDataflow" : "0",
+		"InDataflowNetwork" : "0",
+		"HasNonBlockingOperation" : "0",
+		"Port" : [
+			{"Name" : "x", "Type" : "None", "Direction" : "I"},
+			{"Name" : "table_mark_V_2", "Type" : "Memory", "Direction" : "I"},
+			{"Name" : "table_m_V_2", "Type" : "Memory", "Direction" : "I"},
+			{"Name" : "table_n_V_2", "Type" : "Memory", "Direction" : "I"}]},
+	{"ID" : "11", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_ATAN_LUT_signed_fu_614.table_mark_V_2_U", "Parent" : "10"},
+	{"ID" : "12", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_ATAN_LUT_signed_fu_614.table_m_V_2_U", "Parent" : "10"},
+	{"ID" : "13", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_ATAN_LUT_signed_fu_614.table_n_V_2_U", "Parent" : "10"},
+	{"ID" : "14", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_ATAN_LUT_signed_fu_614.mul_48ns_64ns_111_5_1_U15", "Parent" : "10"},
+	{"ID" : "15", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_ATAN_LUT_signed_fu_614.mul_48ns_64s_112_5_1_U16", "Parent" : "10"},
+	{"ID" : "16", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_INV_LUT_fu_625", "Parent" : "0", "Child" : ["17", "18", "19", "20", "21"],
 		"CDFG" : "INV_LUT",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
@@ -172,52 +315,15 @@ set RtlHierarchyInfo {[
 		"HasNonBlockingOperation" : "0",
 		"Port" : [
 			{"Name" : "x", "Type" : "None", "Direction" : "I"},
-			{"Name" : "mask_table", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "table_mark", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "table_m", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "table_n", "Type" : "Memory", "Direction" : "I"}]},
-	{"ID" : "9", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_INV_LUT_fu_476.mask_table_U", "Parent" : "8"},
-	{"ID" : "10", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_INV_LUT_fu_476.table_mark_U", "Parent" : "8"},
-	{"ID" : "11", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_INV_LUT_fu_476.table_m_U", "Parent" : "8"},
-	{"ID" : "12", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_INV_LUT_fu_476.table_n_U", "Parent" : "8"},
-	{"ID" : "13", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_INV_LUT_fu_476.dcmp_64ns_64ns_1_2_no_dsp_1_U9", "Parent" : "8"},
-	{"ID" : "14", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_cos_2000_fu_489", "Parent" : "0", "Child" : ["15", "16"],
-		"CDFG" : "cos_2000",
-		"Protocol" : "ap_ctrl_hs",
-		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
-		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
-		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "12", "EstimateLatencyMax" : "12",
-		"Combinational" : "0",
-		"Datapath" : "0",
-		"ClockEnable" : "0",
-		"HasSubDataflow" : "0",
-		"InDataflowNetwork" : "0",
-		"HasNonBlockingOperation" : "0",
-		"Port" : [
-			{"Name" : "theta_in", "Type" : "None", "Direction" : "I"},
-			{"Name" : "table_r", "Type" : "Memory", "Direction" : "I"}]},
-	{"ID" : "15", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_cos_2000_fu_489.table_r_U", "Parent" : "14"},
-	{"ID" : "16", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_cos_2000_fu_489.mul_64s_58ns_121_5_1_U5", "Parent" : "14"},
-	{"ID" : "17", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_cos_2000_fu_496", "Parent" : "0", "Child" : ["18", "19"],
-		"CDFG" : "cos_2000",
-		"Protocol" : "ap_ctrl_hs",
-		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
-		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
-		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "12", "EstimateLatencyMax" : "12",
-		"Combinational" : "0",
-		"Datapath" : "0",
-		"ClockEnable" : "0",
-		"HasSubDataflow" : "0",
-		"InDataflowNetwork" : "0",
-		"HasNonBlockingOperation" : "0",
-		"Port" : [
-			{"Name" : "theta_in", "Type" : "None", "Direction" : "I"},
-			{"Name" : "table_r", "Type" : "Memory", "Direction" : "I"}]},
-	{"ID" : "18", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_cos_2000_fu_496.table_r_U", "Parent" : "17"},
-	{"ID" : "19", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_cos_2000_fu_496.mul_64s_58ns_121_5_1_U5", "Parent" : "17"},
-	{"ID" : "20", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_503", "Parent" : "0", "Child" : ["21", "22"],
+			{"Name" : "table_mark_V_1", "Type" : "Memory", "Direction" : "I"},
+			{"Name" : "table_m_V_1", "Type" : "Memory", "Direction" : "I"},
+			{"Name" : "table_n_V_1", "Type" : "Memory", "Direction" : "I"}]},
+	{"ID" : "17", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_INV_LUT_fu_625.table_mark_V_1_U", "Parent" : "16"},
+	{"ID" : "18", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_INV_LUT_fu_625.table_m_V_1_U", "Parent" : "16"},
+	{"ID" : "19", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_INV_LUT_fu_625.table_n_V_1_U", "Parent" : "16"},
+	{"ID" : "20", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_INV_LUT_fu_625.dcmp_64ns_64ns_1_2_no_dsp_1_U7", "Parent" : "16"},
+	{"ID" : "21", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_INV_LUT_fu_625.mul_63s_64s_112_5_1_U8", "Parent" : "16"},
+	{"ID" : "22", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_636", "Parent" : "0", "Child" : ["23", "24"],
 		"CDFG" : "sin_2000",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
@@ -232,87 +338,106 @@ set RtlHierarchyInfo {[
 		"HasNonBlockingOperation" : "0",
 		"Port" : [
 			{"Name" : "theta_in", "Type" : "None", "Direction" : "I"},
-			{"Name" : "table_r", "Type" : "Memory", "Direction" : "I"}]},
-	{"ID" : "21", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_503.table_r_U", "Parent" : "20"},
-	{"ID" : "22", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_503.mul_64s_58ns_121_5_1_U1", "Parent" : "20"},
-	{"ID" : "23", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.dadd_64ns_64ns_64_5_full_dsp_1_U22", "Parent" : "0"},
-	{"ID" : "24", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.dmul_64ns_64ns_64_6_max_dsp_1_U23", "Parent" : "0"},
-	{"ID" : "25", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.sitodp_32ns_64_6_no_dsp_1_U24", "Parent" : "0"},
-	{"ID" : "26", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_113s_49ns_160_5_1_U25", "Parent" : "0"},
-	{"ID" : "27", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_65s_49ns_112_5_1_U26", "Parent" : "0"},
-	{"ID" : "28", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U27", "Parent" : "0"},
-	{"ID" : "29", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U28", "Parent" : "0"},
-	{"ID" : "30", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U29", "Parent" : "0"},
-	{"ID" : "31", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U30", "Parent" : "0"},
-	{"ID" : "32", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_50s_112_5_1_U31", "Parent" : "0"},
-	{"ID" : "33", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_87ns_150_5_1_U32", "Parent" : "0"},
-	{"ID" : "34", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_54ns_112_5_1_U33", "Parent" : "0"},
-	{"ID" : "35", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_50s_112_5_1_U34", "Parent" : "0"},
-	{"ID" : "36", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_29ns_92_5_1_U35", "Parent" : "0"},
-	{"ID" : "37", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_64s_112_5_1_U36", "Parent" : "0"},
-	{"ID" : "38", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_64s_112_5_1_U37", "Parent" : "0"},
-	{"ID" : "39", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_64s_112_5_1_U38", "Parent" : "0"},
-	{"ID" : "40", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_48ns_64s_112_5_1_U39", "Parent" : "0"},
-	{"ID" : "41", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_50s_112_5_1_U40", "Parent" : "0"},
-	{"ID" : "42", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_50s_112_5_1_U41", "Parent" : "0"},
-	{"ID" : "43", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_49ns_64s_112_5_1_U42", "Parent" : "0"},
-	{"ID" : "44", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_65s_87ns_151_5_1_U43", "Parent" : "0"},
-	{"ID" : "45", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_65s_89ns_153_5_1_U44", "Parent" : "0"},
-	{"ID" : "46", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_50s_112_5_1_U45", "Parent" : "0"},
-	{"ID" : "47", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_50s_112_5_1_U46", "Parent" : "0"},
-	{"ID" : "48", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_63s_64s_112_5_1_U47", "Parent" : "0"}]}
+			{"Name" : "table_V", "Type" : "Memory", "Direction" : "I"}]},
+	{"ID" : "23", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_636.table_V_U", "Parent" : "22"},
+	{"ID" : "24", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_636.mul_64s_58ns_121_5_1_U1", "Parent" : "22"},
+	{"ID" : "25", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_113s_49ns_160_5_1_U23", "Parent" : "0"},
+	{"ID" : "26", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_65s_49ns_112_5_1_U24", "Parent" : "0"},
+	{"ID" : "27", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_50s_112_5_1_U25", "Parent" : "0"},
+	{"ID" : "28", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_50s_112_5_1_U26", "Parent" : "0"},
+	{"ID" : "29", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U27", "Parent" : "0"},
+	{"ID" : "30", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_50s_112_5_1_U28", "Parent" : "0"},
+	{"ID" : "31", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_89ns_152_5_1_U29", "Parent" : "0"},
+	{"ID" : "32", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_54ns_112_5_1_U30", "Parent" : "0"},
+	{"ID" : "33", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_50s_112_5_1_U31", "Parent" : "0"},
+	{"ID" : "34", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_50s_112_5_1_U32", "Parent" : "0"},
+	{"ID" : "35", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_31ns_94_5_1_U33", "Parent" : "0"},
+	{"ID" : "36", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_46ns_109_5_1_U34", "Parent" : "0"},
+	{"ID" : "37", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_64s_112_5_1_U35", "Parent" : "0"},
+	{"ID" : "38", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_64s_112_5_1_U36", "Parent" : "0"},
+	{"ID" : "39", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_64s_112_5_1_U37", "Parent" : "0"},
+	{"ID" : "40", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_49ns_64ns_112_5_1_U38", "Parent" : "0"},
+	{"ID" : "41", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U39", "Parent" : "0"},
+	{"ID" : "42", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_50s_112_5_1_U40", "Parent" : "0"},
+	{"ID" : "43", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_49ns_64ns_112_5_1_U41", "Parent" : "0"},
+	{"ID" : "44", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_65s_89ns_153_5_1_U42", "Parent" : "0"},
+	{"ID" : "45", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_65s_91ns_155_5_1_U43", "Parent" : "0"},
+	{"ID" : "46", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U44", "Parent" : "0"},
+	{"ID" : "47", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U45", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {
 	PLL2026_x64 {
 		sinc {Type I LastRead 0 FirstWrite -1}
+		EN1 {Type I LastRead 0 FirstWrite -1}
+		EN2 {Type I LastRead 0 FirstWrite -1}
+		EN3 {Type I LastRead 0 FirstWrite -1}
+		EN4 {Type I LastRead 0 FirstWrite -1}
+		EN5 {Type I LastRead 0 FirstWrite -1}
+		EN6 {Type I LastRead 0 FirstWrite -1}
 		vin_a {Type I LastRead 0 FirstWrite -1}
 		vin_b {Type I LastRead 0 FirstWrite -1}
 		vin_c {Type I LastRead 0 FirstWrite -1}
-		w_out {Type O LastRead -1 FirstWrite 54}
-		theta_out {Type O LastRead -1 FirstWrite 54}
-		pll_alpha_out {Type O LastRead -1 FirstWrite 54}
-		pll_beta_out {Type O LastRead -1 FirstWrite 54}
-		amp_vPos_out {Type O LastRead -1 FirstWrite 54}
-		Amp_vneg_out {Type O LastRead -1 FirstWrite 54}
-		delta_out {Type O LastRead -1 FirstWrite 54}
+		in_1 {Type I LastRead 0 FirstWrite -1}
+		in_2 {Type I LastRead 0 FirstWrite -1}
+		in_3 {Type I LastRead 0 FirstWrite -1}
+		w_out {Type O LastRead -1 FirstWrite 63}
+		theta_out {Type O LastRead -1 FirstWrite 63}
+		pll_alpha_out {Type O LastRead -1 FirstWrite 63}
+		pll_beta_out {Type O LastRead -1 FirstWrite 63}
+		amp_vPos_out {Type O LastRead -1 FirstWrite 63}
+		Amp_vneg_out {Type O LastRead -1 FirstWrite 63}
+		delta_out {Type O LastRead -1 FirstWrite 63}
+		v_alfa_in {Type O LastRead -1 FirstWrite 63}
+		v_beta_in {Type O LastRead -1 FirstWrite 63}
+		Amp_vneg_raw_base_out {Type O LastRead -1 FirstWrite 63}
+		q_inv_d_out {Type O LastRead -1 FirstWrite 63}
+		v2_d_limpo_out {Type O LastRead -1 FirstWrite 63}
 		aux_sinc_V {Type IO LastRead -1 FirstWrite -1}
 		theta1_V {Type IO LastRead -1 FirstWrite -1}
 		delta_V {Type IO LastRead -1 FirstWrite -1}
 		Amp_vneg_V {Type IO LastRead -1 FirstWrite -1}
+		v_alfa_V {Type IO LastRead -1 FirstWrite -1}
+		v_beta_V {Type IO LastRead -1 FirstWrite -1}
 		amp_vPos_V {Type IO LastRead -1 FirstWrite -1}
+		v2_d_limpo_V {Type IO LastRead -1 FirstWrite -1}
 		wi_V {Type IO LastRead -1 FirstWrite -1}
-		table_r {Type I LastRead -1 FirstWrite -1}
+		table_V {Type I LastRead -1 FirstWrite -1}
 		v1_q_comp_V {Type IO LastRead -1 FirstWrite -1}
 		v1_d_comp_V {Type IO LastRead -1 FirstWrite -1}
 		w_V {Type IO LastRead -1 FirstWrite -1}
-		mask_table {Type I LastRead -1 FirstWrite -1}
-		table_mark {Type I LastRead -1 FirstWrite -1}
-		table_m {Type I LastRead -1 FirstWrite -1}
-		table_n {Type I LastRead -1 FirstWrite -1}
-		table_mark_1 {Type I LastRead -1 FirstWrite -1}
-		table_m_2 {Type I LastRead -1 FirstWrite -1}
-		table_n_3 {Type I LastRead -1 FirstWrite -1}
-		table_mark_4 {Type I LastRead -1 FirstWrite -1}
-		table_m_5 {Type I LastRead -1 FirstWrite -1}
-		table_n_6 {Type I LastRead -1 FirstWrite -1}
+		table_mark_V_1 {Type I LastRead -1 FirstWrite -1}
+		table_m_V_1 {Type I LastRead -1 FirstWrite -1}
+		table_n_V_1 {Type I LastRead -1 FirstWrite -1}
+		q_inv_d_V {Type IO LastRead -1 FirstWrite -1}
+		table_mark_V_2 {Type I LastRead -1 FirstWrite -1}
+		table_m_V_2 {Type I LastRead -1 FirstWrite -1}
+		table_n_V_2 {Type I LastRead -1 FirstWrite -1}
+		Amp_vneg_raw_base_V {Type IO LastRead -1 FirstWrite -1}
+		table_mark_V {Type I LastRead -1 FirstWrite -1}
+		table_m_V {Type I LastRead -1 FirstWrite -1}
+		table_n_V {Type I LastRead -1 FirstWrite -1}
 		pll_alfa_V {Type IO LastRead -1 FirstWrite -1}
 		pll_beta_V {Type IO LastRead -1 FirstWrite -1}}
+	cos_2000 {
+		theta_in {Type I LastRead 0 FirstWrite -1}
+		table_V {Type I LastRead -1 FirstWrite -1}}
+	cos_2000 {
+		theta_in {Type I LastRead 0 FirstWrite -1}
+		table_V {Type I LastRead -1 FirstWrite -1}}
+	ATAN_LUT_signed {
+		x {Type I LastRead 0 FirstWrite -1}
+		table_mark_V_2 {Type I LastRead -1 FirstWrite -1}
+		table_m_V_2 {Type I LastRead -1 FirstWrite -1}
+		table_n_V_2 {Type I LastRead -1 FirstWrite -1}}
 	INV_LUT {
 		x {Type I LastRead 0 FirstWrite -1}
-		mask_table {Type I LastRead -1 FirstWrite -1}
-		table_mark {Type I LastRead -1 FirstWrite -1}
-		table_m {Type I LastRead -1 FirstWrite -1}
-		table_n {Type I LastRead -1 FirstWrite -1}}
-	cos_2000 {
-		theta_in {Type I LastRead 0 FirstWrite -1}
-		table_r {Type I LastRead -1 FirstWrite -1}}
-	cos_2000 {
-		theta_in {Type I LastRead 0 FirstWrite -1}
-		table_r {Type I LastRead -1 FirstWrite -1}}
+		table_mark_V_1 {Type I LastRead -1 FirstWrite -1}
+		table_m_V_1 {Type I LastRead -1 FirstWrite -1}
+		table_n_V_1 {Type I LastRead -1 FirstWrite -1}}
 	sin_2000 {
 		theta_in {Type I LastRead 0 FirstWrite -1}
-		table_r {Type I LastRead -1 FirstWrite -1}}}
+		table_V {Type I LastRead -1 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 
@@ -326,9 +451,18 @@ set PipelineEnableSignalInfo {[
 
 set Spec2ImplPortList { 
 	sinc { ap_none {  { sinc in_data 0 1 } } }
+	EN1 { ap_none {  { EN1 in_data 0 1 } } }
+	EN2 { ap_none {  { EN2 in_data 0 1 } } }
+	EN3 { ap_none {  { EN3 in_data 0 1 } } }
+	EN4 { ap_none {  { EN4 in_data 0 1 } } }
+	EN5 { ap_none {  { EN5 in_data 0 1 } } }
+	EN6 { ap_none {  { EN6 in_data 0 1 } } }
 	vin_a { ap_none {  { vin_a in_data 0 64 } } }
 	vin_b { ap_none {  { vin_b in_data 0 64 } } }
 	vin_c { ap_none {  { vin_c in_data 0 64 } } }
+	in_1 { ap_none {  { in_1 in_data 0 64 } } }
+	in_2 { ap_none {  { in_2 in_data 0 64 } } }
+	in_3 { ap_none {  { in_3 in_data 0 64 } } }
 	w_out { ap_vld {  { w_out out_data 1 64 }  { w_out_ap_vld out_vld 1 1 } } }
 	theta_out { ap_vld {  { theta_out out_data 1 64 }  { theta_out_ap_vld out_vld 1 1 } } }
 	pll_alpha_out { ap_vld {  { pll_alpha_out out_data 1 64 }  { pll_alpha_out_ap_vld out_vld 1 1 } } }
@@ -336,6 +470,11 @@ set Spec2ImplPortList {
 	amp_vPos_out { ap_vld {  { amp_vPos_out out_data 1 64 }  { amp_vPos_out_ap_vld out_vld 1 1 } } }
 	Amp_vneg_out { ap_vld {  { Amp_vneg_out out_data 1 64 }  { Amp_vneg_out_ap_vld out_vld 1 1 } } }
 	delta_out { ap_vld {  { delta_out out_data 1 64 }  { delta_out_ap_vld out_vld 1 1 } } }
+	v_alfa_in { ap_vld {  { v_alfa_in out_data 1 64 }  { v_alfa_in_ap_vld out_vld 1 1 } } }
+	v_beta_in { ap_vld {  { v_beta_in out_data 1 64 }  { v_beta_in_ap_vld out_vld 1 1 } } }
+	Amp_vneg_raw_base_out { ap_vld {  { Amp_vneg_raw_base_out out_data 1 64 }  { Amp_vneg_raw_base_out_ap_vld out_vld 1 1 } } }
+	q_inv_d_out { ap_vld {  { q_inv_d_out out_data 1 64 }  { q_inv_d_out_ap_vld out_vld 1 1 } } }
+	v2_d_limpo_out { ap_vld {  { v2_d_limpo_out out_data 1 64 }  { v2_d_limpo_out_ap_vld out_vld 1 1 } } }
 }
 
 set busDeadlockParameterList { 

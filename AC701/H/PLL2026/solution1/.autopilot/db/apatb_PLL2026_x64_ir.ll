@@ -11,7 +11,7 @@ target triple = "fpga64-xilinx-none"
 %struct.ssdm_int.0 = type { i64 }
 
 ; Function Attrs: noinline
-define void @apatb_PLL2026_x64_ir(%struct.ap_uint* nocapture readonly %sinc, %struct.ap_fixed* nocapture readonly %vin_a, %struct.ap_fixed* nocapture readonly %vin_b, %struct.ap_fixed* nocapture readonly %vin_c, %struct.ap_fixed* %w_out, %struct.ap_fixed* %theta_out, %struct.ap_fixed* %pll_alpha_out, %struct.ap_fixed* %pll_beta_out, %struct.ap_fixed* %amp_vPos_out, %struct.ap_fixed* %Amp_vneg_out, %struct.ap_fixed* %delta_out) local_unnamed_addr #0 {
+define void @apatb_PLL2026_x64_ir(%struct.ap_uint* nocapture readonly %sinc, %struct.ap_uint* nocapture readonly %EN1, %struct.ap_uint* nocapture readonly %EN2, %struct.ap_uint* nocapture readonly %EN3, %struct.ap_uint* nocapture readonly %EN4, %struct.ap_uint* nocapture readonly %EN5, %struct.ap_uint* nocapture readonly %EN6, %struct.ap_fixed* nocapture readonly %vin_a, %struct.ap_fixed* nocapture readonly %vin_b, %struct.ap_fixed* nocapture readonly %vin_c, %struct.ap_fixed* nocapture readonly %in_1, %struct.ap_fixed* nocapture readonly %in_2, %struct.ap_fixed* nocapture readonly %in_3, %struct.ap_fixed* %w_out, %struct.ap_fixed* %theta_out, %struct.ap_fixed* %pll_alpha_out, %struct.ap_fixed* %pll_beta_out, %struct.ap_fixed* %amp_vPos_out, %struct.ap_fixed* %Amp_vneg_out, %struct.ap_fixed* %delta_out, %struct.ap_fixed* %v_alfa_in, %struct.ap_fixed* %v_beta_in, %struct.ap_fixed* %Amp_vneg_raw_base_out, %struct.ap_fixed* %q_inv_d_out, %struct.ap_fixed* %v2_d_limpo_out) local_unnamed_addr #0 {
 entry:
   %w_out_copy1 = alloca %struct.ap_fixed, align 512
   %theta_out_copy2 = alloca %struct.ap_fixed, align 512
@@ -20,14 +20,19 @@ entry:
   %amp_vPos_out_copy5 = alloca %struct.ap_fixed, align 512
   %Amp_vneg_out_copy6 = alloca %struct.ap_fixed, align 512
   %delta_out_copy7 = alloca %struct.ap_fixed, align 512
-  call fastcc void @copy_in(%struct.ap_fixed* %w_out, %struct.ap_fixed* nonnull align 512 %w_out_copy1, %struct.ap_fixed* %theta_out, %struct.ap_fixed* nonnull align 512 %theta_out_copy2, %struct.ap_fixed* %pll_alpha_out, %struct.ap_fixed* nonnull align 512 %pll_alpha_out_copy3, %struct.ap_fixed* %pll_beta_out, %struct.ap_fixed* nonnull align 512 %pll_beta_out_copy4, %struct.ap_fixed* %amp_vPos_out, %struct.ap_fixed* nonnull align 512 %amp_vPos_out_copy5, %struct.ap_fixed* %Amp_vneg_out, %struct.ap_fixed* nonnull align 512 %Amp_vneg_out_copy6, %struct.ap_fixed* %delta_out, %struct.ap_fixed* nonnull align 512 %delta_out_copy7)
-  call void @apatb_PLL2026_x64_hw(%struct.ap_uint* %sinc, %struct.ap_fixed* %vin_a, %struct.ap_fixed* %vin_b, %struct.ap_fixed* %vin_c, %struct.ap_fixed* %w_out_copy1, %struct.ap_fixed* %theta_out_copy2, %struct.ap_fixed* %pll_alpha_out_copy3, %struct.ap_fixed* %pll_beta_out_copy4, %struct.ap_fixed* %amp_vPos_out_copy5, %struct.ap_fixed* %Amp_vneg_out_copy6, %struct.ap_fixed* %delta_out_copy7)
-  call fastcc void @copy_out(%struct.ap_fixed* %w_out, %struct.ap_fixed* nonnull align 512 %w_out_copy1, %struct.ap_fixed* %theta_out, %struct.ap_fixed* nonnull align 512 %theta_out_copy2, %struct.ap_fixed* %pll_alpha_out, %struct.ap_fixed* nonnull align 512 %pll_alpha_out_copy3, %struct.ap_fixed* %pll_beta_out, %struct.ap_fixed* nonnull align 512 %pll_beta_out_copy4, %struct.ap_fixed* %amp_vPos_out, %struct.ap_fixed* nonnull align 512 %amp_vPos_out_copy5, %struct.ap_fixed* %Amp_vneg_out, %struct.ap_fixed* nonnull align 512 %Amp_vneg_out_copy6, %struct.ap_fixed* %delta_out, %struct.ap_fixed* nonnull align 512 %delta_out_copy7)
+  %v_alfa_in_copy8 = alloca %struct.ap_fixed, align 512
+  %v_beta_in_copy9 = alloca %struct.ap_fixed, align 512
+  %Amp_vneg_raw_base_out_copy10 = alloca %struct.ap_fixed, align 512
+  %q_inv_d_out_copy11 = alloca %struct.ap_fixed, align 512
+  %v2_d_limpo_out_copy12 = alloca %struct.ap_fixed, align 512
+  call fastcc void @copy_in(%struct.ap_fixed* %w_out, %struct.ap_fixed* nonnull align 512 %w_out_copy1, %struct.ap_fixed* %theta_out, %struct.ap_fixed* nonnull align 512 %theta_out_copy2, %struct.ap_fixed* %pll_alpha_out, %struct.ap_fixed* nonnull align 512 %pll_alpha_out_copy3, %struct.ap_fixed* %pll_beta_out, %struct.ap_fixed* nonnull align 512 %pll_beta_out_copy4, %struct.ap_fixed* %amp_vPos_out, %struct.ap_fixed* nonnull align 512 %amp_vPos_out_copy5, %struct.ap_fixed* %Amp_vneg_out, %struct.ap_fixed* nonnull align 512 %Amp_vneg_out_copy6, %struct.ap_fixed* %delta_out, %struct.ap_fixed* nonnull align 512 %delta_out_copy7, %struct.ap_fixed* %v_alfa_in, %struct.ap_fixed* nonnull align 512 %v_alfa_in_copy8, %struct.ap_fixed* %v_beta_in, %struct.ap_fixed* nonnull align 512 %v_beta_in_copy9, %struct.ap_fixed* %Amp_vneg_raw_base_out, %struct.ap_fixed* nonnull align 512 %Amp_vneg_raw_base_out_copy10, %struct.ap_fixed* %q_inv_d_out, %struct.ap_fixed* nonnull align 512 %q_inv_d_out_copy11, %struct.ap_fixed* %v2_d_limpo_out, %struct.ap_fixed* nonnull align 512 %v2_d_limpo_out_copy12)
+  call void @apatb_PLL2026_x64_hw(%struct.ap_uint* %sinc, %struct.ap_uint* %EN1, %struct.ap_uint* %EN2, %struct.ap_uint* %EN3, %struct.ap_uint* %EN4, %struct.ap_uint* %EN5, %struct.ap_uint* %EN6, %struct.ap_fixed* %vin_a, %struct.ap_fixed* %vin_b, %struct.ap_fixed* %vin_c, %struct.ap_fixed* %in_1, %struct.ap_fixed* %in_2, %struct.ap_fixed* %in_3, %struct.ap_fixed* %w_out_copy1, %struct.ap_fixed* %theta_out_copy2, %struct.ap_fixed* %pll_alpha_out_copy3, %struct.ap_fixed* %pll_beta_out_copy4, %struct.ap_fixed* %amp_vPos_out_copy5, %struct.ap_fixed* %Amp_vneg_out_copy6, %struct.ap_fixed* %delta_out_copy7, %struct.ap_fixed* %v_alfa_in_copy8, %struct.ap_fixed* %v_beta_in_copy9, %struct.ap_fixed* %Amp_vneg_raw_base_out_copy10, %struct.ap_fixed* %q_inv_d_out_copy11, %struct.ap_fixed* %v2_d_limpo_out_copy12)
+  call fastcc void @copy_out(%struct.ap_fixed* %w_out, %struct.ap_fixed* nonnull align 512 %w_out_copy1, %struct.ap_fixed* %theta_out, %struct.ap_fixed* nonnull align 512 %theta_out_copy2, %struct.ap_fixed* %pll_alpha_out, %struct.ap_fixed* nonnull align 512 %pll_alpha_out_copy3, %struct.ap_fixed* %pll_beta_out, %struct.ap_fixed* nonnull align 512 %pll_beta_out_copy4, %struct.ap_fixed* %amp_vPos_out, %struct.ap_fixed* nonnull align 512 %amp_vPos_out_copy5, %struct.ap_fixed* %Amp_vneg_out, %struct.ap_fixed* nonnull align 512 %Amp_vneg_out_copy6, %struct.ap_fixed* %delta_out, %struct.ap_fixed* nonnull align 512 %delta_out_copy7, %struct.ap_fixed* %v_alfa_in, %struct.ap_fixed* nonnull align 512 %v_alfa_in_copy8, %struct.ap_fixed* %v_beta_in, %struct.ap_fixed* nonnull align 512 %v_beta_in_copy9, %struct.ap_fixed* %Amp_vneg_raw_base_out, %struct.ap_fixed* nonnull align 512 %Amp_vneg_raw_base_out_copy10, %struct.ap_fixed* %q_inv_d_out, %struct.ap_fixed* nonnull align 512 %q_inv_d_out_copy11, %struct.ap_fixed* %v2_d_limpo_out, %struct.ap_fixed* nonnull align 512 %v2_d_limpo_out_copy12)
   ret void
 }
 
 ; Function Attrs: noinline
-define internal fastcc void @copy_in(%struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512) unnamed_addr #1 {
+define internal fastcc void @copy_in(%struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512) unnamed_addr #1 {
 entry:
   call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* align 512 %1, %struct.ap_fixed* %0)
   call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* align 512 %3, %struct.ap_fixed* %2)
@@ -36,6 +41,11 @@ entry:
   call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* align 512 %9, %struct.ap_fixed* %8)
   call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* align 512 %11, %struct.ap_fixed* %10)
   call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* align 512 %13, %struct.ap_fixed* %12)
+  call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* align 512 %15, %struct.ap_fixed* %14)
+  call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* align 512 %17, %struct.ap_fixed* %16)
+  call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* align 512 %19, %struct.ap_fixed* %18)
+  call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* align 512 %21, %struct.ap_fixed* %20)
+  call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* align 512 %23, %struct.ap_fixed* %22)
   ret void
 }
 
@@ -175,7 +185,7 @@ ret:                                              ; preds = %empty
 }
 
 ; Function Attrs: noinline
-define internal fastcc void @copy_out(%struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512) unnamed_addr #5 {
+define internal fastcc void @copy_out(%struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512, %struct.ap_fixed*, %struct.ap_fixed* noalias align 512) unnamed_addr #5 {
 entry:
   call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* %0, %struct.ap_fixed* align 512 %1)
   call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* %2, %struct.ap_fixed* align 512 %3)
@@ -184,20 +194,25 @@ entry:
   call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* %8, %struct.ap_fixed* align 512 %9)
   call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* %10, %struct.ap_fixed* align 512 %11)
   call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* %12, %struct.ap_fixed* align 512 %13)
+  call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* %14, %struct.ap_fixed* align 512 %15)
+  call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* %16, %struct.ap_fixed* align 512 %17)
+  call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* %18, %struct.ap_fixed* align 512 %19)
+  call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* %20, %struct.ap_fixed* align 512 %21)
+  call fastcc void @onebyonecpy_hls.p0struct.ap_fixed(%struct.ap_fixed* %22, %struct.ap_fixed* align 512 %23)
   ret void
 }
 
-declare void @apatb_PLL2026_x64_hw(%struct.ap_uint*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*)
+declare void @apatb_PLL2026_x64_hw(%struct.ap_uint*, %struct.ap_uint*, %struct.ap_uint*, %struct.ap_uint*, %struct.ap_uint*, %struct.ap_uint*, %struct.ap_uint*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*)
 
-define void @PLL2026_x64_hw_stub_wrapper(%struct.ap_uint*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*) #6 {
+define void @PLL2026_x64_hw_stub_wrapper(%struct.ap_uint*, %struct.ap_uint*, %struct.ap_uint*, %struct.ap_uint*, %struct.ap_uint*, %struct.ap_uint*, %struct.ap_uint*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*) #6 {
 entry:
-  call void @copy_out(%struct.ap_fixed* null, %struct.ap_fixed* %4, %struct.ap_fixed* null, %struct.ap_fixed* %5, %struct.ap_fixed* null, %struct.ap_fixed* %6, %struct.ap_fixed* null, %struct.ap_fixed* %7, %struct.ap_fixed* null, %struct.ap_fixed* %8, %struct.ap_fixed* null, %struct.ap_fixed* %9, %struct.ap_fixed* null, %struct.ap_fixed* %10)
-  call void @PLL2026_x64_hw_stub(%struct.ap_uint* %0, %struct.ap_fixed* %1, %struct.ap_fixed* %2, %struct.ap_fixed* %3, %struct.ap_fixed* %4, %struct.ap_fixed* %5, %struct.ap_fixed* %6, %struct.ap_fixed* %7, %struct.ap_fixed* %8, %struct.ap_fixed* %9, %struct.ap_fixed* %10)
-  call void @copy_in(%struct.ap_fixed* null, %struct.ap_fixed* %4, %struct.ap_fixed* null, %struct.ap_fixed* %5, %struct.ap_fixed* null, %struct.ap_fixed* %6, %struct.ap_fixed* null, %struct.ap_fixed* %7, %struct.ap_fixed* null, %struct.ap_fixed* %8, %struct.ap_fixed* null, %struct.ap_fixed* %9, %struct.ap_fixed* null, %struct.ap_fixed* %10)
+  call void @copy_out(%struct.ap_fixed* null, %struct.ap_fixed* %13, %struct.ap_fixed* null, %struct.ap_fixed* %14, %struct.ap_fixed* null, %struct.ap_fixed* %15, %struct.ap_fixed* null, %struct.ap_fixed* %16, %struct.ap_fixed* null, %struct.ap_fixed* %17, %struct.ap_fixed* null, %struct.ap_fixed* %18, %struct.ap_fixed* null, %struct.ap_fixed* %19, %struct.ap_fixed* null, %struct.ap_fixed* %20, %struct.ap_fixed* null, %struct.ap_fixed* %21, %struct.ap_fixed* null, %struct.ap_fixed* %22, %struct.ap_fixed* null, %struct.ap_fixed* %23, %struct.ap_fixed* null, %struct.ap_fixed* %24)
+  call void @PLL2026_x64_hw_stub(%struct.ap_uint* %0, %struct.ap_uint* %1, %struct.ap_uint* %2, %struct.ap_uint* %3, %struct.ap_uint* %4, %struct.ap_uint* %5, %struct.ap_uint* %6, %struct.ap_fixed* %7, %struct.ap_fixed* %8, %struct.ap_fixed* %9, %struct.ap_fixed* %10, %struct.ap_fixed* %11, %struct.ap_fixed* %12, %struct.ap_fixed* %13, %struct.ap_fixed* %14, %struct.ap_fixed* %15, %struct.ap_fixed* %16, %struct.ap_fixed* %17, %struct.ap_fixed* %18, %struct.ap_fixed* %19, %struct.ap_fixed* %20, %struct.ap_fixed* %21, %struct.ap_fixed* %22, %struct.ap_fixed* %23, %struct.ap_fixed* %24)
+  call void @copy_in(%struct.ap_fixed* null, %struct.ap_fixed* %13, %struct.ap_fixed* null, %struct.ap_fixed* %14, %struct.ap_fixed* null, %struct.ap_fixed* %15, %struct.ap_fixed* null, %struct.ap_fixed* %16, %struct.ap_fixed* null, %struct.ap_fixed* %17, %struct.ap_fixed* null, %struct.ap_fixed* %18, %struct.ap_fixed* null, %struct.ap_fixed* %19, %struct.ap_fixed* null, %struct.ap_fixed* %20, %struct.ap_fixed* null, %struct.ap_fixed* %21, %struct.ap_fixed* null, %struct.ap_fixed* %22, %struct.ap_fixed* null, %struct.ap_fixed* %23, %struct.ap_fixed* null, %struct.ap_fixed* %24)
   ret void
 }
 
-declare void @PLL2026_x64_hw_stub(%struct.ap_uint*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*)
+declare void @PLL2026_x64_hw_stub(%struct.ap_uint*, %struct.ap_uint*, %struct.ap_uint*, %struct.ap_uint*, %struct.ap_uint*, %struct.ap_uint*, %struct.ap_uint*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*, %struct.ap_fixed*)
 
 declare i1 @fpga_fifo_not_empty_8(i8*)
 

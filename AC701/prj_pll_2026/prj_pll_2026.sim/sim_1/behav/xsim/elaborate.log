@@ -1,0 +1,111 @@
+Vivado Simulator 2020.2
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2020.2/bin/unwrapped/win64.o/xelab.exe -wto 2ee1e81dbf564e68be9f97e199d4218a --incr --debug typical --relax --mt 2 -L xil_defaultlib -L sim_clk_gen_v1_0_2 -L xlconstant_v1_1_7 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot design_1_wrapper_behav xil_defaultlib.design_1_wrapper xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-4940] 'pll2026_x64_ap_dcmp_0_no_dsp_64' remains a black box since it has no binding entity [C:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/prj_pll_2026/prj_pll_2026.ip_user_files/bd/design_1/ipshared/e577/solution1/syn/vhdl/PLL2026_x64_dcmp_64ns_64ns_1_2_no_dsp_1.vhd:75]
+WARNING: [VRFC 10-5021] port 'ap_done' is not connected on this instance [C:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/prj_pll_2026/prj_pll_2026.ip_user_files/bd/design_1/sim/design_1.v:34]
+WARNING: [VRFC 10-5021] port 'ap_done' is not connected on this instance [C:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/prj_pll_2026/prj_pll_2026.ip_user_files/bd/design_1/sim/design_1.v:55]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling package ieee.std_logic_arith
+Compiling package ieee.std_logic_unsigned
+Compiling architecture rtl of entity xil_defaultlib.PLL2026_x64_table_mark_V_rom [pll2026_x64_table_mark_v_rom_def...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_table_mark_V [pll2026_x64_table_mark_v_default]
+Compiling architecture rtl of entity xil_defaultlib.PLL2026_x64_table_m_V_rom [pll2026_x64_table_m_v_rom_defaul...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_table_m_V [pll2026_x64_table_m_v_default]
+Compiling architecture rtl of entity xil_defaultlib.PLL2026_x64_table_n_V_rom [pll2026_x64_table_n_v_rom_defaul...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_table_n_V [pll2026_x64_table_n_v_default]
+Compiling architecture rtl of entity xil_defaultlib.PLL2026_x64_sin_2000_table_V_rom [pll2026_x64_sin_2000_table_v_rom...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_sin_2000_table_V [pll2026_x64_sin_2000_table_v_def...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_mul_64s_58ns_121_5_1_Multiplier_0 [pll2026_x64_mul_64s_58ns_121_5_1...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_mul_64s_58ns_121_5_1 [\PLL2026_x64_mul_64s_58ns_121_5_...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_cos_2000 [pll2026_x64_cos_2000_default]
+Compiling architecture rtl of entity xil_defaultlib.PLL2026_x64_ATAN_LUT_signed_table_mark_V_2_rom [pll2026_x64_atan_lut_signed_tabl...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_ATAN_LUT_signed_table_mark_V_2 [pll2026_x64_atan_lut_signed_tabl...]
+Compiling architecture rtl of entity xil_defaultlib.PLL2026_x64_ATAN_LUT_signed_table_m_V_2_rom [pll2026_x64_atan_lut_signed_tabl...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_ATAN_LUT_signed_table_m_V_2 [pll2026_x64_atan_lut_signed_tabl...]
+Compiling architecture rtl of entity xil_defaultlib.PLL2026_x64_ATAN_LUT_signed_table_n_V_2_rom [pll2026_x64_atan_lut_signed_tabl...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_ATAN_LUT_signed_table_n_V_2 [pll2026_x64_atan_lut_signed_tabl...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_mul_48ns_64ns_111_5_1_Multiplier_2 [pll2026_x64_mul_48ns_64ns_111_5_...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_mul_48ns_64ns_111_5_1 [\PLL2026_x64_mul_48ns_64ns_111_5...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_mul_48ns_64s_112_5_1_Multiplier_3 [pll2026_x64_mul_48ns_64s_112_5_1...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_mul_48ns_64s_112_5_1 [\PLL2026_x64_mul_48ns_64s_112_5_...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_ATAN_LUT_signed [pll2026_x64_atan_lut_signed_defa...]
+Compiling architecture rtl of entity xil_defaultlib.PLL2026_x64_INV_LUT_table_mark_V_1_rom [pll2026_x64_inv_lut_table_mark_v...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_INV_LUT_table_mark_V_1 [pll2026_x64_inv_lut_table_mark_v...]
+Compiling architecture rtl of entity xil_defaultlib.PLL2026_x64_INV_LUT_table_m_V_1_rom [pll2026_x64_inv_lut_table_m_v_1_...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_INV_LUT_table_m_V_1 [pll2026_x64_inv_lut_table_m_v_1_...]
+Compiling architecture rtl of entity xil_defaultlib.PLL2026_x64_INV_LUT_table_n_V_1_rom [pll2026_x64_inv_lut_table_n_v_1_...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_INV_LUT_table_n_V_1 [pll2026_x64_inv_lut_table_n_v_1_...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_dcmp_64ns_64ns_1_2_no_dsp_1 [\PLL2026_x64_dcmp_64ns_64ns_1_2_...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_mul_63s_64s_112_5_1_Multiplier_1 [pll2026_x64_mul_63s_64s_112_5_1_...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_mul_63s_64s_112_5_1 [\PLL2026_x64_mul_63s_64s_112_5_1...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_INV_LUT [pll2026_x64_inv_lut_default]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_sin_2000 [pll2026_x64_sin_2000_default]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_mul_113s_49ns_160_5_1_Multiplier_4 [pll2026_x64_mul_113s_49ns_160_5_...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_mul_113s_49ns_160_5_1 [\PLL2026_x64_mul_113s_49ns_160_5...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_mul_65s_49ns_112_5_1_Multiplier_5 [pll2026_x64_mul_65s_49ns_112_5_1...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_mul_65s_49ns_112_5_1 [\PLL2026_x64_mul_65s_49ns_112_5_...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_mul_64s_50s_112_5_1_Multiplier_6 [pll2026_x64_mul_64s_50s_112_5_1_...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_mul_64s_50s_112_5_1 [\PLL2026_x64_mul_64s_50s_112_5_1...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_mul_50s_64s_112_5_1_Multiplier_7 [pll2026_x64_mul_50s_64s_112_5_1_...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_mul_50s_64s_112_5_1 [\PLL2026_x64_mul_50s_64s_112_5_1...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_mul_64s_89ns_152_5_1_Multiplier_8 [pll2026_x64_mul_64s_89ns_152_5_1...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_mul_64s_89ns_152_5_1 [\PLL2026_x64_mul_64s_89ns_152_5_...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_mul_64s_54ns_112_5_1_Multiplier_9 [pll2026_x64_mul_64s_54ns_112_5_1...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_mul_64s_54ns_112_5_1 [\PLL2026_x64_mul_64s_54ns_112_5_...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_mul_64s_31ns_94_5_1_Multiplier_10 [pll2026_x64_mul_64s_31ns_94_5_1_...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_mul_64s_31ns_94_5_1 [\PLL2026_x64_mul_64s_31ns_94_5_1...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_mul_64s_46ns_109_5_1_Multiplier_11 [pll2026_x64_mul_64s_46ns_109_5_1...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_mul_64s_46ns_109_5_1 [\PLL2026_x64_mul_64s_46ns_109_5_...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_mul_64s_64s_112_5_1_Multiplier_12 [pll2026_x64_mul_64s_64s_112_5_1_...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_mul_64s_64s_112_5_1 [\PLL2026_x64_mul_64s_64s_112_5_1...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_mul_49ns_64ns_112_5_1_Multiplier_13 [pll2026_x64_mul_49ns_64ns_112_5_...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_mul_49ns_64ns_112_5_1 [\PLL2026_x64_mul_49ns_64ns_112_5...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_mul_65s_89ns_153_5_1_Multiplier_14 [pll2026_x64_mul_65s_89ns_153_5_1...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_mul_65s_89ns_153_5_1 [\PLL2026_x64_mul_65s_89ns_153_5_...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64_mul_65s_91ns_155_5_1_Multiplier_15 [pll2026_x64_mul_65s_91ns_155_5_1...]
+Compiling architecture arch of entity xil_defaultlib.PLL2026_x64_mul_65s_91ns_155_5_1 [\PLL2026_x64_mul_65s_91ns_155_5_...]
+Compiling architecture behav of entity xil_defaultlib.PLL2026_x64 [pll2026_x64_default]
+Compiling architecture design_1_pll2026_x64_0_0_arch of entity xil_defaultlib.design_1_PLL2026_x64_0_0 [design_1_pll2026_x64_0_0_default]
+Compiling module sim_clk_gen_v1_0_2.sim_clk_gen(CLOCK_PERIOD=10,RESE...
+Compiling module xil_defaultlib.design_1_sim_clk_gen_0_0
+Compiling module sim_clk_gen_v1_0_2.sim_clk_gen(CLOCK_PERIOD=4000.0,...
+Compiling module xil_defaultlib.design_1_sim_clk_gen_1_0
+Compiling architecture rtl of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_sin_2000_table_r_rom [sin_gen_varamp2_3phi_x64_sin_200...]
+Compiling architecture arch of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_sin_2000_table_r [sin_gen_varamp2_3phi_x64_sin_200...]
+Compiling architecture behav of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_mul_64s_58ns_121_5_1_Multiplier_0 [sin_gen_varamp2_3phi_x64_mul_64s...]
+Compiling architecture arch of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_mul_64s_58ns_121_5_1 [\sin_gen_varAmp2_3phi_x64_mul_64...]
+Compiling architecture behav of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_sin_2000 [sin_gen_varamp2_3phi_x64_sin_200...]
+Compiling architecture behav of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_mul_64s_31ns_94_5_1_Multiplier_1 [sin_gen_varamp2_3phi_x64_mul_64s...]
+Compiling architecture arch of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_mul_64s_31ns_94_5_1 [\sin_gen_varAmp2_3phi_x64_mul_64...]
+Compiling architecture behav of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_mul_50s_64s_112_5_1_Multiplier_2 [sin_gen_varamp2_3phi_x64_mul_50s...]
+Compiling architecture arch of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64_mul_50s_64s_112_5_1 [\sin_gen_varAmp2_3phi_x64_mul_50...]
+Compiling architecture behav of entity xil_defaultlib.sin_gen_varAmp2_3phi_x64 [sin_gen_varamp2_3phi_x64_default]
+Compiling architecture design_1_sin_gen_varamp2_3phi_0_0_arch of entity xil_defaultlib.design_1_sin_gen_varAmp2_3phi_0_0 [design_1_sin_gen_varamp2_3phi_0_...]
+Compiling module xlconstant_v1_1_7.xlconstant_v1_1_7_xlconstant
+Compiling module xil_defaultlib.design_1_xlconstant_0_0
+Compiling module xlconstant_v1_1_7.xlconstant_v1_1_7_xlconstant(CON...
+Compiling module xil_defaultlib.design_1_xlconstant_1_0
+Compiling module xil_defaultlib.design_1_xlconstant_9_0
+Compiling module xil_defaultlib.design_1_xlconstant_10_0
+Compiling module xil_defaultlib.design_1_xlconstant_10_1
+Compiling module xil_defaultlib.design_1_xlconstant_2_0
+Compiling module xil_defaultlib.design_1_xlconstant_0_1
+Compiling module xil_defaultlib.design_1_xlconstant_3_0
+Compiling module xil_defaultlib.design_1_xlconstant_3_1
+Compiling module xil_defaultlib.design_1_xlconstant_5_1
+Compiling module xil_defaultlib.design_1_xlconstant_5_2
+Compiling module xil_defaultlib.design_1_xlconstant_8_0
+Compiling module xil_defaultlib.design_1
+Compiling module xil_defaultlib.design_1_wrapper
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot design_1_wrapper_behav

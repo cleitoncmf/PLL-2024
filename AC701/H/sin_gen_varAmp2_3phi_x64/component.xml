@@ -826,8 +826,8 @@
       </xilinx:taxonomies>
       <xilinx:displayName>sin_gen_varAmp2_3phi_x64_v1_0</xilinx:displayName>
       <xilinx:definitionSource>package_project</xilinx:definitionSource>
-      <xilinx:coreRevision>2</xilinx:coreRevision>
-      <xilinx:coreCreationDateTime>2026-04-29T19:55:53Z</xilinx:coreCreationDateTime>
+      <xilinx:coreRevision>4</xilinx:coreRevision>
+      <xilinx:coreCreationDateTime>2026-07-01T13:37:45Z</xilinx:coreCreationDateTime>
       <xilinx:tags>
         <xilinx:tag xilinx:name="nopcore"/>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@19a7cb63_ARCHIVE_LOCATION">c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp2_3phi_x64</xilinx:tag>
@@ -837,6 +837,17 @@
         <xilinx:tag xilinx:name="ui.data.coregen.dd@1e46c4b3_ARCHIVE_LOCATION">c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp2_3phi_x64</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@a2a88db_ARCHIVE_LOCATION">c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp2_3phi_x64</xilinx:tag>
         <xilinx:tag xilinx:name="ui.data.coregen.dd@de9f731_ARCHIVE_LOCATION">c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp2_3phi_x64</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@46039bd1_ARCHIVE_LOCATION">c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp2_3phi_x64</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@77a41d18_ARCHIVE_LOCATION">c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp2_3phi_x64</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@545eb62b_ARCHIVE_LOCATION">c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp2_3phi_x64</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@3a4c7424_ARCHIVE_LOCATION">c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp2_3phi_x64</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4f69cccc_ARCHIVE_LOCATION">c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp2_3phi_x64</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@7edb056_ARCHIVE_LOCATION">c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp2_3phi_x64</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@49709fd8_ARCHIVE_LOCATION">c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp2_3phi_x64</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@504fac7e_ARCHIVE_LOCATION">c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp2_3phi_x64</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@4a3b9553_ARCHIVE_LOCATION">c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp2_3phi_x64</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@1406c146_ARCHIVE_LOCATION">c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp2_3phi_x64</xilinx:tag>
+        <xilinx:tag xilinx:name="ui.data.coregen.dd@2143a5ea_ARCHIVE_LOCATION">c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp2_3phi_x64</xilinx:tag>
       </xilinx:tags>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>

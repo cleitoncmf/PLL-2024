@@ -18,7 +18,7 @@ set C_modelArgMapList {[
 	{ "Name" : "x", "interface" : "wire", "bitwidth" : 64, "direction" : "READONLY"} , 
  	{ "Name" : "ap_return", "interface" : "wire", "bitwidth" : 64} ]}
 # RTL Port declarations: 
-set portNum 24
+set portNum 8
 set portList { 
 	{ ap_clk sc_in sc_logic 1 clock -1 } 
 	{ ap_rst sc_in sc_logic 1 reset -1 active_high_sync } 
@@ -28,22 +28,6 @@ set portList {
 	{ ap_ready sc_out sc_logic 1 ready -1 } 
 	{ x sc_in sc_lv 64 signal 0 } 
 	{ ap_return sc_out sc_lv 64 signal -1 } 
-	{ grp_fu_510_p_din0 sc_out sc_lv 64 signal -1 } 
-	{ grp_fu_510_p_din1 sc_out sc_lv 64 signal -1 } 
-	{ grp_fu_510_p_opcode sc_out sc_lv 2 signal -1 } 
-	{ grp_fu_510_p_dout0 sc_in sc_lv 64 signal -1 } 
-	{ grp_fu_510_p_ce sc_out sc_logic 1 signal -1 } 
-	{ grp_fu_514_p_din0 sc_out sc_lv 64 signal -1 } 
-	{ grp_fu_514_p_din1 sc_out sc_lv 64 signal -1 } 
-	{ grp_fu_514_p_dout0 sc_in sc_lv 64 signal -1 } 
-	{ grp_fu_514_p_ce sc_out sc_logic 1 signal -1 } 
-	{ grp_fu_519_p_din0 sc_out sc_lv 32 signal -1 } 
-	{ grp_fu_519_p_dout0 sc_in sc_lv 64 signal -1 } 
-	{ grp_fu_519_p_ce sc_out sc_logic 1 signal -1 } 
-	{ grp_fu_2782_p_din0 sc_out sc_lv 63 signal -1 } 
-	{ grp_fu_2782_p_din1 sc_out sc_lv 64 signal -1 } 
-	{ grp_fu_2782_p_dout0 sc_in sc_lv 112 signal -1 } 
-	{ grp_fu_2782_p_ce sc_out sc_logic 1 signal -1 } 
 }
 set NewPortList {[ 
 	{ "name": "ap_clk", "direction": "in", "datatype": "sc_logic", "bitwidth":1, "type": "clock", "bundle":{"name": "ap_clk", "role": "default" }} , 
@@ -53,23 +37,7 @@ set NewPortList {[
  	{ "name": "ap_idle", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "done", "bundle":{"name": "ap_idle", "role": "default" }} , 
  	{ "name": "ap_ready", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "ready", "bundle":{"name": "ap_ready", "role": "default" }} , 
  	{ "name": "x", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "x", "role": "default" }} , 
- 	{ "name": "ap_return", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "ap_return", "role": "default" }} , 
- 	{ "name": "grp_fu_510_p_din0", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_510_p_din0", "role": "default" }} , 
- 	{ "name": "grp_fu_510_p_din1", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_510_p_din1", "role": "default" }} , 
- 	{ "name": "grp_fu_510_p_opcode", "direction": "out", "datatype": "sc_lv", "bitwidth":2, "type": "signal", "bundle":{"name": "grp_fu_510_p_opcode", "role": "default" }} , 
- 	{ "name": "grp_fu_510_p_dout0", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_510_p_dout0", "role": "default" }} , 
- 	{ "name": "grp_fu_510_p_ce", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "grp_fu_510_p_ce", "role": "default" }} , 
- 	{ "name": "grp_fu_514_p_din0", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_514_p_din0", "role": "default" }} , 
- 	{ "name": "grp_fu_514_p_din1", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_514_p_din1", "role": "default" }} , 
- 	{ "name": "grp_fu_514_p_dout0", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_514_p_dout0", "role": "default" }} , 
- 	{ "name": "grp_fu_514_p_ce", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "grp_fu_514_p_ce", "role": "default" }} , 
- 	{ "name": "grp_fu_519_p_din0", "direction": "out", "datatype": "sc_lv", "bitwidth":32, "type": "signal", "bundle":{"name": "grp_fu_519_p_din0", "role": "default" }} , 
- 	{ "name": "grp_fu_519_p_dout0", "direction": "in", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_519_p_dout0", "role": "default" }} , 
- 	{ "name": "grp_fu_519_p_ce", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "grp_fu_519_p_ce", "role": "default" }} , 
- 	{ "name": "grp_fu_2782_p_din0", "direction": "out", "datatype": "sc_lv", "bitwidth":63, "type": "signal", "bundle":{"name": "grp_fu_2782_p_din0", "role": "default" }} , 
- 	{ "name": "grp_fu_2782_p_din1", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "grp_fu_2782_p_din1", "role": "default" }} , 
- 	{ "name": "grp_fu_2782_p_dout0", "direction": "in", "datatype": "sc_lv", "bitwidth":112, "type": "signal", "bundle":{"name": "grp_fu_2782_p_dout0", "role": "default" }} , 
- 	{ "name": "grp_fu_2782_p_ce", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "signal", "bundle":{"name": "grp_fu_2782_p_ce", "role": "default" }}  ]}
+ 	{ "name": "ap_return", "direction": "out", "datatype": "sc_lv", "bitwidth":64, "type": "signal", "bundle":{"name": "ap_return", "role": "default" }}  ]}
 
 set RtlHierarchyInfo {[
 	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "2", "3", "4", "5"],
@@ -87,24 +55,22 @@ set RtlHierarchyInfo {[
 		"HasNonBlockingOperation" : "0",
 		"Port" : [
 			{"Name" : "x", "Type" : "None", "Direction" : "I"},
-			{"Name" : "mask_table", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "table_mark", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "table_m", "Type" : "Memory", "Direction" : "I"},
-			{"Name" : "table_n", "Type" : "Memory", "Direction" : "I"}]},
-	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mask_table_U", "Parent" : "0"},
-	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_mark_U", "Parent" : "0"},
-	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_m_U", "Parent" : "0"},
-	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_n_U", "Parent" : "0"},
-	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.dcmp_64ns_64ns_1_2_no_dsp_1_U9", "Parent" : "0"}]}
+			{"Name" : "table_mark_V_1", "Type" : "Memory", "Direction" : "I"},
+			{"Name" : "table_m_V_1", "Type" : "Memory", "Direction" : "I"},
+			{"Name" : "table_n_V_1", "Type" : "Memory", "Direction" : "I"}]},
+	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_mark_V_1_U", "Parent" : "0"},
+	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_m_V_1_U", "Parent" : "0"},
+	{"ID" : "3", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_n_V_1_U", "Parent" : "0"},
+	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.dcmp_64ns_64ns_1_2_no_dsp_1_U7", "Parent" : "0"},
+	{"ID" : "5", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_63s_64s_112_5_1_U8", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {
 	INV_LUT {
 		x {Type I LastRead 0 FirstWrite -1}
-		mask_table {Type I LastRead -1 FirstWrite -1}
-		table_mark {Type I LastRead -1 FirstWrite -1}
-		table_m {Type I LastRead -1 FirstWrite -1}
-		table_n {Type I LastRead -1 FirstWrite -1}}}
+		table_mark_V_1 {Type I LastRead -1 FirstWrite -1}
+		table_m_V_1 {Type I LastRead -1 FirstWrite -1}
+		table_n_V_1 {Type I LastRead -1 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 

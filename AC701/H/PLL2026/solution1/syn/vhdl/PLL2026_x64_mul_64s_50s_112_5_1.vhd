@@ -6,7 +6,7 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-entity PLL2026_x64_mul_64s_50s_112_5_1_Multiplier_5 is
+entity PLL2026_x64_mul_64s_50s_112_5_1_Multiplier_6 is
 port (
     clk: in std_logic;
     ce: in std_logic;
@@ -15,7 +15,7 @@ port (
     p: out std_logic_vector(112 - 1 downto 0));
 end entity;
 
-architecture behav of PLL2026_x64_mul_64s_50s_112_5_1_Multiplier_5 is
+architecture behav of PLL2026_x64_mul_64s_50s_112_5_1_Multiplier_6 is
     signal tmp_product : std_logic_vector(112 - 1 downto 0);
     signal a_i : std_logic_vector(64 - 1 downto 0);
     signal b_i : std_logic_vector(50 - 1 downto 0);
@@ -67,7 +67,7 @@ entity PLL2026_x64_mul_64s_50s_112_5_1 is
 end entity;
 
 architecture arch of PLL2026_x64_mul_64s_50s_112_5_1 is
-    component PLL2026_x64_mul_64s_50s_112_5_1_Multiplier_5 is
+    component PLL2026_x64_mul_64s_50s_112_5_1_Multiplier_6 is
         port (
             clk : IN STD_LOGIC;
             ce : IN STD_LOGIC;
@@ -79,7 +79,7 @@ architecture arch of PLL2026_x64_mul_64s_50s_112_5_1 is
 
 
 begin
-    PLL2026_x64_mul_64s_50s_112_5_1_Multiplier_5_U :  component PLL2026_x64_mul_64s_50s_112_5_1_Multiplier_5
+    PLL2026_x64_mul_64s_50s_112_5_1_Multiplier_6_U :  component PLL2026_x64_mul_64s_50s_112_5_1_Multiplier_6
     port map (
         clk => clk,
         ce => ce,

@@ -55,15 +55,15 @@ set RtlHierarchyInfo {[
 		"HasNonBlockingOperation" : "0",
 		"Port" : [
 			{"Name" : "theta_in", "Type" : "None", "Direction" : "I"},
-			{"Name" : "table_r", "Type" : "Memory", "Direction" : "I"}]},
-	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_r_U", "Parent" : "0"},
+			{"Name" : "table_V", "Type" : "Memory", "Direction" : "I"}]},
+	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_V_U", "Parent" : "0"},
 	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_58ns_121_5_1_U1", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {
 	sin_2000 {
 		theta_in {Type I LastRead 0 FirstWrite -1}
-		table_r {Type I LastRead -1 FirstWrite -1}}}
+		table_V {Type I LastRead -1 FirstWrite -1}}}
 
 set hasDtUnsupportedChannel 0
 

@@ -28,8 +28,86 @@
           "direction": "in"
         }]
     },
-    "vin_a": {
+    "EN1": {
       "index": "1",
+      "direction": "in",
+      "srcType": "ap_uint<1>",
+      "srcSize": "8",
+      "hwRefs": [{
+          "type": "port",
+          "interface": "EN1",
+          "name": "EN1",
+          "usage": "data",
+          "direction": "in"
+        }]
+    },
+    "EN2": {
+      "index": "2",
+      "direction": "in",
+      "srcType": "ap_uint<1>",
+      "srcSize": "8",
+      "hwRefs": [{
+          "type": "port",
+          "interface": "EN2",
+          "name": "EN2",
+          "usage": "data",
+          "direction": "in"
+        }]
+    },
+    "EN3": {
+      "index": "3",
+      "direction": "in",
+      "srcType": "ap_uint<1>",
+      "srcSize": "8",
+      "hwRefs": [{
+          "type": "port",
+          "interface": "EN3",
+          "name": "EN3",
+          "usage": "data",
+          "direction": "in"
+        }]
+    },
+    "EN4": {
+      "index": "4",
+      "direction": "in",
+      "srcType": "ap_uint<1>",
+      "srcSize": "8",
+      "hwRefs": [{
+          "type": "port",
+          "interface": "EN4",
+          "name": "EN4",
+          "usage": "data",
+          "direction": "in"
+        }]
+    },
+    "EN5": {
+      "index": "5",
+      "direction": "in",
+      "srcType": "ap_uint<1>",
+      "srcSize": "8",
+      "hwRefs": [{
+          "type": "port",
+          "interface": "EN5",
+          "name": "EN5",
+          "usage": "data",
+          "direction": "in"
+        }]
+    },
+    "EN6": {
+      "index": "6",
+      "direction": "in",
+      "srcType": "ap_uint<1>",
+      "srcSize": "8",
+      "hwRefs": [{
+          "type": "port",
+          "interface": "EN6",
+          "name": "EN6",
+          "usage": "data",
+          "direction": "in"
+        }]
+    },
+    "vin_a": {
+      "index": "7",
       "direction": "in",
       "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>",
       "srcSize": "64",
@@ -42,7 +120,7 @@
         }]
     },
     "vin_b": {
-      "index": "2",
+      "index": "8",
       "direction": "in",
       "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>",
       "srcSize": "64",
@@ -55,7 +133,7 @@
         }]
     },
     "vin_c": {
-      "index": "3",
+      "index": "9",
       "direction": "in",
       "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>",
       "srcSize": "64",
@@ -67,8 +145,47 @@
           "direction": "in"
         }]
     },
+    "in_1": {
+      "index": "10",
+      "direction": "in",
+      "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>",
+      "srcSize": "64",
+      "hwRefs": [{
+          "type": "port",
+          "interface": "in_1",
+          "name": "in_1",
+          "usage": "data",
+          "direction": "in"
+        }]
+    },
+    "in_2": {
+      "index": "11",
+      "direction": "in",
+      "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>",
+      "srcSize": "64",
+      "hwRefs": [{
+          "type": "port",
+          "interface": "in_2",
+          "name": "in_2",
+          "usage": "data",
+          "direction": "in"
+        }]
+    },
+    "in_3": {
+      "index": "12",
+      "direction": "in",
+      "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>",
+      "srcSize": "64",
+      "hwRefs": [{
+          "type": "port",
+          "interface": "in_3",
+          "name": "in_3",
+          "usage": "data",
+          "direction": "in"
+        }]
+    },
     "w_out": {
-      "index": "4",
+      "index": "13",
       "direction": "out",
       "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>*",
       "srcSize": "64",
@@ -90,7 +207,7 @@
       ]
     },
     "theta_out": {
-      "index": "5",
+      "index": "14",
       "direction": "out",
       "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>*",
       "srcSize": "64",
@@ -112,7 +229,7 @@
       ]
     },
     "pll_alpha_out": {
-      "index": "6",
+      "index": "15",
       "direction": "out",
       "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>*",
       "srcSize": "64",
@@ -134,7 +251,7 @@
       ]
     },
     "pll_beta_out": {
-      "index": "7",
+      "index": "16",
       "direction": "out",
       "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>*",
       "srcSize": "64",
@@ -156,7 +273,7 @@
       ]
     },
     "amp_vPos_out": {
-      "index": "8",
+      "index": "17",
       "direction": "out",
       "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>*",
       "srcSize": "64",
@@ -178,7 +295,7 @@
       ]
     },
     "Amp_vneg_out": {
-      "index": "9",
+      "index": "18",
       "direction": "out",
       "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>*",
       "srcSize": "64",
@@ -200,7 +317,7 @@
       ]
     },
     "delta_out": {
-      "index": "10",
+      "index": "19",
       "direction": "out",
       "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>*",
       "srcSize": "64",
@@ -216,6 +333,116 @@
           "type": "port",
           "interface": "delta_out_ap_vld",
           "name": "delta_out_ap_vld",
+          "usage": "control",
+          "direction": "out"
+        }
+      ]
+    },
+    "v_alfa_in": {
+      "index": "20",
+      "direction": "out",
+      "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>*",
+      "srcSize": "64",
+      "hwRefs": [
+        {
+          "type": "port",
+          "interface": "v_alfa_in",
+          "name": "v_alfa_in",
+          "usage": "data",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "v_alfa_in_ap_vld",
+          "name": "v_alfa_in_ap_vld",
+          "usage": "control",
+          "direction": "out"
+        }
+      ]
+    },
+    "v_beta_in": {
+      "index": "21",
+      "direction": "out",
+      "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>*",
+      "srcSize": "64",
+      "hwRefs": [
+        {
+          "type": "port",
+          "interface": "v_beta_in",
+          "name": "v_beta_in",
+          "usage": "data",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "v_beta_in_ap_vld",
+          "name": "v_beta_in_ap_vld",
+          "usage": "control",
+          "direction": "out"
+        }
+      ]
+    },
+    "Amp_vneg_raw_base_out": {
+      "index": "22",
+      "direction": "out",
+      "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>*",
+      "srcSize": "64",
+      "hwRefs": [
+        {
+          "type": "port",
+          "interface": "Amp_vneg_raw_base_out",
+          "name": "Amp_vneg_raw_base_out",
+          "usage": "data",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "Amp_vneg_raw_base_out_ap_vld",
+          "name": "Amp_vneg_raw_base_out_ap_vld",
+          "usage": "control",
+          "direction": "out"
+        }
+      ]
+    },
+    "q_inv_d_out": {
+      "index": "23",
+      "direction": "out",
+      "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>*",
+      "srcSize": "64",
+      "hwRefs": [
+        {
+          "type": "port",
+          "interface": "q_inv_d_out",
+          "name": "q_inv_d_out",
+          "usage": "data",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "q_inv_d_out_ap_vld",
+          "name": "q_inv_d_out_ap_vld",
+          "usage": "control",
+          "direction": "out"
+        }
+      ]
+    },
+    "v2_d_limpo_out": {
+      "index": "24",
+      "direction": "out",
+      "srcType": "ap_fixed<64, 16, AP_TRN, AP_WRAP, 0>*",
+      "srcSize": "64",
+      "hwRefs": [
+        {
+          "type": "port",
+          "interface": "v2_d_limpo_out",
+          "name": "v2_d_limpo_out",
+          "usage": "data",
+          "direction": "out"
+        },
+        {
+          "type": "port",
+          "interface": "v2_d_limpo_out_ap_vld",
+          "name": "v2_d_limpo_out_ap_vld",
           "usage": "control",
           "direction": "out"
         }
@@ -256,93 +483,85 @@
   "Files": {
     "CSource": ["..\/..\/..\/..\/C-Codes\/Fixed_x64\/PLL2026_x64.cpp"],
     "Vhdl": [
+      "impl\/vhdl\/PLL2026_x64_ATAN_LUT_signed.vhd",
+      "impl\/vhdl\/PLL2026_x64_ATAN_LUT_signed_table_m_V_2.vhd",
+      "impl\/vhdl\/PLL2026_x64_ATAN_LUT_signed_table_mark_V_2.vhd",
+      "impl\/vhdl\/PLL2026_x64_ATAN_LUT_signed_table_n_V_2.vhd",
       "impl\/vhdl\/PLL2026_x64_cos_2000.vhd",
-      "impl\/vhdl\/PLL2026_x64_dadd_64ns_64ns_64_5_full_dsp_1.vhd",
       "impl\/vhdl\/PLL2026_x64_dcmp_64ns_64ns_1_2_no_dsp_1.vhd",
-      "impl\/vhdl\/PLL2026_x64_dmul_64ns_64ns_64_6_max_dsp_1.vhd",
       "impl\/vhdl\/PLL2026_x64_INV_LUT.vhd",
-      "impl\/vhdl\/PLL2026_x64_INV_LUT_mask_table.vhd",
-      "impl\/vhdl\/PLL2026_x64_INV_LUT_table_m.vhd",
-      "impl\/vhdl\/PLL2026_x64_INV_LUT_table_mark.vhd",
-      "impl\/vhdl\/PLL2026_x64_INV_LUT_table_n.vhd",
+      "impl\/vhdl\/PLL2026_x64_INV_LUT_table_m_V_1.vhd",
+      "impl\/vhdl\/PLL2026_x64_INV_LUT_table_mark_V_1.vhd",
+      "impl\/vhdl\/PLL2026_x64_INV_LUT_table_n_V_1.vhd",
+      "impl\/vhdl\/PLL2026_x64_mul_48ns_64ns_111_5_1.vhd",
       "impl\/vhdl\/PLL2026_x64_mul_48ns_64s_112_5_1.vhd",
-      "impl\/vhdl\/PLL2026_x64_mul_49ns_64s_112_5_1.vhd",
+      "impl\/vhdl\/PLL2026_x64_mul_49ns_64ns_112_5_1.vhd",
       "impl\/vhdl\/PLL2026_x64_mul_50s_64s_112_5_1.vhd",
       "impl\/vhdl\/PLL2026_x64_mul_63s_64s_112_5_1.vhd",
-      "impl\/vhdl\/PLL2026_x64_mul_64s_29ns_92_5_1.vhd",
+      "impl\/vhdl\/PLL2026_x64_mul_64s_31ns_94_5_1.vhd",
+      "impl\/vhdl\/PLL2026_x64_mul_64s_46ns_109_5_1.vhd",
       "impl\/vhdl\/PLL2026_x64_mul_64s_50s_112_5_1.vhd",
       "impl\/vhdl\/PLL2026_x64_mul_64s_54ns_112_5_1.vhd",
       "impl\/vhdl\/PLL2026_x64_mul_64s_58ns_121_5_1.vhd",
       "impl\/vhdl\/PLL2026_x64_mul_64s_64s_112_5_1.vhd",
-      "impl\/vhdl\/PLL2026_x64_mul_64s_87ns_150_5_1.vhd",
+      "impl\/vhdl\/PLL2026_x64_mul_64s_89ns_152_5_1.vhd",
       "impl\/vhdl\/PLL2026_x64_mul_65s_49ns_112_5_1.vhd",
-      "impl\/vhdl\/PLL2026_x64_mul_65s_87ns_151_5_1.vhd",
       "impl\/vhdl\/PLL2026_x64_mul_65s_89ns_153_5_1.vhd",
+      "impl\/vhdl\/PLL2026_x64_mul_65s_91ns_155_5_1.vhd",
       "impl\/vhdl\/PLL2026_x64_mul_113s_49ns_160_5_1.vhd",
       "impl\/vhdl\/PLL2026_x64_sin_2000.vhd",
-      "impl\/vhdl\/PLL2026_x64_sin_2000_table_r.vhd",
-      "impl\/vhdl\/PLL2026_x64_sitodp_32ns_64_6_no_dsp_1.vhd",
-      "impl\/vhdl\/PLL2026_x64_table_m_2.vhd",
-      "impl\/vhdl\/PLL2026_x64_table_m_5.vhd",
-      "impl\/vhdl\/PLL2026_x64_table_mark_1.vhd",
-      "impl\/vhdl\/PLL2026_x64_table_mark_4.vhd",
-      "impl\/vhdl\/PLL2026_x64_table_n_3.vhd",
-      "impl\/vhdl\/PLL2026_x64_table_n_6.vhd",
+      "impl\/vhdl\/PLL2026_x64_sin_2000_table_V.vhd",
+      "impl\/vhdl\/PLL2026_x64_table_m_V.vhd",
+      "impl\/vhdl\/PLL2026_x64_table_mark_V.vhd",
+      "impl\/vhdl\/PLL2026_x64_table_n_V.vhd",
       "impl\/vhdl\/PLL2026_x64.vhd"
     ],
     "Verilog": [
+      "impl\/verilog\/PLL2026_x64_ATAN_LUT_signed.v",
+      "impl\/verilog\/PLL2026_x64_ATAN_LUT_signed_table_m_V_2.v",
+      "impl\/verilog\/PLL2026_x64_ATAN_LUT_signed_table_m_V_2_rom.dat",
+      "impl\/verilog\/PLL2026_x64_ATAN_LUT_signed_table_mark_V_2.v",
+      "impl\/verilog\/PLL2026_x64_ATAN_LUT_signed_table_mark_V_2_rom.dat",
+      "impl\/verilog\/PLL2026_x64_ATAN_LUT_signed_table_n_V_2.v",
+      "impl\/verilog\/PLL2026_x64_ATAN_LUT_signed_table_n_V_2_rom.dat",
       "impl\/verilog\/PLL2026_x64_cos_2000.v",
-      "impl\/verilog\/PLL2026_x64_dadd_64ns_64ns_64_5_full_dsp_1.v",
       "impl\/verilog\/PLL2026_x64_dcmp_64ns_64ns_1_2_no_dsp_1.v",
-      "impl\/verilog\/PLL2026_x64_dmul_64ns_64ns_64_6_max_dsp_1.v",
       "impl\/verilog\/PLL2026_x64_INV_LUT.v",
-      "impl\/verilog\/PLL2026_x64_INV_LUT_mask_table.v",
-      "impl\/verilog\/PLL2026_x64_INV_LUT_mask_table_rom.dat",
-      "impl\/verilog\/PLL2026_x64_INV_LUT_table_m.v",
-      "impl\/verilog\/PLL2026_x64_INV_LUT_table_m_rom.dat",
-      "impl\/verilog\/PLL2026_x64_INV_LUT_table_mark.v",
-      "impl\/verilog\/PLL2026_x64_INV_LUT_table_mark_rom.dat",
-      "impl\/verilog\/PLL2026_x64_INV_LUT_table_n.v",
-      "impl\/verilog\/PLL2026_x64_INV_LUT_table_n_rom.dat",
+      "impl\/verilog\/PLL2026_x64_INV_LUT_table_m_V_1.v",
+      "impl\/verilog\/PLL2026_x64_INV_LUT_table_m_V_1_rom.dat",
+      "impl\/verilog\/PLL2026_x64_INV_LUT_table_mark_V_1.v",
+      "impl\/verilog\/PLL2026_x64_INV_LUT_table_mark_V_1_rom.dat",
+      "impl\/verilog\/PLL2026_x64_INV_LUT_table_n_V_1.v",
+      "impl\/verilog\/PLL2026_x64_INV_LUT_table_n_V_1_rom.dat",
+      "impl\/verilog\/PLL2026_x64_mul_48ns_64ns_111_5_1.v",
       "impl\/verilog\/PLL2026_x64_mul_48ns_64s_112_5_1.v",
-      "impl\/verilog\/PLL2026_x64_mul_49ns_64s_112_5_1.v",
+      "impl\/verilog\/PLL2026_x64_mul_49ns_64ns_112_5_1.v",
       "impl\/verilog\/PLL2026_x64_mul_50s_64s_112_5_1.v",
       "impl\/verilog\/PLL2026_x64_mul_63s_64s_112_5_1.v",
-      "impl\/verilog\/PLL2026_x64_mul_64s_29ns_92_5_1.v",
+      "impl\/verilog\/PLL2026_x64_mul_64s_31ns_94_5_1.v",
+      "impl\/verilog\/PLL2026_x64_mul_64s_46ns_109_5_1.v",
       "impl\/verilog\/PLL2026_x64_mul_64s_50s_112_5_1.v",
       "impl\/verilog\/PLL2026_x64_mul_64s_54ns_112_5_1.v",
       "impl\/verilog\/PLL2026_x64_mul_64s_58ns_121_5_1.v",
       "impl\/verilog\/PLL2026_x64_mul_64s_64s_112_5_1.v",
-      "impl\/verilog\/PLL2026_x64_mul_64s_87ns_150_5_1.v",
+      "impl\/verilog\/PLL2026_x64_mul_64s_89ns_152_5_1.v",
       "impl\/verilog\/PLL2026_x64_mul_65s_49ns_112_5_1.v",
-      "impl\/verilog\/PLL2026_x64_mul_65s_87ns_151_5_1.v",
       "impl\/verilog\/PLL2026_x64_mul_65s_89ns_153_5_1.v",
+      "impl\/verilog\/PLL2026_x64_mul_65s_91ns_155_5_1.v",
       "impl\/verilog\/PLL2026_x64_mul_113s_49ns_160_5_1.v",
       "impl\/verilog\/PLL2026_x64_sin_2000.v",
-      "impl\/verilog\/PLL2026_x64_sin_2000_table_r.v",
-      "impl\/verilog\/PLL2026_x64_sin_2000_table_r_rom.dat",
-      "impl\/verilog\/PLL2026_x64_sitodp_32ns_64_6_no_dsp_1.v",
-      "impl\/verilog\/PLL2026_x64_table_m_2.v",
-      "impl\/verilog\/PLL2026_x64_table_m_2_rom.dat",
-      "impl\/verilog\/PLL2026_x64_table_m_5.v",
-      "impl\/verilog\/PLL2026_x64_table_m_5_rom.dat",
-      "impl\/verilog\/PLL2026_x64_table_mark_1.v",
-      "impl\/verilog\/PLL2026_x64_table_mark_1_rom.dat",
-      "impl\/verilog\/PLL2026_x64_table_mark_4.v",
-      "impl\/verilog\/PLL2026_x64_table_mark_4_rom.dat",
-      "impl\/verilog\/PLL2026_x64_table_n_3.v",
-      "impl\/verilog\/PLL2026_x64_table_n_3_rom.dat",
-      "impl\/verilog\/PLL2026_x64_table_n_6.v",
-      "impl\/verilog\/PLL2026_x64_table_n_6_rom.dat",
+      "impl\/verilog\/PLL2026_x64_sin_2000_table_V.v",
+      "impl\/verilog\/PLL2026_x64_sin_2000_table_V_rom.dat",
+      "impl\/verilog\/PLL2026_x64_table_m_V.v",
+      "impl\/verilog\/PLL2026_x64_table_m_V_rom.dat",
+      "impl\/verilog\/PLL2026_x64_table_mark_V.v",
+      "impl\/verilog\/PLL2026_x64_table_mark_V_rom.dat",
+      "impl\/verilog\/PLL2026_x64_table_n_V.v",
+      "impl\/verilog\/PLL2026_x64_table_n_V_rom.dat",
       "impl\/verilog\/PLL2026_x64.v"
     ],
     "IpMisc": ["impl\/misc\/logo.png"],
-    "Subcore": [
-      "impl\/misc\/PLL2026_x64_ap_dadd_3_full_dsp_64_ip.tcl",
-      "impl\/misc\/PLL2026_x64_ap_dcmp_0_no_dsp_64_ip.tcl",
-      "impl\/misc\/PLL2026_x64_ap_dmul_4_max_dsp_64_ip.tcl",
-      "impl\/misc\/PLL2026_x64_ap_sitodp_4_no_dsp_32_ip.tcl"
-    ],
+    "Subcore": ["impl\/misc\/PLL2026_x64_ap_dcmp_0_no_dsp_64_ip.tcl"],
     "DesignXml": ".autopilot\/db\/PLL2026_x64.design.xml",
     "DebugDir": ".debug",
     "ProtoInst": ["C:\/Users\/cleit\/OneDrive\/Documents\/GitHub\/PLL-2024\/AC701\/H\/PLL2026\/solution1\/.debug\/PLL2026_x64.protoinst"]
@@ -350,28 +569,11 @@
   "SubcoreInfo": {
     "HasXpmMemory": false,
     "HasClockedDsp": false,
-    "Ip": [
-      {
-        "Name": "PLL2026_x64_ap_dadd_3_full_dsp_64",
-        "Vlnv": "xilinx.com:ip:floating_point:7.1",
-        "Params": "CONFIG.a_precision_type Double CONFIG.a_tuser_width 1 CONFIG.add_sub_value Add CONFIG.b_tuser_width 1 CONFIG.c_a_exponent_width 11 CONFIG.c_a_fraction_width 53 CONFIG.c_compare_operation Programmable CONFIG.c_has_divide_by_zero false CONFIG.c_has_invalid_op false CONFIG.c_has_overflow false CONFIG.c_has_underflow false CONFIG.c_latency 3 CONFIG.c_mult_usage Full_Usage CONFIG.c_optimization Speed_Optimized CONFIG.c_rate 1 CONFIG.c_result_exponent_width 11 CONFIG.c_result_fraction_width 53 CONFIG.component_name PLL2026_x64_ap_dadd_3_full_dsp_64 CONFIG.flow_control NonBlocking CONFIG.has_a_tlast false CONFIG.has_a_tuser false CONFIG.has_aclken true CONFIG.has_aresetn false CONFIG.has_b_tlast false CONFIG.has_b_tuser false CONFIG.has_operation_tlast false CONFIG.has_operation_tuser false CONFIG.has_result_tready false CONFIG.maximum_latency false CONFIG.operation_tuser_width 1 CONFIG.operation_type Add_Subtract CONFIG.result_precision_type Double CONFIG.result_tlast_behv Null"
-      },
-      {
+    "Ip": [{
         "Name": "PLL2026_x64_ap_dcmp_0_no_dsp_64",
         "Vlnv": "xilinx.com:ip:floating_point:7.1",
         "Params": "CONFIG.a_precision_type Double CONFIG.a_tuser_width 1 CONFIG.add_sub_value Both CONFIG.b_tuser_width 1 CONFIG.c_a_exponent_width 11 CONFIG.c_a_fraction_width 53 CONFIG.c_compare_operation Programmable CONFIG.c_has_divide_by_zero false CONFIG.c_has_invalid_op false CONFIG.c_has_overflow false CONFIG.c_has_underflow false CONFIG.c_latency 0 CONFIG.c_mult_usage No_Usage CONFIG.c_optimization Speed_Optimized CONFIG.c_rate 1 CONFIG.c_result_exponent_width 1 CONFIG.c_result_fraction_width 0 CONFIG.component_name PLL2026_x64_ap_dcmp_0_no_dsp_64 CONFIG.flow_control NonBlocking CONFIG.has_a_tlast false CONFIG.has_a_tuser false CONFIG.has_aclken false CONFIG.has_aresetn false CONFIG.has_b_tlast false CONFIG.has_b_tuser false CONFIG.has_operation_tlast false CONFIG.has_operation_tuser false CONFIG.has_result_tready false CONFIG.maximum_latency false CONFIG.operation_tuser_width 1 CONFIG.operation_type Compare CONFIG.result_precision_type Custom CONFIG.result_tlast_behv Null"
-      },
-      {
-        "Name": "PLL2026_x64_ap_dmul_4_max_dsp_64",
-        "Vlnv": "xilinx.com:ip:floating_point:7.1",
-        "Params": "CONFIG.a_precision_type Double CONFIG.a_tuser_width 1 CONFIG.add_sub_value Both CONFIG.b_tuser_width 1 CONFIG.c_a_exponent_width 11 CONFIG.c_a_fraction_width 53 CONFIG.c_compare_operation Programmable CONFIG.c_has_divide_by_zero false CONFIG.c_has_invalid_op false CONFIG.c_has_overflow false CONFIG.c_has_underflow false CONFIG.c_latency 4 CONFIG.c_mult_usage Max_Usage CONFIG.c_optimization Speed_Optimized CONFIG.c_rate 1 CONFIG.c_result_exponent_width 11 CONFIG.c_result_fraction_width 53 CONFIG.component_name PLL2026_x64_ap_dmul_4_max_dsp_64 CONFIG.flow_control NonBlocking CONFIG.has_a_tlast false CONFIG.has_a_tuser false CONFIG.has_aclken true CONFIG.has_aresetn false CONFIG.has_b_tlast false CONFIG.has_b_tuser false CONFIG.has_operation_tlast false CONFIG.has_operation_tuser false CONFIG.has_result_tready false CONFIG.maximum_latency false CONFIG.operation_tuser_width 1 CONFIG.operation_type Multiply CONFIG.result_precision_type Double CONFIG.result_tlast_behv Null"
-      },
-      {
-        "Name": "PLL2026_x64_ap_sitodp_4_no_dsp_32",
-        "Vlnv": "xilinx.com:ip:floating_point:7.1",
-        "Params": "CONFIG.a_precision_type Custom CONFIG.a_tuser_width 1 CONFIG.add_sub_value Both CONFIG.b_tuser_width 1 CONFIG.c_a_exponent_width 32 CONFIG.c_a_fraction_width 0 CONFIG.c_compare_operation Programmable CONFIG.c_has_divide_by_zero false CONFIG.c_has_invalid_op false CONFIG.c_has_overflow false CONFIG.c_has_underflow false CONFIG.c_latency 4 CONFIG.c_mult_usage No_Usage CONFIG.c_optimization Speed_Optimized CONFIG.c_rate 1 CONFIG.c_result_exponent_width 11 CONFIG.c_result_fraction_width 53 CONFIG.component_name PLL2026_x64_ap_sitodp_4_no_dsp_32 CONFIG.flow_control NonBlocking CONFIG.has_a_tlast false CONFIG.has_a_tuser false CONFIG.has_aclken true CONFIG.has_aresetn false CONFIG.has_b_tlast false CONFIG.has_b_tuser false CONFIG.has_operation_tlast false CONFIG.has_operation_tuser false CONFIG.has_result_tready false CONFIG.maximum_latency false CONFIG.operation_tuser_width 1 CONFIG.operation_type Fixed_to_Float CONFIG.result_precision_type Double CONFIG.result_tlast_behv Null"
-      }
-    ]
+      }]
   },
   "Interfaces": {
     "Amp_vneg_out": {
@@ -386,6 +588,20 @@
           "mode": "ap_none",
           "register_option": "0",
           "argName": "Amp_vneg_out"
+        }]
+    },
+    "Amp_vneg_raw_base_out": {
+      "type": "data",
+      "busTypeName": "data",
+      "mode": "master",
+      "dataWidth": "64",
+      "portMap": {"Amp_vneg_raw_base_out": "DATA"},
+      "ports": ["Amp_vneg_raw_base_out"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "Amp_vneg_raw_base_out"
         }]
     },
     "amp_vPos_out": {
@@ -449,6 +665,132 @@
           "argName": "delta_out"
         }]
     },
+    "EN1": {
+      "type": "data",
+      "busTypeName": "data",
+      "mode": "slave",
+      "dataWidth": "1",
+      "portMap": {"EN1": "DATA"},
+      "ports": ["EN1"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "EN1"
+        }]
+    },
+    "EN2": {
+      "type": "data",
+      "busTypeName": "data",
+      "mode": "slave",
+      "dataWidth": "1",
+      "portMap": {"EN2": "DATA"},
+      "ports": ["EN2"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "EN2"
+        }]
+    },
+    "EN3": {
+      "type": "data",
+      "busTypeName": "data",
+      "mode": "slave",
+      "dataWidth": "1",
+      "portMap": {"EN3": "DATA"},
+      "ports": ["EN3"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "EN3"
+        }]
+    },
+    "EN4": {
+      "type": "data",
+      "busTypeName": "data",
+      "mode": "slave",
+      "dataWidth": "1",
+      "portMap": {"EN4": "DATA"},
+      "ports": ["EN4"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "EN4"
+        }]
+    },
+    "EN5": {
+      "type": "data",
+      "busTypeName": "data",
+      "mode": "slave",
+      "dataWidth": "1",
+      "portMap": {"EN5": "DATA"},
+      "ports": ["EN5"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "EN5"
+        }]
+    },
+    "EN6": {
+      "type": "data",
+      "busTypeName": "data",
+      "mode": "slave",
+      "dataWidth": "1",
+      "portMap": {"EN6": "DATA"},
+      "ports": ["EN6"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "EN6"
+        }]
+    },
+    "in_1": {
+      "type": "data",
+      "busTypeName": "data",
+      "mode": "slave",
+      "dataWidth": "64",
+      "portMap": {"in_1": "DATA"},
+      "ports": ["in_1"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "in_1"
+        }]
+    },
+    "in_2": {
+      "type": "data",
+      "busTypeName": "data",
+      "mode": "slave",
+      "dataWidth": "64",
+      "portMap": {"in_2": "DATA"},
+      "ports": ["in_2"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "in_2"
+        }]
+    },
+    "in_3": {
+      "type": "data",
+      "busTypeName": "data",
+      "mode": "slave",
+      "dataWidth": "64",
+      "portMap": {"in_3": "DATA"},
+      "ports": ["in_3"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "in_3"
+        }]
+    },
     "pll_alpha_out": {
       "type": "data",
       "busTypeName": "data",
@@ -477,6 +819,20 @@
           "argName": "pll_beta_out"
         }]
     },
+    "q_inv_d_out": {
+      "type": "data",
+      "busTypeName": "data",
+      "mode": "master",
+      "dataWidth": "64",
+      "portMap": {"q_inv_d_out": "DATA"},
+      "ports": ["q_inv_d_out"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "q_inv_d_out"
+        }]
+    },
     "sinc": {
       "type": "data",
       "busTypeName": "data",
@@ -503,6 +859,48 @@
           "mode": "ap_none",
           "register_option": "0",
           "argName": "theta_out"
+        }]
+    },
+    "v2_d_limpo_out": {
+      "type": "data",
+      "busTypeName": "data",
+      "mode": "master",
+      "dataWidth": "64",
+      "portMap": {"v2_d_limpo_out": "DATA"},
+      "ports": ["v2_d_limpo_out"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "v2_d_limpo_out"
+        }]
+    },
+    "v_alfa_in": {
+      "type": "data",
+      "busTypeName": "data",
+      "mode": "master",
+      "dataWidth": "64",
+      "portMap": {"v_alfa_in": "DATA"},
+      "ports": ["v_alfa_in"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "v_alfa_in"
+        }]
+    },
+    "v_beta_in": {
+      "type": "data",
+      "busTypeName": "data",
+      "mode": "master",
+      "dataWidth": "64",
+      "portMap": {"v_beta_in": "DATA"},
+      "ports": ["v_beta_in"],
+      "constraints": [{
+          "constraint_type": "pragma interface",
+          "mode": "ap_none",
+          "register_option": "0",
+          "argName": "v_beta_in"
         }]
     },
     "vin_a": {
@@ -592,6 +990,36 @@
       "width": "1",
       "isVector": "true"
     },
+    "EN1": {
+      "dir": "in",
+      "width": "1",
+      "isVector": "true"
+    },
+    "EN2": {
+      "dir": "in",
+      "width": "1",
+      "isVector": "true"
+    },
+    "EN3": {
+      "dir": "in",
+      "width": "1",
+      "isVector": "true"
+    },
+    "EN4": {
+      "dir": "in",
+      "width": "1",
+      "isVector": "true"
+    },
+    "EN5": {
+      "dir": "in",
+      "width": "1",
+      "isVector": "true"
+    },
+    "EN6": {
+      "dir": "in",
+      "width": "1",
+      "isVector": "true"
+    },
     "vin_a": {
       "dir": "in",
       "width": "64"
@@ -601,6 +1029,18 @@
       "width": "64"
     },
     "vin_c": {
+      "dir": "in",
+      "width": "64"
+    },
+    "in_1": {
+      "dir": "in",
+      "width": "64"
+    },
+    "in_2": {
+      "dir": "in",
+      "width": "64"
+    },
+    "in_3": {
       "dir": "in",
       "width": "64"
     },
@@ -659,6 +1099,46 @@
     "delta_out_ap_vld": {
       "dir": "out",
       "width": "1"
+    },
+    "v_alfa_in": {
+      "dir": "out",
+      "width": "64"
+    },
+    "v_alfa_in_ap_vld": {
+      "dir": "out",
+      "width": "1"
+    },
+    "v_beta_in": {
+      "dir": "out",
+      "width": "64"
+    },
+    "v_beta_in_ap_vld": {
+      "dir": "out",
+      "width": "1"
+    },
+    "Amp_vneg_raw_base_out": {
+      "dir": "out",
+      "width": "64"
+    },
+    "Amp_vneg_raw_base_out_ap_vld": {
+      "dir": "out",
+      "width": "1"
+    },
+    "q_inv_d_out": {
+      "dir": "out",
+      "width": "64"
+    },
+    "q_inv_d_out_ap_vld": {
+      "dir": "out",
+      "width": "1"
+    },
+    "v2_d_limpo_out": {
+      "dir": "out",
+      "width": "64"
+    },
+    "v2_d_limpo_out_ap_vld": {
+      "dir": "out",
+      "width": "1"
     }
   },
   "ModuleInfo": {
@@ -666,20 +1146,24 @@
       "ModuleName": "PLL2026_x64",
       "Instances": [
         {
+          "ModuleName": "cos_2000",
+          "InstanceName": "grp_cos_2000_fu_600"
+        },
+        {
+          "ModuleName": "cos_2000",
+          "InstanceName": "grp_cos_2000_fu_607"
+        },
+        {
+          "ModuleName": "ATAN_LUT_signed",
+          "InstanceName": "grp_ATAN_LUT_signed_fu_614"
+        },
+        {
           "ModuleName": "INV_LUT",
-          "InstanceName": "grp_INV_LUT_fu_476"
-        },
-        {
-          "ModuleName": "cos_2000",
-          "InstanceName": "grp_cos_2000_fu_489"
-        },
-        {
-          "ModuleName": "cos_2000",
-          "InstanceName": "grp_cos_2000_fu_496"
+          "InstanceName": "grp_INV_LUT_fu_625"
         },
         {
           "ModuleName": "sin_2000",
-          "InstanceName": "grp_sin_2000_fu_503"
+          "InstanceName": "grp_sin_2000_fu_636"
         }
       ]
     },
@@ -699,6 +1183,13 @@
         "isOneStateSeq": "0"
       },
       "INV_LUT": {
+        "FunctionProtocol": "ap_ctrl_hs",
+        "isTaskLevelControl": "0",
+        "isPipelined": "0",
+        "isCombinational": "0",
+        "isOneStateSeq": "0"
+      },
+      "ATAN_LUT_signed": {
         "FunctionProtocol": "ap_ctrl_hs",
         "isTaskLevelControl": "0",
         "isPipelined": "0",
@@ -790,28 +1281,76 @@
         "Timing": {
           "Target": "10.00",
           "Uncertainty": "2.70",
-          "Estimate": "7.059"
+          "Estimate": "7.132"
         },
         "Loops": [{
-            "Name": "VITIS_LOOP_838_1",
+            "Name": "VITIS_LOOP_926_1",
             "TripCount": "",
             "Latency": "",
-            "PipelineII": "24",
-            "PipelineDepth": "24"
+            "PipelineII": "2",
+            "PipelineDepth": "2"
           }],
         "Area": {
-          "BRAM_18K": "8",
+          "BRAM_18K": "6",
           "AVAIL_BRAM": "730",
-          "UTIL_BRAM": "1",
-          "FF": "1385",
+          "UTIL_BRAM": "~0",
+          "DSP": "4",
+          "AVAIL_DSP": "740",
+          "UTIL_DSP": "~0",
+          "FF": "1225",
           "AVAIL_FF": "269200",
           "UTIL_FF": "~0",
-          "LUT": "3535",
+          "LUT": "2157",
           "AVAIL_LUT": "134600",
-          "UTIL_LUT": "2",
-          "DSP": "0",
+          "UTIL_LUT": "1",
+          "URAM": "0",
+          "AVAIL_URAM": "0",
+          "UTIL_URAM": "0"
+        }
+      },
+      "ATAN_LUT_signed": {
+        "Latency": {
+          "LatencyBest": "",
+          "LatencyAvg": "",
+          "LatencyWorst": "",
+          "PipelineII": "",
+          "PipelineDepth": "",
+          "PipelineType": "none"
+        },
+        "Timing": {
+          "Target": "10.00",
+          "Uncertainty": "2.70",
+          "Estimate": "7.132"
+        },
+        "Loops": [
+          {
+            "Name": "VITIS_LOOP_926_1",
+            "TripCount": "",
+            "Latency": "",
+            "PipelineII": "2",
+            "PipelineDepth": "2"
+          },
+          {
+            "Name": "VITIS_LOOP_926_1",
+            "TripCount": "",
+            "Latency": "",
+            "PipelineII": "2",
+            "PipelineDepth": "2"
+          }
+        ],
+        "Area": {
+          "BRAM_18K": "6",
+          "AVAIL_BRAM": "730",
+          "UTIL_BRAM": "~0",
+          "DSP": "4",
           "AVAIL_DSP": "740",
-          "UTIL_DSP": "0",
+          "UTIL_DSP": "~0",
+          "FF": "1673",
+          "AVAIL_FF": "269200",
+          "UTIL_FF": "~0",
+          "LUT": "1482",
+          "AVAIL_LUT": "134600",
+          "UTIL_LUT": "1",
           "URAM": "0",
           "AVAIL_URAM": "0",
           "UTIL_URAM": "0"
@@ -833,33 +1372,33 @@
         },
         "Loops": [
           {
-            "Name": "VITIS_LOOP_838_1",
+            "Name": "VITIS_LOOP_926_1",
             "TripCount": "",
             "Latency": "",
-            "PipelineII": "24",
-            "PipelineDepth": "24"
+            "PipelineII": "2",
+            "PipelineDepth": "2"
           },
           {
-            "Name": "VITIS_LOOP_838_1",
+            "Name": "VITIS_LOOP_926_1",
             "TripCount": "",
             "Latency": "",
-            "PipelineII": "24",
-            "PipelineDepth": "24"
+            "PipelineII": "2",
+            "PipelineDepth": "2"
           }
         ],
         "Area": {
-          "BRAM_18K": "40",
+          "BRAM_18K": "36",
           "AVAIL_BRAM": "730",
-          "UTIL_BRAM": "5",
-          "DSP": "96",
+          "UTIL_BRAM": "4",
+          "DSP": "88",
           "AVAIL_DSP": "740",
-          "UTIL_DSP": "12",
-          "FF": "21469",
+          "UTIL_DSP": "11",
+          "FF": "22042",
           "AVAIL_FF": "269200",
-          "UTIL_FF": "7",
-          "LUT": "26447",
+          "UTIL_FF": "8",
+          "LUT": "22712",
           "AVAIL_LUT": "134600",
-          "UTIL_LUT": "19",
+          "UTIL_LUT": "16",
           "URAM": "0",
           "AVAIL_URAM": "0",
           "UTIL_URAM": "0"
@@ -870,7 +1409,7 @@
   "GenerateBdFiles": "0",
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2026-06-17 15:54:52 -0300",
+    "Time": "2026-07-01 18:21:23 -0300",
     "ToolName": "vivado_hls",
     "ToolVersion": "2020.2"
   }

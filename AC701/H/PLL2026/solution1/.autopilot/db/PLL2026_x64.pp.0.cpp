@@ -26181,25 +26181,41 @@ typedef ap_fixed<64,16, AP_TRN, AP_WRAP> data_t;
 
 
 typedef ap_uint<1> uint1_t;
-# 44 "../../C-Codes/Fixed_x64/PLL2026_x64.h"
+# 45 "../../C-Codes/Fixed_x64/PLL2026_x64.h"
 data_t sin_2000(data_t theta);
 data_t cos_2000(data_t theta);
 data_t wrap_2pi(data_t angulo_in);
 data_t ATAN_LUT(data_t x);
+data_t ATAN_LUT_signed(data_t x);
 data_t SQRT_LUT(data_t x);
 data_t INV_LUT(data_t x);
+data_t INV_LUT_signed(data_t x);
 int busca_binaria(data_t *vetor, int Tamanho, data_t valor);
 __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
+     uint1_t EN1,
+     uint1_t EN2,
+     uint1_t EN3,
+     uint1_t EN4,
+     uint1_t EN5,
+     uint1_t EN6,
                     data_t vin_a,
                     data_t vin_b,
                     data_t vin_c,
+     data_t in_1,
+     data_t in_2,
+     data_t in_3,
                     data_t *w_out,
                     data_t *theta_out,
                     data_t *pll_alpha_out,
                     data_t *pll_beta_out,
                     data_t *amp_vPos_out,
                     data_t *Amp_vneg_out,
-                    data_t *delta_out
+                    data_t *delta_out,
+     data_t *v_alfa_in,
+     data_t *v_beta_in,
+     data_t *Amp_vneg_raw_base_out,
+     data_t *q_inv_d_out,
+     data_t *v2_d_limpo_out
                     );
 # 2 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp" 2
 
@@ -26208,19 +26224,33 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
 
 
 __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
+     uint1_t EN1,
+     uint1_t EN2,
+     uint1_t EN3,
+     uint1_t EN4,
+     uint1_t EN5,
+     uint1_t EN6,
                     data_t vin_a,
                     data_t vin_b,
                     data_t vin_c,
+     data_t in_1,
+     data_t in_2,
+     data_t in_3,
                     data_t *w_out,
                     data_t *theta_out,
                     data_t *pll_alpha_out,
                     data_t *pll_beta_out,
                     data_t *amp_vPos_out,
                     data_t *Amp_vneg_out,
-                    data_t *delta_out
+                    data_t *delta_out,
+     data_t *v_alfa_in,
+     data_t *v_beta_in,
+     data_t *Amp_vneg_raw_base_out,
+     data_t *q_inv_d_out,
+     data_t *v2_d_limpo_out
                     ){
 #pragma HLS TOP name=PLL2026_x64
-# 18 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
+# 32 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
 
 
 
@@ -26266,6 +26296,8 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
     static data_t v_beta;
 
     static data_t inv_v2_d_limpo;
+
+    static data_t q_inv_d;
 
 
 
@@ -26313,78 +26345,142 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
 
 
 
-        sen_teta1 = sin_2000(theta1);
-        cos_teta1 = cos_2000(theta1);
-
-        theta1_2x = 2*theta1;
-
-        sen_teta2 = sin_2000(theta1_2x);
-        cos_teta2 = cos_2000(theta1_2x);
 
 
 
-        v1_q = cos_teta1 * v_alfa + sen_teta1 * v_beta;
-        v1_d = sen_teta1 * v_alfa - cos_teta1 * v_beta;
+  sen_teta1 = sin_2000(theta1);
+  cos_teta1 = cos_2000(theta1);
 
+  theta1_2x = 2*theta1;
 
-        v2_q = cos_teta1 * v_alfa - sen_teta1 * v_beta;
-        v2_d = sen_teta1 * v_alfa + cos_teta1 * v_beta;
-
-
-
-        v1_q_limpo = v1_q - v1_q_comp;
-        v1_d_limpo = v1_d + v1_d_comp;
-
-
-
-        v2_q_limpo = v2_q - sen_teta2 * amp_vPos;
-        v2_d_limpo = v2_d + cos_teta2 * amp_vPos;
-
-
-
-        wi = wi_old + data_t(500e-9) * data_t(1000) * v1_q_limpo;
-        w = data_t(300) + wi + data_t(20) * v1_q_limpo;
-
-        if(theta1>=data_t(6.283185307179586)){
-            theta1 = data_t(0);
-        }
-        else{
-            theta1 = theta1_old + data_t(500e-9)*w;
-        }
-
-
-
-        inv_v2_d_limpo = INV_LUT(v2_d_limpo);
-        delta_raw_base = ATAN_LUT(v2_q_limpo * inv_v2_d_limpo );
-
-
-
-        delta_raw = delta_raw_base;
-
-
-
-        Amp_vneg_raw_base = v2_q_limpo*v2_q_limpo + v2_d_limpo*v2_d_limpo;
-        Amp_vneg_raw = SQRT_LUT(Amp_vneg_raw_base);
+  sen_teta2 = sin_2000(theta1_2x);
+  cos_teta2 = cos_2000(theta1_2x);
 
 
 
 
-        delta = delta_old + data_t(500e-9)*data_t(1884.95)*(delta_raw - delta_old);
 
 
-        Amp_vneg = Amp_vneg_old + data_t(500e-9)*data_t(7539.82)*(Amp_vneg_raw - Amp_vneg_old);
+  v1_q = cos_teta1 * v_alfa + sen_teta1 * v_beta;
+  v1_d = sen_teta1 * v_alfa - cos_teta1 * v_beta;
 
 
-        theta1_2x_d = theta1_2x + delta;
-
-        v1_q_comp = Amp_vneg * sin_2000(theta1_2x_d);
-        v1_d_comp = Amp_vneg * cos_2000(theta1_2x_d);
+  v2_q = cos_teta1 * v_alfa - sen_teta1 * v_beta;
+  v2_d = sen_teta1 * v_alfa + cos_teta1 * v_beta;
 
 
-        amp_vPos = v1_d_limpo;
 
-        pll_alfa = amp_vPos * sen_teta1;
-        pll_beta = - amp_vPos * cos_teta1;
+  v1_q_limpo = v1_q - v1_q_comp;
+  v1_d_limpo = v1_d + v1_d_comp;
+
+
+
+  v2_q_limpo = v2_q - sen_teta2 * amp_vPos;
+  v2_d_limpo = v2_d + cos_teta2 * amp_vPos;
+
+
+
+
+
+
+
+  wi = wi_old + data_t(2e-6) * data_t(1000) * v1_q_limpo;
+  w = data_t(300) + wi + data_t(20) * v1_q_limpo;
+
+
+
+
+
+
+  if(theta1>=data_t(6.283185307179586)){
+   theta1 = data_t(0);
+  }
+  else{
+   theta1 = theta1_old + data_t(2e-6)*w;
+  }
+
+
+
+
+
+
+
+  if(EN1){
+   inv_v2_d_limpo = INV_LUT_signed(v2_d_limpo);
+  }
+  else{
+
+   if(EN4){
+    inv_v2_d_limpo = INV_LUT_signed(in_1);
+   }
+   else{
+    inv_v2_d_limpo = data_t(0.1)*v2_d_limpo;
+   }
+
+  }
+
+  q_inv_d = v2_q_limpo * inv_v2_d_limpo;
+
+  if(EN2){
+
+   delta_raw_base = ATAN_LUT_signed(q_inv_d);
+  }
+  else{
+
+   if(EN5){
+    delta_raw_base = ATAN_LUT_signed(in_2);
+   }
+   else{
+    delta_raw_base = data_t(0);
+   }
+
+  }
+
+
+
+  delta_raw = delta_raw_base;
+
+
+
+  Amp_vneg_raw_base = v2_q_limpo*v2_q_limpo + v2_d_limpo*v2_d_limpo;
+
+  if(EN3){
+   Amp_vneg_raw = SQRT_LUT(Amp_vneg_raw_base);
+  }
+  else{
+   if(EN6){
+    Amp_vneg_raw = SQRT_LUT(in_3);
+   }
+   else{
+    Amp_vneg_raw = data_t(0);
+   }
+
+  }
+
+
+
+
+
+  delta = delta_old + data_t(2e-6)*data_t(1884.95)*(delta_raw - delta_old);
+
+
+  Amp_vneg = Amp_vneg_old + data_t(2e-6)*data_t(7539.82)*(Amp_vneg_raw - Amp_vneg_old);
+
+
+  theta1_2x_d = theta1_2x + delta;
+
+
+
+  v1_q_comp = Amp_vneg * sin_2000(theta1_2x_d);
+  v1_d_comp = Amp_vneg * cos_2000(theta1_2x_d);
+
+
+
+
+  amp_vPos = v1_d_limpo;
+
+  pll_alfa = amp_vPos * sen_teta1;
+  pll_beta = - amp_vPos * cos_teta1;
 
 
 
@@ -26400,6 +26496,14 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
     *amp_vPos_out = amp_vPos;
     *Amp_vneg_out = Amp_vneg;
     *delta_out = delta;
+
+
+    *v_alfa_in = v_alfa;
+    *v_beta_in = v_beta;
+
+    *Amp_vneg_raw_base_out = Amp_vneg_raw_base;
+    *q_inv_d_out = q_inv_d;
+    *v2_d_limpo_out = v2_d_limpo;
 
 
 
@@ -26437,7 +26541,7 @@ data_t wrap_2pi(data_t angulo_in){
     else if(angulo<-data_t(12.566370614359172)){
         angulo = angulo+data_t(18.849555921538759);
     }
-# 247 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
+# 335 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
     return angulo;
 
 }
@@ -26479,7 +26583,7 @@ data_t sin_2000(data_t theta_in){
  theta = wrap_2pi(theta_in);
 
 
-    data_t table[500] = { data_t(0.0),
+ static const data_t table[500] = { data_t(0.0),
                             data_t(0.0031478832316097737),
                             data_t(0.006295735270235843),
                             data_t(0.0094435249232036),
@@ -27029,9 +27133,10 @@ int busca_binaria(data_t *vetor, int Tamanho, data_t valor){
     int half_list;
 
 
-    VITIS_LOOP_838_1: while( (intervalo_end-intervalo_begin)>1 ){
+    VITIS_LOOP_926_1: while( (intervalo_end-intervalo_begin)>1 ){
 
-        half_list = intervalo_begin + floor(0.5*(intervalo_end-intervalo_begin));
+
+     half_list = intervalo_begin + (intervalo_end - intervalo_begin)/2;
 
         if( valor > *(vetor + half_list) ){
             intervalo_begin = half_list;
@@ -27057,9 +27162,7 @@ data_t SQRT_LUT(data_t x){
 
 
 
-
-
-    data_t table_mark[64]{
+    static data_t table_mark[64]{
         data_t(0.100000000000),
         data_t(0.175000000000),
         data_t(0.250000000000),
@@ -27129,7 +27232,7 @@ data_t SQRT_LUT(data_t x){
 
 
 
-    data_t table_m[63] = {
+    static const data_t table_m[63] = {
         data_t(1.361363296669),
         data_t(1.088933156439),
         data_t(0.934502833994),
@@ -27196,7 +27299,7 @@ data_t SQRT_LUT(data_t x){
     };
 
 
-    data_t table_n[63] = {
+    static const data_t table_n[63] = {
         data_t(0.180091436350),
         data_t(0.227766710890),
         data_t(0.266374291501),
@@ -27263,16 +27366,25 @@ data_t SQRT_LUT(data_t x){
     };
 
 
+    if(x < 0){
+     y = data_t(0);
+    }
+    else{
+
+     idx = busca_binaria(table_mark, 64, x);
+
+     y = table_m[idx]*x + table_n[idx];
+
+    }
 
 
-    idx = busca_binaria(table_mark, 64, x);
 
-    y = table_m[idx]*x + table_n[idx];
 
     return y;
 
 
 }
+
 
 
 
@@ -27283,7 +27395,7 @@ data_t ATAN_LUT(data_t x){
 
 
 
-    data_t table_mark[32]{
+    static data_t table_mark[32]{
         data_t(0.000000000000),
         data_t(0.166666666667),
         data_t(0.333333333333),
@@ -27320,7 +27432,7 @@ data_t ATAN_LUT(data_t x){
 
 
 
-    data_t table_m[31] = {
+    static const data_t table_m[31] = {
         data_t(0.990892064488),
         data_t(0.939611261892),
         data_t(0.851382327625),
@@ -27355,7 +27467,7 @@ data_t ATAN_LUT(data_t x){
     };
 
 
-    data_t table_n[31] = {
+    static const data_t table_n[31] = {
         data_t(0.000000000000),
         data_t(0.008546800433),
         data_t(0.037956445188),
@@ -27391,7 +27503,7 @@ data_t ATAN_LUT(data_t x){
 
 
 
-    idx = busca_binaria(table_mark, 64, x);
+    idx = busca_binaria(table_mark, 32, x);
 
     y = table_m[idx]*x + table_n[idx];
 
@@ -27399,7 +27511,30 @@ data_t ATAN_LUT(data_t x){
 
 
 }
-# 1216 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
+
+
+
+data_t ATAN_LUT_signed(data_t x){
+
+ data_t y;
+ data_t x_aux;
+
+    if (x < 0){
+     x_aux = -x;
+     y = -ATAN_LUT(x_aux);
+    }
+    else{
+     y = ATAN_LUT(x);
+    }
+
+    return y;
+
+}
+
+
+
+
+
 data_t INV_LUT(data_t x){
 
     data_t y;
@@ -27411,7 +27546,7 @@ data_t INV_LUT(data_t x){
 
 
 
-    data_t table_mark[116]{
+    static data_t table_mark[116]{
      data_t(0.010000000000),
      data_t(0.012000000000),
      data_t(0.014000000000),
@@ -27533,7 +27668,7 @@ data_t INV_LUT(data_t x){
 
 
 
-    data_t table_m[115] = {
+    static const data_t table_m[115] = {
       data_t(-8333.333333333336),
       data_t(-5952.380952380949),
       data_t(-4464.285714285716),
@@ -27652,7 +27787,7 @@ data_t INV_LUT(data_t x){
     };
 
 
-    data_t table_n[115] = {
+    static const data_t table_n[115] = {
       data_t(183.333333333333),
       data_t(154.761904761905),
       data_t(133.928571428571),
@@ -27788,5 +27923,26 @@ data_t INV_LUT(data_t x){
 
     return y;
 
+
+}
+
+
+
+
+
+data_t INV_LUT_signed(data_t x){
+
+ data_t y;
+ data_t x_aux;
+
+    if (x < 0){
+     x_aux = -x;
+     y = -INV_LUT(x_aux);
+    }
+    else{
+     y = INV_LUT(x);
+    }
+
+    return y;
 
 }
