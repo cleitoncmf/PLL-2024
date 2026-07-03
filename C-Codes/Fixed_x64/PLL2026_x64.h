@@ -75,7 +75,13 @@ void PLL2026_x64(uint1_t sinc,
 					data_t *v_beta_in,
 					data_t *Amp_vneg_raw_base_out,
 					data_t *q_inv_d_out,
-					data_t *v2_d_limpo_out
+					data_t *v2_d_limpo_out,
+					data_t *in_inv,
+					data_t *out_inv,
+					data_t *in_atan,
+					data_t *out_atan,
+					data_t *in_sqrt,
+					data_t *out_sqrt,
                     );
 
 

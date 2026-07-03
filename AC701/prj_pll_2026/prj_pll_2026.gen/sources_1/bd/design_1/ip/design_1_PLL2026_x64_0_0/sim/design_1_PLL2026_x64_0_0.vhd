@@ -97,7 +97,19 @@ ENTITY design_1_PLL2026_x64_0_0 IS
     q_inv_d_out : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
     q_inv_d_out_ap_vld : OUT STD_LOGIC;
     v2_d_limpo_out : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
-    v2_d_limpo_out_ap_vld : OUT STD_LOGIC
+    v2_d_limpo_out_ap_vld : OUT STD_LOGIC;
+    in_inv : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
+    in_inv_ap_vld : OUT STD_LOGIC;
+    out_inv : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
+    out_inv_ap_vld : OUT STD_LOGIC;
+    in_atan : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
+    in_atan_ap_vld : OUT STD_LOGIC;
+    out_atan : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
+    out_atan_ap_vld : OUT STD_LOGIC;
+    in_sqrt : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
+    in_sqrt_ap_vld : OUT STD_LOGIC;
+    out_sqrt : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
+    out_sqrt_ap_vld : OUT STD_LOGIC
   );
 END design_1_PLL2026_x64_0_0;
 
@@ -148,7 +160,19 @@ ARCHITECTURE design_1_PLL2026_x64_0_0_arch OF design_1_PLL2026_x64_0_0 IS
       q_inv_d_out : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
       q_inv_d_out_ap_vld : OUT STD_LOGIC;
       v2_d_limpo_out : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
-      v2_d_limpo_out_ap_vld : OUT STD_LOGIC
+      v2_d_limpo_out_ap_vld : OUT STD_LOGIC;
+      in_inv : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
+      in_inv_ap_vld : OUT STD_LOGIC;
+      out_inv : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
+      out_inv_ap_vld : OUT STD_LOGIC;
+      in_atan : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
+      in_atan_ap_vld : OUT STD_LOGIC;
+      out_atan : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
+      out_atan_ap_vld : OUT STD_LOGIC;
+      in_sqrt : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
+      in_sqrt_ap_vld : OUT STD_LOGIC;
+      out_sqrt : OUT STD_LOGIC_VECTOR(63 DOWNTO 0);
+      out_sqrt_ap_vld : OUT STD_LOGIC
     );
   END COMPONENT PLL2026_x64;
   ATTRIBUTE IP_DEFINITION_SOURCE : STRING;
@@ -204,6 +228,18 @@ BEGIN
       q_inv_d_out => q_inv_d_out,
       q_inv_d_out_ap_vld => q_inv_d_out_ap_vld,
       v2_d_limpo_out => v2_d_limpo_out,
-      v2_d_limpo_out_ap_vld => v2_d_limpo_out_ap_vld
+      v2_d_limpo_out_ap_vld => v2_d_limpo_out_ap_vld,
+      in_inv => in_inv,
+      in_inv_ap_vld => in_inv_ap_vld,
+      out_inv => out_inv,
+      out_inv_ap_vld => out_inv_ap_vld,
+      in_atan => in_atan,
+      in_atan_ap_vld => in_atan_ap_vld,
+      out_atan => out_atan,
+      out_atan_ap_vld => out_atan_ap_vld,
+      in_sqrt => in_sqrt,
+      in_sqrt_ap_vld => in_sqrt_ap_vld,
+      out_sqrt => out_sqrt,
+      out_sqrt_ap_vld => out_sqrt_ap_vld
     );
 END design_1_PLL2026_x64_0_0_arch;

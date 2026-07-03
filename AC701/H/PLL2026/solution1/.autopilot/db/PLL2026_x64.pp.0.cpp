@@ -26215,7 +26215,13 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
      data_t *v_beta_in,
      data_t *Amp_vneg_raw_base_out,
      data_t *q_inv_d_out,
-     data_t *v2_d_limpo_out
+     data_t *v2_d_limpo_out,
+     data_t *in_inv,
+     data_t *out_inv,
+     data_t *in_atan,
+     data_t *out_atan,
+     data_t *in_sqrt,
+     data_t *out_sqrt
                     );
 # 2 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp" 2
 
@@ -26247,10 +26253,16 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
      data_t *v_beta_in,
      data_t *Amp_vneg_raw_base_out,
      data_t *q_inv_d_out,
-     data_t *v2_d_limpo_out
+     data_t *v2_d_limpo_out,
+     data_t *in_inv,
+     data_t *out_inv,
+     data_t *in_atan,
+     data_t *out_atan,
+     data_t *in_sqrt,
+     data_t *out_sqrt
                     ){
 #pragma HLS TOP name=PLL2026_x64
-# 32 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
+# 38 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
 
 
 
@@ -26298,6 +26310,18 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
     static data_t inv_v2_d_limpo;
 
     static data_t q_inv_d;
+
+
+
+    static data_t in_inv_aux;
+    static data_t in_inv_aux_old;
+ static data_t out_inv_aux;
+ static data_t in_atan_aux;
+ static data_t in_atan_aux_old;
+ static data_t out_atan_aux;
+ static data_t in_sqrt_aux;
+ static data_t in_sqrt_aux_old;
+ static data_t out_sqrt_aux;
 
 
 
@@ -26481,6 +26505,48 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
 
   pll_alfa = amp_vPos * sen_teta1;
   pll_beta = - amp_vPos * cos_teta1;
+# 294 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
+  in_inv_aux_old = in_inv_aux;
+
+  if(in_inv_aux>data_t(1000)){
+   in_inv_aux = data_t(0.01);
+  }
+  else{
+   in_inv_aux = in_inv_aux_old + data_t(0.1);
+  }
+
+
+  out_inv_aux = INV_LUT_signed(in_inv_aux);
+
+
+
+  in_atan_aux_old = in_atan_aux;
+
+  if(in_atan_aux>data_t(10000) ){
+   in_atan_aux = data_t(0.2);
+  }
+  else{
+   in_atan_aux = in_atan_aux_old + data_t(0.1);
+  }
+
+
+  out_atan_aux = ATAN_LUT_signed(in_atan_aux);
+
+
+
+
+
+  in_sqrt_aux_old = in_sqrt_aux;
+
+  if(in_sqrt_aux > data_t(10000) ){
+   in_sqrt_aux = data_t(0.2);
+  }
+  else{
+   in_sqrt_aux = in_sqrt_aux_old + data_t(0.1);
+  }
+
+
+  out_sqrt_aux = SQRT_LUT(in_sqrt_aux);
 
 
 
@@ -26504,6 +26570,14 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
     *Amp_vneg_raw_base_out = Amp_vneg_raw_base;
     *q_inv_d_out = q_inv_d;
     *v2_d_limpo_out = v2_d_limpo;
+
+
+    *in_inv = in_inv_aux;
+    *out_inv = out_inv_aux;
+    *in_atan = in_atan_aux;
+    *out_atan = out_atan_aux;
+    *in_sqrt = in_sqrt_aux;
+    *out_sqrt = out_sqrt_aux;
 
 
 
@@ -26541,7 +26615,7 @@ data_t wrap_2pi(data_t angulo_in){
     else if(angulo<-data_t(12.566370614359172)){
         angulo = angulo+data_t(18.849555921538759);
     }
-# 335 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
+# 416 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
     return angulo;
 
 }
@@ -27133,7 +27207,7 @@ int busca_binaria(data_t *vetor, int Tamanho, data_t valor){
     int half_list;
 
 
-    VITIS_LOOP_926_1: while( (intervalo_end-intervalo_begin)>1 ){
+    VITIS_LOOP_1007_1: while( (intervalo_end-intervalo_begin)>1 ){
 
 
      half_list = intervalo_begin + (intervalo_end - intervalo_begin)/2;
@@ -27518,10 +27592,12 @@ data_t ATAN_LUT_signed(data_t x){
 
  data_t y;
  data_t x_aux;
+ data_t y_aux;
 
-    if (x < 0){
+    if (x < data_t(0) ){
      x_aux = -x;
-     y = -ATAN_LUT(x_aux);
+     y_aux = ATAN_LUT(x_aux);
+     y = -y_aux;
     }
     else{
      y = ATAN_LUT(x);
@@ -27908,9 +27984,9 @@ data_t INV_LUT(data_t x){
 
 
 
-    if(x<0.01){
+    if(x < data_t(0.01) ){
 
-     y = data_t(3200);
+     y = data_t(31285);
 
     }
     else{
@@ -27934,10 +28010,12 @@ data_t INV_LUT_signed(data_t x){
 
  data_t y;
  data_t x_aux;
+ data_t y_aux;
 
-    if (x < 0){
+    if (x < data_t(0) ){
      x_aux = -x;
-     y = -INV_LUT(x_aux);
+     y_aux = INV_LUT(x_aux);
+     y = -y_aux;
     }
     else{
      y = INV_LUT(x);

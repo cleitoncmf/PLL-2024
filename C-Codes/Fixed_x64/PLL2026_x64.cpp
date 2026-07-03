@@ -28,7 +28,13 @@ void PLL2026_x64(uint1_t sinc,
 					data_t *v_beta_in,
 					data_t *Amp_vneg_raw_base_out,
 					data_t *q_inv_d_out,
-					data_t *v2_d_limpo_out
+					data_t *v2_d_limpo_out,
+					data_t *in_inv,
+					data_t *out_inv,
+					data_t *in_atan,
+					data_t *out_atan,
+					data_t *in_sqrt,
+					data_t *out_sqrt,
                     ){
 
 
@@ -76,6 +82,18 @@ void PLL2026_x64(uint1_t sinc,
     static data_t inv_v2_d_limpo;
 
     static data_t q_inv_d;
+
+
+
+    static data_t in_inv_aux;
+    static data_t in_inv_aux_old;
+	static data_t out_inv_aux;
+	static data_t in_atan_aux;
+	static data_t in_atan_aux_old;
+	static data_t out_atan_aux;
+	static data_t in_sqrt_aux;
+	static data_t in_sqrt_aux_old;
+	static data_t out_sqrt_aux;
 
 
 
@@ -262,6 +280,61 @@ void PLL2026_x64(uint1_t sinc,
 
 
 
+
+
+
+
+
+
+
+
+		// Testes das funções
+
+
+		in_inv_aux_old = in_inv_aux;
+
+		if(in_inv_aux>data_t(1000)){
+			in_inv_aux = data_t(0.01);
+		}
+		else{
+			in_inv_aux = in_inv_aux_old + data_t(0.1);
+		}
+
+
+		out_inv_aux = INV_LUT_signed(in_inv_aux);
+
+
+
+		in_atan_aux_old = in_atan_aux;
+
+		if(in_atan_aux>data_t(10000) ){
+			in_atan_aux = data_t(0.2);
+		}
+		else{
+			in_atan_aux = in_atan_aux_old + data_t(0.1);
+		}
+
+
+		out_atan_aux = ATAN_LUT_signed(in_atan_aux);
+
+
+
+
+
+		in_sqrt_aux_old = in_sqrt_aux;
+
+		if(in_sqrt_aux > data_t(10000) ){
+			in_sqrt_aux = data_t(0.2);
+		}
+		else{
+			in_sqrt_aux = in_sqrt_aux_old + data_t(0.1);
+		}
+
+
+		out_sqrt_aux = SQRT_LUT(in_sqrt_aux);
+
+
+
        
 
     }
@@ -282,6 +355,14 @@ void PLL2026_x64(uint1_t sinc,
     *Amp_vneg_raw_base_out = Amp_vneg_raw_base;
     *q_inv_d_out = q_inv_d;
     *v2_d_limpo_out = v2_d_limpo;
+
+
+    *in_inv = in_inv_aux;
+    *out_inv = out_inv_aux;
+    *in_atan = in_atan_aux;
+    *out_atan = out_atan_aux;
+    *in_sqrt = in_sqrt_aux;
+    *out_sqrt = out_sqrt_aux;
 
 
 
@@ -1308,10 +1389,12 @@ data_t ATAN_LUT_signed(data_t x){
 
 	data_t y;
 	data_t x_aux;
+	data_t y_aux;
 
-    if (x < 0){
+    if (x < data_t(0) ){
     	x_aux = -x;
-    	y = -ATAN_LUT(x_aux);
+    	y_aux = ATAN_LUT(x_aux);
+    	y = -y_aux;
     }
     else{
     	y = ATAN_LUT(x);
@@ -1698,9 +1781,9 @@ data_t INV_LUT(data_t x){
 
 
     // DeterminaÃ§Ã£o do intervalo (fazer busca binÃ¡ria)
-    if(x<0.01){
+    if(x < data_t(0.01) ){
 
-    	y = data_t(3200); // deixei neste valor para deixar um pouco de margem
+    	y = data_t(31285); // deixei neste valor para deixar um pouco de margem
 
     }
     else{
@@ -1724,10 +1807,12 @@ data_t INV_LUT_signed(data_t x){
 
 	data_t y;
 	data_t x_aux;
+	data_t y_aux;
 
-    if (x < 0){
+    if (x < data_t(0) ){
     	x_aux = -x;
-    	y = -INV_LUT(x_aux);
+    	y_aux = INV_LUT(x_aux);
+    	y = -y_aux;
     }
     else{
     	y = INV_LUT(x);

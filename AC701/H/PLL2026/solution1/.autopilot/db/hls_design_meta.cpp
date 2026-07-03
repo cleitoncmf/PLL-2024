@@ -43,5 +43,17 @@ const Port_Property HLS_Design_Meta::port_props[]={
 	Port_Property("q_inv_d_out_ap_vld", 1, hls_out, 23, "ap_vld", "out_vld", 1),
 	Port_Property("v2_d_limpo_out", 64, hls_out, 24, "ap_vld", "out_data", 1),
 	Port_Property("v2_d_limpo_out_ap_vld", 1, hls_out, 24, "ap_vld", "out_vld", 1),
+	Port_Property("in_inv", 64, hls_out, 25, "ap_vld", "out_data", 1),
+	Port_Property("in_inv_ap_vld", 1, hls_out, 25, "ap_vld", "out_vld", 1),
+	Port_Property("out_inv", 64, hls_out, 26, "ap_vld", "out_data", 1),
+	Port_Property("out_inv_ap_vld", 1, hls_out, 26, "ap_vld", "out_vld", 1),
+	Port_Property("in_atan", 64, hls_out, 27, "ap_vld", "out_data", 1),
+	Port_Property("in_atan_ap_vld", 1, hls_out, 27, "ap_vld", "out_vld", 1),
+	Port_Property("out_atan", 64, hls_out, 28, "ap_vld", "out_data", 1),
+	Port_Property("out_atan_ap_vld", 1, hls_out, 28, "ap_vld", "out_vld", 1),
+	Port_Property("in_sqrt", 64, hls_out, 29, "ap_vld", "out_data", 1),
+	Port_Property("in_sqrt_ap_vld", 1, hls_out, 29, "ap_vld", "out_vld", 1),
+	Port_Property("out_sqrt", 64, hls_out, 30, "ap_vld", "out_data", 1),
+	Port_Property("out_sqrt_ap_vld", 1, hls_out, 30, "ap_vld", "out_vld", 1),
 };
 const char* HLS_Design_Meta::dut_name = "PLL2026_x64";

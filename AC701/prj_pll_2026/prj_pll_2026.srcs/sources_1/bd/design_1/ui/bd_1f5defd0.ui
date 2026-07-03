@@ -21,9 +21,9 @@ preplace inst xlconstant_10 -pg 1 -lvl 3 -x 570 -y 250 -defaultsOSRD
 preplace inst xlconstant_11 -pg 1 -lvl 3 -x 570 -y 350 -defaultsOSRD
 preplace inst xlconstant_12 -pg 1 -lvl 3 -x 570 -y 450 -defaultsOSRD
 preplace inst PLL2026_x64_0 -pg 1 -lvl 4 -x 880 -y 20 -defaultsOSRD
-preplace netloc sim_clk_gen_0_clk 1 1 3 170 -140 N -140 680
-preplace netloc sim_clk_gen_1_clk 1 1 3 160 -130 N -130 660
-preplace netloc xlconstant_0_dout 1 1 3 150 -150 N -150 690
+preplace netloc sim_clk_gen_0_clk 1 1 3 160 -140 N -140 680
+preplace netloc sim_clk_gen_1_clk 1 1 3 150 -150 N -150 660
+preplace netloc xlconstant_0_dout 1 1 3 170 -130 N -130 650
 preplace netloc xlconstant_1_dout 1 1 1 140J 500n
 preplace netloc xlconstant_2_dout 1 1 1 130J 600n
 preplace netloc sin_gen_varAmp2_3phi_0_vout_a 1 2 2 470 80 700
@@ -38,8 +38,8 @@ preplace netloc xlconstant_9_dout 1 2 2 460 70 690
 preplace netloc xlconstant_10_dout 1 3 1 660 130n
 preplace netloc xlconstant_11_dout 1 3 1 680 150n
 preplace netloc xlconstant_12_dout 1 3 1 700 170n
-levelinfo -pg 1 -70 30 300 570 880 1060
-pagesize -pg 1 -db -bbox -sgen -70 -300 1060 950
+levelinfo -pg 1 -80 30 300 570 880 1060
+pagesize -pg 1 -db -bbox -sgen -80 -420 1060 950
 "
 }
 0

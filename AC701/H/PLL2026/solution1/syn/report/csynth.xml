@@ -28,29 +28,13 @@
             <Interval-min>undef</Interval-min>
             <Interval-max>undef</Interval-max>
         </SummaryOfOverallLatency>
-        <SummaryOfLoopLatency>
-            <VITIS_LOOP_926_1>
-                <TripCount>undef</TripCount>
-                <Latency>undef</Latency>
-                <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
-                <PipelineII>2</PipelineII>
-                <PipelineDepth>2</PipelineDepth>
-            </VITIS_LOOP_926_1>
-            <VITIS_LOOP_926_1>
-                <TripCount>undef</TripCount>
-                <Latency>undef</Latency>
-                <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
-                <PipelineII>2</PipelineII>
-                <PipelineDepth>2</PipelineDepth>
-            </VITIS_LOOP_926_1>
-        </SummaryOfLoopLatency>
     </PerformanceEstimates>
     <AreaEstimates>
         <Resources>
             <BRAM_18K>36</BRAM_18K>
-            <DSP>88</DSP>
-            <FF>22042</FF>
-            <LUT>22712</LUT>
+            <DSP>86</DSP>
+            <FF>22045</FF>
+            <LUT>21292</LUT>
             <URAM>0</URAM>
         </Resources>
         <AvailableResources>
@@ -572,40 +556,190 @@
             <Attribute>control</Attribute>
             <CType>int</CType>
         </RtlPorts>
+        <RtlPorts>
+            <name>in_inv</name>
+            <Object>in_inv</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in_inv_ap_vld</name>
+            <Object>in_inv</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out_inv</name>
+            <Object>out_inv</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out_inv_ap_vld</name>
+            <Object>out_inv</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in_atan</name>
+            <Object>in_atan</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in_atan_ap_vld</name>
+            <Object>in_atan</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out_atan</name>
+            <Object>out_atan</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out_atan_ap_vld</name>
+            <Object>out_atan</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in_sqrt</name>
+            <Object>in_sqrt</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>in_sqrt_ap_vld</name>
+            <Object>in_sqrt</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out_sqrt</name>
+            <Object>out_sqrt</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>out_sqrt_ap_vld</name>
+            <Object>out_sqrt</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
     </InterfaceSummary>
     <RTLDesignHierarchy>
         <TopModule>
             <ModuleName>PLL2026_x64</ModuleName>
             <InstancesList>
                 <Instance>
-                    <InstName>grp_cos_2000_fu_600</InstName>
+                    <InstName>grp_cos_2000_fu_581</InstName>
                     <ModuleName>cos_2000</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>600</ID>
+                    <ID>581</ID>
                 </Instance>
                 <Instance>
-                    <InstName>grp_cos_2000_fu_607</InstName>
+                    <InstName>grp_cos_2000_fu_588</InstName>
                     <ModuleName>cos_2000</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>607</ID>
+                    <ID>588</ID>
                 </Instance>
                 <Instance>
-                    <InstName>grp_ATAN_LUT_signed_fu_614</InstName>
+                    <InstName>grp_ATAN_LUT_signed_fu_595</InstName>
                     <ModuleName>ATAN_LUT_signed</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>614</ID>
+                    <ID>595</ID>
                 </Instance>
                 <Instance>
-                    <InstName>grp_INV_LUT_fu_625</InstName>
-                    <ModuleName>INV_LUT</ModuleName>
-                    <IsCompInst>true</IsCompInst>
-                    <ID>625</ID>
-                </Instance>
-                <Instance>
-                    <InstName>grp_sin_2000_fu_636</InstName>
+                    <InstName>grp_sin_2000_fu_606</InstName>
                     <ModuleName>sin_2000</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>636</ID>
+                    <ID>606</ID>
+                </Instance>
+                <Instance>
+                    <InstName>grp_INV_LUT_fu_613</InstName>
+                    <ModuleName>INV_LUT</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>613</ID>
+                </Instance>
+                <Instance>
+                    <InstName>grp_SQRT_LUT_fu_624</InstName>
+                    <ModuleName>SQRT_LUT</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>624</ID>
                 </Instance>
             </InstancesList>
         </TopModule>
@@ -888,14 +1022,14 @@
                     <PipelineType>none</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_926_1>
-                        <Name>VITIS_LOOP_926_1</Name>
+                    <VITIS_LOOP_1007_1>
+                        <Name>VITIS_LOOP_1007_1</Name>
                         <TripCount>undef</TripCount>
                         <Latency>undef</Latency>
                         <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
                         <PipelineII>2</PipelineII>
                         <PipelineDepth>2</PipelineDepth>
-                    </VITIS_LOOP_926_1>
+                    </VITIS_LOOP_1007_1>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -906,12 +1040,12 @@
                     <DSP>4</DSP>
                     <AVAIL_DSP>740</AVAIL_DSP>
                     <UTIL_DSP>~0</UTIL_DSP>
-                    <FF>1225</FF>
+                    <FF>908</FF>
                     <AVAIL_FF>269200</AVAIL_FF>
                     <UTIL_FF>~0</UTIL_FF>
-                    <LUT>2157</LUT>
+                    <LUT>686</LUT>
                     <AVAIL_LUT>134600</AVAIL_LUT>
-                    <UTIL_LUT>1</UTIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
                     <URAM>0</URAM>
                     <AVAIL_URAM>0</AVAIL_URAM>
                     <UTIL_URAM>0</UTIL_URAM>
@@ -1027,22 +1161,22 @@
                     <PipelineType>none</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_926_1>
-                        <Name>VITIS_LOOP_926_1</Name>
+                    <VITIS_LOOP_1007_1>
+                        <Name>VITIS_LOOP_1007_1</Name>
                         <TripCount>undef</TripCount>
                         <Latency>undef</Latency>
                         <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
                         <PipelineII>2</PipelineII>
                         <PipelineDepth>2</PipelineDepth>
-                    </VITIS_LOOP_926_1>
-                    <VITIS_LOOP_926_1>
-                        <Name>VITIS_LOOP_926_1</Name>
+                    </VITIS_LOOP_1007_1>
+                    <VITIS_LOOP_1007_1>
+                        <Name>VITIS_LOOP_1007_1</Name>
                         <TripCount>undef</TripCount>
                         <Latency>undef</Latency>
                         <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
                         <PipelineII>2</PipelineII>
                         <PipelineDepth>2</PipelineDepth>
-                    </VITIS_LOOP_926_1>
+                    </VITIS_LOOP_1007_1>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -1156,6 +1290,145 @@
             </InterfaceSummary>
         </Module>
         <Module>
+            <Name>SQRT_LUT</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>7.132</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>undef</Best-caseLatency>
+                    <Average-caseLatency>undef</Average-caseLatency>
+                    <Worst-caseLatency>undef</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>undef</PipelineInitiationInterval>
+                    <PipelineType>none</PipelineType>
+                </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <VITIS_LOOP_1007_1>
+                        <Name>VITIS_LOOP_1007_1</Name>
+                        <TripCount>undef</TripCount>
+                        <Latency>undef</Latency>
+                        <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+                        <PipelineII>2</PipelineII>
+                        <PipelineDepth>2</PipelineDepth>
+                    </VITIS_LOOP_1007_1>
+                </SummaryOfLoopLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <BRAM_18K>6</BRAM_18K>
+                    <AVAIL_BRAM>730</AVAIL_BRAM>
+                    <UTIL_BRAM>~0</UTIL_BRAM>
+                    <DSP>2</DSP>
+                    <AVAIL_DSP>740</AVAIL_DSP>
+                    <UTIL_DSP>~0</UTIL_DSP>
+                    <FF>893</FF>
+                    <AVAIL_FF>269200</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>657</LUT>
+                    <AVAIL_LUT>134600</AVAIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <InterfaceSummary>
+                <RtlPorts>
+                    <name>ap_clk</name>
+                    <Object>SQRT_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_rst</name>
+                    <Object>SQRT_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_start</name>
+                    <Object>SQRT_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_done</name>
+                    <Object>SQRT_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_idle</name>
+                    <Object>SQRT_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_ready</name>
+                    <Object>SQRT_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_return</name>
+                    <Object>SQRT_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>x</name>
+                    <Object>x</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+            </InterfaceSummary>
+        </Module>
+        <Module>
             <Name>PLL2026_x64</Name>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
@@ -1173,39 +1446,21 @@
                     <PipelineInitiationInterval>undef</PipelineInitiationInterval>
                     <PipelineType>none</PipelineType>
                 </SummaryOfOverallLatency>
-                <SummaryOfLoopLatency>
-                    <VITIS_LOOP_926_1>
-                        <Name>VITIS_LOOP_926_1</Name>
-                        <TripCount>undef</TripCount>
-                        <Latency>undef</Latency>
-                        <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
-                        <PipelineII>2</PipelineII>
-                        <PipelineDepth>2</PipelineDepth>
-                    </VITIS_LOOP_926_1>
-                    <VITIS_LOOP_926_1>
-                        <Name>VITIS_LOOP_926_1</Name>
-                        <TripCount>undef</TripCount>
-                        <Latency>undef</Latency>
-                        <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
-                        <PipelineII>2</PipelineII>
-                        <PipelineDepth>2</PipelineDepth>
-                    </VITIS_LOOP_926_1>
-                </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
                 <Resources>
                     <BRAM_18K>36</BRAM_18K>
                     <AVAIL_BRAM>730</AVAIL_BRAM>
                     <UTIL_BRAM>4</UTIL_BRAM>
-                    <DSP>88</DSP>
+                    <DSP>86</DSP>
                     <AVAIL_DSP>740</AVAIL_DSP>
                     <UTIL_DSP>11</UTIL_DSP>
-                    <FF>22042</FF>
+                    <FF>22045</FF>
                     <AVAIL_FF>269200</AVAIL_FF>
                     <UTIL_FF>8</UTIL_FF>
-                    <LUT>22712</LUT>
+                    <LUT>21292</LUT>
                     <AVAIL_LUT>134600</AVAIL_LUT>
-                    <UTIL_LUT>16</UTIL_LUT>
+                    <UTIL_LUT>15</UTIL_LUT>
                     <URAM>0</URAM>
                     <AVAIL_URAM>0</AVAIL_URAM>
                     <UTIL_URAM>0</UTIL_URAM>
@@ -1722,6 +1977,150 @@
                     <Attribute>control</Attribute>
                     <CType>int</CType>
                 </RtlPorts>
+                <RtlPorts>
+                    <name>in_inv</name>
+                    <Object>in_inv</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>in_inv_ap_vld</name>
+                    <Object>in_inv</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>out_inv</name>
+                    <Object>out_inv</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>out_inv_ap_vld</name>
+                    <Object>out_inv</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>in_atan</name>
+                    <Object>in_atan</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>in_atan_ap_vld</name>
+                    <Object>in_atan</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>out_atan</name>
+                    <Object>out_atan</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>out_atan_ap_vld</name>
+                    <Object>out_atan</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>in_sqrt</name>
+                    <Object>in_sqrt</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>in_sqrt_ap_vld</name>
+                    <Object>in_sqrt</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>out_sqrt</name>
+                    <Object>out_sqrt</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>out_sqrt_ap_vld</name>
+                    <Object>out_sqrt</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
             </InterfaceSummary>
         </Module>
     </ModuleInformation>
@@ -1862,6 +2261,42 @@
             <hwRefs>
                 <hwRef type="port" interface="v2_d_limpo_out" name="v2_d_limpo_out" usage="data" direction="out"/>
                 <hwRef type="port" interface="v2_d_limpo_out_ap_vld" name="v2_d_limpo_out_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="in_inv" index="25" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="in_inv" name="in_inv" usage="data" direction="out"/>
+                <hwRef type="port" interface="in_inv_ap_vld" name="in_inv_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="out_inv" index="26" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="out_inv" name="out_inv" usage="data" direction="out"/>
+                <hwRef type="port" interface="out_inv_ap_vld" name="out_inv_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="in_atan" index="27" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="in_atan" name="in_atan" usage="data" direction="out"/>
+                <hwRef type="port" interface="in_atan_ap_vld" name="in_atan_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="out_atan" index="28" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="out_atan" name="out_atan" usage="data" direction="out"/>
+                <hwRef type="port" interface="out_atan_ap_vld" name="out_atan_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="in_sqrt" index="29" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="in_sqrt" name="in_sqrt" usage="data" direction="out"/>
+                <hwRef type="port" interface="in_sqrt_ap_vld" name="in_sqrt_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="out_sqrt" index="30" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="out_sqrt" name="out_sqrt" usage="data" direction="out"/>
+                <hwRef type="port" interface="out_sqrt_ap_vld" name="out_sqrt_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
     </Args>
@@ -2045,6 +2480,72 @@
                 <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="in_3"/>
             </constraints>
         </Interface>
+        <Interface InterfaceName="in_atan" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="in_atan">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>in_atan</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="in_atan"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="in_inv" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="in_inv">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>in_inv</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="in_inv"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="in_sqrt" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="in_sqrt">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>in_sqrt</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="in_sqrt"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="out_atan" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="out_atan">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>out_atan</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="out_atan"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="out_inv" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="out_inv">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>out_inv</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="out_inv"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="out_sqrt" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="out_sqrt">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>out_sqrt</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="out_sqrt"/>
+            </constraints>
+        </Interface>
         <Interface InterfaceName="pll_alpha_out" type="data" busTypeName="data" mode="master" dataWidth="64">
             <portMaps>
                 <portMap portMapName="pll_alpha_out">DATA</portMap>
@@ -2196,6 +2697,12 @@
                     <column name="in_1">ap_none, 64</column>
                     <column name="in_2">ap_none, 64</column>
                     <column name="in_3">ap_none, 64</column>
+                    <column name="in_atan">ap_none, 64</column>
+                    <column name="in_inv">ap_none, 64</column>
+                    <column name="in_sqrt">ap_none, 64</column>
+                    <column name="out_atan">ap_none, 64</column>
+                    <column name="out_inv">ap_none, 64</column>
+                    <column name="out_sqrt">ap_none, 64</column>
                     <column name="pll_alpha_out">ap_none, 64</column>
                     <column name="pll_beta_out">ap_none, 64</column>
                     <column name="q_inv_d_out">ap_none, 64</column>
@@ -2250,6 +2757,12 @@
                     <column name="Amp_vneg_raw_base_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
                     <column name="q_inv_d_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
                     <column name="v2_d_limpo_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                    <column name="in_inv">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                    <column name="out_inv">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                    <column name="in_atan">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                    <column name="out_atan">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                    <column name="in_sqrt">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                    <column name="out_sqrt">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
                 </table>
             </item>
             <item name="SW-to-HW Mapping">
@@ -2292,6 +2805,18 @@
                     <column name="q_inv_d_out">q_inv_d_out_ap_vld, port</column>
                     <column name="v2_d_limpo_out">v2_d_limpo_out, port</column>
                     <column name="v2_d_limpo_out">v2_d_limpo_out_ap_vld, port</column>
+                    <column name="in_inv">in_inv, port</column>
+                    <column name="in_inv">in_inv_ap_vld, port</column>
+                    <column name="out_inv">out_inv, port</column>
+                    <column name="out_inv">out_inv_ap_vld, port</column>
+                    <column name="in_atan">in_atan, port</column>
+                    <column name="in_atan">in_atan_ap_vld, port</column>
+                    <column name="out_atan">out_atan, port</column>
+                    <column name="out_atan">out_atan_ap_vld, port</column>
+                    <column name="in_sqrt">in_sqrt, port</column>
+                    <column name="in_sqrt">in_sqrt_ap_vld, port</column>
+                    <column name="out_sqrt">out_sqrt, port</column>
+                    <column name="out_sqrt">out_sqrt_ap_vld, port</column>
                 </table>
             </item>
         </section>
@@ -2301,7 +2826,7 @@
             <item name="Burst Missed">
                 <table>
                     <keys size="4">Variable, Problem, Resolution, Location</keys>
-                    <column name="">Cannot analyze the loop bounds of 'VITIS_LOOP_926_1', 214-252, ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:926:23</column>
+                    <column name="">Cannot analyze the loop bounds of 'VITIS_LOOP_1007_1', 214-252, ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1007:24</column>
                 </table>
             </item>
         </section>

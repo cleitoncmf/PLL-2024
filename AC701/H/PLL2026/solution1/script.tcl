@@ -5,8 +5,8 @@
 ############################################################
 open_project PLL2026
 set_top PLL2026_x64
-add_files ../../C-Codes/Fixed_x64/PLL2026_x64.h
 add_files ../../C-Codes/Fixed_x64/PLL2026_x64.cpp
+add_files ../../C-Codes/Fixed_x64/PLL2026_x64.h
 open_solution "solution1" -flow_target vivado
 set_part {xc7a200t-fbg676-2}
 create_clock -period 10 -name default

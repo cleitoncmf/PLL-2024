@@ -5,7 +5,7 @@
 
 `timescale 1 ns / 1 ps
 
-module PLL2026_x64_mul_113s_49ns_160_5_1_Multiplier_4(clk, ce, a, b, p);
+module PLL2026_x64_mul_113s_49ns_160_5_1_Multiplier_5(clk, ce, a, b, p);
 input clk;
 input ce;
 input[113 - 1 : 0] a; 
@@ -54,7 +54,7 @@ output[dout_WIDTH - 1:0] dout;
 
 
 
-PLL2026_x64_mul_113s_49ns_160_5_1_Multiplier_4 PLL2026_x64_mul_113s_49ns_160_5_1_Multiplier_4_U(
+PLL2026_x64_mul_113s_49ns_160_5_1_Multiplier_5 PLL2026_x64_mul_113s_49ns_160_5_1_Multiplier_5_U(
     .clk( clk ),
     .ce( ce ),
     .a( din0 ),

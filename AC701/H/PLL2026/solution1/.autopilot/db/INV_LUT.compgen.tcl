@@ -1,104 +1,7 @@
 # This script segment is generated automatically by AutoPilot
 
 set id 7
-set name PLL2026_x64_dcmp_64ns_64ns_1_2_no_dsp_1
-set corename simcore_dcmp
-set op dcmp
-set stage_num 2
-set max_latency -1
-set registered_input 1
-set impl_style no_dsp
-set Futype4reduceCEFanout 1
-set clk_width 1
-set clk_signed 0
-set reset_width 1
-set reset_signed 0
-set in0_width 64
-set in0_signed 0
-set in1_width 64
-set in1_signed 0
-set ce_width 1
-set ce_signed 0
-set opcode_width 5
-set opcode_signed 0
-set out_width 1
-if {${::AESL::PGuard_simmodel_gen}} {
-if {[info proc ap_gen_simcore_dcmp] == "ap_gen_simcore_dcmp"} {
-eval "ap_gen_simcore_dcmp { \
-    id ${id} \
-    name ${name} \
-    corename ${corename} \
-    op ${op} \
-    reset_level 1 \
-    sync_rst true \
-    stage_num ${stage_num} \
-    max_latency ${max_latency} \
-    registered_input ${registered_input} \
-    style ${impl_style} \
-    Futype4reduceCEFanout ${Futype4reduceCEFanout} \
-    clk_width ${clk_width} \
-    clk_signed ${clk_signed} \
-    reset_width ${reset_width} \
-    reset_signed ${reset_signed} \
-    in0_width ${in0_width} \
-    in0_signed ${in0_signed} \
-    in1_width ${in1_width} \
-    in1_signed ${in1_signed} \
-    ce_width ${ce_width} \
-    ce_signed ${ce_signed} \
-    opcode_width ${opcode_width} \
-    opcode_signed ${opcode_signed} \
-    out_width ${out_width} \
-}"
-} else {
-puts "@W \[IMPL-100\] Cannot find ap_gen_simcore_dcmp, check your AutoPilot builtin lib"
-}
-}
-
-
-if {${::AESL::PGuard_rtl_comp_handler}} {
-	::AP::rtl_comp_handler ${name}
-}
-
-
-set op dcmp
-set corename DCompare
-if {${::AESL::PGuard_autocg_gen} && (${::AESL::PGuard_autocg_fpip} || ${::AESL::PGuard_autocg_fpv6en} || ${::AESL::PGuard_autocg_hpen})} {
-if {[info proc ::AESL_LIB_XILINX_FPV6::fpv6_gen] == "::AESL_LIB_XILINX_FPV6::fpv6_gen"} {
-eval "::AESL_LIB_XILINX_FPV6::fpv6_gen { \
-    id ${id} \
-    name ${name} \
-    corename ${corename} \
-    op ${op} \
-    reset_level 1 \
-    sync_rst true \
-    stage_num ${stage_num} \
-    max_latency ${max_latency} \
-    registered_input ${registered_input} \
-    style ${impl_style} \
-    Futype4reduceCEFanout ${Futype4reduceCEFanout} \
-    clk_width ${clk_width} \
-    clk_signed ${clk_signed} \
-    reset_width ${reset_width} \
-    reset_signed ${reset_signed} \
-    in0_width ${in0_width} \
-    in0_signed ${in0_signed} \
-    in1_width ${in1_width} \
-    in1_signed ${in1_signed} \
-    ce_width ${ce_width} \
-    ce_signed ${ce_signed} \
-    opcode_width ${opcode_width} \
-    opcode_signed ${opcode_signed} \
-    out_width ${out_width} \
-}"
-} else {
-puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_XILINX_FPV6::fpv6_gen, check your platform lib"
-}
-}
-
-
-set id 8
-set name PLL2026_x64_mul_63s_64s_112_5_1
+set name PLL2026_x64_mul_63s_64ns_112_5_1
 set corename simcore_mul
 set op mul
 set stage_num 5
@@ -111,7 +14,7 @@ set reset_signed 0
 set in0_width 63
 set in0_signed 1
 set in1_width 64
-set in1_signed 1
+set in1_signed 0
 set ce_width 1
 set ce_signed 0
 set out_width 112
@@ -183,7 +86,7 @@ puts "@W \[IMPL-101\] Cannot find ::AESL_LIB_VIRTEX::xil_gen_multicycle_mul, che
 
 
 # Memory (RAM/ROM)  definition:
-set ID 11
+set ID 9
 set hasByteEnable 0
 set MemName PLL2026_x64_INV_LUT_table_mark_V_1
 set CoreName ap_simcore_mem
@@ -269,7 +172,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 12
+set ID 10
 set hasByteEnable 0
 set MemName PLL2026_x64_INV_LUT_table_m_V_1
 set CoreName ap_simcore_mem
@@ -355,7 +258,7 @@ if {[info proc ::AESL_LIB_VIRTEX::xil_gen_ROM] == "::AESL_LIB_VIRTEX::xil_gen_RO
 
 
 # Memory (RAM/ROM)  definition:
-set ID 13
+set ID 11
 set hasByteEnable 0
 set MemName PLL2026_x64_INV_LUT_table_n_V_1
 set CoreName ap_simcore_mem
@@ -450,7 +353,7 @@ if {${::AESL::PGuard_autoexp_gen}} {
 # Direct connection:
 if {${::AESL::PGuard_autoexp_gen}} {
 eval "cg_default_interface_gen_dc { \
-    id 14 \
+    id 12 \
     name x \
     type other \
     dir I \
