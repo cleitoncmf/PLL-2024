@@ -28,13 +28,29 @@
             <Interval-min>undef</Interval-min>
             <Interval-max>undef</Interval-max>
         </SummaryOfOverallLatency>
+        <SummaryOfLoopLatency>
+            <VITIS_LOOP_986_1>
+                <TripCount>undef</TripCount>
+                <Latency>undef</Latency>
+                <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+                <PipelineII>2</PipelineII>
+                <PipelineDepth>2</PipelineDepth>
+            </VITIS_LOOP_986_1>
+            <VITIS_LOOP_986_1>
+                <TripCount>undef</TripCount>
+                <Latency>undef</Latency>
+                <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+                <PipelineII>2</PipelineII>
+                <PipelineDepth>2</PipelineDepth>
+            </VITIS_LOOP_986_1>
+        </SummaryOfLoopLatency>
     </PerformanceEstimates>
     <AreaEstimates>
         <Resources>
-            <BRAM_18K>36</BRAM_18K>
-            <DSP>86</DSP>
-            <FF>22045</FF>
-            <LUT>21292</LUT>
+            <BRAM_18K>42</BRAM_18K>
+            <DSP>100</DSP>
+            <FF>25090</FF>
+            <LUT>24241</LUT>
             <URAM>0</URAM>
         </Resources>
         <AvailableResources>
@@ -283,6 +299,30 @@
         <RtlPorts>
             <name>w_out_ap_vld</name>
             <Object>w_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>wi_out</name>
+            <Object>wi_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>wi_out_ap_vld</name>
+            <Object>wi_out</Object>
             <Type>pointer</Type>
             <Scope/>
             <IOProtocol>ap_vld</IOProtocol>
@@ -557,6 +597,174 @@
             <CType>int</CType>
         </RtlPorts>
         <RtlPorts>
+            <name>v2_q_limpo_out</name>
+            <Object>v2_q_limpo_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>v2_q_limpo_out_ap_vld</name>
+            <Object>v2_q_limpo_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>v1_d_limpo_out</name>
+            <Object>v1_d_limpo_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>v1_d_limpo_out_ap_vld</name>
+            <Object>v1_d_limpo_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>v1_q_limpo_out</name>
+            <Object>v1_q_limpo_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>v1_q_limpo_out_ap_vld</name>
+            <Object>v1_q_limpo_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>v1_d_out</name>
+            <Object>v1_d_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>v1_d_out_ap_vld</name>
+            <Object>v1_d_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>v1_q_out</name>
+            <Object>v1_q_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>v1_q_out_ap_vld</name>
+            <Object>v1_q_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>v2_d_out</name>
+            <Object>v2_d_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>v2_d_out_ap_vld</name>
+            <Object>v2_d_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>v2_q_out</name>
+            <Object>v2_q_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>64</Bits>
+            <Attribute>data</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
+            <name>v2_q_out_ap_vld</name>
+            <Object>v2_q_out</Object>
+            <Type>pointer</Type>
+            <Scope/>
+            <IOProtocol>ap_vld</IOProtocol>
+            <IOConfig/>
+            <Dir>out</Dir>
+            <Bits>1</Bits>
+            <Attribute>control</Attribute>
+            <CType>int</CType>
+        </RtlPorts>
+        <RtlPorts>
             <name>in_inv</name>
             <Object>in_inv</Object>
             <Type>pointer</Type>
@@ -706,40 +914,54 @@
             <ModuleName>PLL2026_x64</ModuleName>
             <InstancesList>
                 <Instance>
-                    <InstName>grp_cos_2000_fu_581</InstName>
-                    <ModuleName>cos_2000</ModuleName>
+                    <InstName>grp_ATAN2_LUT_fu_753</InstName>
+                    <ModuleName>ATAN2_LUT</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>581</ID>
+                    <ID>753</ID>
+                    <InstancesList>
+                        <Instance>
+                            <InstName>grp_INV_LUT_fu_88</InstName>
+                            <ModuleName>INV_LUT</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>88</ID>
+                        </Instance>
+                        <Instance>
+                            <InstName>grp_ATAN_LUT_fu_99</InstName>
+                            <ModuleName>ATAN_LUT</ModuleName>
+                            <IsCompInst>true</IsCompInst>
+                            <ID>99</ID>
+                        </Instance>
+                    </InstancesList>
                 </Instance>
                 <Instance>
-                    <InstName>grp_cos_2000_fu_588</InstName>
+                    <InstName>grp_cos_2000_fu_771</InstName>
                     <ModuleName>cos_2000</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>588</ID>
+                    <ID>771</ID>
                 </Instance>
                 <Instance>
-                    <InstName>grp_ATAN_LUT_signed_fu_595</InstName>
+                    <InstName>grp_cos_2000_fu_778</InstName>
+                    <ModuleName>cos_2000</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>778</ID>
+                </Instance>
+                <Instance>
+                    <InstName>grp_ATAN_LUT_signed_fu_785</InstName>
                     <ModuleName>ATAN_LUT_signed</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>595</ID>
+                    <ID>785</ID>
                 </Instance>
                 <Instance>
-                    <InstName>grp_sin_2000_fu_606</InstName>
+                    <InstName>grp_sin_2000_fu_796</InstName>
                     <ModuleName>sin_2000</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>606</ID>
+                    <ID>796</ID>
                 </Instance>
                 <Instance>
-                    <InstName>grp_INV_LUT_fu_613</InstName>
+                    <InstName>grp_INV_LUT_fu_803</InstName>
                     <ModuleName>INV_LUT</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>613</ID>
-                </Instance>
-                <Instance>
-                    <InstName>grp_SQRT_LUT_fu_624</InstName>
-                    <ModuleName>SQRT_LUT</ModuleName>
-                    <IsCompInst>true</IsCompInst>
-                    <ID>624</ID>
+                    <ID>803</ID>
                 </Instance>
             </InstancesList>
         </TopModule>
@@ -754,13 +976,13 @@
                     <EstimatedClockPeriod>7.153</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
-                    <Best-caseLatency>10</Best-caseLatency>
-                    <Average-caseLatency>10</Average-caseLatency>
-                    <Worst-caseLatency>10</Worst-caseLatency>
-                    <Best-caseRealTimeLatency>0.100 us</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>0.100 us</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>0.100 us</Worst-caseRealTimeLatency>
-                    <PipelineInitiationInterval>10</PipelineInitiationInterval>
+                    <Best-caseLatency>11</Best-caseLatency>
+                    <Average-caseLatency>11</Average-caseLatency>
+                    <Worst-caseLatency>11</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>0.110 us</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>0.110 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.110 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>11</PipelineInitiationInterval>
                     <PipelineType>none</PipelineType>
                 </SummaryOfOverallLatency>
             </PerformanceEstimates>
@@ -1022,14 +1244,14 @@
                     <PipelineType>none</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_1007_1>
-                        <Name>VITIS_LOOP_1007_1</Name>
+                    <VITIS_LOOP_986_1>
+                        <Name>VITIS_LOOP_986_1</Name>
                         <TripCount>undef</TripCount>
                         <Latency>undef</Latency>
                         <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
                         <PipelineII>2</PipelineII>
                         <PipelineDepth>2</PipelineDepth>
-                    </VITIS_LOOP_1007_1>
+                    </VITIS_LOOP_986_1>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -1143,7 +1365,7 @@
             </InterfaceSummary>
         </Module>
         <Module>
-            <Name>ATAN_LUT_signed</Name>
+            <Name>ATAN_LUT</Name>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
                     <TargetClockPeriod>10.00</TargetClockPeriod>
@@ -1161,22 +1383,14 @@
                     <PipelineType>none</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_1007_1>
-                        <Name>VITIS_LOOP_1007_1</Name>
+                    <VITIS_LOOP_986_1>
+                        <Name>VITIS_LOOP_986_1</Name>
                         <TripCount>undef</TripCount>
                         <Latency>undef</Latency>
                         <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
                         <PipelineII>2</PipelineII>
                         <PipelineDepth>2</PipelineDepth>
-                    </VITIS_LOOP_1007_1>
-                    <VITIS_LOOP_1007_1>
-                        <Name>VITIS_LOOP_1007_1</Name>
-                        <TripCount>undef</TripCount>
-                        <Latency>undef</Latency>
-                        <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
-                        <PipelineII>2</PipelineII>
-                        <PipelineDepth>2</PipelineDepth>
-                    </VITIS_LOOP_1007_1>
+                    </VITIS_LOOP_986_1>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -1184,15 +1398,15 @@
                     <BRAM_18K>6</BRAM_18K>
                     <AVAIL_BRAM>730</AVAIL_BRAM>
                     <UTIL_BRAM>~0</UTIL_BRAM>
-                    <DSP>4</DSP>
+                    <DSP>2</DSP>
                     <AVAIL_DSP>740</AVAIL_DSP>
                     <UTIL_DSP>~0</UTIL_DSP>
-                    <FF>1673</FF>
+                    <FF>757</FF>
                     <AVAIL_FF>269200</AVAIL_FF>
                     <UTIL_FF>~0</UTIL_FF>
-                    <LUT>1482</LUT>
+                    <LUT>630</LUT>
                     <AVAIL_LUT>134600</AVAIL_LUT>
-                    <UTIL_LUT>1</UTIL_LUT>
+                    <UTIL_LUT>~0</UTIL_LUT>
                     <URAM>0</URAM>
                     <AVAIL_URAM>0</AVAIL_URAM>
                     <UTIL_URAM>0</UTIL_URAM>
@@ -1201,7 +1415,7 @@
             <InterfaceSummary>
                 <RtlPorts>
                     <name>ap_clk</name>
-                    <Object>ATAN_LUT_signed</Object>
+                    <Object>ATAN_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
                     <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1212,7 +1426,7 @@
                 </RtlPorts>
                 <RtlPorts>
                     <name>ap_rst</name>
-                    <Object>ATAN_LUT_signed</Object>
+                    <Object>ATAN_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
                     <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1223,7 +1437,7 @@
                 </RtlPorts>
                 <RtlPorts>
                     <name>ap_start</name>
-                    <Object>ATAN_LUT_signed</Object>
+                    <Object>ATAN_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
                     <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1234,7 +1448,7 @@
                 </RtlPorts>
                 <RtlPorts>
                     <name>ap_done</name>
-                    <Object>ATAN_LUT_signed</Object>
+                    <Object>ATAN_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
                     <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1245,7 +1459,7 @@
                 </RtlPorts>
                 <RtlPorts>
                     <name>ap_idle</name>
-                    <Object>ATAN_LUT_signed</Object>
+                    <Object>ATAN_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
                     <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1256,7 +1470,7 @@
                 </RtlPorts>
                 <RtlPorts>
                     <name>ap_ready</name>
-                    <Object>ATAN_LUT_signed</Object>
+                    <Object>ATAN_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
                     <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1267,7 +1481,7 @@
                 </RtlPorts>
                 <RtlPorts>
                     <name>ap_return</name>
-                    <Object>ATAN_LUT_signed</Object>
+                    <Object>ATAN_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
                     <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1290,7 +1504,389 @@
             </InterfaceSummary>
         </Module>
         <Module>
-            <Name>SQRT_LUT</Name>
+            <Name>ATAN2_LUT</Name>
+            <PerformanceEstimates>
+                <SummaryOfTimingAnalysis>
+                    <TargetClockPeriod>10.00</TargetClockPeriod>
+                    <ClockUncertainty>2.70</ClockUncertainty>
+                    <EstimatedClockPeriod>7.171</EstimatedClockPeriod>
+                </SummaryOfTimingAnalysis>
+                <SummaryOfOverallLatency>
+                    <Best-caseLatency>undef</Best-caseLatency>
+                    <Average-caseLatency>undef</Average-caseLatency>
+                    <Worst-caseLatency>undef</Worst-caseLatency>
+                    <Best-caseRealTimeLatency>undef</Best-caseRealTimeLatency>
+                    <Average-caseRealTimeLatency>undef</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>undef</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>undef</PipelineInitiationInterval>
+                    <PipelineType>none</PipelineType>
+                </SummaryOfOverallLatency>
+            </PerformanceEstimates>
+            <AreaEstimates>
+                <Resources>
+                    <BRAM_18K>6</BRAM_18K>
+                    <AVAIL_BRAM>730</AVAIL_BRAM>
+                    <UTIL_BRAM>~0</UTIL_BRAM>
+                    <DSP>2</DSP>
+                    <AVAIL_DSP>740</AVAIL_DSP>
+                    <UTIL_DSP>~0</UTIL_DSP>
+                    <FF>1506</FF>
+                    <AVAIL_FF>269200</AVAIL_FF>
+                    <UTIL_FF>~0</UTIL_FF>
+                    <LUT>2061</LUT>
+                    <AVAIL_LUT>134600</AVAIL_LUT>
+                    <UTIL_LUT>1</UTIL_LUT>
+                    <URAM>0</URAM>
+                    <AVAIL_URAM>0</AVAIL_URAM>
+                    <UTIL_URAM>0</UTIL_URAM>
+                </Resources>
+            </AreaEstimates>
+            <InterfaceSummary>
+                <RtlPorts>
+                    <name>ap_clk</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_rst</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_start</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_done</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_idle</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_ready</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>ap_return</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_INV_LUT_fu_803_p_din1</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_INV_LUT_fu_803_p_dout0</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_INV_LUT_fu_803_p_start</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_INV_LUT_fu_803_p_ready</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_INV_LUT_fu_803_p_done</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_INV_LUT_fu_803_p_idle</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2591_p_din0</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2591_p_din1</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2591_p_dout0</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>112</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2591_p_ce</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2595_p_din0</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2595_p_din1</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2595_p_dout0</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>112</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2595_p_ce</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2599_p_din0</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2599_p_din1</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2599_p_dout0</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>112</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2599_p_ce</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2603_p_din0</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2603_p_din1</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2603_p_dout0</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>112</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2603_p_ce</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>xd</name>
+                    <Object>xd</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>xq</name>
+                    <Object>xq</Object>
+                    <Type>scalar</Type>
+                    <Scope/>
+                    <IOProtocol>ap_none</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+            </InterfaceSummary>
+        </Module>
+        <Module>
+            <Name>ATAN_LUT_signed</Name>
             <PerformanceEstimates>
                 <SummaryOfTimingAnalysis>
                     <TargetClockPeriod>10.00</TargetClockPeriod>
@@ -1308,14 +1904,22 @@
                     <PipelineType>none</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_1007_1>
-                        <Name>VITIS_LOOP_1007_1</Name>
+                    <VITIS_LOOP_986_1>
+                        <Name>VITIS_LOOP_986_1</Name>
                         <TripCount>undef</TripCount>
                         <Latency>undef</Latency>
                         <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
                         <PipelineII>2</PipelineII>
                         <PipelineDepth>2</PipelineDepth>
-                    </VITIS_LOOP_1007_1>
+                    </VITIS_LOOP_986_1>
+                    <VITIS_LOOP_986_1>
+                        <Name>VITIS_LOOP_986_1</Name>
+                        <TripCount>undef</TripCount>
+                        <Latency>undef</Latency>
+                        <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+                        <PipelineII>2</PipelineII>
+                        <PipelineDepth>2</PipelineDepth>
+                    </VITIS_LOOP_986_1>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -1323,15 +1927,15 @@
                     <BRAM_18K>6</BRAM_18K>
                     <AVAIL_BRAM>730</AVAIL_BRAM>
                     <UTIL_BRAM>~0</UTIL_BRAM>
-                    <DSP>2</DSP>
-                    <AVAIL_DSP>740</AVAIL_DSP>
-                    <UTIL_DSP>~0</UTIL_DSP>
-                    <FF>893</FF>
+                    <FF>788</FF>
                     <AVAIL_FF>269200</AVAIL_FF>
                     <UTIL_FF>~0</UTIL_FF>
-                    <LUT>657</LUT>
+                    <LUT>968</LUT>
                     <AVAIL_LUT>134600</AVAIL_LUT>
                     <UTIL_LUT>~0</UTIL_LUT>
+                    <DSP>0</DSP>
+                    <AVAIL_DSP>740</AVAIL_DSP>
+                    <UTIL_DSP>0</UTIL_DSP>
                     <URAM>0</URAM>
                     <AVAIL_URAM>0</AVAIL_URAM>
                     <UTIL_URAM>0</UTIL_URAM>
@@ -1340,7 +1944,7 @@
             <InterfaceSummary>
                 <RtlPorts>
                     <name>ap_clk</name>
-                    <Object>SQRT_LUT</Object>
+                    <Object>ATAN_LUT_signed</Object>
                     <Type>return value</Type>
                     <Scope/>
                     <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1351,7 +1955,7 @@
                 </RtlPorts>
                 <RtlPorts>
                     <name>ap_rst</name>
-                    <Object>SQRT_LUT</Object>
+                    <Object>ATAN_LUT_signed</Object>
                     <Type>return value</Type>
                     <Scope/>
                     <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1362,7 +1966,7 @@
                 </RtlPorts>
                 <RtlPorts>
                     <name>ap_start</name>
-                    <Object>SQRT_LUT</Object>
+                    <Object>ATAN_LUT_signed</Object>
                     <Type>return value</Type>
                     <Scope/>
                     <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1373,7 +1977,7 @@
                 </RtlPorts>
                 <RtlPorts>
                     <name>ap_done</name>
-                    <Object>SQRT_LUT</Object>
+                    <Object>ATAN_LUT_signed</Object>
                     <Type>return value</Type>
                     <Scope/>
                     <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1384,7 +1988,7 @@
                 </RtlPorts>
                 <RtlPorts>
                     <name>ap_idle</name>
-                    <Object>SQRT_LUT</Object>
+                    <Object>ATAN_LUT_signed</Object>
                     <Type>return value</Type>
                     <Scope/>
                     <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1395,7 +1999,7 @@
                 </RtlPorts>
                 <RtlPorts>
                     <name>ap_ready</name>
-                    <Object>SQRT_LUT</Object>
+                    <Object>ATAN_LUT_signed</Object>
                     <Type>return value</Type>
                     <Scope/>
                     <IOProtocol>ap_ctrl_hs</IOProtocol>
@@ -1406,13 +2010,101 @@
                 </RtlPorts>
                 <RtlPorts>
                     <name>ap_return</name>
-                    <Object>SQRT_LUT</Object>
+                    <Object>ATAN_LUT_signed</Object>
                     <Type>return value</Type>
                     <Scope/>
                     <IOProtocol>ap_ctrl_hs</IOProtocol>
                     <IOConfig/>
                     <Dir>out</Dir>
                     <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2607_p_din0</name>
+                    <Object>ATAN_LUT_signed</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>48</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2607_p_din1</name>
+                    <Object>ATAN_LUT_signed</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2607_p_dout0</name>
+                    <Object>ATAN_LUT_signed</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>110</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2607_p_ce</name>
+                    <Object>ATAN_LUT_signed</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2611_p_din0</name>
+                    <Object>ATAN_LUT_signed</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>48</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2611_p_din1</name>
+                    <Object>ATAN_LUT_signed</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2611_p_dout0</name>
+                    <Object>ATAN_LUT_signed</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>in</Dir>
+                    <Bits>111</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2611_p_ce</name>
+                    <Object>ATAN_LUT_signed</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
@@ -1446,21 +2138,39 @@
                     <PipelineInitiationInterval>undef</PipelineInitiationInterval>
                     <PipelineType>none</PipelineType>
                 </SummaryOfOverallLatency>
+                <SummaryOfLoopLatency>
+                    <VITIS_LOOP_986_1>
+                        <Name>VITIS_LOOP_986_1</Name>
+                        <TripCount>undef</TripCount>
+                        <Latency>undef</Latency>
+                        <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+                        <PipelineII>2</PipelineII>
+                        <PipelineDepth>2</PipelineDepth>
+                    </VITIS_LOOP_986_1>
+                    <VITIS_LOOP_986_1>
+                        <Name>VITIS_LOOP_986_1</Name>
+                        <TripCount>undef</TripCount>
+                        <Latency>undef</Latency>
+                        <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
+                        <PipelineII>2</PipelineII>
+                        <PipelineDepth>2</PipelineDepth>
+                    </VITIS_LOOP_986_1>
+                </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
                 <Resources>
-                    <BRAM_18K>36</BRAM_18K>
+                    <BRAM_18K>42</BRAM_18K>
                     <AVAIL_BRAM>730</AVAIL_BRAM>
-                    <UTIL_BRAM>4</UTIL_BRAM>
-                    <DSP>86</DSP>
+                    <UTIL_BRAM>5</UTIL_BRAM>
+                    <DSP>100</DSP>
                     <AVAIL_DSP>740</AVAIL_DSP>
-                    <UTIL_DSP>11</UTIL_DSP>
-                    <FF>22045</FF>
+                    <UTIL_DSP>13</UTIL_DSP>
+                    <FF>25090</FF>
                     <AVAIL_FF>269200</AVAIL_FF>
-                    <UTIL_FF>8</UTIL_FF>
-                    <LUT>21292</LUT>
+                    <UTIL_FF>9</UTIL_FF>
+                    <LUT>24241</LUT>
                     <AVAIL_LUT>134600</AVAIL_LUT>
-                    <UTIL_LUT>15</UTIL_LUT>
+                    <UTIL_LUT>18</UTIL_LUT>
                     <URAM>0</URAM>
                     <AVAIL_URAM>0</AVAIL_URAM>
                     <UTIL_URAM>0</UTIL_URAM>
@@ -1704,6 +2414,30 @@
                 <RtlPorts>
                     <name>w_out_ap_vld</name>
                     <Object>w_out</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>wi_out</name>
+                    <Object>wi_out</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>wi_out_ap_vld</name>
+                    <Object>wi_out</Object>
                     <Type>pointer</Type>
                     <Scope/>
                     <IOProtocol>ap_vld</IOProtocol>
@@ -1978,6 +2712,174 @@
                     <CType>int</CType>
                 </RtlPorts>
                 <RtlPorts>
+                    <name>v2_q_limpo_out</name>
+                    <Object>v2_q_limpo_out</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>v2_q_limpo_out_ap_vld</name>
+                    <Object>v2_q_limpo_out</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>v1_d_limpo_out</name>
+                    <Object>v1_d_limpo_out</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>v1_d_limpo_out_ap_vld</name>
+                    <Object>v1_d_limpo_out</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>v1_q_limpo_out</name>
+                    <Object>v1_q_limpo_out</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>v1_q_limpo_out_ap_vld</name>
+                    <Object>v1_q_limpo_out</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>v1_d_out</name>
+                    <Object>v1_d_out</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>v1_d_out_ap_vld</name>
+                    <Object>v1_d_out</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>v1_q_out</name>
+                    <Object>v1_q_out</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>v1_q_out_ap_vld</name>
+                    <Object>v1_q_out</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>v2_d_out</name>
+                    <Object>v2_d_out</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>v2_d_out_ap_vld</name>
+                    <Object>v2_d_out</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>v2_q_out</name>
+                    <Object>v2_q_out</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>v2_q_out_ap_vld</name>
+                    <Object>v2_q_out</Object>
+                    <Type>pointer</Type>
+                    <Scope/>
+                    <IOProtocol>ap_vld</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>1</Bits>
+                    <Attribute>control</Attribute>
+                    <CType>int</CType>
+                </RtlPorts>
+                <RtlPorts>
                     <name>in_inv</name>
                     <Object>in_inv</Object>
                     <Type>pointer</Type>
@@ -2197,103 +3099,151 @@
                 <hwRef type="port" interface="w_out_ap_vld" name="w_out_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="theta_out" index="14" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+        <Arg ArgName="wi_out" index="14" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="wi_out" name="wi_out" usage="data" direction="out"/>
+                <hwRef type="port" interface="wi_out_ap_vld" name="wi_out_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="theta_out" index="15" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
             <hwRefs>
                 <hwRef type="port" interface="theta_out" name="theta_out" usage="data" direction="out"/>
                 <hwRef type="port" interface="theta_out_ap_vld" name="theta_out_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="pll_alpha_out" index="15" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+        <Arg ArgName="pll_alpha_out" index="16" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
             <hwRefs>
                 <hwRef type="port" interface="pll_alpha_out" name="pll_alpha_out" usage="data" direction="out"/>
                 <hwRef type="port" interface="pll_alpha_out_ap_vld" name="pll_alpha_out_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="pll_beta_out" index="16" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+        <Arg ArgName="pll_beta_out" index="17" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
             <hwRefs>
                 <hwRef type="port" interface="pll_beta_out" name="pll_beta_out" usage="data" direction="out"/>
                 <hwRef type="port" interface="pll_beta_out_ap_vld" name="pll_beta_out_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="amp_vPos_out" index="17" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+        <Arg ArgName="amp_vPos_out" index="18" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
             <hwRefs>
                 <hwRef type="port" interface="amp_vPos_out" name="amp_vPos_out" usage="data" direction="out"/>
                 <hwRef type="port" interface="amp_vPos_out_ap_vld" name="amp_vPos_out_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="Amp_vneg_out" index="18" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+        <Arg ArgName="Amp_vneg_out" index="19" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
             <hwRefs>
                 <hwRef type="port" interface="Amp_vneg_out" name="Amp_vneg_out" usage="data" direction="out"/>
                 <hwRef type="port" interface="Amp_vneg_out_ap_vld" name="Amp_vneg_out_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="delta_out" index="19" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+        <Arg ArgName="delta_out" index="20" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
             <hwRefs>
                 <hwRef type="port" interface="delta_out" name="delta_out" usage="data" direction="out"/>
                 <hwRef type="port" interface="delta_out_ap_vld" name="delta_out_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="v_alfa_in" index="20" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+        <Arg ArgName="v_alfa_in" index="21" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
             <hwRefs>
                 <hwRef type="port" interface="v_alfa_in" name="v_alfa_in" usage="data" direction="out"/>
                 <hwRef type="port" interface="v_alfa_in_ap_vld" name="v_alfa_in_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="v_beta_in" index="21" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+        <Arg ArgName="v_beta_in" index="22" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
             <hwRefs>
                 <hwRef type="port" interface="v_beta_in" name="v_beta_in" usage="data" direction="out"/>
                 <hwRef type="port" interface="v_beta_in_ap_vld" name="v_beta_in_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="Amp_vneg_raw_base_out" index="22" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+        <Arg ArgName="Amp_vneg_raw_base_out" index="23" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
             <hwRefs>
                 <hwRef type="port" interface="Amp_vneg_raw_base_out" name="Amp_vneg_raw_base_out" usage="data" direction="out"/>
                 <hwRef type="port" interface="Amp_vneg_raw_base_out_ap_vld" name="Amp_vneg_raw_base_out_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="q_inv_d_out" index="23" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+        <Arg ArgName="q_inv_d_out" index="24" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
             <hwRefs>
                 <hwRef type="port" interface="q_inv_d_out" name="q_inv_d_out" usage="data" direction="out"/>
                 <hwRef type="port" interface="q_inv_d_out_ap_vld" name="q_inv_d_out_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="v2_d_limpo_out" index="24" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+        <Arg ArgName="v2_d_limpo_out" index="25" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
             <hwRefs>
                 <hwRef type="port" interface="v2_d_limpo_out" name="v2_d_limpo_out" usage="data" direction="out"/>
                 <hwRef type="port" interface="v2_d_limpo_out_ap_vld" name="v2_d_limpo_out_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="in_inv" index="25" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+        <Arg ArgName="v2_q_limpo_out" index="26" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="v2_q_limpo_out" name="v2_q_limpo_out" usage="data" direction="out"/>
+                <hwRef type="port" interface="v2_q_limpo_out_ap_vld" name="v2_q_limpo_out_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="v1_d_limpo_out" index="27" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="v1_d_limpo_out" name="v1_d_limpo_out" usage="data" direction="out"/>
+                <hwRef type="port" interface="v1_d_limpo_out_ap_vld" name="v1_d_limpo_out_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="v1_q_limpo_out" index="28" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="v1_q_limpo_out" name="v1_q_limpo_out" usage="data" direction="out"/>
+                <hwRef type="port" interface="v1_q_limpo_out_ap_vld" name="v1_q_limpo_out_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="v1_d_out" index="29" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="v1_d_out" name="v1_d_out" usage="data" direction="out"/>
+                <hwRef type="port" interface="v1_d_out_ap_vld" name="v1_d_out_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="v1_q_out" index="30" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="v1_q_out" name="v1_q_out" usage="data" direction="out"/>
+                <hwRef type="port" interface="v1_q_out_ap_vld" name="v1_q_out_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="v2_d_out" index="31" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="v2_d_out" name="v2_d_out" usage="data" direction="out"/>
+                <hwRef type="port" interface="v2_d_out_ap_vld" name="v2_d_out_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="v2_q_out" index="32" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+            <hwRefs>
+                <hwRef type="port" interface="v2_q_out" name="v2_q_out" usage="data" direction="out"/>
+                <hwRef type="port" interface="v2_q_out_ap_vld" name="v2_q_out_ap_vld" usage="control" direction="out"/>
+            </hwRefs>
+        </Arg>
+        <Arg ArgName="in_inv" index="33" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
             <hwRefs>
                 <hwRef type="port" interface="in_inv" name="in_inv" usage="data" direction="out"/>
                 <hwRef type="port" interface="in_inv_ap_vld" name="in_inv_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="out_inv" index="26" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+        <Arg ArgName="out_inv" index="34" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
             <hwRefs>
                 <hwRef type="port" interface="out_inv" name="out_inv" usage="data" direction="out"/>
                 <hwRef type="port" interface="out_inv_ap_vld" name="out_inv_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="in_atan" index="27" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+        <Arg ArgName="in_atan" index="35" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
             <hwRefs>
                 <hwRef type="port" interface="in_atan" name="in_atan" usage="data" direction="out"/>
                 <hwRef type="port" interface="in_atan_ap_vld" name="in_atan_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="out_atan" index="28" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+        <Arg ArgName="out_atan" index="36" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
             <hwRefs>
                 <hwRef type="port" interface="out_atan" name="out_atan" usage="data" direction="out"/>
                 <hwRef type="port" interface="out_atan_ap_vld" name="out_atan_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="in_sqrt" index="29" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+        <Arg ArgName="in_sqrt" index="37" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
             <hwRefs>
                 <hwRef type="port" interface="in_sqrt" name="in_sqrt" usage="data" direction="out"/>
                 <hwRef type="port" interface="in_sqrt_ap_vld" name="in_sqrt_ap_vld" usage="control" direction="out"/>
             </hwRefs>
         </Arg>
-        <Arg ArgName="out_sqrt" index="30" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
+        <Arg ArgName="out_sqrt" index="38" direction="out" srcType="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" srcSize="64">
             <hwRefs>
                 <hwRef type="port" interface="out_sqrt" name="out_sqrt" usage="data" direction="out"/>
                 <hwRef type="port" interface="out_sqrt_ap_vld" name="out_sqrt_ap_vld" usage="control" direction="out"/>
@@ -2601,6 +3551,50 @@
                 <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="theta_out"/>
             </constraints>
         </Interface>
+        <Interface InterfaceName="v1_d_limpo_out" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="v1_d_limpo_out">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>v1_d_limpo_out</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="v1_d_limpo_out"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="v1_d_out" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="v1_d_out">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>v1_d_out</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="v1_d_out"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="v1_q_limpo_out" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="v1_q_limpo_out">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>v1_q_limpo_out</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="v1_q_limpo_out"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="v1_q_out" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="v1_q_out">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>v1_q_out</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="v1_q_out"/>
+            </constraints>
+        </Interface>
         <Interface InterfaceName="v2_d_limpo_out" type="data" busTypeName="data" mode="master" dataWidth="64">
             <portMaps>
                 <portMap portMapName="v2_d_limpo_out">DATA</portMap>
@@ -2610,6 +3604,39 @@
             </ports>
             <constraints>
                 <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="v2_d_limpo_out"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="v2_d_out" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="v2_d_out">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>v2_d_out</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="v2_d_out"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="v2_q_limpo_out" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="v2_q_limpo_out">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>v2_q_limpo_out</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="v2_q_limpo_out"/>
+            </constraints>
+        </Interface>
+        <Interface InterfaceName="v2_q_out" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="v2_q_out">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>v2_q_out</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="v2_q_out"/>
             </constraints>
         </Interface>
         <Interface InterfaceName="v_alfa_in" type="data" busTypeName="data" mode="master" dataWidth="64">
@@ -2678,6 +3705,17 @@
                 <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="w_out"/>
             </constraints>
         </Interface>
+        <Interface InterfaceName="wi_out" type="data" busTypeName="data" mode="master" dataWidth="64">
+            <portMaps>
+                <portMap portMapName="wi_out">DATA</portMap>
+            </portMaps>
+            <ports>
+                <port>wi_out</port>
+            </ports>
+            <constraints>
+                <constraint constraint_type="pragma interface" mode="ap_none" register_option="0" argName="wi_out"/>
+            </constraints>
+        </Interface>
     </Interfaces>
     <ReportHWInterface>
         <section name="HW Interfaces" level="0">
@@ -2708,13 +3746,21 @@
                     <column name="q_inv_d_out">ap_none, 64</column>
                     <column name="sinc">ap_none, 1</column>
                     <column name="theta_out">ap_none, 64</column>
+                    <column name="v1_d_limpo_out">ap_none, 64</column>
+                    <column name="v1_d_out">ap_none, 64</column>
+                    <column name="v1_q_limpo_out">ap_none, 64</column>
+                    <column name="v1_q_out">ap_none, 64</column>
                     <column name="v2_d_limpo_out">ap_none, 64</column>
+                    <column name="v2_d_out">ap_none, 64</column>
+                    <column name="v2_q_limpo_out">ap_none, 64</column>
+                    <column name="v2_q_out">ap_none, 64</column>
                     <column name="v_alfa_in">ap_none, 64</column>
                     <column name="v_beta_in">ap_none, 64</column>
                     <column name="vin_a">ap_none, 64</column>
                     <column name="vin_b">ap_none, 64</column>
                     <column name="vin_c">ap_none, 64</column>
                     <column name="w_out">ap_none, 64</column>
+                    <column name="wi_out">ap_none, 64</column>
                 </table>
             </item>
             <item name="TOP LEVEL CONTROL">
@@ -2746,6 +3792,7 @@
                     <column name="in_2">in, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;</column>
                     <column name="in_3">in, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;</column>
                     <column name="w_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                    <column name="wi_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
                     <column name="theta_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
                     <column name="pll_alpha_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
                     <column name="pll_beta_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
@@ -2757,6 +3804,13 @@
                     <column name="Amp_vneg_raw_base_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
                     <column name="q_inv_d_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
                     <column name="v2_d_limpo_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                    <column name="v2_q_limpo_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                    <column name="v1_d_limpo_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                    <column name="v1_q_limpo_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                    <column name="v1_d_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                    <column name="v1_q_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                    <column name="v2_d_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
+                    <column name="v2_q_out">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
                     <column name="in_inv">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
                     <column name="out_inv">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
                     <column name="in_atan">out, ap_fixed&lt;64 16 AP_TRN AP_WRAP 0&gt;*</column>
@@ -2783,6 +3837,8 @@
                     <column name="in_3">in_3, port</column>
                     <column name="w_out">w_out, port</column>
                     <column name="w_out">w_out_ap_vld, port</column>
+                    <column name="wi_out">wi_out, port</column>
+                    <column name="wi_out">wi_out_ap_vld, port</column>
                     <column name="theta_out">theta_out, port</column>
                     <column name="theta_out">theta_out_ap_vld, port</column>
                     <column name="pll_alpha_out">pll_alpha_out, port</column>
@@ -2805,6 +3861,20 @@
                     <column name="q_inv_d_out">q_inv_d_out_ap_vld, port</column>
                     <column name="v2_d_limpo_out">v2_d_limpo_out, port</column>
                     <column name="v2_d_limpo_out">v2_d_limpo_out_ap_vld, port</column>
+                    <column name="v2_q_limpo_out">v2_q_limpo_out, port</column>
+                    <column name="v2_q_limpo_out">v2_q_limpo_out_ap_vld, port</column>
+                    <column name="v1_d_limpo_out">v1_d_limpo_out, port</column>
+                    <column name="v1_d_limpo_out">v1_d_limpo_out_ap_vld, port</column>
+                    <column name="v1_q_limpo_out">v1_q_limpo_out, port</column>
+                    <column name="v1_q_limpo_out">v1_q_limpo_out_ap_vld, port</column>
+                    <column name="v1_d_out">v1_d_out, port</column>
+                    <column name="v1_d_out">v1_d_out_ap_vld, port</column>
+                    <column name="v1_q_out">v1_q_out, port</column>
+                    <column name="v1_q_out">v1_q_out_ap_vld, port</column>
+                    <column name="v2_d_out">v2_d_out, port</column>
+                    <column name="v2_d_out">v2_d_out_ap_vld, port</column>
+                    <column name="v2_q_out">v2_q_out, port</column>
+                    <column name="v2_q_out">v2_q_out_ap_vld, port</column>
                     <column name="in_inv">in_inv, port</column>
                     <column name="in_inv">in_inv_ap_vld, port</column>
                     <column name="out_inv">out_inv, port</column>
@@ -2826,7 +3896,7 @@
             <item name="Burst Missed">
                 <table>
                     <keys size="4">Variable, Problem, Resolution, Location</keys>
-                    <column name="">Cannot analyze the loop bounds of 'VITIS_LOOP_1007_1', 214-252, ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1007:24</column>
+                    <column name="">Cannot analyze the loop bounds of 'VITIS_LOOP_986_1', 214-252, ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:986:23</column>
                 </table>
             </item>
         </section>

@@ -1,0 +1,226 @@
+
+
+================================================================
+== Vitis HLS Report for 'ATAN2_LUT'
+================================================================
+* Date:           Wed Jul  8 16:46:20 2026
+
+* Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)
+* Project:        PLL2026
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: artix7
+* Target device:  xc7a200t-fbg676-2
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  7.171 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        ?|        ?|         ?|         ?|    ?|    ?|     none|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        +--------------------+----------+---------+---------+----------+----------+-----+-----+---------+
+        |                    |          |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+        |      Instance      |  Module  |   min   |   max   |    min   |    max   | min | max |   Type  |
+        +--------------------+----------+---------+---------+----------+----------+-----+-----+---------+
+        |grp_INV_LUT_fu_88   |INV_LUT   |        ?|        ?|         ?|         ?|    ?|    ?|     none|
+        |grp_ATAN_LUT_fu_99  |ATAN_LUT  |        ?|        ?|         ?|         ?|    ?|    ?|     none|
+        +--------------------+----------+---------+---------+----------+----------+-----+-----+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+--------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |   LUT  | URAM|
++-----------------+---------+-----+--------+--------+-----+
+|DSP              |        -|    -|       -|       -|    -|
+|Expression       |        -|    -|       0|    1194|    -|
+|FIFO             |        -|    -|       -|       -|    -|
+|Instance         |        6|    2|     757|     630|    -|
+|Memory           |        -|    -|       -|       -|    -|
+|Multiplexer      |        -|    -|       -|     237|    -|
+|Register         |        -|    -|     749|       -|    -|
++-----------------+---------+-----+--------+--------+-----+
+|Total            |        6|    2|    1506|    2061|    0|
++-----------------+---------+-----+--------+--------+-----+
+|Available        |      730|  740|  269200|  134600|    0|
++-----------------+---------+-----+--------+--------+-----+
+|Utilization (%)  |       ~0|   ~0|      ~0|       1|    0|
++-----------------+---------+-----+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    +--------------------+----------+---------+----+-----+-----+-----+
+    |      Instance      |  Module  | BRAM_18K| DSP|  FF | LUT | URAM|
+    +--------------------+----------+---------+----+-----+-----+-----+
+    |grp_ATAN_LUT_fu_99  |ATAN_LUT  |        6|   2|  757|  630|    0|
+    +--------------------+----------+---------+----+-----+-----+-----+
+    |Total               |          |        6|   2|  757|  630|    0|
+    +--------------------+----------+---------+----+-----+-----+-----+
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +--------------------------+----------+----+---+----+------------+------------+
+    |       Variable Name      | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +--------------------------+----------+----+---+----+------------+------------+
+    |add_ln376_1_fu_458_p2     |         +|   0|  0|  71|          64|          64|
+    |add_ln376_fu_435_p2       |         +|   0|  0|  71|          64|          64|
+    |add_ln703_5_fu_272_p2     |         +|   0|  0|  71|          64|          49|
+    |add_ln703_6_fu_168_p2     |         +|   0|  0|  71|          64|          50|
+    |add_ln703_fu_302_p2       |         +|   0|  0|  71|          64|          51|
+    |grp_fu_110_p2             |         -|   0|  0|  71|           1|          64|
+    |xd_aux_V_fu_137_p2        |         -|   0|  0|  71|           1|          64|
+    |and_ln367_5_fu_343_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln367_fu_192_p2       |       and|   0|  0|   2|           1|           1|
+    |and_ln370_5_fu_358_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln370_fu_210_p2       |       and|   0|  0|   2|           1|           1|
+    |and_ln373_5_fu_374_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln373_fu_230_p2       |       and|   0|  0|   2|           1|           1|
+    |and_ln376_5_fu_395_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln376_fu_390_p2       |       and|   0|  0|   2|           1|           1|
+    |icmp_ln1494_15_fu_131_p2  |      icmp|   0|  0|  29|          64|           1|
+    |icmp_ln1494_16_fu_174_p2  |      icmp|   0|  0|  29|          64|          53|
+    |icmp_ln1494_17_fu_180_p2  |      icmp|   0|  0|  29|          64|          52|
+    |icmp_ln1494_18_fu_198_p2  |      icmp|   0|  0|  29|          64|          51|
+    |icmp_ln1494_19_fu_216_p2  |      icmp|   0|  0|  29|          64|          52|
+    |icmp_ln1494_20_fu_236_p2  |      icmp|   0|  0|  29|          64|          53|
+    |icmp_ln1494_fu_125_p2     |      icmp|   0|  0|  29|          64|           1|
+    |icmp_ln1495_11_fu_204_p2  |      icmp|   0|  0|  29|          64|          52|
+    |icmp_ln1495_12_fu_242_p2  |      icmp|   0|  0|  29|          64|          52|
+    |icmp_ln1495_13_fu_332_p2  |      icmp|   0|  0|  29|          64|          53|
+    |icmp_ln1495_fu_186_p2     |      icmp|   0|  0|  29|          64|          53|
+    |or_ln367_fu_348_p2        |        or|   0|  0|   2|           1|           1|
+    |or_ln370_fu_363_p2        |        or|   0|  0|   2|           1|           1|
+    |or_ln373_fu_379_p2        |        or|   0|  0|   2|           1|           1|
+    |or_ln376_1_fu_422_p2      |        or|   0|  0|   2|           1|           1|
+    |or_ln376_2_fu_441_p2      |        or|   0|  0|   2|           1|           1|
+    |or_ln376_3_fu_464_p2      |        or|   0|  0|   2|           1|           1|
+    |or_ln376_fu_408_p2        |        or|   0|  0|   2|           1|           1|
+    |ap_return                 |    select|   0|  0|  64|           1|          64|
+    |select_ln376_1_fu_414_p3  |    select|   0|  0|  53|           1|          52|
+    |select_ln376_2_fu_428_p3  |    select|   0|  0|  54|           1|          54|
+    |select_ln376_3_fu_446_p3  |    select|   0|  0|  53|           1|          53|
+    |select_ln376_4_fu_470_p3  |    select|   0|  0|  64|           1|          64|
+    |select_ln376_fu_400_p3    |    select|   0|  0|  52|           1|          52|
+    |xor_ln1494_fu_338_p2      |       xor|   0|  0|   2|           1|           2|
+    |xor_ln367_fu_352_p2       |       xor|   0|  0|   2|           1|           2|
+    |xor_ln370_fu_368_p2       |       xor|   0|  0|   2|           1|           2|
+    |xor_ln373_fu_384_p2       |       xor|   0|  0|   2|           1|           2|
+    +--------------------------+----------+----+---+----+------------+------------+
+    |Total                     |          |   0|  0|1194|        1051|        1241|
+    +--------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +---------------------------+-----+-----------+-----+-----------+
+    |            Name           | LUT | Input Size| Bits| Total Bits|
+    +---------------------------+-----+-----------+-----+-----------+
+    |ap_NS_fsm                  |  161|         36|    1|         36|
+    |ap_phi_mux_y_phi_fu_77_p8  |   17|          4|   64|        256|
+    |grp_ATAN_LUT_fu_99_x       |   21|          5|   64|        320|
+    |grp_INV_LUT_fu_88_x        |   21|          5|   64|        320|
+    |y_reg_74                   |   17|          4|   64|        256|
+    +---------------------------+-----+-----------+-----+-----------+
+    |Total                      |  237|         54|  257|       1188|
+    +---------------------------+-----+-----------+-----+-----------+
+
+    * Register: 
+    +---------------------------------+----+----+-----+-----------+
+    |               Name              | FF | LUT| Bits| Const Bits|
+    +---------------------------------+----+----+-----+-----------+
+    |add_ln703_5_reg_584              |  64|   0|   64|          0|
+    |add_ln703_6_reg_528              |  64|   0|   64|          0|
+    |add_ln703_reg_604                |  64|   0|   64|          0|
+    |and_ln367_reg_541                |   1|   0|    1|          0|
+    |and_ln370_reg_547                |   1|   0|    1|          0|
+    |and_ln373_reg_553                |   1|   0|    1|          0|
+    |ap_CS_fsm                        |  35|   0|   35|          0|
+    |grp_ATAN_LUT_fu_99_ap_start_reg  |   1|   0|    1|          0|
+    |grp_INV_LUT_fu_88_ap_start_reg   |   1|   0|    1|          0|
+    |icmp_ln1494_15_reg_503           |   1|   0|    1|          0|
+    |icmp_ln1494_16_reg_533           |   1|   0|    1|          0|
+    |icmp_ln1494_20_reg_559           |   1|   0|    1|          0|
+    |icmp_ln1494_reg_499              |   1|   0|    1|          0|
+    |icmp_ln1495_12_reg_564           |   1|   0|    1|          0|
+    |reg_116                          |  64|   0|   64|          0|
+    |reg_121                          |  64|   0|   64|          0|
+    |trunc_ln708_1_reg_523            |  64|   0|   64|          0|
+    |trunc_ln708_9_reg_579            |  64|   0|   64|          0|
+    |trunc_ln708_s_reg_599            |  64|   0|   64|          0|
+    |trunc_ln_reg_619                 |  64|   0|   64|          0|
+    |xd_aux_V_reg_507                 |  64|   0|   64|          0|
+    |y_reg_74                         |  64|   0|   64|          0|
+    +---------------------------------+----+----+-----+-----------+
+    |Total                            | 749|   0|  749|          0|
+    +---------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------------------+-----+-----+------------+--------------+--------------+
+|          RTL Ports         | Dir | Bits|  Protocol  | Source Object|    C Type    |
++----------------------------+-----+-----+------------+--------------+--------------+
+|ap_clk                      |   in|    1|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|ap_rst                      |   in|    1|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|ap_start                    |   in|    1|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|ap_done                     |  out|    1|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|ap_idle                     |  out|    1|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|ap_ready                    |  out|    1|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|ap_return                   |  out|   64|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_INV_LUT_fu_803_p_din1   |  out|   64|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_INV_LUT_fu_803_p_dout0  |   in|   64|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_INV_LUT_fu_803_p_start  |  out|    1|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_INV_LUT_fu_803_p_ready  |   in|    1|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_INV_LUT_fu_803_p_done   |   in|    1|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_INV_LUT_fu_803_p_idle   |   in|    1|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_fu_2591_p_din0          |  out|   64|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_fu_2591_p_din1          |  out|   64|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_fu_2591_p_dout0         |   in|  112|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_fu_2591_p_ce            |  out|    1|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_fu_2595_p_din0          |  out|   64|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_fu_2595_p_din1          |  out|   64|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_fu_2595_p_dout0         |   in|  112|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_fu_2595_p_ce            |  out|    1|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_fu_2599_p_din0          |  out|   64|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_fu_2599_p_din1          |  out|   64|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_fu_2599_p_dout0         |   in|  112|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_fu_2599_p_ce            |  out|    1|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_fu_2603_p_din0          |  out|   64|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_fu_2603_p_din1          |  out|   64|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_fu_2603_p_dout0         |   in|  112|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|grp_fu_2603_p_ce            |  out|    1|  ap_ctrl_hs|     ATAN2_LUT|  return value|
+|xd                          |   in|   64|     ap_none|            xd|        scalar|
+|xq                          |   in|   64|     ap_none|            xq|        scalar|
++----------------------------+-----+-----+------------+--------------+--------------+
+

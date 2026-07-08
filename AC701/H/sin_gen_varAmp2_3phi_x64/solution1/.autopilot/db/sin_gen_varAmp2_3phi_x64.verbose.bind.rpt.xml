@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'sin_gen_varAmp2_3phi_x64'" level="0">
-<item name = "Date">Wed Apr 29 16:53:36 2026
+<item name = "Date">Wed Jul  8 15:09:47 2026
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)</item>
 <item name = "Project">sin_gen_varAmp2_3phi_x64</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 7.300 ns, 2.70 ns</column>
+<column name="ap_clk">10.00 ns, 8.140 ns, 2.70 ns</column>
 </table>
 </item>
 </section>
@@ -24,19 +24,19 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="8">, min, max, min, max, min, max, Type</keys>
-<column name="">1, 60, 10.000 ns, 0.600 us, 2, 61, none</column>
+<column name="">1, 76, 10.000 ns, 0.760 us, 2, 77, none</column>
 </table>
 </item>
 <item name = "Detail">
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_sin_2000_fu_229">sin_2000, 11, 11, 0.110 us, 0.110 us, 11, 11, none</column>
-<column name="grp_sin_2000_fu_236">sin_2000, 11, 11, 0.110 us, 0.110 us, 11, 11, none</column>
-<column name="grp_sin_2000_fu_243">sin_2000, 11, 11, 0.110 us, 0.110 us, 11, 11, none</column>
-<column name="grp_sin_2000_fu_250">sin_2000, 11, 11, 0.110 us, 0.110 us, 11, 11, none</column>
-<column name="grp_sin_2000_fu_257">sin_2000, 11, 11, 0.110 us, 0.110 us, 11, 11, none</column>
-<column name="grp_sin_2000_fu_264">sin_2000, 11, 11, 0.110 us, 0.110 us, 11, 11, none</column>
+<column name="grp_sin_2000_fu_237">sin_2000, 11, 11, 0.110 us, 0.110 us, 11, 11, none</column>
+<column name="grp_sin_2000_fu_244">sin_2000, 11, 11, 0.110 us, 0.110 us, 11, 11, none</column>
+<column name="grp_sin_2000_fu_251">sin_2000, 11, 11, 0.110 us, 0.110 us, 11, 11, none</column>
+<column name="grp_sin_2000_fu_258">sin_2000, 11, 11, 0.110 us, 0.110 us, 11, 11, none</column>
+<column name="grp_sin_2000_fu_265">sin_2000, 11, 11, 0.110 us, 0.110 us, 11, 11, none</column>
+<column name="grp_sin_2000_fu_272">sin_2000, 11, 11, 0.110 us, 0.110 us, 11, 11, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">

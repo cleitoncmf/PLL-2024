@@ -22,7 +22,9 @@ void sin_gen_varAmp2_3phi_x64(uint1_t sinc, uint1_t opt, data_t f,
     
 
     static data_t wt;
+    static data_t wt_old;
     static data_t dwt;
+
 
     static uint1_t aux_sinc;
 
@@ -32,14 +34,16 @@ void sin_gen_varAmp2_3phi_x64(uint1_t sinc, uint1_t opt, data_t f,
     else{
         aux_sinc = sinc;
 
+        wt_old = wt;
+
 
         dwt = pi2Ts*f;
 
         if (wt<pi2){
-        	wt = wt + dwt;
+        	wt = wt_old + dwt;
         }
         else{
-        	wt = 0;
+        	wt = data_t(0);
         }
 
 
@@ -48,28 +52,28 @@ void sin_gen_varAmp2_3phi_x64(uint1_t sinc, uint1_t opt, data_t f,
         // cálculo das tensões
         va = A_1p*sin_2000(wt + Ang_1p)+
              A_1n*sin_2000(wt + Ang_1n)+
-             A_5p*sin_2000(wt*5 + Ang_5p)+
-             A_5n*sin_2000(wt*5 + Ang_5n)+
-             A_7p*sin_2000(wt*7 + Ang_7p)+
-             A_7n*sin_2000(wt*7 + Ang_7n);
+             A_5p*sin_2000(wt*data_t(5) + Ang_5p)+
+             A_5n*sin_2000(wt*data_t(5) + Ang_5n)+
+             A_7p*sin_2000(wt*data_t(7) + Ang_7p)+
+             A_7n*sin_2000(wt*data_t(7) + Ang_7n);
 
 
 
 
         vb = A_1p*sin_2000(wt + Ang_1p - alpha)+
              A_1n*sin_2000(wt + Ang_1n + alpha)+
-             A_5p*sin_2000(wt*5 + Ang_5p - alpha)+
-             A_5n*sin_2000(wt*5 + Ang_5n + alpha)+
-             A_7p*sin_2000(wt*7 + Ang_7p - alpha)+
-             A_7n*sin_2000(wt*7 + Ang_7n + alpha);
+             A_5p*sin_2000(wt*data_t(5) + Ang_5p - alpha)+
+             A_5n*sin_2000(wt*data_t(5) + Ang_5n + alpha)+
+             A_7p*sin_2000(wt*data_t(7) + Ang_7p - alpha)+
+             A_7n*sin_2000(wt*data_t(7) + Ang_7n + alpha);
 
         
         vc = A_1p*sin_2000(wt + Ang_1p + alpha)+
              A_1n*sin_2000(wt + Ang_1n - alpha)+
-             A_5p*sin_2000(wt*5 + Ang_5p + alpha)+
-             A_5n*sin_2000(wt*5 + Ang_5n - alpha)+
-             A_7p*sin_2000(wt*7 + Ang_7p + alpha)+
-             A_7n*sin_2000(wt*7 + Ang_7n - alpha);
+             A_5p*sin_2000(wt*data_t(5) + Ang_5p + alpha)+
+             A_5n*sin_2000(wt*data_t(5) + Ang_5n - alpha)+
+             A_7p*sin_2000(wt*data_t(7) + Ang_7p + alpha)+
+             A_7n*sin_2000(wt*data_t(7) + Ang_7n - alpha);
 
 
 
@@ -111,7 +115,7 @@ data_t wrap_2pi(data_t angulo_in){
     else if(angulo>pi2 && angulo<pi4){
     	angulo = angulo-pi2;
     }
-    else if(angulo>-pi2 && angulo<0){
+    else if(angulo>-pi2 && angulo<data_t(0)){
     	angulo = angulo+pi2;
     }
     else if(angulo>-pi4 && angulo<-pi2){

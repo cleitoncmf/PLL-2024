@@ -171,6 +171,12 @@ proc create_root_design { parentCell } {
    CONFIG.FREQ_HZ {250000} \
  ] $sim_clk_gen_1
 
+  # Create instance: sim_clk_gen_2, and set properties
+  set sim_clk_gen_2 [ create_bd_cell -type ip -vlnv xilinx.com:ip:sim_clk_gen:1.0 sim_clk_gen_2 ]
+  set_property -dict [ list \
+   CONFIG.FREQ_HZ {1000000} \
+ ] $sim_clk_gen_2
+
   # Create instance: sin_gen_varAmp2_3phi_0, and set properties
   set sin_gen_varAmp2_3phi_0 [ create_bd_cell -type ip -vlnv xilinx.com:user:sin_gen_varAmp2_3phi_x64:1.0 sin_gen_varAmp2_3phi_0 ]
 
@@ -250,7 +256,8 @@ proc create_root_design { parentCell } {
 
   # Create port connections
   connect_bd_net -net sim_clk_gen_0_clk [get_bd_pins PLL2026_x64_0/ap_clk] [get_bd_pins sim_clk_gen_0/clk] [get_bd_pins sin_gen_varAmp2_3phi_0/ap_clk]
-  connect_bd_net -net sim_clk_gen_1_clk [get_bd_pins PLL2026_x64_0/sinc] [get_bd_pins sim_clk_gen_1/clk] [get_bd_pins sin_gen_varAmp2_3phi_0/sinc]
+  connect_bd_net -net sim_clk_gen_1_clk [get_bd_pins PLL2026_x64_0/sinc] [get_bd_pins sim_clk_gen_1/clk]
+  connect_bd_net -net sim_clk_gen_2_clk [get_bd_pins sim_clk_gen_2/clk] [get_bd_pins sin_gen_varAmp2_3phi_0/sinc]
   connect_bd_net -net sin_gen_varAmp2_3phi_0_vout_a [get_bd_pins PLL2026_x64_0/vin_a] [get_bd_pins sin_gen_varAmp2_3phi_0/vout_a]
   connect_bd_net -net sin_gen_varAmp2_3phi_0_vout_b [get_bd_pins PLL2026_x64_0/vin_b] [get_bd_pins sin_gen_varAmp2_3phi_0/vout_b]
   connect_bd_net -net sin_gen_varAmp2_3phi_0_vout_c [get_bd_pins PLL2026_x64_0/vin_c] [get_bd_pins sin_gen_varAmp2_3phi_0/vout_c]

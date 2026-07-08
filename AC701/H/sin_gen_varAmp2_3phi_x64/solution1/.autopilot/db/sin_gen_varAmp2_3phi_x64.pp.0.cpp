@@ -26181,7 +26181,7 @@ typedef ap_fixed<64,16, AP_TRN, AP_WRAP> data_t;
 
 
 typedef ap_uint<1> uint1_t;
-# 33 "../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.h"
+# 35 "../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.h"
 data_t wrap_2pi(data_t angulo_in);
 __attribute__((sdx_kernel("sin_gen_varAmp2_3phi_x64", 0))) void sin_gen_varAmp2_3phi_x64(uint1_t sinc, uint1_t opt, data_t f,
                                 data_t A_1p, data_t Ang_1p,
@@ -26221,7 +26221,9 @@ __attribute__((sdx_kernel("sin_gen_varAmp2_3phi_x64", 0))) void sin_gen_varAmp2_
 
 
     static data_t wt;
+    static data_t wt_old;
     static data_t dwt;
+
 
     static uint1_t aux_sinc;
 
@@ -26231,14 +26233,16 @@ __attribute__((sdx_kernel("sin_gen_varAmp2_3phi_x64", 0))) void sin_gen_varAmp2_
     else{
         aux_sinc = sinc;
 
+        wt_old = wt;
 
-        dwt = data_t(3.141592653589793e-06)*f;
+
+        dwt = data_t(3.141592653589793e-05)*f;
 
         if (wt<data_t(6.283185307179586)){
-         wt = wt + dwt;
+         wt = wt_old + dwt;
         }
         else{
-         wt = 0;
+         wt = data_t(0);
         }
 
 
@@ -26247,28 +26251,28 @@ __attribute__((sdx_kernel("sin_gen_varAmp2_3phi_x64", 0))) void sin_gen_varAmp2_
 
         va = A_1p*sin_2000(wt + Ang_1p)+
              A_1n*sin_2000(wt + Ang_1n)+
-             A_5p*sin_2000(wt*5 + Ang_5p)+
-             A_5n*sin_2000(wt*5 + Ang_5n)+
-             A_7p*sin_2000(wt*7 + Ang_7p)+
-             A_7n*sin_2000(wt*7 + Ang_7n);
+             A_5p*sin_2000(wt*data_t(5) + Ang_5p)+
+             A_5n*sin_2000(wt*data_t(5) + Ang_5n)+
+             A_7p*sin_2000(wt*data_t(7) + Ang_7p)+
+             A_7n*sin_2000(wt*data_t(7) + Ang_7n);
 
 
 
 
         vb = A_1p*sin_2000(wt + Ang_1p - data_t(2.094395102393195))+
              A_1n*sin_2000(wt + Ang_1n + data_t(2.094395102393195))+
-             A_5p*sin_2000(wt*5 + Ang_5p - data_t(2.094395102393195))+
-             A_5n*sin_2000(wt*5 + Ang_5n + data_t(2.094395102393195))+
-             A_7p*sin_2000(wt*7 + Ang_7p - data_t(2.094395102393195))+
-             A_7n*sin_2000(wt*7 + Ang_7n + data_t(2.094395102393195));
+             A_5p*sin_2000(wt*data_t(5) + Ang_5p - data_t(2.094395102393195))+
+             A_5n*sin_2000(wt*data_t(5) + Ang_5n + data_t(2.094395102393195))+
+             A_7p*sin_2000(wt*data_t(7) + Ang_7p - data_t(2.094395102393195))+
+             A_7n*sin_2000(wt*data_t(7) + Ang_7n + data_t(2.094395102393195));
 
 
         vc = A_1p*sin_2000(wt + Ang_1p + data_t(2.094395102393195))+
              A_1n*sin_2000(wt + Ang_1n - data_t(2.094395102393195))+
-             A_5p*sin_2000(wt*5 + Ang_5p + data_t(2.094395102393195))+
-             A_5n*sin_2000(wt*5 + Ang_5n - data_t(2.094395102393195))+
-             A_7p*sin_2000(wt*7 + Ang_7p + data_t(2.094395102393195))+
-             A_7n*sin_2000(wt*7 + Ang_7n - data_t(2.094395102393195));
+             A_5p*sin_2000(wt*data_t(5) + Ang_5p + data_t(2.094395102393195))+
+             A_5n*sin_2000(wt*data_t(5) + Ang_5n - data_t(2.094395102393195))+
+             A_7p*sin_2000(wt*data_t(7) + Ang_7p + data_t(2.094395102393195))+
+             A_7n*sin_2000(wt*data_t(7) + Ang_7n - data_t(2.094395102393195));
 
 
 
@@ -26310,7 +26314,7 @@ data_t wrap_2pi(data_t angulo_in){
     else if(angulo>data_t(6.283185307179586) && angulo<data_t(12.566370614359172)){
      angulo = angulo-data_t(6.283185307179586);
     }
-    else if(angulo>-data_t(6.283185307179586) && angulo<0){
+    else if(angulo>-data_t(6.283185307179586) && angulo<data_t(0)){
      angulo = angulo+data_t(6.283185307179586);
     }
     else if(angulo>-data_t(12.566370614359172) && angulo<-data_t(6.283185307179586)){
@@ -26319,7 +26323,7 @@ data_t wrap_2pi(data_t angulo_in){
     else if(angulo<-data_t(12.566370614359172)){
         angulo = angulo+data_t(18.849555921538759);
     }
-# 136 "../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp"
+# 140 "../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp"
     return angulo;
 
 }

@@ -5,7 +5,7 @@
 
 `timescale 1 ns / 1 ps
 
-module sin_gen_varAmp2_3phi_x64_mul_50s_64s_112_5_1_Multiplier_2(clk, ce, a, b, p);
+module sin_gen_varAmp2_3phi_x64_mul_50s_64s_112_5_1_Multiplier_3(clk, ce, a, b, p);
 input clk;
 input ce;
 input[50 - 1 : 0] a; 
@@ -54,7 +54,7 @@ output[dout_WIDTH - 1:0] dout;
 
 
 
-sin_gen_varAmp2_3phi_x64_mul_50s_64s_112_5_1_Multiplier_2 sin_gen_varAmp2_3phi_x64_mul_50s_64s_112_5_1_Multiplier_2_U(
+sin_gen_varAmp2_3phi_x64_mul_50s_64s_112_5_1_Multiplier_3 sin_gen_varAmp2_3phi_x64_mul_50s_64s_112_5_1_Multiplier_3_U(
     .clk( clk ),
     .ce( ce ),
     .a( din0 ),

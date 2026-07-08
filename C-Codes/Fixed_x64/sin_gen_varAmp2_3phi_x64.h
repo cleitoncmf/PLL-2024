@@ -19,13 +19,15 @@ typedef  ap_fixed<64,16, AP_TRN, AP_WRAP> data_t;
 typedef ap_uint<1> uint1_t;
 
 //Definições
-#define Ts data_t(500e-9)
+//#define Ts data_t(500e-9)
+#define Ts data_t(5e-6)
 #define Ts2 data_t(500e-9)
 #define pi data_t(3.141592653589793)
 #define pi2 data_t(6.283185307179586)
 #define pi4 data_t(12.566370614359172)
 #define pi6 data_t(18.849555921538759)
-#define pi2Ts data_t(3.141592653589793e-06)
+//#define pi2Ts data_t(3.141592653589793e-06)
+#define pi2Ts data_t(3.141592653589793e-05)
 #define alpha data_t(2.094395102393195)
 
 

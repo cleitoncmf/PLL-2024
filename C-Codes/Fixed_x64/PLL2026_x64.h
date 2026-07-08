@@ -20,7 +20,7 @@ typedef ap_uint<1> uint1_t;
 
 //Definições
 //#define Ts data_t(500e-9)
-#define Ts data_t(2e-6)
+#define Ts data_t(5e-6)
 #define Ts2 data_t(500e-9)
 #define pi data_t(3.141592653589793)
 #define pi2 data_t(6.283185307179586)
@@ -29,13 +29,19 @@ typedef ap_uint<1> uint1_t;
 #define pi6 data_t(18.849555921538759)
 #define pi4 data_t(12.566370614359172)
 
+#define arc90 data_t(1.570796326794897)
+#define arc270 data_t(4.712388980384690)
+
+
 
 // Constantes dos PLLs
 #define ki_phi data_t(1000)
+//#define ki_phi data_t(5000)
 #define kp_phi data_t(20)
+//#define kp_phi data_t(100)
 #define wcd data_t(1884.95)
 #define wca data_t(7539.82)
-#define w0 data_t(300)
+#define w0 data_t(200)
 #define k_alfa data_t(0.666666666666667)
 #define k_beta data_t(0.577350269189626)
 
@@ -47,6 +53,7 @@ data_t cos_2000(data_t theta);
 data_t wrap_2pi(data_t angulo_in);
 data_t ATAN_LUT(data_t x);
 data_t ATAN_LUT_signed(data_t x);
+data_t ATAN2_LUT(data_t xd, data_t xq);
 data_t SQRT_LUT(data_t x);
 data_t INV_LUT(data_t x);
 data_t INV_LUT_signed(data_t x);
@@ -65,6 +72,7 @@ void PLL2026_x64(uint1_t sinc,
 					data_t in_2,
 					data_t in_3,
                     data_t *w_out,
+					data_t *wi_out,
                     data_t *theta_out,
                     data_t *pll_alpha_out,
                     data_t *pll_beta_out,
@@ -76,6 +84,13 @@ void PLL2026_x64(uint1_t sinc,
 					data_t *Amp_vneg_raw_base_out,
 					data_t *q_inv_d_out,
 					data_t *v2_d_limpo_out,
+					data_t *v2_q_limpo_out,
+					data_t *v1_d_limpo_out,
+					data_t *v1_q_limpo_out,
+					data_t *v1_d_out,
+					data_t *v1_q_out,
+					data_t *v2_d_out,
+					data_t *v2_q_out,
 					data_t *in_inv,
 					data_t *out_inv,
 					data_t *in_atan,

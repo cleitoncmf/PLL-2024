@@ -18,27 +18,27 @@
 <PipelineType>none</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>7.300</EstimatedClockPeriod>
+<EstimatedClockPeriod>8.140</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
 <Best-caseLatency>1</Best-caseLatency>
-<Average-caseLatency>31</Average-caseLatency>
-<Worst-caseLatency>60</Worst-caseLatency>
+<Average-caseLatency>39</Average-caseLatency>
+<Worst-caseLatency>76</Worst-caseLatency>
 <Best-caseRealTimeLatency>10.000 ns</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.310 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.600 us</Worst-caseRealTimeLatency>
+<Average-caseRealTimeLatency>0.390 us</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>0.760 us</Worst-caseRealTimeLatency>
 <Interval-min>2</Interval-min>
-<Interval-max>61</Interval-max>
+<Interval-max>77</Interval-max>
 </SummaryOfOverallLatency>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
 <BRAM_18K>36</BRAM_18K>
-<DSP>62</DSP>
-<FF>19002</FF>
-<LUT>21287</LUT>
+<DSP>70</DSP>
+<FF>20445</FF>
+<LUT>22242</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>

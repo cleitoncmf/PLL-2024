@@ -71,87 +71,127 @@
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="14" access_type="w" src_name="theta_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+      <arg id="14" access_type="w" src_name="wi_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+        <hw hw_usage="data" hw_interface="Register" hw_name="wi_out" hw_bitwidth="64" hw_size_or_depth="1">
+          <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
+        </hw>
+      </arg>
+      <arg id="15" access_type="w" src_name="theta_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="theta_out" hw_bitwidth="64" hw_size_or_depth="1">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="15" access_type="w" src_name="pll_alpha_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+      <arg id="16" access_type="w" src_name="pll_alpha_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="pll_alpha_out" hw_bitwidth="64" hw_size_or_depth="1">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="16" access_type="w" src_name="pll_beta_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+      <arg id="17" access_type="w" src_name="pll_beta_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="pll_beta_out" hw_bitwidth="64" hw_size_or_depth="1">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="17" access_type="w" src_name="amp_vPos_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+      <arg id="18" access_type="w" src_name="amp_vPos_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="amp_vPos_out" hw_bitwidth="64" hw_size_or_depth="1">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="18" access_type="w" src_name="Amp_vneg_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+      <arg id="19" access_type="w" src_name="Amp_vneg_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="Amp_vneg_out" hw_bitwidth="64" hw_size_or_depth="1">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="19" access_type="w" src_name="delta_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+      <arg id="20" access_type="w" src_name="delta_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="delta_out" hw_bitwidth="64" hw_size_or_depth="1">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="20" access_type="w" src_name="v_alfa_in" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+      <arg id="21" access_type="w" src_name="v_alfa_in" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="v_alfa_in" hw_bitwidth="64" hw_size_or_depth="1">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="21" access_type="w" src_name="v_beta_in" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+      <arg id="22" access_type="w" src_name="v_beta_in" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="v_beta_in" hw_bitwidth="64" hw_size_or_depth="1">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="22" access_type="w" src_name="Amp_vneg_raw_base_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+      <arg id="23" access_type="w" src_name="Amp_vneg_raw_base_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="Amp_vneg_raw_base_out" hw_bitwidth="64" hw_size_or_depth="1">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="23" access_type="w" src_name="q_inv_d_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+      <arg id="24" access_type="w" src_name="q_inv_d_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="q_inv_d_out" hw_bitwidth="64" hw_size_or_depth="1">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="24" access_type="w" src_name="v2_d_limpo_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+      <arg id="25" access_type="w" src_name="v2_d_limpo_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="v2_d_limpo_out" hw_bitwidth="64" hw_size_or_depth="1">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="25" access_type="w" src_name="in_inv" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+      <arg id="26" access_type="w" src_name="v2_q_limpo_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+        <hw hw_usage="data" hw_interface="Register" hw_name="v2_q_limpo_out" hw_bitwidth="64" hw_size_or_depth="1">
+          <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
+        </hw>
+      </arg>
+      <arg id="27" access_type="w" src_name="v1_d_limpo_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+        <hw hw_usage="data" hw_interface="Register" hw_name="v1_d_limpo_out" hw_bitwidth="64" hw_size_or_depth="1">
+          <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
+        </hw>
+      </arg>
+      <arg id="28" access_type="w" src_name="v1_q_limpo_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+        <hw hw_usage="data" hw_interface="Register" hw_name="v1_q_limpo_out" hw_bitwidth="64" hw_size_or_depth="1">
+          <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
+        </hw>
+      </arg>
+      <arg id="29" access_type="w" src_name="v1_d_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+        <hw hw_usage="data" hw_interface="Register" hw_name="v1_d_out" hw_bitwidth="64" hw_size_or_depth="1">
+          <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
+        </hw>
+      </arg>
+      <arg id="30" access_type="w" src_name="v1_q_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+        <hw hw_usage="data" hw_interface="Register" hw_name="v1_q_out" hw_bitwidth="64" hw_size_or_depth="1">
+          <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
+        </hw>
+      </arg>
+      <arg id="31" access_type="w" src_name="v2_d_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+        <hw hw_usage="data" hw_interface="Register" hw_name="v2_d_out" hw_bitwidth="64" hw_size_or_depth="1">
+          <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
+        </hw>
+      </arg>
+      <arg id="32" access_type="w" src_name="v2_q_out" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+        <hw hw_usage="data" hw_interface="Register" hw_name="v2_q_out" hw_bitwidth="64" hw_size_or_depth="1">
+          <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
+        </hw>
+      </arg>
+      <arg id="33" access_type="w" src_name="in_inv" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="in_inv" hw_bitwidth="64" hw_size_or_depth="1">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="26" access_type="w" src_name="out_inv" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+      <arg id="34" access_type="w" src_name="out_inv" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="out_inv" hw_bitwidth="64" hw_size_or_depth="1">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="27" access_type="w" src_name="in_atan" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+      <arg id="35" access_type="w" src_name="in_atan" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="in_atan" hw_bitwidth="64" hw_size_or_depth="1">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="28" access_type="w" src_name="out_atan" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+      <arg id="36" access_type="w" src_name="out_atan" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="out_atan" hw_bitwidth="64" hw_size_or_depth="1">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="29" access_type="w" src_name="in_sqrt" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+      <arg id="37" access_type="w" src_name="in_sqrt" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="in_sqrt" hw_bitwidth="64" hw_size_or_depth="1">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>
       </arg>
-      <arg id="30" access_type="w" src_name="out_sqrt" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
+      <arg id="38" access_type="w" src_name="out_sqrt" src_type="ap_fixed&lt;64, 16, AP_TRN, AP_WRAP, 0&gt;*" src_isptr="1" src_bitwidth="64" src_size_or_depth="1">
         <hw hw_usage="data" hw_interface="Register" hw_name="out_sqrt" hw_bitwidth="64" hw_size_or_depth="1">
           <constraint constraint_type="pragma interface" mode="ap_none" register_option="0"/>
         </hw>

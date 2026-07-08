@@ -18,6 +18,7 @@ void PLL2026_x64(uint1_t sinc,
 					data_t in_2,
 					data_t in_3,
                     data_t *w_out,
+					data_t *wi_out,
                     data_t *theta_out,
                     data_t *pll_alpha_out,
                     data_t *pll_beta_out,
@@ -29,6 +30,13 @@ void PLL2026_x64(uint1_t sinc,
 					data_t *Amp_vneg_raw_base_out,
 					data_t *q_inv_d_out,
 					data_t *v2_d_limpo_out,
+					data_t *v2_q_limpo_out,
+					data_t *v1_d_limpo_out,
+					data_t *v1_q_limpo_out,
+					data_t *v1_d_out,
+					data_t *v1_q_out,
+					data_t *v2_d_out,
+					data_t *v2_q_out,
 					data_t *in_inv,
 					data_t *out_inv,
 					data_t *in_atan,
@@ -100,18 +108,18 @@ void PLL2026_x64(uint1_t sinc,
 
 
     // Definição das variáveis de estado
-    static data_t theta1=0;
-    static data_t theta1_old=0;
+    static data_t theta1=data_t(0);
+    static data_t theta1_old=data_t(0);
 
-    static data_t wi=0;
-    static data_t wi_old=0;
+    static data_t wi=data_t(0);
+    static data_t wi_old=data_t(0);
 
 
-    static data_t Amp_vneg=0;
-    static data_t Amp_vneg_old=0;
+    static data_t Amp_vneg=data_t(0);
+    static data_t Amp_vneg_old=data_t(0);
 
-    static data_t delta=0;
-    static data_t delta_old=0;
+    static data_t delta=data_t(0);
+    static data_t delta_old=data_t(0);
 
     
        
@@ -147,7 +155,7 @@ void PLL2026_x64(uint1_t sinc,
 		sen_teta1 = sin_2000(theta1);
 		cos_teta1 = cos_2000(theta1);
 
-		theta1_2x = 2*theta1;
+		theta1_2x = data_t(2)*theta1;
 
 		sen_teta2 = sin_2000(theta1_2x);
 		cos_teta2 = cos_2000(theta1_2x);
@@ -199,38 +207,9 @@ void PLL2026_x64(uint1_t sinc,
 
 
 
-		// Computação das informações de sequência negativa
 
-		if(EN1){
-			inv_v2_d_limpo = INV_LUT_signed(v2_d_limpo);
-		}
-		else{
+		delta_raw_base = ATAN2_LUT(v2_d_limpo, v2_q_limpo);
 
-			if(EN4){
-				inv_v2_d_limpo = INV_LUT_signed(in_1);
-			}
-			else{
-				inv_v2_d_limpo = data_t(0.1)*v2_d_limpo;
-			}
-
-		}
-
-		q_inv_d = v2_q_limpo * inv_v2_d_limpo;
-
-		if(EN2){
-
-			delta_raw_base = ATAN_LUT_signed(q_inv_d);
-		}
-		else{
-
-			if(EN5){
-				delta_raw_base = ATAN_LUT_signed(in_2);
-			}
-			else{
-				delta_raw_base = data_t(0);
-			}
-
-		}
 
 
 
@@ -240,18 +219,9 @@ void PLL2026_x64(uint1_t sinc,
 
 		Amp_vneg_raw_base = v2_q_limpo*v2_q_limpo + v2_d_limpo*v2_d_limpo;
 
-		if(EN3){
-			Amp_vneg_raw = SQRT_LUT(Amp_vneg_raw_base);
-		}
-		else{
-			if(EN6){
-				Amp_vneg_raw = SQRT_LUT(in_3);
-			}
-			else{
-				Amp_vneg_raw = data_t(0);
-			}
 
-		}
+		Amp_vneg_raw = SQRT_LUT(Amp_vneg_raw_base);
+
 
 
 
@@ -341,6 +311,7 @@ void PLL2026_x64(uint1_t sinc,
 
 
     *w_out = w;
+    *wi_out = wi;
     *theta_out = theta1;
     *pll_alpha_out = pll_alfa;
     *pll_beta_out = pll_beta;
@@ -355,6 +326,14 @@ void PLL2026_x64(uint1_t sinc,
     *Amp_vneg_raw_base_out = Amp_vneg_raw_base;
     *q_inv_d_out = q_inv_d;
     *v2_d_limpo_out = v2_d_limpo;
+    *v2_q_limpo_out = v2_q_limpo;
+    *v1_d_limpo_out = v1_d_limpo;
+    *v1_q_limpo_out = v1_q_limpo;
+
+    *v1_d_out = v1_d;
+    *v1_q_out = v1_q;
+    *v2_d_out = v2_d;
+    *v2_q_out = v2_q;
 
 
     *in_inv = in_inv_aux;
@@ -391,7 +370,7 @@ data_t wrap_2pi(data_t angulo_in){
     else if(angulo>pi2 && angulo<pi4){
     	angulo = angulo-pi2;
     }
-    else if(angulo>-pi2 && angulo<0){
+    else if(angulo>-pi2 && angulo<data_t(0)){
     	angulo = angulo+pi2;
     }
     else if(angulo>-pi4 && angulo<-pi2){
@@ -1237,7 +1216,7 @@ data_t SQRT_LUT(data_t x){
     };
 
 
-    if(x < 0){
+    if(x < data_t(0)){
     	y = data_t(0);
     }
     else{
@@ -1245,6 +1224,8 @@ data_t SQRT_LUT(data_t x){
     	idx = busca_binaria(table_mark, 64, x);
 
     	y = table_m[idx]*x + table_n[idx];
+
+
 
     }
 
@@ -1378,6 +1359,7 @@ data_t ATAN_LUT(data_t x){
 
     y = table_m[idx]*x + table_n[idx];
 
+
     return y;
 
 
@@ -1403,6 +1385,90 @@ data_t ATAN_LUT_signed(data_t x){
     return y;
 
 }
+
+
+// para valores positivos de x
+data_t ATAN2_LUT(data_t xd, data_t xq){
+
+
+	data_t xd_inv;
+	data_t xq_inv;
+	data_t q_o_d;
+	data_t d_o_q;
+	data_t xd_aux;
+	data_t xq_aux;
+	data_t y;
+	data_t y_aux;
+	data_t y_wrapped;
+
+
+
+
+	//INV_LUT(data_t x)
+
+	if(xd>data_t(0)){
+
+		if(xq>data_t(0)){
+			//primeiro quadrante
+
+			xd_inv = INV_LUT(xd);
+			q_o_d = xq*xd_inv;
+			y = ATAN_LUT(q_o_d);
+
+		}
+		else{
+			//quarto quadrante
+			xq_aux = -xq;
+			xq_inv = INV_LUT(xq_aux);
+			d_o_q = xq_inv*xd;
+			y_aux = ATAN_LUT(d_o_q);
+			y = y_aux + arc270;
+
+		}
+
+	}
+	else{
+
+		if(xq>data_t(0)){
+			//segundo quadrante
+			xd_aux = -xd;
+			xq_inv = INV_LUT(xq);
+			d_o_q = xd_aux*xq_inv;
+			y_aux = ATAN_LUT(d_o_q);
+			y = y_aux + arc90;
+
+		}
+		else{
+			//terceiro quadrante
+			xd_aux = -xd;
+			xq_aux = -xq;
+			xd_inv = INV_LUT(xd_aux);
+			q_o_d = xd_inv*xq_aux;
+			y_aux = ATAN_LUT(q_o_d);
+			y = y_aux + pi;
+
+		}
+
+	}
+
+	//wrap_2pi(data_t angulo_in)
+	y_wrapped = wrap_2pi(y);
+
+
+	return y_wrapped;
+
+
+
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1790,6 +1856,7 @@ data_t INV_LUT(data_t x){
     	idx = busca_binaria(table_mark, 116, x);
 
     	y = table_m[idx]*x + table_n[idx];
+
 
     }
 

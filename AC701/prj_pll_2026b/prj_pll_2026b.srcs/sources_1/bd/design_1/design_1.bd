@@ -1,0 +1,380 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xc7a200tfbg676-2",
+      "gen_directory": "../../../../prj_pll_2026b.gen/sources_1/bd/design_1",
+      "name": "design_1",
+      "rev_ctrl_bd_flag": "RevCtrlBdOff",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2020.2",
+      "validated": "true"
+    },
+    "design_tree": {
+      "xlconstant_0": "",
+      "sim_clk_gen_0": "",
+      "sim_clk_gen_1": "",
+      "xlconstant_1": "",
+      "xlconstant_2": "",
+      "xlconstant_3": "",
+      "xlconstant_4": "",
+      "xlconstant_5": "",
+      "sim_clk_gen_2": "",
+      "xlconstant_6": "",
+      "sim_clk_gen_3": "",
+      "xlconstant_7": "",
+      "xlconstant_8": "",
+      "xlconstant_9": "",
+      "xlconstant_10": "",
+      "xlconstant_11": "",
+      "xlconstant_12": "",
+      "sin_gen_varAmp2_3phi_0": "",
+      "xlconstant_13": "",
+      "xlconstant_14": "",
+      "PLL2026_x64_0": ""
+    },
+    "components": {
+      "xlconstant_0": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_0_0",
+        "xci_path": "ip\\design_1_xlconstant_0_0\\design_1_xlconstant_0_0.xci",
+        "inst_hier_path": "xlconstant_0"
+      },
+      "sim_clk_gen_0": {
+        "vlnv": "xilinx.com:ip:sim_clk_gen:1.0",
+        "xci_name": "design_1_sim_clk_gen_0_0",
+        "xci_path": "ip\\design_1_sim_clk_gen_0_0\\design_1_sim_clk_gen_0_0.xci",
+        "inst_hier_path": "sim_clk_gen_0"
+      },
+      "sim_clk_gen_1": {
+        "vlnv": "xilinx.com:ip:sim_clk_gen:1.0",
+        "xci_name": "design_1_sim_clk_gen_0_1",
+        "xci_path": "ip\\design_1_sim_clk_gen_0_1\\design_1_sim_clk_gen_0_1.xci",
+        "inst_hier_path": "sim_clk_gen_1",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "100000"
+          }
+        }
+      },
+      "xlconstant_1": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_0_1",
+        "xci_path": "ip\\design_1_xlconstant_0_1\\design_1_xlconstant_0_1.xci",
+        "inst_hier_path": "xlconstant_1",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0x3c000000000000"
+          },
+          "CONST_WIDTH": {
+            "value": "64"
+          }
+        }
+      },
+      "xlconstant_2": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_1_0",
+        "xci_path": "ip\\design_1_xlconstant_1_0\\design_1_xlconstant_1_0.xci",
+        "inst_hier_path": "xlconstant_2",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0x1e000000000000"
+          },
+          "CONST_WIDTH": {
+            "value": "64"
+          }
+        }
+      },
+      "xlconstant_3": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_1_1",
+        "xci_path": "ip\\design_1_xlconstant_1_1\\design_1_xlconstant_1_1.xci",
+        "inst_hier_path": "xlconstant_3",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0x19000000000000"
+          },
+          "CONST_WIDTH": {
+            "value": "64"
+          }
+        }
+      },
+      "xlconstant_4": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_1_2",
+        "xci_path": "ip\\design_1_xlconstant_1_2\\design_1_xlconstant_1_2.xci",
+        "inst_hier_path": "xlconstant_4",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0x4000000000000"
+          },
+          "CONST_WIDTH": {
+            "value": "64"
+          }
+        }
+      },
+      "xlconstant_5": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_1_3",
+        "xci_path": "ip\\design_1_xlconstant_1_3\\design_1_xlconstant_1_3.xci",
+        "inst_hier_path": "xlconstant_5",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0x40000000000000"
+          },
+          "CONST_WIDTH": {
+            "value": "64"
+          }
+        }
+      },
+      "sim_clk_gen_2": {
+        "vlnv": "xilinx.com:ip:sim_clk_gen:1.0",
+        "xci_name": "design_1_sim_clk_gen_0_2",
+        "xci_path": "ip\\design_1_sim_clk_gen_0_2\\design_1_sim_clk_gen_0_2.xci",
+        "inst_hier_path": "sim_clk_gen_2"
+      },
+      "xlconstant_6": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_6_0",
+        "xci_path": "ip\\design_1_xlconstant_6_0\\design_1_xlconstant_6_0.xci",
+        "inst_hier_path": "xlconstant_6"
+      },
+      "sim_clk_gen_3": {
+        "vlnv": "xilinx.com:ip:sim_clk_gen:1.0",
+        "xci_name": "design_1_sim_clk_gen_2_0",
+        "xci_path": "ip\\design_1_sim_clk_gen_2_0\\design_1_sim_clk_gen_2_0.xci",
+        "inst_hier_path": "sim_clk_gen_3",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "100000"
+          }
+        }
+      },
+      "xlconstant_7": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_6_1",
+        "xci_path": "ip\\design_1_xlconstant_6_1\\design_1_xlconstant_6_1.xci",
+        "inst_hier_path": "xlconstant_7",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          }
+        }
+      },
+      "xlconstant_8": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_6_2",
+        "xci_path": "ip\\design_1_xlconstant_6_2\\design_1_xlconstant_6_2.xci",
+        "inst_hier_path": "xlconstant_8"
+      },
+      "xlconstant_9": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_6_3",
+        "xci_path": "ip\\design_1_xlconstant_6_3\\design_1_xlconstant_6_3.xci",
+        "inst_hier_path": "xlconstant_9"
+      },
+      "xlconstant_10": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_6_4",
+        "xci_path": "ip\\design_1_xlconstant_6_4\\design_1_xlconstant_6_4.xci",
+        "inst_hier_path": "xlconstant_10",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          }
+        }
+      },
+      "xlconstant_11": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_6_5",
+        "xci_path": "ip\\design_1_xlconstant_6_5\\design_1_xlconstant_6_5.xci",
+        "inst_hier_path": "xlconstant_11",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          }
+        }
+      },
+      "xlconstant_12": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_6_6",
+        "xci_path": "ip\\design_1_xlconstant_6_6\\design_1_xlconstant_6_6.xci",
+        "inst_hier_path": "xlconstant_12"
+      },
+      "sin_gen_varAmp2_3phi_0": {
+        "vlnv": "xilinx.com:user:sin_gen_varAmp2_3phi_x64:1.0",
+        "xci_name": "design_1_sin_gen_varAmp2_3phi_0_0",
+        "xci_path": "ip\\design_1_sin_gen_varAmp2_3phi_0_0\\design_1_sin_gen_varAmp2_3phi_0_0.xci",
+        "inst_hier_path": "sin_gen_varAmp2_3phi_0"
+      },
+      "xlconstant_13": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_2_0",
+        "xci_path": "ip\\design_1_xlconstant_2_0\\design_1_xlconstant_2_0.xci",
+        "inst_hier_path": "xlconstant_13",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0x5000000000000"
+          },
+          "CONST_WIDTH": {
+            "value": "64"
+          }
+        }
+      },
+      "xlconstant_14": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_13_0",
+        "xci_path": "ip\\design_1_xlconstant_13_0\\design_1_xlconstant_13_0.xci",
+        "inst_hier_path": "xlconstant_14",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0xfffef3eadc7d28ca"
+          },
+          "CONST_WIDTH": {
+            "value": "64"
+          }
+        }
+      },
+      "PLL2026_x64_0": {
+        "vlnv": "xilinx.com:user:PLL2026_x64:1.0",
+        "xci_name": "design_1_PLL2026_x64_0_0",
+        "xci_path": "ip\\design_1_PLL2026_x64_0_0\\design_1_PLL2026_x64_0_0.xci",
+        "inst_hier_path": "PLL2026_x64_0"
+      }
+    },
+    "nets": {
+      "xlconstant_0_dout": {
+        "ports": [
+          "xlconstant_0/dout",
+          "sin_gen_varAmp2_3phi_0/ap_start"
+        ]
+      },
+      "sim_clk_gen_0_clk": {
+        "ports": [
+          "sim_clk_gen_0/clk",
+          "sin_gen_varAmp2_3phi_0/ap_clk"
+        ]
+      },
+      "sim_clk_gen_1_clk": {
+        "ports": [
+          "sim_clk_gen_1/clk",
+          "sin_gen_varAmp2_3phi_0/sinc"
+        ]
+      },
+      "xlconstant_1_dout": {
+        "ports": [
+          "xlconstant_1/dout",
+          "sin_gen_varAmp2_3phi_0/f"
+        ]
+      },
+      "xlconstant_2_dout": {
+        "ports": [
+          "xlconstant_2/dout",
+          "sin_gen_varAmp2_3phi_0/A_1p"
+        ]
+      },
+      "sin_gen_varAmp2_3phi_0_vout_a": {
+        "ports": [
+          "sin_gen_varAmp2_3phi_0/vout_a",
+          "PLL2026_x64_0/vin_a"
+        ]
+      },
+      "sin_gen_varAmp2_3phi_0_vout_b": {
+        "ports": [
+          "sin_gen_varAmp2_3phi_0/vout_b",
+          "PLL2026_x64_0/vin_b"
+        ]
+      },
+      "sin_gen_varAmp2_3phi_0_vout_c": {
+        "ports": [
+          "sin_gen_varAmp2_3phi_0/vout_c",
+          "PLL2026_x64_0/vin_c"
+        ]
+      },
+      "xlconstant_3_dout": {
+        "ports": [
+          "xlconstant_3/dout",
+          "PLL2026_x64_0/in_1"
+        ]
+      },
+      "xlconstant_4_dout": {
+        "ports": [
+          "xlconstant_4/dout",
+          "PLL2026_x64_0/in_2"
+        ]
+      },
+      "xlconstant_5_dout": {
+        "ports": [
+          "xlconstant_5/dout",
+          "PLL2026_x64_0/in_3"
+        ]
+      },
+      "sim_clk_gen_2_clk": {
+        "ports": [
+          "sim_clk_gen_2/clk",
+          "PLL2026_x64_0/ap_clk"
+        ]
+      },
+      "xlconstant_6_dout": {
+        "ports": [
+          "xlconstant_6/dout",
+          "PLL2026_x64_0/ap_start"
+        ]
+      },
+      "sim_clk_gen_3_clk": {
+        "ports": [
+          "sim_clk_gen_3/clk",
+          "PLL2026_x64_0/sinc"
+        ]
+      },
+      "xlconstant_7_dout": {
+        "ports": [
+          "xlconstant_7/dout",
+          "PLL2026_x64_0/EN6"
+        ]
+      },
+      "xlconstant_10_dout": {
+        "ports": [
+          "xlconstant_10/dout",
+          "PLL2026_x64_0/EN5"
+        ]
+      },
+      "xlconstant_11_dout": {
+        "ports": [
+          "xlconstant_11/dout",
+          "PLL2026_x64_0/EN4"
+        ]
+      },
+      "xlconstant_12_dout": {
+        "ports": [
+          "xlconstant_12/dout",
+          "PLL2026_x64_0/EN3"
+        ]
+      },
+      "xlconstant_9_dout": {
+        "ports": [
+          "xlconstant_9/dout",
+          "PLL2026_x64_0/EN2"
+        ]
+      },
+      "xlconstant_8_dout": {
+        "ports": [
+          "xlconstant_8/dout",
+          "PLL2026_x64_0/EN1"
+        ]
+      },
+      "xlconstant_13_dout": {
+        "ports": [
+          "xlconstant_13/dout",
+          "sin_gen_varAmp2_3phi_0/A_1n"
+        ]
+      },
+      "xlconstant_14_dout": {
+        "ports": [
+          "xlconstant_14/dout",
+          "sin_gen_varAmp2_3phi_0/Ang_1n"
+        ]
+      }
+    }
+  }
+}

@@ -26,6 +26,7 @@
       "xlconstant_10": "",
       "xlconstant_11": "",
       "xlconstant_12": "",
+      "sim_clk_gen_2": "",
       "PLL2026_x64_0": ""
     },
     "components": {
@@ -194,6 +195,17 @@
           }
         }
       },
+      "sim_clk_gen_2": {
+        "vlnv": "xilinx.com:ip:sim_clk_gen:1.0",
+        "xci_name": "design_1_sim_clk_gen_1_1",
+        "xci_path": "ip\\design_1_sim_clk_gen_1_1\\design_1_sim_clk_gen_1_1.xci",
+        "inst_hier_path": "sim_clk_gen_2",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "1000000"
+          }
+        }
+      },
       "PLL2026_x64_0": {
         "vlnv": "xilinx.com:user:PLL2026_x64:1.0",
         "xci_name": "design_1_PLL2026_x64_0_0",
@@ -207,13 +219,6 @@
           "sim_clk_gen_0/clk",
           "sin_gen_varAmp2_3phi_0/ap_clk",
           "PLL2026_x64_0/ap_clk"
-        ]
-      },
-      "sim_clk_gen_1_clk": {
-        "ports": [
-          "sim_clk_gen_1/clk",
-          "sin_gen_varAmp2_3phi_0/sinc",
-          "PLL2026_x64_0/sinc"
         ]
       },
       "xlconstant_0_dout": {
@@ -305,6 +310,18 @@
         "ports": [
           "xlconstant_12/dout",
           "PLL2026_x64_0/in_3"
+        ]
+      },
+      "sim_clk_gen_1_clk": {
+        "ports": [
+          "sim_clk_gen_1/clk",
+          "PLL2026_x64_0/sinc"
+        ]
+      },
+      "sim_clk_gen_2_clk": {
+        "ports": [
+          "sim_clk_gen_2/clk",
+          "sin_gen_varAmp2_3phi_0/sinc"
         ]
       }
     }

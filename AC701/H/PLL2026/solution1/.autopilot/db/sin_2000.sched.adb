@@ -55,7 +55,7 @@
 						<name>theta_in_read</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>377</lineNumber>
+						<lineNumber>356</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -71,7 +71,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>377</second>
+										<second>356</second>
 									</item>
 								</second>
 							</item>
@@ -82,7 +82,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>29</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -136,7 +136,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3517868297</coreId>
+						<coreId>102</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -190,7 +190,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3585338752</coreId>
+						<coreId>29</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -244,7 +244,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>48</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -298,7 +298,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>48</coreId>
+						<coreId>3886533768</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -322,10 +322,10 @@
 					<Obj>
 						<type>0</type>
 						<id>9</id>
-						<name>and_ln388</name>
+						<name>and_ln367</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>388</lineNumber>
+						<lineNumber>367</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -341,7 +341,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>388</second>
+										<second>367</second>
 									</item>
 								</second>
 							</item>
@@ -352,7 +352,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1769236822</coreId>
+						<coreId>3886616072</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -406,7 +406,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1601071475</coreId>
+						<coreId>3882187680</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -460,7 +460,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1702390118</coreId>
+						<coreId>3882186240</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -514,7 +514,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1953458271</coreId>
+						<coreId>3889641504</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -538,10 +538,10 @@
 					<Obj>
 						<type>0</type>
 						<id>13</id>
-						<name>and_ln391</name>
+						<name>and_ln370</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>391</lineNumber>
+						<lineNumber>370</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -557,7 +557,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>391</second>
+										<second>370</second>
 									</item>
 								</second>
 							</item>
@@ -568,7 +568,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1601134448</coreId>
+						<coreId>3882182496</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -622,7 +622,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1713401449</coreId>
+						<coreId>3882137857</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -676,7 +676,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1853187616</coreId>
+						<coreId>48</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -704,8 +704,8 @@
 						<fileName>C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
 						<lineNumber>1495</lineNumber>
-						<contextFuncName>operator&amp;lt;&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
-						<contextNormFuncName>operator_lt_32_32_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
+						<contextFuncName>operator&amp;lt;&amp;lt;64, 16, true, AP_TRN, AP_WRAP, 0&amp;gt;</contextFuncName>
+						<contextNormFuncName>operator_lt_64_16_true_AP_TRN_AP_WRAP_0</contextNormFuncName>
 						<inlineStackInfo>
 							<count>1</count>
 							<item_version>0</item_version>
@@ -717,7 +717,7 @@
 									<item>
 										<first>
 											<first>C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h</first>
-											<second>operator&amp;lt;&amp;lt;32, 32, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
+											<second>operator&amp;lt;&amp;lt;64, 16, true, AP_TRN, AP_WRAP, 0&amp;gt;</second>
 										</first>
 										<second>1495</second>
 									</item>
@@ -730,7 +730,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1853187616</coreId>
+						<coreId>48</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -755,10 +755,10 @@
 					<Obj>
 						<type>0</type>
 						<id>17</id>
-						<name>and_ln394</name>
+						<name>and_ln373</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>394</lineNumber>
+						<lineNumber>373</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -774,7 +774,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>394</second>
+										<second>373</second>
 									</item>
 								</second>
 							</item>
@@ -785,7 +785,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1853187616</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -839,7 +839,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>741681509</coreId>
+						<coreId>4288277280</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -893,7 +893,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2019505714</coreId>
+						<coreId>3838962288</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -947,7 +947,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>858350948</coreId>
+						<coreId>3879591344</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1001,7 +1001,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1953458271</coreId>
+						<coreId>824192052</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -1055,7 +1055,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1885434487</coreId>
+						<coreId>1885413420</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1109,7 +1109,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>673197109</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -1133,10 +1133,10 @@
 					<Obj>
 						<type>0</type>
 						<id>24</id>
-						<name>select_ln400</name>
+						<name>select_ln379</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>400</lineNumber>
+						<lineNumber>379</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1152,7 +1152,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>400</second>
+										<second>379</second>
 									</item>
 								</second>
 							</item>
@@ -1163,7 +1163,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1919950949</coreId>
+						<coreId>1868525665</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -1218,7 +1218,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>909927525</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -1273,7 +1273,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1853187616</coreId>
+						<coreId>741681509</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1297,10 +1297,10 @@
 					<Obj>
 						<type>0</type>
 						<id>27</id>
-						<name>and_ln388_1</name>
+						<name>and_ln367_1</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>388</lineNumber>
+						<lineNumber>367</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1316,7 +1316,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>388</second>
+										<second>367</second>
 									</item>
 								</second>
 							</item>
@@ -1327,7 +1327,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1713401449</coreId>
+						<coreId>2020173407</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1354,7 +1354,7 @@
 						<name>angulo_V_8</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>388</lineNumber>
+						<lineNumber>367</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1370,7 +1370,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>388</second>
+										<second>367</second>
 									</item>
 								</second>
 							</item>
@@ -1381,7 +1381,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1769236822</coreId>
+						<coreId>1834970975</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -1406,10 +1406,10 @@
 					<Obj>
 						<type>0</type>
 						<id>29</id>
-						<name>or_ln388</name>
+						<name>or_ln367</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>388</lineNumber>
+						<lineNumber>367</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1425,7 +1425,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>388</second>
+										<second>367</second>
 									</item>
 								</second>
 							</item>
@@ -1436,7 +1436,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1713401449</coreId>
+						<coreId>741749024</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1460,10 +1460,10 @@
 					<Obj>
 						<type>0</type>
 						<id>30</id>
-						<name>xor_ln388</name>
+						<name>xor_ln367</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>388</lineNumber>
+						<lineNumber>367</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1479,7 +1479,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>388</second>
+										<second>367</second>
 									</item>
 								</second>
 							</item>
@@ -1490,7 +1490,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>858350948</coreId>
+						<coreId>539765310</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1514,10 +1514,10 @@
 					<Obj>
 						<type>0</type>
 						<id>31</id>
-						<name>and_ln391_1</name>
+						<name>and_ln370_1</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>391</lineNumber>
+						<lineNumber>370</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1533,7 +1533,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>391</second>
+										<second>370</second>
 									</item>
 								</second>
 							</item>
@@ -1544,7 +1544,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1953458271</coreId>
+						<coreId>1684371561</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1571,7 +1571,7 @@
 						<name>angulo_V_9</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>391</lineNumber>
+						<lineNumber>370</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1587,7 +1587,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>391</second>
+										<second>370</second>
 									</item>
 								</second>
 							</item>
@@ -1598,7 +1598,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1953068832</coreId>
+						<coreId>1885415456</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -1623,10 +1623,10 @@
 					<Obj>
 						<type>0</type>
 						<id>33</id>
-						<name>or_ln391</name>
+						<name>or_ln370</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>391</lineNumber>
+						<lineNumber>370</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1642,7 +1642,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>391</second>
+										<second>370</second>
 									</item>
 								</second>
 							</item>
@@ -1653,7 +1653,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1953068832</coreId>
+						<coreId>1834970975</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1677,10 +1677,10 @@
 					<Obj>
 						<type>0</type>
 						<id>34</id>
-						<name>xor_ln391</name>
+						<name>xor_ln370</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>391</lineNumber>
+						<lineNumber>370</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1696,7 +1696,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>391</second>
+										<second>370</second>
 									</item>
 								</second>
 							</item>
@@ -1707,7 +1707,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>891905380</coreId>
+						<coreId>1868525665</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1731,10 +1731,10 @@
 					<Obj>
 						<type>0</type>
 						<id>35</id>
-						<name>and_ln394_1</name>
+						<name>and_ln373_1</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>394</lineNumber>
+						<lineNumber>373</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1750,7 +1750,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>394</second>
+										<second>373</second>
 									</item>
 								</second>
 							</item>
@@ -1761,7 +1761,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1853187616</coreId>
+						<coreId>1601134448</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1788,7 +1788,7 @@
 						<name>angulo_V_10</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>394</lineNumber>
+						<lineNumber>373</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1804,7 +1804,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>394</second>
+										<second>373</second>
 									</item>
 								</second>
 							</item>
@@ -1815,7 +1815,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>673197109</coreId>
+						<coreId>694510703</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -1840,10 +1840,10 @@
 					<Obj>
 						<type>0</type>
 						<id>37</id>
-						<name>or_ln394</name>
+						<name>or_ln373</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>394</lineNumber>
+						<lineNumber>373</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1859,7 +1859,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>394</second>
+										<second>373</second>
 									</item>
 								</second>
 							</item>
@@ -1870,7 +1870,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1953068832</coreId>
+						<coreId>1885415456</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1894,10 +1894,10 @@
 					<Obj>
 						<type>0</type>
 						<id>38</id>
-						<name>xor_ln394</name>
+						<name>xor_ln373</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>394</lineNumber>
+						<lineNumber>373</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1913,7 +1913,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>394</second>
+										<second>373</second>
 									</item>
 								</second>
 							</item>
@@ -1924,7 +1924,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1685024095</coreId>
+						<coreId>708718624</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1948,10 +1948,10 @@
 					<Obj>
 						<type>0</type>
 						<id>39</id>
-						<name>and_ln397</name>
+						<name>and_ln376</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>397</lineNumber>
+						<lineNumber>376</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1967,7 +1967,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>397</second>
+										<second>376</second>
 									</item>
 								</second>
 							</item>
@@ -1978,7 +1978,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2147483647</coreId>
+						<coreId>741550437</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2002,10 +2002,10 @@
 					<Obj>
 						<type>0</type>
 						<id>40</id>
-						<name>and_ln397_1</name>
+						<name>and_ln376_1</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>397</lineNumber>
+						<lineNumber>376</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -2021,7 +2021,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>397</second>
+										<second>376</second>
 									</item>
 								</second>
 							</item>
@@ -2032,7 +2032,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>673197110</coreId>
+						<coreId>1702390118</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2059,7 +2059,7 @@
 						<name>angulo_V</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>397</lineNumber>
+						<lineNumber>376</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -2075,7 +2075,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>397</second>
+										<second>376</second>
 									</item>
 								</second>
 							</item>
@@ -2086,7 +2086,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>807414835</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -2141,7 +2141,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1685024095</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -2195,7 +2195,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1902080097</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -2251,7 +2251,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1280323380</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2306,7 +2306,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1885415456</coreId>
+						<coreId>673197110</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -2361,7 +2361,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>741749024</coreId>
+						<coreId>694510703</coreId>
 					</Obj>
 					<bitwidth>121</bitwidth>
 				</Value>
@@ -2414,7 +2414,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1885415456</coreId>
+						<coreId>1685024095</coreId>
 					</Obj>
 					<bitwidth>121</bitwidth>
 				</Value>
@@ -2468,7 +2468,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>807414835</coreId>
+						<coreId>1717530721</coreId>
 					</Obj>
 					<bitwidth>25</bitwidth>
 				</Value>
@@ -2524,7 +2524,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>824192052</coreId>
+						<coreId>1885415456</coreId>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
@@ -2577,7 +2577,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1702390118</coreId>
+						<coreId>1853187616</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2632,7 +2632,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>875772528</coreId>
+						<coreId>1630019628</coreId>
 					</Obj>
 					<bitwidth>96</bitwidth>
 				</Value>
@@ -2685,7 +2685,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>741619260</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2739,7 +2739,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1717530721</coreId>
+						<coreId>1685024095</coreId>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
@@ -2793,7 +2793,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>539765310</coreId>
+						<coreId>1885413420</coreId>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
@@ -2848,7 +2848,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>989866295</coreId>
+						<coreId>1834971487</coreId>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
@@ -2903,7 +2903,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1885413420</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -2926,10 +2926,10 @@
 					<Obj>
 						<type>0</type>
 						<id>57</id>
-						<name>icmp_ln967</name>
+						<name>icmp_ln946</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>967</lineNumber>
+						<lineNumber>946</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -2945,7 +2945,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>967</second>
+										<second>946</second>
 									</item>
 								</second>
 							</item>
@@ -2956,7 +2956,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>673197109</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2980,10 +2980,10 @@
 					<Obj>
 						<type>0</type>
 						<id>58</id>
-						<name>zext_ln968</name>
+						<name>zext_ln947</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>968</lineNumber>
+						<lineNumber>947</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -2999,7 +2999,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>968</second>
+										<second>947</second>
 									</item>
 								</second>
 							</item>
@@ -3010,7 +3010,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>741681509</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -3036,7 +3036,7 @@
 						<name>table_V_addr</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>968</lineNumber>
+						<lineNumber>947</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3052,7 +3052,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>968</second>
+										<second>947</second>
 									</item>
 								</second>
 							</item>
@@ -3063,7 +3063,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1885413420</coreId>
+						<coreId>1601200424</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -3091,7 +3091,7 @@
 						<name>out_sin_V</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>968</lineNumber>
+						<lineNumber>947</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3107,7 +3107,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>968</second>
+										<second>947</second>
 									</item>
 								</second>
 							</item>
@@ -3118,7 +3118,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1902080097</coreId>
+						<coreId>1885415456</coreId>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
@@ -3141,10 +3141,10 @@
 					<Obj>
 						<type>0</type>
 						<id>61</id>
-						<name>zext_ln958</name>
+						<name>zext_ln937</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>958</lineNumber>
+						<lineNumber>937</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3160,7 +3160,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>958</second>
+										<second>937</second>
 									</item>
 								</second>
 							</item>
@@ -3171,7 +3171,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>539767862</coreId>
+						<coreId>1685024095</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -3194,10 +3194,10 @@
 					<Obj>
 						<type>0</type>
 						<id>62</id>
-						<name>icmp_ln970</name>
+						<name>icmp_ln949</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>970</lineNumber>
+						<lineNumber>949</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3213,7 +3213,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>970</second>
+										<second>949</second>
 									</item>
 								</second>
 							</item>
@@ -3224,7 +3224,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>673197109</coreId>
+						<coreId>1601200424</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -3248,10 +3248,10 @@
 					<Obj>
 						<type>0</type>
 						<id>63</id>
-						<name>sub_ln972</name>
+						<name>sub_ln951</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>972</lineNumber>
+						<lineNumber>951</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3267,7 +3267,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>972</second>
+										<second>951</second>
 									</item>
 								</second>
 							</item>
@@ -3278,7 +3278,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>741681509</coreId>
+						<coreId>824192052</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -3302,10 +3302,10 @@
 					<Obj>
 						<type>0</type>
 						<id>64</id>
-						<name>zext_ln972</name>
+						<name>zext_ln951</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>972</lineNumber>
+						<lineNumber>951</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3321,7 +3321,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>972</second>
+										<second>951</second>
 									</item>
 								</second>
 							</item>
@@ -3332,7 +3332,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>673197109</coreId>
+						<coreId>694510703</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -3358,7 +3358,7 @@
 						<name>table_V_addr_1</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>972</lineNumber>
+						<lineNumber>951</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3374,7 +3374,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>972</second>
+										<second>951</second>
 									</item>
 								</second>
 							</item>
@@ -3385,7 +3385,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1868525665</coreId>
+						<coreId>673197109</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -3413,7 +3413,7 @@
 						<name>out_sin_V_1</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>972</lineNumber>
+						<lineNumber>951</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3429,7 +3429,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>972</second>
+										<second>951</second>
 									</item>
 								</second>
 							</item>
@@ -3440,7 +3440,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2020173407</coreId>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
@@ -3463,10 +3463,10 @@
 					<Obj>
 						<type>0</type>
 						<id>67</id>
-						<name>zext_ln958_1</name>
+						<name>zext_ln937_1</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>958</lineNumber>
+						<lineNumber>937</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3482,7 +3482,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>958</second>
+										<second>937</second>
 									</item>
 								</second>
 							</item>
@@ -3493,7 +3493,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1885413420</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -3516,10 +3516,10 @@
 					<Obj>
 						<type>0</type>
 						<id>68</id>
-						<name>icmp_ln974</name>
+						<name>icmp_ln953</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>974</lineNumber>
+						<lineNumber>953</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3535,7 +3535,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>974</second>
+										<second>953</second>
 									</item>
 								</second>
 							</item>
@@ -3546,7 +3546,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>909927525</coreId>
+						<coreId>1717530721</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -3573,7 +3573,7 @@
 						<name>n_aux</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>975</lineNumber>
+						<lineNumber>954</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3589,7 +3589,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>975</second>
+										<second>954</second>
 									</item>
 								</second>
 							</item>
@@ -3600,7 +3600,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1885415456</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -3624,10 +3624,10 @@
 					<Obj>
 						<type>0</type>
 						<id>70</id>
-						<name>zext_ln976</name>
+						<name>zext_ln955</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>976</lineNumber>
+						<lineNumber>955</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3643,7 +3643,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>976</second>
+										<second>955</second>
 									</item>
 								</second>
 							</item>
@@ -3654,7 +3654,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1601200424</coreId>
+						<coreId>741681509</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -3707,7 +3707,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1702390118</coreId>
+						<coreId>741749024</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -3762,7 +3762,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>694510703</coreId>
+						<coreId>741550437</coreId>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
@@ -3815,7 +3815,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1702390118</coreId>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
@@ -3839,10 +3839,10 @@
 					<Obj>
 						<type>0</type>
 						<id>74</id>
-						<name>sext_ln958</name>
+						<name>sext_ln937</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>958</lineNumber>
+						<lineNumber>937</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3858,7 +3858,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>958</second>
+										<second>937</second>
 									</item>
 								</second>
 							</item>
@@ -3869,7 +3869,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2020173407</coreId>
+						<coreId>694510703</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -3892,10 +3892,10 @@
 					<Obj>
 						<type>0</type>
 						<id>75</id>
-						<name>sub_ln980</name>
+						<name>sub_ln959</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>980</lineNumber>
+						<lineNumber>959</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3911,7 +3911,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>980</second>
+										<second>959</second>
 									</item>
 								</second>
 							</item>
@@ -3922,7 +3922,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1868525665</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -3946,10 +3946,10 @@
 					<Obj>
 						<type>0</type>
 						<id>76</id>
-						<name>zext_ln980</name>
+						<name>zext_ln959</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>980</lineNumber>
+						<lineNumber>959</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3965,7 +3965,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>980</second>
+										<second>959</second>
 									</item>
 								</second>
 							</item>
@@ -3976,7 +3976,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1885413420</coreId>
+						<coreId>673197110</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -4029,7 +4029,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1868525665</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -4084,7 +4084,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1834971487</coreId>
+						<coreId>1684371561</coreId>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
@@ -4137,7 +4137,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1834971487</coreId>
+						<coreId>807414835</coreId>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
@@ -4161,10 +4161,10 @@
 					<Obj>
 						<type>0</type>
 						<id>80</id>
-						<name>sext_ln958_1</name>
+						<name>sext_ln937_1</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>958</lineNumber>
+						<lineNumber>937</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4180,7 +4180,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>958</second>
+										<second>937</second>
 									</item>
 								</second>
 							</item>
@@ -4191,7 +4191,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1885413420</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -4217,7 +4217,7 @@
 						<name>out_sin_V_4</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>967</lineNumber>
+						<lineNumber>946</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4233,7 +4233,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>967</second>
+										<second>946</second>
 									</item>
 								</second>
 							</item>
@@ -4244,7 +4244,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1601134448</coreId>
+						<coreId>1853187616</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -4269,10 +4269,10 @@
 					<Obj>
 						<type>0</type>
 						<id>82</id>
-						<name>xor_ln967</name>
+						<name>xor_ln946</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>967</lineNumber>
+						<lineNumber>946</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4288,7 +4288,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>967</second>
+										<second>946</second>
 									</item>
 								</second>
 							</item>
@@ -4299,7 +4299,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1885415456</coreId>
+						<coreId>2147483647</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -4323,10 +4323,10 @@
 					<Obj>
 						<type>0</type>
 						<id>83</id>
-						<name>and_ln970</name>
+						<name>and_ln949</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>970</lineNumber>
+						<lineNumber>949</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4342,7 +4342,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>970</second>
+										<second>949</second>
 									</item>
 								</second>
 							</item>
@@ -4353,7 +4353,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>708718624</coreId>
+						<coreId>2019505714</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -4380,7 +4380,7 @@
 						<name>out_sin_V_5</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>970</lineNumber>
+						<lineNumber>949</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4396,7 +4396,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>970</second>
+										<second>949</second>
 									</item>
 								</second>
 							</item>
@@ -4407,7 +4407,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>708718624</coreId>
+						<coreId>790766141</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -4432,10 +4432,10 @@
 					<Obj>
 						<type>0</type>
 						<id>85</id>
-						<name>xor_ln970</name>
+						<name>xor_ln949</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>970</lineNumber>
+						<lineNumber>949</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4451,7 +4451,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>970</second>
+										<second>949</second>
 									</item>
 								</second>
 							</item>
@@ -4462,7 +4462,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1601200424</coreId>
+						<coreId>1853187616</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -4486,10 +4486,10 @@
 					<Obj>
 						<type>0</type>
 						<id>86</id>
-						<name>and_ln974</name>
+						<name>and_ln953</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>974</lineNumber>
+						<lineNumber>953</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4505,7 +4505,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>974</second>
+										<second>953</second>
 									</item>
 								</second>
 							</item>
@@ -4516,7 +4516,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>741749024</coreId>
+						<coreId>1713401449</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -4543,7 +4543,7 @@
 						<name>out_sin_V_6</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>974</lineNumber>
+						<lineNumber>953</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4559,7 +4559,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>974</second>
+										<second>953</second>
 									</item>
 								</second>
 							</item>
@@ -4570,7 +4570,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1885413420</coreId>
+						<coreId>1853187616</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -4625,7 +4625,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1853187616</coreId>
+						<coreId>1953458271</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -4652,7 +4652,7 @@
 						<name>out_sin_V_8</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>983</lineNumber>
+						<lineNumber>962</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4668,7 +4668,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>983</second>
+										<second>962</second>
 									</item>
 								</second>
 							</item>
@@ -4679,7 +4679,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1869833586</coreId>
+						<coreId>1650418789</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -4704,10 +4704,10 @@
 					<Obj>
 						<type>0</type>
 						<id>90</id>
-						<name>_ln990</name>
+						<name>_ln969</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>990</lineNumber>
+						<lineNumber>969</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4723,7 +4723,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>990</second>
+										<second>969</second>
 									</item>
 								</second>
 							</item>
@@ -4734,7 +4734,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>875772528</coreId>
+						<coreId>1853187616</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -4777,7 +4777,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3656572288</coreId>
+						<coreId>1735355503</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -4917,7 +4917,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3656574400</coreId>
+						<coreId>1735355503</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -4945,7 +4945,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>1630019628</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -4973,7 +4973,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>1834971487</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -5001,7 +5001,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>1919906913</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -5029,7 +5029,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>1013212536</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -5057,7 +5057,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>741619260</coreId>
 					</Obj>
 					<bitwidth>121</bitwidth>
 				</Value>
@@ -5085,7 +5085,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>3656574400</coreId>
+						<coreId>645165934</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -5113,7 +5113,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>1869898098</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -5141,7 +5141,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>1701080941</coreId>
 					</Obj>
 					<bitwidth>96</bitwidth>
 				</Value>
@@ -5169,7 +5169,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>1902080097</coreId>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
@@ -5197,7 +5197,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>1717530721</coreId>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
@@ -5225,7 +5225,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>909258802</coreId>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
@@ -5253,7 +5253,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1768316784</coreId>
+						<coreId>976895536</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -5281,7 +5281,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1935762015</coreId>
+						<coreId>1227300975</coreId>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
@@ -5309,7 +5309,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1730486383</coreId>
+						<coreId>1853187616</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -5337,7 +5337,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>675164192</coreId>
+						<coreId>1839728676</coreId>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
@@ -5365,7 +5365,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1769236822</coreId>
+						<coreId>909189164</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -5393,7 +5393,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1885415456</coreId>
+						<coreId>1869901417</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>

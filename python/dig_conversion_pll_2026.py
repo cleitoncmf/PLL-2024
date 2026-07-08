@@ -1,5 +1,5 @@
 from pyDigCon import *
-
+import numpy as np
 
 
 
@@ -41,6 +41,42 @@ print('\n')
 
 
 
+
+
+
+
+
+# Amplitude da fundamental de sequência negativa
+
+A_1n = 5
+
+bin_A_1n = getFixedPoint(floatValue=A_1n,Nbits=64,Lpoint=16)
+
+hex_A_1n = hex(int(bin_A_1n,2))
+
+
+print('Valor em decimal: ',A_1n)
+print('Valor binário: ', bin_A_1n)
+print('Valor hexadecimal: ', hex_A_1n)
+print('\n')
+
+
+
+
+
+# Angulo da fundamental de sequência negativa
+
+ang_1n = -np.pi/3
+
+bin_ang_1n = getFixedPoint(floatValue=ang_1n,Nbits=64,Lpoint=16)
+
+hex_ang_1n = hex(int(bin_ang_1n,2))
+
+
+print('Valor em decimal: ',ang_1n)
+print('Valor binário: ', bin_ang_1n)
+print('Valor hexadecimal: ', hex_ang_1n)
+print('\n')
 
 
 

@@ -323,7 +323,10 @@
   },
   "HlsSolution": {
     "FlowTarget": "vivado",
-    "DirectiveTcl": ["set_directive_top sin_gen_varAmp2_3phi_x64 -name sin_gen_varAmp2_3phi_x64"],
+    "DirectiveTcl": [
+      "set_directive_top sin_gen_varAmp2_3phi_x64 -name sin_gen_varAmp2_3phi_x64",
+      "set_directive_top sin_gen_varAmp2_3phi_x64 -name sin_gen_varAmp2_3phi_x64"
+    ],
     "ProfileOption": "0",
     "ProfileType": "none",
     "KernelName": "sin_gen_varAmp2_3phi_x64"
@@ -353,7 +356,8 @@
     "CSource": ["..\/..\/..\/..\/C-Codes\/Fixed_x64\/sin_gen_varAmp2_3phi_x64.cpp"],
     "Vhdl": [
       "impl\/vhdl\/sin_gen_varAmp2_3phi_x64_mul_50s_64s_112_5_1.vhd",
-      "impl\/vhdl\/sin_gen_varAmp2_3phi_x64_mul_64s_31ns_94_5_1.vhd",
+      "impl\/vhdl\/sin_gen_varAmp2_3phi_x64_mul_64s_35ns_98_5_1.vhd",
+      "impl\/vhdl\/sin_gen_varAmp2_3phi_x64_mul_64s_52ns_112_5_1.vhd",
       "impl\/vhdl\/sin_gen_varAmp2_3phi_x64_mul_64s_58ns_121_5_1.vhd",
       "impl\/vhdl\/sin_gen_varAmp2_3phi_x64_sin_2000.vhd",
       "impl\/vhdl\/sin_gen_varAmp2_3phi_x64_sin_2000_table_r.vhd",
@@ -361,7 +365,8 @@
     ],
     "Verilog": [
       "impl\/verilog\/sin_gen_varAmp2_3phi_x64_mul_50s_64s_112_5_1.v",
-      "impl\/verilog\/sin_gen_varAmp2_3phi_x64_mul_64s_31ns_94_5_1.v",
+      "impl\/verilog\/sin_gen_varAmp2_3phi_x64_mul_64s_35ns_98_5_1.v",
+      "impl\/verilog\/sin_gen_varAmp2_3phi_x64_mul_64s_52ns_112_5_1.v",
       "impl\/verilog\/sin_gen_varAmp2_3phi_x64_mul_64s_58ns_121_5_1.v",
       "impl\/verilog\/sin_gen_varAmp2_3phi_x64_sin_2000.v",
       "impl\/verilog\/sin_gen_varAmp2_3phi_x64_sin_2000_table_r.v",
@@ -827,27 +832,27 @@
       "Instances": [
         {
           "ModuleName": "sin_2000",
-          "InstanceName": "grp_sin_2000_fu_229"
+          "InstanceName": "grp_sin_2000_fu_237"
         },
         {
           "ModuleName": "sin_2000",
-          "InstanceName": "grp_sin_2000_fu_236"
+          "InstanceName": "grp_sin_2000_fu_244"
         },
         {
           "ModuleName": "sin_2000",
-          "InstanceName": "grp_sin_2000_fu_243"
+          "InstanceName": "grp_sin_2000_fu_251"
         },
         {
           "ModuleName": "sin_2000",
-          "InstanceName": "grp_sin_2000_fu_250"
+          "InstanceName": "grp_sin_2000_fu_258"
         },
         {
           "ModuleName": "sin_2000",
-          "InstanceName": "grp_sin_2000_fu_257"
+          "InstanceName": "grp_sin_2000_fu_265"
         },
         {
           "ModuleName": "sin_2000",
-          "InstanceName": "grp_sin_2000_fu_264"
+          "InstanceName": "grp_sin_2000_fu_272"
         }
       ]
     },
@@ -903,32 +908,32 @@
       "sin_gen_varAmp2_3phi_x64": {
         "Latency": {
           "LatencyBest": "1",
-          "LatencyAvg": "31",
-          "LatencyWorst": "60",
+          "LatencyAvg": "39",
+          "LatencyWorst": "76",
           "PipelineIIMin": "2",
-          "PipelineIIMax": "61",
-          "PipelineII": "2 ~ 61",
+          "PipelineIIMax": "77",
+          "PipelineII": "2 ~ 77",
           "PipelineDepth": "",
           "PipelineType": "none"
         },
         "Timing": {
           "Target": "10.00",
           "Uncertainty": "2.70",
-          "Estimate": "7.300"
+          "Estimate": "8.140"
         },
         "Area": {
           "BRAM_18K": "36",
           "AVAIL_BRAM": "730",
           "UTIL_BRAM": "4",
-          "DSP": "62",
+          "DSP": "70",
           "AVAIL_DSP": "740",
-          "UTIL_DSP": "8",
-          "FF": "19002",
+          "UTIL_DSP": "9",
+          "FF": "20445",
           "AVAIL_FF": "269200",
           "UTIL_FF": "7",
-          "LUT": "21287",
+          "LUT": "22242",
           "AVAIL_LUT": "134600",
-          "UTIL_LUT": "15",
+          "UTIL_LUT": "16",
           "URAM": "0",
           "AVAIL_URAM": "0",
           "UTIL_URAM": "0"
@@ -939,7 +944,7 @@
   "GenerateBdFiles": "0",
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2026-04-29 16:53:43 -0300",
+    "Time": "2026-07-08 15:09:52 -0300",
     "ToolName": "vivado_hls",
     "ToolVersion": "2020.2"
   }

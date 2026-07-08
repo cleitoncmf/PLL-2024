@@ -32,13 +32,13 @@
 <Interval-max>undef</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_1007_1>
+<VITIS_LOOP_986_1>
 <TripCount>undef</TripCount>
 <Latency>undef</Latency>
 <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
 <PipelineII>2</PipelineII>
 <PipelineDepth>2</PipelineDepth>
-</VITIS_LOOP_1007_1>
+</VITIS_LOOP_986_1>
 </SummaryOfLoopLatency>
 </PerformanceEstimates>
 

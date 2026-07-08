@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'PLL2026_x64'" level="0">
-<item name = "Date">Fri Jul  3 13:57:37 2026
+<item name = "Date">Wed Jul  8 16:46:17 2026
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)</item>
 <item name = "Project">PLL2026</item>
@@ -31,16 +31,18 @@
 <section name = "" level="1">
 <item name = "Instance"><table name="" hasTotal="0">
 <keys size="9">Instance, Module, min, max, min, max, min, max, Type</keys>
-<column name="grp_cos_2000_fu_581">cos_2000, 12, 12, 0.120 us, 0.120 us, 12, 12, none</column>
-<column name="grp_cos_2000_fu_588">cos_2000, 12, 12, 0.120 us, 0.120 us, 12, 12, none</column>
-<column name="grp_ATAN_LUT_signed_fu_595">ATAN_LUT_signed, ?, ?, ?, ?, ?, ?, none</column>
-<column name="grp_sin_2000_fu_606">sin_2000, 10, 10, 0.100 us, 0.100 us, 10, 10, none</column>
-<column name="grp_INV_LUT_fu_613">INV_LUT, ?, ?, ?, ?, ?, ?, none</column>
-<column name="grp_SQRT_LUT_fu_624">SQRT_LUT, ?, ?, ?, ?, ?, ?, none</column>
+<column name="grp_ATAN2_LUT_fu_753">ATAN2_LUT, ?, ?, ?, ?, ?, ?, none</column>
+<column name="grp_cos_2000_fu_771">cos_2000, 12, 12, 0.120 us, 0.120 us, 12, 12, none</column>
+<column name="grp_cos_2000_fu_778">cos_2000, 12, 12, 0.120 us, 0.120 us, 12, 12, none</column>
+<column name="grp_ATAN_LUT_signed_fu_785">ATAN_LUT_signed, ?, ?, ?, ?, ?, ?, none</column>
+<column name="grp_sin_2000_fu_796">sin_2000, 11, 11, 0.110 us, 0.110 us, 11, 11, none</column>
+<column name="grp_INV_LUT_fu_803">INV_LUT, ?, ?, ?, ?, ?, ?, none</column>
 </table>
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
+<column name="- VITIS_LOOP_986_1">?, ?, 2, 2, 1, ?, yes</column>
+<column name="- VITIS_LOOP_986_1">?, ?, 2, 2, 1, ?, yes</column>
 </table>
 </item>
 </section>

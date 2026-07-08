@@ -26181,12 +26181,13 @@ typedef ap_fixed<64,16, AP_TRN, AP_WRAP> data_t;
 
 
 typedef ap_uint<1> uint1_t;
-# 45 "../../C-Codes/Fixed_x64/PLL2026_x64.h"
+# 51 "../../C-Codes/Fixed_x64/PLL2026_x64.h"
 data_t sin_2000(data_t theta);
 data_t cos_2000(data_t theta);
 data_t wrap_2pi(data_t angulo_in);
 data_t ATAN_LUT(data_t x);
 data_t ATAN_LUT_signed(data_t x);
+data_t ATAN2_LUT(data_t xd, data_t xq);
 data_t SQRT_LUT(data_t x);
 data_t INV_LUT(data_t x);
 data_t INV_LUT_signed(data_t x);
@@ -26205,6 +26206,7 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
      data_t in_2,
      data_t in_3,
                     data_t *w_out,
+     data_t *wi_out,
                     data_t *theta_out,
                     data_t *pll_alpha_out,
                     data_t *pll_beta_out,
@@ -26216,6 +26218,13 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
      data_t *Amp_vneg_raw_base_out,
      data_t *q_inv_d_out,
      data_t *v2_d_limpo_out,
+     data_t *v2_q_limpo_out,
+     data_t *v1_d_limpo_out,
+     data_t *v1_q_limpo_out,
+     data_t *v1_d_out,
+     data_t *v1_q_out,
+     data_t *v2_d_out,
+     data_t *v2_q_out,
      data_t *in_inv,
      data_t *out_inv,
      data_t *in_atan,
@@ -26243,6 +26252,7 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
      data_t in_2,
      data_t in_3,
                     data_t *w_out,
+     data_t *wi_out,
                     data_t *theta_out,
                     data_t *pll_alpha_out,
                     data_t *pll_beta_out,
@@ -26254,6 +26264,13 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
      data_t *Amp_vneg_raw_base_out,
      data_t *q_inv_d_out,
      data_t *v2_d_limpo_out,
+     data_t *v2_q_limpo_out,
+     data_t *v1_d_limpo_out,
+     data_t *v1_q_limpo_out,
+     data_t *v1_d_out,
+     data_t *v1_q_out,
+     data_t *v2_d_out,
+     data_t *v2_q_out,
      data_t *in_inv,
      data_t *out_inv,
      data_t *in_atan,
@@ -26262,7 +26279,7 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
      data_t *out_sqrt
                     ){
 #pragma HLS TOP name=PLL2026_x64
-# 38 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
+# 46 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
 
 
 
@@ -26328,18 +26345,18 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
 
 
 
-    static data_t theta1=0;
-    static data_t theta1_old=0;
+    static data_t theta1=data_t(0);
+    static data_t theta1_old=data_t(0);
 
-    static data_t wi=0;
-    static data_t wi_old=0;
+    static data_t wi=data_t(0);
+    static data_t wi_old=data_t(0);
 
 
-    static data_t Amp_vneg=0;
-    static data_t Amp_vneg_old=0;
+    static data_t Amp_vneg=data_t(0);
+    static data_t Amp_vneg_old=data_t(0);
 
-    static data_t delta=0;
-    static data_t delta_old=0;
+    static data_t delta=data_t(0);
+    static data_t delta_old=data_t(0);
 
 
 
@@ -26375,7 +26392,7 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
   sen_teta1 = sin_2000(theta1);
   cos_teta1 = cos_2000(theta1);
 
-  theta1_2x = 2*theta1;
+  theta1_2x = data_t(2)*theta1;
 
   sen_teta2 = sin_2000(theta1_2x);
   cos_teta2 = cos_2000(theta1_2x);
@@ -26408,8 +26425,8 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
 
 
 
-  wi = wi_old + data_t(2e-6) * data_t(1000) * v1_q_limpo;
-  w = data_t(300) + wi + data_t(20) * v1_q_limpo;
+  wi = wi_old + data_t(5e-6) * data_t(1000) * v1_q_limpo;
+  w = data_t(200) + wi + data_t(20) * v1_q_limpo;
 
 
 
@@ -26420,7 +26437,7 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
    theta1 = data_t(0);
   }
   else{
-   theta1 = theta1_old + data_t(2e-6)*w;
+   theta1 = theta1_old + data_t(5e-6)*w;
   }
 
 
@@ -26428,37 +26445,8 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
 
 
 
+  delta_raw_base = ATAN2_LUT(v2_d_limpo, v2_q_limpo);
 
-  if(EN1){
-   inv_v2_d_limpo = INV_LUT_signed(v2_d_limpo);
-  }
-  else{
-
-   if(EN4){
-    inv_v2_d_limpo = INV_LUT_signed(in_1);
-   }
-   else{
-    inv_v2_d_limpo = data_t(0.1)*v2_d_limpo;
-   }
-
-  }
-
-  q_inv_d = v2_q_limpo * inv_v2_d_limpo;
-
-  if(EN2){
-
-   delta_raw_base = ATAN_LUT_signed(q_inv_d);
-  }
-  else{
-
-   if(EN5){
-    delta_raw_base = ATAN_LUT_signed(in_2);
-   }
-   else{
-    delta_raw_base = data_t(0);
-   }
-
-  }
 
 
 
@@ -26468,27 +26456,18 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
 
   Amp_vneg_raw_base = v2_q_limpo*v2_q_limpo + v2_d_limpo*v2_d_limpo;
 
-  if(EN3){
-   Amp_vneg_raw = SQRT_LUT(Amp_vneg_raw_base);
-  }
-  else{
-   if(EN6){
-    Amp_vneg_raw = SQRT_LUT(in_3);
-   }
-   else{
-    Amp_vneg_raw = data_t(0);
-   }
 
-  }
+  Amp_vneg_raw = SQRT_LUT(Amp_vneg_raw_base);
 
 
 
 
 
-  delta = delta_old + data_t(2e-6)*data_t(1884.95)*(delta_raw - delta_old);
+
+  delta = delta_old + data_t(5e-6)*data_t(1884.95)*(delta_raw - delta_old);
 
 
-  Amp_vneg = Amp_vneg_old + data_t(2e-6)*data_t(7539.82)*(Amp_vneg_raw - Amp_vneg_old);
+  Amp_vneg = Amp_vneg_old + data_t(5e-6)*data_t(7539.82)*(Amp_vneg_raw - Amp_vneg_old);
 
 
   theta1_2x_d = theta1_2x + delta;
@@ -26505,7 +26484,7 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
 
   pll_alfa = amp_vPos * sen_teta1;
   pll_beta = - amp_vPos * cos_teta1;
-# 294 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
+# 264 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
   in_inv_aux_old = in_inv_aux;
 
   if(in_inv_aux>data_t(1000)){
@@ -26556,6 +26535,7 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
 
 
     *w_out = w;
+    *wi_out = wi;
     *theta_out = theta1;
     *pll_alpha_out = pll_alfa;
     *pll_beta_out = pll_beta;
@@ -26570,6 +26550,14 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
     *Amp_vneg_raw_base_out = Amp_vneg_raw_base;
     *q_inv_d_out = q_inv_d;
     *v2_d_limpo_out = v2_d_limpo;
+    *v2_q_limpo_out = v2_q_limpo;
+    *v1_d_limpo_out = v1_d_limpo;
+    *v1_q_limpo_out = v1_q_limpo;
+
+    *v1_d_out = v1_d;
+    *v1_q_out = v1_q;
+    *v2_d_out = v2_d;
+    *v2_q_out = v2_q;
 
 
     *in_inv = in_inv_aux;
@@ -26606,7 +26594,7 @@ data_t wrap_2pi(data_t angulo_in){
     else if(angulo>data_t(6.283185307179586) && angulo<data_t(12.566370614359172)){
      angulo = angulo-data_t(6.283185307179586);
     }
-    else if(angulo>-data_t(6.283185307179586) && angulo<0){
+    else if(angulo>-data_t(6.283185307179586) && angulo<data_t(0)){
      angulo = angulo+data_t(6.283185307179586);
     }
     else if(angulo>-data_t(12.566370614359172) && angulo<-data_t(6.283185307179586)){
@@ -26615,7 +26603,7 @@ data_t wrap_2pi(data_t angulo_in){
     else if(angulo<-data_t(12.566370614359172)){
         angulo = angulo+data_t(18.849555921538759);
     }
-# 416 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
+# 395 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
     return angulo;
 
 }
@@ -27207,7 +27195,7 @@ int busca_binaria(data_t *vetor, int Tamanho, data_t valor){
     int half_list;
 
 
-    VITIS_LOOP_1007_1: while( (intervalo_end-intervalo_begin)>1 ){
+    VITIS_LOOP_986_1: while( (intervalo_end-intervalo_begin)>1 ){
 
 
      half_list = intervalo_begin + (intervalo_end - intervalo_begin)/2;
@@ -27440,7 +27428,7 @@ data_t SQRT_LUT(data_t x){
     };
 
 
-    if(x < 0){
+    if(x < data_t(0)){
      y = data_t(0);
     }
     else{
@@ -27448,6 +27436,8 @@ data_t SQRT_LUT(data_t x){
      idx = busca_binaria(table_mark, 64, x);
 
      y = table_m[idx]*x + table_n[idx];
+
+
 
     }
 
@@ -27581,6 +27571,7 @@ data_t ATAN_LUT(data_t x){
 
     y = table_m[idx]*x + table_n[idx];
 
+
     return y;
 
 
@@ -27609,8 +27600,79 @@ data_t ATAN_LUT_signed(data_t x){
 
 
 
+data_t ATAN2_LUT(data_t xd, data_t xq){
 
 
+ data_t xd_inv;
+ data_t xq_inv;
+ data_t q_o_d;
+ data_t d_o_q;
+ data_t xd_aux;
+ data_t xq_aux;
+ data_t y;
+ data_t y_aux;
+ data_t y_wrapped;
+
+
+
+
+
+
+ if(xd>data_t(0)){
+
+  if(xq>data_t(0)){
+
+
+   xd_inv = INV_LUT(xd);
+   q_o_d = xq*xd_inv;
+   y = ATAN_LUT(q_o_d);
+
+  }
+  else{
+
+   xq_aux = -xq;
+   xq_inv = INV_LUT(xq_aux);
+   d_o_q = xq_inv*xd;
+   y_aux = ATAN_LUT(d_o_q);
+   y = y_aux + data_t(4.712388980384690);
+
+  }
+
+ }
+ else{
+
+  if(xq>data_t(0)){
+
+   xd_aux = -xd;
+   xq_inv = INV_LUT(xq);
+   d_o_q = xd_aux*xq_inv;
+   y_aux = ATAN_LUT(d_o_q);
+   y = y_aux + data_t(1.570796326794897);
+
+  }
+  else{
+
+   xd_aux = -xd;
+   xq_aux = -xq;
+   xd_inv = INV_LUT(xd_aux);
+   q_o_d = xd_inv*xq_aux;
+   y_aux = ATAN_LUT(q_o_d);
+   y = y_aux + data_t(3.141592653589793);
+
+  }
+
+ }
+
+
+ y_wrapped = wrap_2pi(y);
+
+
+ return y_wrapped;
+
+
+
+}
+# 1477 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
 data_t INV_LUT(data_t x){
 
     data_t y;
@@ -27993,6 +28055,7 @@ data_t INV_LUT(data_t x){
      idx = busca_binaria(table_mark, 116, x);
 
      y = table_m[idx]*x + table_n[idx];
+
 
     }
 

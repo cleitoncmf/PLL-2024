@@ -123,13 +123,13 @@ set NewPortList {[
  	{ "name": "dwtout_ap_vld", "direction": "out", "datatype": "sc_logic", "bitwidth":1, "type": "outvld", "bundle":{"name": "dwtout", "role": "ap_vld" }}  ]}
 
 set RtlHierarchyInfo {[
-	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "4", "7", "10", "13", "16", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37"],
+	{"ID" : "0", "Level" : "0", "Path" : "`AUTOTB_DUT_INST", "Parent" : "", "Child" : ["1", "4", "7", "10", "13", "16", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39"],
 		"CDFG" : "sin_gen_varAmp2_3phi_x64",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "1", "EstimateLatencyMax" : "60",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "1", "EstimateLatencyMax" : "76",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -162,16 +162,16 @@ set RtlHierarchyInfo {[
 			{"Name" : "dwt_V", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "table_r", "Type" : "Memory", "Direction" : "I",
 				"SubConnect" : [
-					{"ID" : "1", "SubInstance" : "grp_sin_2000_fu_229", "Port" : "table_r"},
-					{"ID" : "10", "SubInstance" : "grp_sin_2000_fu_250", "Port" : "table_r"},
-					{"ID" : "4", "SubInstance" : "grp_sin_2000_fu_236", "Port" : "table_r"},
-					{"ID" : "16", "SubInstance" : "grp_sin_2000_fu_264", "Port" : "table_r"},
-					{"ID" : "13", "SubInstance" : "grp_sin_2000_fu_257", "Port" : "table_r"},
-					{"ID" : "7", "SubInstance" : "grp_sin_2000_fu_243", "Port" : "table_r"}]},
+					{"ID" : "1", "SubInstance" : "grp_sin_2000_fu_237", "Port" : "table_r"},
+					{"ID" : "10", "SubInstance" : "grp_sin_2000_fu_258", "Port" : "table_r"},
+					{"ID" : "4", "SubInstance" : "grp_sin_2000_fu_244", "Port" : "table_r"},
+					{"ID" : "13", "SubInstance" : "grp_sin_2000_fu_265", "Port" : "table_r"},
+					{"ID" : "16", "SubInstance" : "grp_sin_2000_fu_272", "Port" : "table_r"},
+					{"ID" : "7", "SubInstance" : "grp_sin_2000_fu_251", "Port" : "table_r"}]},
 			{"Name" : "va_V", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "vb_V", "Type" : "OVld", "Direction" : "IO"},
 			{"Name" : "vc_V", "Type" : "OVld", "Direction" : "IO"}]},
-	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_229", "Parent" : "0", "Child" : ["2", "3"],
+	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_237", "Parent" : "0", "Child" : ["2", "3"],
 		"CDFG" : "sin_2000",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
@@ -187,9 +187,9 @@ set RtlHierarchyInfo {[
 		"Port" : [
 			{"Name" : "theta_in", "Type" : "None", "Direction" : "I"},
 			{"Name" : "table_r", "Type" : "Memory", "Direction" : "I"}]},
-	{"ID" : "2", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_229.table_r_U", "Parent" : "1"},
-	{"ID" : "3", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_229.mul_64s_58ns_121_5_1_U1", "Parent" : "1"},
-	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_236", "Parent" : "0", "Child" : ["5", "6"],
+	{"ID" : "2", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_237.table_r_U", "Parent" : "1"},
+	{"ID" : "3", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_237.mul_64s_58ns_121_5_1_U1", "Parent" : "1"},
+	{"ID" : "4", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_244", "Parent" : "0", "Child" : ["5", "6"],
 		"CDFG" : "sin_2000",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
@@ -205,9 +205,9 @@ set RtlHierarchyInfo {[
 		"Port" : [
 			{"Name" : "theta_in", "Type" : "None", "Direction" : "I"},
 			{"Name" : "table_r", "Type" : "Memory", "Direction" : "I"}]},
-	{"ID" : "5", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_236.table_r_U", "Parent" : "4"},
-	{"ID" : "6", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_236.mul_64s_58ns_121_5_1_U1", "Parent" : "4"},
-	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_243", "Parent" : "0", "Child" : ["8", "9"],
+	{"ID" : "5", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_244.table_r_U", "Parent" : "4"},
+	{"ID" : "6", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_244.mul_64s_58ns_121_5_1_U1", "Parent" : "4"},
+	{"ID" : "7", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_251", "Parent" : "0", "Child" : ["8", "9"],
 		"CDFG" : "sin_2000",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
@@ -223,9 +223,9 @@ set RtlHierarchyInfo {[
 		"Port" : [
 			{"Name" : "theta_in", "Type" : "None", "Direction" : "I"},
 			{"Name" : "table_r", "Type" : "Memory", "Direction" : "I"}]},
-	{"ID" : "8", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_243.table_r_U", "Parent" : "7"},
-	{"ID" : "9", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_243.mul_64s_58ns_121_5_1_U1", "Parent" : "7"},
-	{"ID" : "10", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_250", "Parent" : "0", "Child" : ["11", "12"],
+	{"ID" : "8", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_251.table_r_U", "Parent" : "7"},
+	{"ID" : "9", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_251.mul_64s_58ns_121_5_1_U1", "Parent" : "7"},
+	{"ID" : "10", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_258", "Parent" : "0", "Child" : ["11", "12"],
 		"CDFG" : "sin_2000",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
@@ -241,9 +241,9 @@ set RtlHierarchyInfo {[
 		"Port" : [
 			{"Name" : "theta_in", "Type" : "None", "Direction" : "I"},
 			{"Name" : "table_r", "Type" : "Memory", "Direction" : "I"}]},
-	{"ID" : "11", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_250.table_r_U", "Parent" : "10"},
-	{"ID" : "12", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_250.mul_64s_58ns_121_5_1_U1", "Parent" : "10"},
-	{"ID" : "13", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_257", "Parent" : "0", "Child" : ["14", "15"],
+	{"ID" : "11", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_258.table_r_U", "Parent" : "10"},
+	{"ID" : "12", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_258.mul_64s_58ns_121_5_1_U1", "Parent" : "10"},
+	{"ID" : "13", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_265", "Parent" : "0", "Child" : ["14", "15"],
 		"CDFG" : "sin_2000",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
@@ -259,9 +259,9 @@ set RtlHierarchyInfo {[
 		"Port" : [
 			{"Name" : "theta_in", "Type" : "None", "Direction" : "I"},
 			{"Name" : "table_r", "Type" : "Memory", "Direction" : "I"}]},
-	{"ID" : "14", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_257.table_r_U", "Parent" : "13"},
-	{"ID" : "15", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_257.mul_64s_58ns_121_5_1_U1", "Parent" : "13"},
-	{"ID" : "16", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_264", "Parent" : "0", "Child" : ["17", "18"],
+	{"ID" : "14", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_265.table_r_U", "Parent" : "13"},
+	{"ID" : "15", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_265.mul_64s_58ns_121_5_1_U1", "Parent" : "13"},
+	{"ID" : "16", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_272", "Parent" : "0", "Child" : ["17", "18"],
 		"CDFG" : "sin_2000",
 		"Protocol" : "ap_ctrl_hs",
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
@@ -277,11 +277,11 @@ set RtlHierarchyInfo {[
 		"Port" : [
 			{"Name" : "theta_in", "Type" : "None", "Direction" : "I"},
 			{"Name" : "table_r", "Type" : "Memory", "Direction" : "I"}]},
-	{"ID" : "17", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_264.table_r_U", "Parent" : "16"},
-	{"ID" : "18", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_264.mul_64s_58ns_121_5_1_U1", "Parent" : "16"},
-	{"ID" : "19", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_31ns_94_5_1_U5", "Parent" : "0"},
-	{"ID" : "20", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U6", "Parent" : "0"},
-	{"ID" : "21", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U7", "Parent" : "0"},
+	{"ID" : "17", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_272.table_r_U", "Parent" : "16"},
+	{"ID" : "18", "Level" : "2", "Path" : "`AUTOTB_DUT_INST.grp_sin_2000_fu_272.mul_64s_58ns_121_5_1_U1", "Parent" : "16"},
+	{"ID" : "19", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_35ns_98_5_1_U5", "Parent" : "0"},
+	{"ID" : "20", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_52ns_112_5_1_U6", "Parent" : "0"},
+	{"ID" : "21", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_52ns_112_5_1_U7", "Parent" : "0"},
 	{"ID" : "22", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U8", "Parent" : "0"},
 	{"ID" : "23", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U9", "Parent" : "0"},
 	{"ID" : "24", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U10", "Parent" : "0"},
@@ -297,7 +297,9 @@ set RtlHierarchyInfo {[
 	{"ID" : "34", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U20", "Parent" : "0"},
 	{"ID" : "35", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U21", "Parent" : "0"},
 	{"ID" : "36", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U22", "Parent" : "0"},
-	{"ID" : "37", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U23", "Parent" : "0"}]}
+	{"ID" : "37", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U23", "Parent" : "0"},
+	{"ID" : "38", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U24", "Parent" : "0"},
+	{"ID" : "39", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_50s_64s_112_5_1_U25", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {
@@ -317,11 +319,11 @@ set ArgLastReadFirstWriteLatency {
 		Ang_7p {Type I LastRead 0 FirstWrite -1}
 		A_7n {Type I LastRead 0 FirstWrite -1}
 		Ang_7n {Type I LastRead 0 FirstWrite -1}
-		vout_a {Type O LastRead -1 FirstWrite 16}
-		vout_b {Type O LastRead -1 FirstWrite 16}
-		vout_c {Type O LastRead -1 FirstWrite 16}
-		wtout {Type O LastRead -1 FirstWrite 16}
-		dwtout {Type O LastRead -1 FirstWrite 16}
+		vout_a {Type O LastRead -1 FirstWrite 21}
+		vout_b {Type O LastRead -1 FirstWrite 21}
+		vout_c {Type O LastRead -1 FirstWrite 21}
+		wtout {Type O LastRead -1 FirstWrite 21}
+		dwtout {Type O LastRead -1 FirstWrite 21}
 		aux_sinc_V {Type IO LastRead -1 FirstWrite -1}
 		wt_V {Type IO LastRead -1 FirstWrite -1}
 		dwt_V {Type IO LastRead -1 FirstWrite -1}
@@ -351,8 +353,8 @@ set ArgLastReadFirstWriteLatency {
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "1", "Max" : "60"}
-	, {"Name" : "Interval", "Min" : "2", "Max" : "61"}
+	{"Name" : "Latency", "Min" : "1", "Max" : "76"}
+	, {"Name" : "Interval", "Min" : "2", "Max" : "77"}
 ]}
 
 set PipelineEnableSignalInfo {[

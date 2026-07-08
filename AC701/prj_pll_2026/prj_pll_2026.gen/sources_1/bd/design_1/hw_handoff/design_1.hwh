@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
-<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Fri Jul  3 13:44:57 2026" VIVADOVERSION="2020.2">
+<EDKSYSTEM EDWVERSION="1.2" TIMESTAMP="Wed Jul  8 13:07:20 2026" VIVADOVERSION="2020.2">
 
   <SYSTEMINFO ARCH="artix7" BOARD="xilinx.com:ac701:part0:1.4" DEVICE="7a200t" NAME="design_1" PACKAGE="fbg676" SPEEDGRADE="-2"/>
 
@@ -173,8 +173,30 @@
       <PORTS>
         <PORT CLKFREQUENCY="250000" DIR="O" NAME="clk" SIGIS="clk" SIGNAME="sim_clk_gen_1_clk">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sin_gen_varAmp2_3phi_0" PORT="sinc"/>
             <CONNECTION INSTANCE="PLL2026_x64_0" PORT="sinc"/>
+          </CONNECTIONS>
+        </PORT>
+        <PORT DIR="O" NAME="sync_rst" POLARITY="ACTIVE_LOW" SIGIS="rst"/>
+      </PORTS>
+      <BUSINTERFACES/>
+    </MODULE>
+    <MODULE COREREVISION="2" FULLNAME="/sim_clk_gen_2" HWVERSION="1.0" INSTANCE="sim_clk_gen_2" IPTYPE="PERIPHERAL" IS_ENABLE="1" MODCLASS="PERIPHERAL" MODTYPE="sim_clk_gen" VLNV="xilinx.com:ip:sim_clk_gen:1.0">
+      <DOCUMENTS>
+        <DOCUMENT SOURCE="http://www.xilinx.com/cgi-bin/docs/ipdoc?c=sim_clk_gen;v=v1_0;d=pb054-sim-clk-gen.pdf"/>
+      </DOCUMENTS>
+      <PARAMETERS>
+        <PARAMETER NAME="CLOCK_TYPE" VALUE="Single_Ended"/>
+        <PARAMETER NAME="CLOCK_PERIOD" VALUE="1000.0"/>
+        <PARAMETER NAME="INITIAL_RESET_CLOCK_CYCLES" VALUE="100"/>
+        <PARAMETER NAME="RESET_POLARITY" VALUE="0"/>
+        <PARAMETER NAME="Component_Name" VALUE="design_1_sim_clk_gen_1_1"/>
+        <PARAMETER NAME="FREQ_HZ" VALUE="1000000"/>
+        <PARAMETER NAME="EDK_IPTYPE" VALUE="PERIPHERAL"/>
+      </PARAMETERS>
+      <PORTS>
+        <PORT CLKFREQUENCY="1000000" DIR="O" NAME="clk" SIGIS="clk" SIGNAME="sim_clk_gen_2_clk">
+          <CONNECTIONS>
+            <CONNECTION INSTANCE="sin_gen_varAmp2_3phi_0" PORT="sinc"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="O" NAME="sync_rst" POLARITY="ACTIVE_LOW" SIGIS="rst"/>
@@ -202,9 +224,9 @@
         <PORT DIR="O" NAME="ap_done" SIGIS="undef"/>
         <PORT DIR="O" NAME="ap_idle" SIGIS="undef"/>
         <PORT DIR="O" NAME="ap_ready" SIGIS="undef"/>
-        <PORT DIR="I" LEFT="0" NAME="sinc" RIGHT="0" SIGIS="undef" SIGNAME="sim_clk_gen_1_clk">
+        <PORT DIR="I" LEFT="0" NAME="sinc" RIGHT="0" SIGIS="undef" SIGNAME="sim_clk_gen_2_clk">
           <CONNECTIONS>
-            <CONNECTION INSTANCE="sim_clk_gen_1" PORT="clk"/>
+            <CONNECTION INSTANCE="sim_clk_gen_2" PORT="clk"/>
           </CONNECTIONS>
         </PORT>
         <PORT DIR="I" LEFT="0" NAME="opt" RIGHT="0" SIGIS="undef"/>
