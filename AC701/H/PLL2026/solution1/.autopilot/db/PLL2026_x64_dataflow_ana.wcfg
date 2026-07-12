@@ -37,22 +37,22 @@
          <obj_property name="Render_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64//AESL_inst_PLL2026_x64_activity.dataflowTxWaveData.Cycles</obj_property>
          <obj_property name="Value_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64//AESL_inst_PLL2026_x64_activity.dataflowTxWaveData.OutStanding</obj_property>
          <obj_property name="Detail_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64//AESL_inst_PLL2026_x64_activity.dataflowTxTooltipData</obj_property>
-         <wvobject type="group" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_753/grp_ATAN2_LUT_fu_753_activity">
-            <obj_property name="label">grp_ATAN2_LUT_fu_753_activity</obj_property>
+         <wvobject type="group" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_769/grp_ATAN2_LUT_fu_769_activity">
+            <obj_property name="label">grp_ATAN2_LUT_fu_769_activity</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <obj_property name="UseFullPath">true</obj_property>
-            <obj_property name="ElementShortName">grp_ATAN2_LUT_fu_753_activity</obj_property>
-            <obj_property name="ObjectShortName">grp_ATAN2_LUT_fu_753_activity</obj_property>
+            <obj_property name="ElementShortName">grp_ATAN2_LUT_fu_769_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_ATAN2_LUT_fu_769_activity</obj_property>
             <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
             <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
             <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
             <obj_property name="UseCustomSignalColor">true</obj_property>
             <obj_property name="CustomSignalColor">turquoise</obj_property>
             <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-            <obj_property name="Render_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_753/grp_ATAN2_LUT_fu_753_activity.dataflowTxWaveData.Cycles</obj_property>
-            <obj_property name="Value_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_753/grp_ATAN2_LUT_fu_753_activity.dataflowTxWaveData.OutStanding</obj_property>
-            <obj_property name="Detail_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_753/grp_ATAN2_LUT_fu_753_activity.dataflowTxTooltipData</obj_property>
-            <wvobject type="group" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_753/grp_ATAN_LUT_fu_99/grp_ATAN_LUT_fu_99_activity">
+            <obj_property name="Render_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_769/grp_ATAN2_LUT_fu_769_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_769/grp_ATAN2_LUT_fu_769_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_769/grp_ATAN2_LUT_fu_769_activity.dataflowTxTooltipData</obj_property>
+            <wvobject type="group" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_769/grp_ATAN_LUT_fu_99/grp_ATAN_LUT_fu_99_activity">
                <obj_property name="label">grp_ATAN_LUT_fu_99_activity</obj_property>
                <obj_property name="DisplayName">label</obj_property>
                <obj_property name="UseFullPath">true</obj_property>
@@ -64,90 +64,90 @@
                <obj_property name="UseCustomSignalColor">true</obj_property>
                <obj_property name="CustomSignalColor">turquoise</obj_property>
                <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-               <obj_property name="Render_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_753/grp_ATAN_LUT_fu_99/grp_ATAN_LUT_fu_99_activity.dataflowTxWaveData.Cycles</obj_property>
-               <obj_property name="Value_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_753/grp_ATAN_LUT_fu_99/grp_ATAN_LUT_fu_99_activity.dataflowTxWaveData.OutStanding</obj_property>
-               <obj_property name="Detail_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_753/grp_ATAN_LUT_fu_99/grp_ATAN_LUT_fu_99_activity.dataflowTxTooltipData</obj_property>
+               <obj_property name="Render_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_769/grp_ATAN_LUT_fu_99/grp_ATAN_LUT_fu_99_activity.dataflowTxWaveData.Cycles</obj_property>
+               <obj_property name="Value_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_769/grp_ATAN_LUT_fu_99/grp_ATAN_LUT_fu_99_activity.dataflowTxWaveData.OutStanding</obj_property>
+               <obj_property name="Detail_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_769/grp_ATAN_LUT_fu_99/grp_ATAN_LUT_fu_99_activity.dataflowTxTooltipData</obj_property>
             </wvobject>
          </wvobject>
-         <wvobject type="group" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_771/grp_cos_2000_fu_771_activity">
-            <obj_property name="label">grp_cos_2000_fu_771_activity</obj_property>
+         <wvobject type="group" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_787/grp_cos_2000_fu_787_activity">
+            <obj_property name="label">grp_cos_2000_fu_787_activity</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <obj_property name="UseFullPath">true</obj_property>
-            <obj_property name="ElementShortName">grp_cos_2000_fu_771_activity</obj_property>
-            <obj_property name="ObjectShortName">grp_cos_2000_fu_771_activity</obj_property>
+            <obj_property name="ElementShortName">grp_cos_2000_fu_787_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cos_2000_fu_787_activity</obj_property>
             <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
             <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
             <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
             <obj_property name="UseCustomSignalColor">true</obj_property>
             <obj_property name="CustomSignalColor">turquoise</obj_property>
             <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-            <obj_property name="Render_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_771/grp_cos_2000_fu_771_activity.dataflowTxWaveData.Cycles</obj_property>
-            <obj_property name="Value_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_771/grp_cos_2000_fu_771_activity.dataflowTxWaveData.OutStanding</obj_property>
-            <obj_property name="Detail_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_771/grp_cos_2000_fu_771_activity.dataflowTxTooltipData</obj_property>
+            <obj_property name="Render_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_787/grp_cos_2000_fu_787_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_787/grp_cos_2000_fu_787_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_787/grp_cos_2000_fu_787_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
-         <wvobject type="group" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_778/grp_cos_2000_fu_778_activity">
-            <obj_property name="label">grp_cos_2000_fu_778_activity</obj_property>
+         <wvobject type="group" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_794/grp_cos_2000_fu_794_activity">
+            <obj_property name="label">grp_cos_2000_fu_794_activity</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <obj_property name="UseFullPath">true</obj_property>
-            <obj_property name="ElementShortName">grp_cos_2000_fu_778_activity</obj_property>
-            <obj_property name="ObjectShortName">grp_cos_2000_fu_778_activity</obj_property>
+            <obj_property name="ElementShortName">grp_cos_2000_fu_794_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_cos_2000_fu_794_activity</obj_property>
             <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
             <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
             <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
             <obj_property name="UseCustomSignalColor">true</obj_property>
             <obj_property name="CustomSignalColor">turquoise</obj_property>
             <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-            <obj_property name="Render_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_778/grp_cos_2000_fu_778_activity.dataflowTxWaveData.Cycles</obj_property>
-            <obj_property name="Value_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_778/grp_cos_2000_fu_778_activity.dataflowTxWaveData.OutStanding</obj_property>
-            <obj_property name="Detail_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_778/grp_cos_2000_fu_778_activity.dataflowTxTooltipData</obj_property>
+            <obj_property name="Render_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_794/grp_cos_2000_fu_794_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_794/grp_cos_2000_fu_794_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_794/grp_cos_2000_fu_794_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
-         <wvobject type="group" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN_LUT_signed_fu_785/grp_ATAN_LUT_signed_fu_785_activity">
-            <obj_property name="label">grp_ATAN_LUT_signed_fu_785_activity</obj_property>
+         <wvobject type="group" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN_LUT_signed_fu_801/grp_ATAN_LUT_signed_fu_801_activity">
+            <obj_property name="label">grp_ATAN_LUT_signed_fu_801_activity</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <obj_property name="UseFullPath">true</obj_property>
-            <obj_property name="ElementShortName">grp_ATAN_LUT_signed_fu_785_activity</obj_property>
-            <obj_property name="ObjectShortName">grp_ATAN_LUT_signed_fu_785_activity</obj_property>
+            <obj_property name="ElementShortName">grp_ATAN_LUT_signed_fu_801_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_ATAN_LUT_signed_fu_801_activity</obj_property>
             <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
             <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
             <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
             <obj_property name="UseCustomSignalColor">true</obj_property>
             <obj_property name="CustomSignalColor">turquoise</obj_property>
             <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-            <obj_property name="Render_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN_LUT_signed_fu_785/grp_ATAN_LUT_signed_fu_785_activity.dataflowTxWaveData.Cycles</obj_property>
-            <obj_property name="Value_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN_LUT_signed_fu_785/grp_ATAN_LUT_signed_fu_785_activity.dataflowTxWaveData.OutStanding</obj_property>
-            <obj_property name="Detail_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN_LUT_signed_fu_785/grp_ATAN_LUT_signed_fu_785_activity.dataflowTxTooltipData</obj_property>
+            <obj_property name="Render_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN_LUT_signed_fu_801/grp_ATAN_LUT_signed_fu_801_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN_LUT_signed_fu_801/grp_ATAN_LUT_signed_fu_801_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN_LUT_signed_fu_801/grp_ATAN_LUT_signed_fu_801_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
-         <wvobject type="group" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_sin_2000_fu_796/grp_sin_2000_fu_796_activity">
-            <obj_property name="label">grp_sin_2000_fu_796_activity</obj_property>
+         <wvobject type="group" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_sin_2000_fu_812/grp_sin_2000_fu_812_activity">
+            <obj_property name="label">grp_sin_2000_fu_812_activity</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <obj_property name="UseFullPath">true</obj_property>
-            <obj_property name="ElementShortName">grp_sin_2000_fu_796_activity</obj_property>
-            <obj_property name="ObjectShortName">grp_sin_2000_fu_796_activity</obj_property>
+            <obj_property name="ElementShortName">grp_sin_2000_fu_812_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_sin_2000_fu_812_activity</obj_property>
             <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
             <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
             <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
             <obj_property name="UseCustomSignalColor">true</obj_property>
             <obj_property name="CustomSignalColor">turquoise</obj_property>
             <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-            <obj_property name="Render_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_sin_2000_fu_796/grp_sin_2000_fu_796_activity.dataflowTxWaveData.Cycles</obj_property>
-            <obj_property name="Value_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_sin_2000_fu_796/grp_sin_2000_fu_796_activity.dataflowTxWaveData.OutStanding</obj_property>
-            <obj_property name="Detail_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_sin_2000_fu_796/grp_sin_2000_fu_796_activity.dataflowTxTooltipData</obj_property>
+            <obj_property name="Render_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_sin_2000_fu_812/grp_sin_2000_fu_812_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_sin_2000_fu_812/grp_sin_2000_fu_812_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_sin_2000_fu_812/grp_sin_2000_fu_812_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
-         <wvobject type="group" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_INV_LUT_fu_803/grp_INV_LUT_fu_803_activity">
-            <obj_property name="label">grp_INV_LUT_fu_803_activity</obj_property>
+         <wvobject type="group" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_INV_LUT_fu_819/grp_INV_LUT_fu_819_activity">
+            <obj_property name="label">grp_INV_LUT_fu_819_activity</obj_property>
             <obj_property name="DisplayName">label</obj_property>
             <obj_property name="UseFullPath">true</obj_property>
-            <obj_property name="ElementShortName">grp_INV_LUT_fu_803_activity</obj_property>
-            <obj_property name="ObjectShortName">grp_INV_LUT_fu_803_activity</obj_property>
+            <obj_property name="ElementShortName">grp_INV_LUT_fu_819_activity</obj_property>
+            <obj_property name="ObjectShortName">grp_INV_LUT_fu_819_activity</obj_property>
             <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
             <obj_property name="WaveformStyle">STYLE_ENUM_TRANSACTION</obj_property>
             <obj_property name="EnumTransactionColorTable">0=blank ffff=blank 0bad=#FF0000</obj_property>
             <obj_property name="UseCustomSignalColor">true</obj_property>
             <obj_property name="CustomSignalColor">turquoise</obj_property>
             <obj_property name="EnumTransactionValueTable">65535=blank</obj_property>
-            <obj_property name="Render_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_INV_LUT_fu_803/grp_INV_LUT_fu_803_activity.dataflowTxWaveData.Cycles</obj_property>
-            <obj_property name="Value_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_INV_LUT_fu_803/grp_INV_LUT_fu_803_activity.dataflowTxWaveData.OutStanding</obj_property>
-            <obj_property name="Detail_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_INV_LUT_fu_803/grp_INV_LUT_fu_803_activity.dataflowTxTooltipData</obj_property>
+            <obj_property name="Render_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_INV_LUT_fu_819/grp_INV_LUT_fu_819_activity.dataflowTxWaveData.Cycles</obj_property>
+            <obj_property name="Value_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_INV_LUT_fu_819/grp_INV_LUT_fu_819_activity.dataflowTxWaveData.OutStanding</obj_property>
+            <obj_property name="Detail_Data">/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_INV_LUT_fu_819/grp_INV_LUT_fu_819_activity.dataflowTxTooltipData</obj_property>
          </wvobject>
       </wvobject>
    </wvobject>
@@ -158,29 +158,29 @@
    <wvobject type="group" fp_name="AESL_inst_PLL2026_x64_group">
       <obj_property name="label">AESL_inst_PLL2026_x64</obj_property>
       <obj_property name="DisplayName">label</obj_property>
-      <wvobject type="protoinst" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_753/grp_ATAN2_LUT_fu_753_activity">
-         <obj_property name="ElementShortName">grp_ATAN2_LUT_fu_753_activity</obj_property>
-         <obj_property name="ObjectShortName">grp_ATAN2_LUT_fu_753_activity</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_769/grp_ATAN2_LUT_fu_769_activity">
+         <obj_property name="ElementShortName">grp_ATAN2_LUT_fu_769_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_ATAN2_LUT_fu_769_activity</obj_property>
       </wvobject>
-      <wvobject type="protoinst" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_771/grp_cos_2000_fu_771_activity">
-         <obj_property name="ElementShortName">grp_cos_2000_fu_771_activity</obj_property>
-         <obj_property name="ObjectShortName">grp_cos_2000_fu_771_activity</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_787/grp_cos_2000_fu_787_activity">
+         <obj_property name="ElementShortName">grp_cos_2000_fu_787_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cos_2000_fu_787_activity</obj_property>
       </wvobject>
-      <wvobject type="protoinst" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_778/grp_cos_2000_fu_778_activity">
-         <obj_property name="ElementShortName">grp_cos_2000_fu_778_activity</obj_property>
-         <obj_property name="ObjectShortName">grp_cos_2000_fu_778_activity</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_794/grp_cos_2000_fu_794_activity">
+         <obj_property name="ElementShortName">grp_cos_2000_fu_794_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_cos_2000_fu_794_activity</obj_property>
       </wvobject>
-      <wvobject type="protoinst" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN_LUT_signed_fu_785/grp_ATAN_LUT_signed_fu_785_activity">
-         <obj_property name="ElementShortName">grp_ATAN_LUT_signed_fu_785_activity</obj_property>
-         <obj_property name="ObjectShortName">grp_ATAN_LUT_signed_fu_785_activity</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN_LUT_signed_fu_801/grp_ATAN_LUT_signed_fu_801_activity">
+         <obj_property name="ElementShortName">grp_ATAN_LUT_signed_fu_801_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_ATAN_LUT_signed_fu_801_activity</obj_property>
       </wvobject>
-      <wvobject type="protoinst" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_sin_2000_fu_796/grp_sin_2000_fu_796_activity">
-         <obj_property name="ElementShortName">grp_sin_2000_fu_796_activity</obj_property>
-         <obj_property name="ObjectShortName">grp_sin_2000_fu_796_activity</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_sin_2000_fu_812/grp_sin_2000_fu_812_activity">
+         <obj_property name="ElementShortName">grp_sin_2000_fu_812_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_sin_2000_fu_812_activity</obj_property>
       </wvobject>
-      <wvobject type="protoinst" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_INV_LUT_fu_803/grp_INV_LUT_fu_803_activity">
-         <obj_property name="ElementShortName">grp_INV_LUT_fu_803_activity</obj_property>
-         <obj_property name="ObjectShortName">grp_INV_LUT_fu_803_activity</obj_property>
+      <wvobject type="protoinst" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_INV_LUT_fu_819/grp_INV_LUT_fu_819_activity">
+         <obj_property name="ElementShortName">grp_INV_LUT_fu_819_activity</obj_property>
+         <obj_property name="ObjectShortName">grp_INV_LUT_fu_819_activity</obj_property>
       </wvobject>
       <wvobject type="group" fp_name="AESL_inst_PLL2026_x64_Handshake_group">
          <obj_property name="label">Block-level handshake</obj_property>
@@ -198,25 +198,25 @@
             <obj_property name="ObjectShortName">ap_done</obj_property>
          </wvobject>
       </wvobject>
-      <wvobject type="group" fp_name="grp_ATAN2_LUT_fu_753_group">
-         <obj_property name="label">grp_ATAN2_LUT_fu_753</obj_property>
+      <wvobject type="group" fp_name="grp_ATAN2_LUT_fu_769_group">
+         <obj_property name="label">grp_ATAN2_LUT_fu_769</obj_property>
          <obj_property name="DisplayName">label</obj_property>
-         <wvobject type="protoinst" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_753/grp_ATAN_LUT_fu_99/grp_ATAN_LUT_fu_99_activity">
+         <wvobject type="protoinst" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_769/grp_ATAN_LUT_fu_99/grp_ATAN_LUT_fu_99_activity">
             <obj_property name="ElementShortName">grp_ATAN_LUT_fu_99_activity</obj_property>
             <obj_property name="ObjectShortName">grp_ATAN_LUT_fu_99_activity</obj_property>
          </wvobject>
-         <wvobject type="group" fp_name="grp_ATAN2_LUT_fu_753_Handshake_group">
+         <wvobject type="group" fp_name="grp_ATAN2_LUT_fu_769_Handshake_group">
             <obj_property name="label">Block-level handshake</obj_property>
             <obj_property name="DisplayName">label</obj_property>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_753/ap_start">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_769/ap_start">
                <obj_property name="ElementShortName">ap_start</obj_property>
                <obj_property name="ObjectShortName">ap_start</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_753/ap_ready">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_769/ap_ready">
                <obj_property name="ElementShortName">ap_ready</obj_property>
                <obj_property name="ObjectShortName">ap_ready</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_753/ap_done">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_769/ap_done">
                <obj_property name="ElementShortName">ap_done</obj_property>
                <obj_property name="ObjectShortName">ap_done</obj_property>
             </wvobject>
@@ -227,116 +227,116 @@
             <wvobject type="group" fp_name="grp_ATAN_LUT_fu_99_Handshake_group">
                <obj_property name="label">Block-level handshake</obj_property>
                <obj_property name="DisplayName">label</obj_property>
-               <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_753/grp_ATAN_LUT_fu_99/ap_start">
+               <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_769/grp_ATAN_LUT_fu_99/ap_start">
                   <obj_property name="ElementShortName">ap_start</obj_property>
                   <obj_property name="ObjectShortName">ap_start</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_753/grp_ATAN_LUT_fu_99/ap_ready">
+               <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_769/grp_ATAN_LUT_fu_99/ap_ready">
                   <obj_property name="ElementShortName">ap_ready</obj_property>
                   <obj_property name="ObjectShortName">ap_ready</obj_property>
                </wvobject>
-               <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_753/grp_ATAN_LUT_fu_99/ap_done">
+               <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN2_LUT_fu_769/grp_ATAN_LUT_fu_99/ap_done">
                   <obj_property name="ElementShortName">ap_done</obj_property>
                   <obj_property name="ObjectShortName">ap_done</obj_property>
                </wvobject>
             </wvobject>
          </wvobject>
       </wvobject>
-      <wvobject type="group" fp_name="grp_cos_2000_fu_771_group">
-         <obj_property name="label">grp_cos_2000_fu_771</obj_property>
+      <wvobject type="group" fp_name="grp_cos_2000_fu_787_group">
+         <obj_property name="label">grp_cos_2000_fu_787</obj_property>
          <obj_property name="DisplayName">label</obj_property>
-         <wvobject type="group" fp_name="grp_cos_2000_fu_771_Handshake_group">
+         <wvobject type="group" fp_name="grp_cos_2000_fu_787_Handshake_group">
             <obj_property name="label">Block-level handshake</obj_property>
             <obj_property name="DisplayName">label</obj_property>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_771/ap_start">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_787/ap_start">
                <obj_property name="ElementShortName">ap_start</obj_property>
                <obj_property name="ObjectShortName">ap_start</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_771/ap_ready">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_787/ap_ready">
                <obj_property name="ElementShortName">ap_ready</obj_property>
                <obj_property name="ObjectShortName">ap_ready</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_771/ap_done">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_787/ap_done">
                <obj_property name="ElementShortName">ap_done</obj_property>
                <obj_property name="ObjectShortName">ap_done</obj_property>
             </wvobject>
          </wvobject>
       </wvobject>
-      <wvobject type="group" fp_name="grp_cos_2000_fu_778_group">
-         <obj_property name="label">grp_cos_2000_fu_778</obj_property>
+      <wvobject type="group" fp_name="grp_cos_2000_fu_794_group">
+         <obj_property name="label">grp_cos_2000_fu_794</obj_property>
          <obj_property name="DisplayName">label</obj_property>
-         <wvobject type="group" fp_name="grp_cos_2000_fu_778_Handshake_group">
+         <wvobject type="group" fp_name="grp_cos_2000_fu_794_Handshake_group">
             <obj_property name="label">Block-level handshake</obj_property>
             <obj_property name="DisplayName">label</obj_property>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_778/ap_start">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_794/ap_start">
                <obj_property name="ElementShortName">ap_start</obj_property>
                <obj_property name="ObjectShortName">ap_start</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_778/ap_ready">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_794/ap_ready">
                <obj_property name="ElementShortName">ap_ready</obj_property>
                <obj_property name="ObjectShortName">ap_ready</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_778/ap_done">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_cos_2000_fu_794/ap_done">
                <obj_property name="ElementShortName">ap_done</obj_property>
                <obj_property name="ObjectShortName">ap_done</obj_property>
             </wvobject>
          </wvobject>
       </wvobject>
-      <wvobject type="group" fp_name="grp_ATAN_LUT_signed_fu_785_group">
-         <obj_property name="label">grp_ATAN_LUT_signed_fu_785</obj_property>
+      <wvobject type="group" fp_name="grp_ATAN_LUT_signed_fu_801_group">
+         <obj_property name="label">grp_ATAN_LUT_signed_fu_801</obj_property>
          <obj_property name="DisplayName">label</obj_property>
-         <wvobject type="group" fp_name="grp_ATAN_LUT_signed_fu_785_Handshake_group">
+         <wvobject type="group" fp_name="grp_ATAN_LUT_signed_fu_801_Handshake_group">
             <obj_property name="label">Block-level handshake</obj_property>
             <obj_property name="DisplayName">label</obj_property>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN_LUT_signed_fu_785/ap_start">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN_LUT_signed_fu_801/ap_start">
                <obj_property name="ElementShortName">ap_start</obj_property>
                <obj_property name="ObjectShortName">ap_start</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN_LUT_signed_fu_785/ap_ready">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN_LUT_signed_fu_801/ap_ready">
                <obj_property name="ElementShortName">ap_ready</obj_property>
                <obj_property name="ObjectShortName">ap_ready</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN_LUT_signed_fu_785/ap_done">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_ATAN_LUT_signed_fu_801/ap_done">
                <obj_property name="ElementShortName">ap_done</obj_property>
                <obj_property name="ObjectShortName">ap_done</obj_property>
             </wvobject>
          </wvobject>
       </wvobject>
-      <wvobject type="group" fp_name="grp_sin_2000_fu_796_group">
-         <obj_property name="label">grp_sin_2000_fu_796</obj_property>
+      <wvobject type="group" fp_name="grp_sin_2000_fu_812_group">
+         <obj_property name="label">grp_sin_2000_fu_812</obj_property>
          <obj_property name="DisplayName">label</obj_property>
-         <wvobject type="group" fp_name="grp_sin_2000_fu_796_Handshake_group">
+         <wvobject type="group" fp_name="grp_sin_2000_fu_812_Handshake_group">
             <obj_property name="label">Block-level handshake</obj_property>
             <obj_property name="DisplayName">label</obj_property>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_sin_2000_fu_796/ap_start">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_sin_2000_fu_812/ap_start">
                <obj_property name="ElementShortName">ap_start</obj_property>
                <obj_property name="ObjectShortName">ap_start</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_sin_2000_fu_796/ap_ready">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_sin_2000_fu_812/ap_ready">
                <obj_property name="ElementShortName">ap_ready</obj_property>
                <obj_property name="ObjectShortName">ap_ready</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_sin_2000_fu_796/ap_done">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_sin_2000_fu_812/ap_done">
                <obj_property name="ElementShortName">ap_done</obj_property>
                <obj_property name="ObjectShortName">ap_done</obj_property>
             </wvobject>
          </wvobject>
       </wvobject>
-      <wvobject type="group" fp_name="grp_INV_LUT_fu_803_group">
-         <obj_property name="label">grp_INV_LUT_fu_803</obj_property>
+      <wvobject type="group" fp_name="grp_INV_LUT_fu_819_group">
+         <obj_property name="label">grp_INV_LUT_fu_819</obj_property>
          <obj_property name="DisplayName">label</obj_property>
-         <wvobject type="group" fp_name="grp_INV_LUT_fu_803_Handshake_group">
+         <wvobject type="group" fp_name="grp_INV_LUT_fu_819_Handshake_group">
             <obj_property name="label">Block-level handshake</obj_property>
             <obj_property name="DisplayName">label</obj_property>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_INV_LUT_fu_803/ap_start">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_INV_LUT_fu_819/ap_start">
                <obj_property name="ElementShortName">ap_start</obj_property>
                <obj_property name="ObjectShortName">ap_start</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_INV_LUT_fu_803/ap_ready">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_INV_LUT_fu_819/ap_ready">
                <obj_property name="ElementShortName">ap_ready</obj_property>
                <obj_property name="ObjectShortName">ap_ready</obj_property>
             </wvobject>
-            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_INV_LUT_fu_803/ap_done">
+            <wvobject type="logic" fp_name="/apatb_PLL2026_x64_top/AESL_inst_PLL2026_x64/grp_INV_LUT_fu_819/ap_done">
                <obj_property name="ElementShortName">ap_done</obj_property>
                <obj_property name="ObjectShortName">ap_done</obj_property>
             </wvobject>

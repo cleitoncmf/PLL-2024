@@ -103,6 +103,11 @@ void PLL2026_x64(uint1_t sinc,
 	static data_t in_sqrt_aux_old;
 	static data_t out_sqrt_aux;
 
+	static data_t v2_q_limpo_aux;
+	static data_t v2_d_limpo_aux;
+
+
+
 
 
 
@@ -121,6 +126,9 @@ void PLL2026_x64(uint1_t sinc,
     static data_t delta=data_t(0);
     static data_t delta_old=data_t(0);
 
+    static data_t time=0;
+    static data_t time_old=0;
+
     
        
 
@@ -134,6 +142,13 @@ void PLL2026_x64(uint1_t sinc,
     }
     else{
         aux_sinc = sinc;
+
+        // atualiza��o do tempo
+        time_old = time;
+        if(time<data_t(30000)){
+        	time = time_old + Ts;
+        }
+
 
 
         // Atualização das variáveis: SRF
@@ -207,8 +222,10 @@ void PLL2026_x64(uint1_t sinc,
 
 
 
+		v2_d_limpo_aux = v2_d_limpo + data_t(0.1);
+		v2_q_limpo_aux = v2_q_limpo + data_t(0.1);
 
-		delta_raw_base = ATAN2_LUT(v2_d_limpo, v2_q_limpo);
+		delta_raw_base = ATAN2_LUT(v2_d_limpo_aux, v2_q_limpo_aux);
 
 
 
@@ -230,10 +247,25 @@ void PLL2026_x64(uint1_t sinc,
 		delta = delta_old + Ts*wcd*(delta_raw - delta_old);
 
 		// Filtragem da amplitude da seq negativa
-		Amp_vneg = Amp_vneg_old + Ts*wca*(Amp_vneg_raw - Amp_vneg_old);
+		if(time>data_t(100e-3)){
+			Amp_vneg = Amp_vneg_old + Ts*wca*(Amp_vneg_raw - Amp_vneg_old);
+		}
+		else{
+			Amp_vneg = data_t(0);
+		}
+
 
 		// Cálculo dos sinais de compensação
-		theta1_2x_d = theta1_2x + delta;
+		if(time>data_t(100e-3)){
+			//theta1_2x_d = theta1_2x - data_t(1.0471975512);
+			theta1_2x_d = theta1_2x + delta;
+		}
+		else{
+			theta1_2x_d = theta1_2x;
+		}
+
+
+
 
 
 
@@ -1411,18 +1443,36 @@ data_t ATAN2_LUT(data_t xd, data_t xq){
 		if(xq>data_t(0)){
 			//primeiro quadrante
 
+
+			/*
 			xd_inv = INV_LUT(xd);
 			q_o_d = xq*xd_inv;
 			y = ATAN_LUT(q_o_d);
+			*/
+
+			xq_inv = INV_LUT(xq);
+			d_o_q = xd * xq_inv;
+			y = ATAN_LUT(d_o_q);
 
 		}
 		else{
 			//quarto quadrante
+
+			/*
 			xq_aux = -xq;
 			xq_inv = INV_LUT(xq_aux);
 			d_o_q = xq_inv*xd;
 			y_aux = ATAN_LUT(d_o_q);
 			y = y_aux + arc270;
+			*/
+
+
+			xq_aux = -xq;
+			xd_inv = INV_LUT(xd_aux);
+
+
+
+
 
 		}
 

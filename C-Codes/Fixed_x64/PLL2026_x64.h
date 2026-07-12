@@ -41,7 +41,7 @@ typedef ap_uint<1> uint1_t;
 //#define kp_phi data_t(100)
 #define wcd data_t(1884.95)
 #define wca data_t(7539.82)
-#define w0 data_t(200)
+#define w0 data_t(300)
 #define k_alfa data_t(0.666666666666667)
 #define k_beta data_t(0.577350269189626)
 

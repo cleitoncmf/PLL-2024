@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'ATAN_LUT_signed'
 ================================================================
-* Date:           Wed Jul  8 16:46:21 2026
+* Date:           Fri Jul 10 13:31:11 2026
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)
 * Project:        PLL2026
@@ -37,13 +37,13 @@
         N/A
 
         * Loop: 
-        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
-        |                    |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
-        |      Loop Name     |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
-        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
-        |- VITIS_LOOP_986_1  |        ?|        ?|         2|          2|          1|     ?|       yes|
-        |- VITIS_LOOP_986_1  |        ?|        ?|         2|          2|          1|     ?|       yes|
-        +--------------------+---------+---------+----------+-----------+-----------+------+----------+
+        +---------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |                     |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
+        |      Loop Name      |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
+        +---------------------+---------+---------+----------+-----------+-----------+------+----------+
+        |- VITIS_LOOP_1018_1  |        ?|        ?|         2|          2|          1|     ?|       yes|
+        |- VITIS_LOOP_1018_1  |        ?|        ?|         2|          2|          1|     ?|       yes|
+        +---------------------+---------+---------+----------+-----------+-----------+------+----------+
 
 
 
@@ -98,14 +98,14 @@
     |half_list_fu_358_p2          |         +|   0|  0|   39|          32|          32|
     |ret_V_25_fu_303_p2           |         +|   0|  0|  117|         110|         110|
     |ret_V_fu_427_p2              |         +|   0|  0|  118|         111|         111|
+    |sub_ln1018_2_fu_198_p2       |         -|   0|  0|   39|          32|          32|
+    |sub_ln1018_fu_322_p2         |         -|   0|  0|   39|          32|          32|
     |sub_ln703_fu_445_p2          |         -|   0|  0|   71|           1|          64|
-    |sub_ln986_2_fu_198_p2        |         -|   0|  0|   39|          32|          32|
-    |sub_ln986_fu_322_p2          |         -|   0|  0|   39|          32|          32|
     |x_V_fu_192_p2                |         -|   0|  0|   71|           1|          64|
-    |icmp_ln1494_14_fu_253_p2     |      icmp|   0|  0|   29|          64|          64|
+    |icmp_ln1018_2_fu_214_p2      |      icmp|   0|  0|   17|          31|           1|
+    |icmp_ln1018_fu_338_p2        |      icmp|   0|  0|   17|          31|           1|
+    |icmp_ln1494_15_fu_253_p2     |      icmp|   0|  0|   29|          64|          64|
     |icmp_ln1494_fu_377_p2        |      icmp|   0|  0|   29|          64|          64|
-    |icmp_ln986_2_fu_214_p2       |      icmp|   0|  0|   17|          31|           1|
-    |icmp_ln986_fu_338_p2         |      icmp|   0|  0|   17|          31|           1|
     |intervalo_begin_6_fu_382_p3  |    select|   0|  0|   32|           1|          32|
     |intervalo_begin_fu_258_p3    |    select|   0|  0|   32|           1|          32|
     |intervalo_end_6_fu_389_p3    |    select|   0|  0|   32|           1|          32|
@@ -173,14 +173,14 @@
 |ap_idle              |  out|    1|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
 |ap_ready             |  out|    1|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
 |ap_return            |  out|   64|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
-|grp_fu_2607_p_din0   |  out|   48|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
-|grp_fu_2607_p_din1   |  out|   64|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
-|grp_fu_2607_p_dout0  |   in|  110|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
-|grp_fu_2607_p_ce     |  out|    1|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
-|grp_fu_2611_p_din0   |  out|   48|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
-|grp_fu_2611_p_din1   |  out|   64|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
-|grp_fu_2611_p_dout0  |   in|  111|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
-|grp_fu_2611_p_ce     |  out|    1|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
+|grp_fu_2706_p_din0   |  out|   48|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
+|grp_fu_2706_p_din1   |  out|   64|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
+|grp_fu_2706_p_dout0  |   in|  110|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
+|grp_fu_2706_p_ce     |  out|    1|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
+|grp_fu_2710_p_din0   |  out|   48|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
+|grp_fu_2710_p_din1   |  out|   64|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
+|grp_fu_2710_p_dout0  |   in|  111|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
+|grp_fu_2710_p_ce     |  out|    1|  ap_ctrl_hs|  ATAN_LUT_signed|  return value|
 |x                    |   in|   64|     ap_none|                x|        scalar|
 +---------------------+-----+-----+------------+-----------------+--------------+
 

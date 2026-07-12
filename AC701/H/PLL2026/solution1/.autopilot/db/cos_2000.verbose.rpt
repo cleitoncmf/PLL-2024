@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'cos_2000'
 ================================================================
-* Date:           Wed Jul  8 16:46:18 2026
+* Date:           Fri Jul 10 13:31:09 2026
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)
 * Project:        PLL2026
@@ -112,26 +112,26 @@
     |out_sin_V_11_fu_757_p2    |         -|   0|  0|  56|           1|          49|
     |p_Val2_s_fu_602_p2        |         -|   0|  0|  71|           1|          64|
     |sub_ln703_fu_810_p2       |         -|   0|  0|  57|           1|          50|
-    |sub_ln951_fu_709_p2       |         -|   0|  0|  16|           6|           9|
-    |sub_ln959_fu_729_p2       |         -|   0|  0|  16|           7|           9|
-    |and_ln367_2_fu_253_p2     |       and|   0|  0|   2|           1|           1|
-    |and_ln367_3_fu_403_p2     |       and|   0|  0|   2|           1|           1|
-    |and_ln367_4_fu_496_p2     |       and|   0|  0|   2|           1|           1|
-    |and_ln367_fu_139_p2       |       and|   0|  0|   2|           1|           1|
-    |and_ln370_2_fu_279_p2     |       and|   0|  0|   2|           1|           1|
-    |and_ln370_3_fu_424_p2     |       and|   0|  0|   2|           1|           1|
-    |and_ln370_4_fu_522_p2     |       and|   0|  0|   2|           1|           1|
-    |and_ln370_fu_163_p2       |       and|   0|  0|   2|           1|           1|
-    |and_ln373_2_fu_305_p2     |       and|   0|  0|   2|           1|           1|
-    |and_ln373_3_fu_440_p2     |       and|   0|  0|   2|           1|           1|
-    |and_ln373_4_fu_548_p2     |       and|   0|  0|   2|           1|           1|
-    |and_ln373_fu_189_p2       |       and|   0|  0|   2|           1|           1|
-    |and_ln376_2_fu_337_p2     |       and|   0|  0|   2|           1|           1|
-    |and_ln376_3_fu_574_p2     |       and|   0|  0|   2|           1|           1|
-    |and_ln376_4_fu_580_p2     |       and|   0|  0|   2|           1|           1|
-    |and_ln376_fu_331_p2       |       and|   0|  0|   2|           1|           1|
-    |and_ln949_fu_779_p2       |       and|   0|  0|   2|           1|           1|
-    |and_ln953_fu_797_p2       |       and|   0|  0|   2|           1|           1|
+    |sub_ln983_fu_709_p2       |         -|   0|  0|  16|           6|           9|
+    |sub_ln991_fu_729_p2       |         -|   0|  0|  16|           7|           9|
+    |and_ln399_2_fu_253_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln399_3_fu_403_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln399_4_fu_496_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln399_fu_139_p2       |       and|   0|  0|   2|           1|           1|
+    |and_ln402_2_fu_279_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln402_3_fu_424_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln402_4_fu_522_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln402_fu_163_p2       |       and|   0|  0|   2|           1|           1|
+    |and_ln405_2_fu_305_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln405_3_fu_440_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln405_4_fu_548_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln405_fu_189_p2       |       and|   0|  0|   2|           1|           1|
+    |and_ln408_2_fu_337_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln408_3_fu_574_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln408_4_fu_580_p2     |       and|   0|  0|   2|           1|           1|
+    |and_ln408_fu_331_p2       |       and|   0|  0|   2|           1|           1|
+    |and_ln981_fu_779_p2       |       and|   0|  0|   2|           1|           1|
+    |and_ln985_fu_797_p2       |       and|   0|  0|   2|           1|           1|
     |icmp_ln1494_10_fu_383_p2  |      icmp|   0|  0|  29|          64|          53|
     |icmp_ln1494_11_fu_393_p2  |      icmp|   0|  0|  29|          64|          52|
     |icmp_ln1494_12_fu_414_p2  |      icmp|   0|  0|  29|          64|          51|
@@ -152,15 +152,15 @@
     |icmp_ln1495_9_fu_455_p2   |      icmp|   0|  0|  29|          64|          52|
     |icmp_ln1495_fu_133_p2     |      icmp|   0|  0|  29|          64|          53|
     |icmp_ln851_fu_656_p2      |      icmp|   0|  0|  39|          96|           1|
-    |icmp_ln946_fu_687_p2      |      icmp|   0|  0|  16|          26|           9|
-    |icmp_ln949_fu_693_p2      |      icmp|   0|  0|  16|          26|          10|
-    |icmp_ln953_fu_699_p2      |      icmp|   0|  0|  16|          26|          11|
-    |or_ln367_1_fu_510_p2      |        or|   0|  0|   2|           1|           1|
-    |or_ln367_fu_267_p2        |        or|   0|  0|   2|           1|           1|
-    |or_ln370_1_fu_536_p2      |        or|   0|  0|   2|           1|           1|
-    |or_ln370_fu_293_p2        |        or|   0|  0|   2|           1|           1|
-    |or_ln373_1_fu_562_p2      |        or|   0|  0|   2|           1|           1|
-    |or_ln373_fu_319_p2        |        or|   0|  0|   2|           1|           1|
+    |icmp_ln978_fu_687_p2      |      icmp|   0|  0|  16|          26|           9|
+    |icmp_ln981_fu_693_p2      |      icmp|   0|  0|  16|          26|          10|
+    |icmp_ln985_fu_699_p2      |      icmp|   0|  0|  16|          26|          11|
+    |or_ln399_1_fu_510_p2      |        or|   0|  0|   2|           1|           1|
+    |or_ln399_fu_267_p2        |        or|   0|  0|   2|           1|           1|
+    |or_ln402_1_fu_536_p2      |        or|   0|  0|   2|           1|           1|
+    |or_ln402_fu_293_p2        |        or|   0|  0|   2|           1|           1|
+    |or_ln405_1_fu_562_p2      |        or|   0|  0|   2|           1|           1|
+    |or_ln405_fu_319_p2        |        or|   0|  0|   2|           1|           1|
     |angulo_V_17_fu_239_p3     |    select|   0|  0|  64|           1|          64|
     |angulo_V_18_fu_259_p3     |    select|   0|  0|  64|           1|          64|
     |angulo_V_19_fu_285_p3     |    select|   0|  0|  64|           1|          64|
@@ -176,21 +176,21 @@
     |out_sin_V_13_fu_784_p3    |    select|   0|  0|  50|           1|          50|
     |out_sin_V_14_fu_802_p3    |    select|   0|  0|  50|           1|          50|
     |ret_V_4_fu_675_p3         |    select|   0|  0|  26|           1|          26|
-    |select_ln379_1_fu_475_p3  |    select|   0|  0|  64|           1|          64|
-    |select_ln379_fu_231_p3    |    select|   0|  0|  64|           1|          64|
+    |select_ln411_1_fu_475_p3  |    select|   0|  0|  64|           1|          64|
+    |select_ln411_fu_231_p3    |    select|   0|  0|  64|           1|          64|
     |select_ln850_fu_667_p3    |    select|   0|  0|  26|           1|          26|
     |theta_abs_V_fu_617_p3     |    select|   0|  0|  64|           1|          64|
     |theta_aux_V_2_fu_367_p3   |    select|   0|  0|  64|           1|          64|
     |xor_ln1494_1_fu_490_p2    |       xor|   0|  0|   2|           1|           2|
     |xor_ln1494_fu_247_p2      |       xor|   0|  0|   2|           1|           2|
-    |xor_ln367_1_fu_516_p2     |       xor|   0|  0|   2|           1|           2|
-    |xor_ln367_fu_273_p2       |       xor|   0|  0|   2|           1|           2|
-    |xor_ln370_1_fu_542_p2     |       xor|   0|  0|   2|           1|           2|
-    |xor_ln370_fu_299_p2       |       xor|   0|  0|   2|           1|           2|
-    |xor_ln373_1_fu_568_p2     |       xor|   0|  0|   2|           1|           2|
-    |xor_ln373_fu_325_p2       |       xor|   0|  0|   2|           1|           2|
-    |xor_ln946_fu_774_p2       |       xor|   0|  0|   2|           1|           2|
-    |xor_ln949_fu_792_p2       |       xor|   0|  0|   2|           1|           2|
+    |xor_ln399_1_fu_516_p2     |       xor|   0|  0|   2|           1|           2|
+    |xor_ln399_fu_273_p2       |       xor|   0|  0|   2|           1|           2|
+    |xor_ln402_1_fu_542_p2     |       xor|   0|  0|   2|           1|           2|
+    |xor_ln402_fu_299_p2       |       xor|   0|  0|   2|           1|           2|
+    |xor_ln405_1_fu_568_p2     |       xor|   0|  0|   2|           1|           2|
+    |xor_ln405_fu_325_p2       |       xor|   0|  0|   2|           1|           2|
+    |xor_ln978_fu_774_p2       |       xor|   0|  0|   2|           1|           2|
+    |xor_ln981_fu_792_p2       |       xor|   0|  0|   2|           1|           2|
     +--------------------------+----------+----+---+----+------------+------------+
     |Total                     |          |   0|  0|3169|        2392|        3183|
     +--------------------------+----------+----+---+----+------------+------------+
@@ -212,9 +212,9 @@
     |angulo_V_32_reg_821    |   64|   0|   64|          0|
     |angulo_V_reg_852       |   64|   0|   64|          0|
     |ap_CS_fsm              |   13|   0|   13|          0|
-    |icmp_ln946_reg_897     |    1|   0|    1|          0|
-    |icmp_ln949_reg_903     |    1|   0|    1|          0|
-    |icmp_ln953_reg_909     |    1|   0|    1|          0|
+    |icmp_ln978_reg_897     |    1|   0|    1|          0|
+    |icmp_ln981_reg_903     |    1|   0|    1|          0|
+    |icmp_ln985_reg_909     |    1|   0|    1|          0|
     |out_sin_V_14_reg_934   |   50|   0|   50|          0|
     |p_Result_s_reg_858     |    1|   0|    1|          0|
     |r_V_reg_874            |  121|   0|  121|          0|
@@ -295,50 +295,50 @@ IsGatedGlobalClock: 0
 * FSM state operations: 
 
 State 1 <SV = 0> <Delay = 7.15>
-ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%theta_in_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %theta_in" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:356]   --->   Operation 14 'read' 'theta_in_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 14 [1/1] (0.00ns)   --->   "%theta_in_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %theta_in" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:388]   --->   Operation 14 'read' 'theta_in_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 15 [1/1] (2.34ns)   --->   "%icmp_ln1494 = icmp_sgt  i64 %theta_in_read, i64 5305678314021330"   --->   Operation 15 'icmp' 'icmp_ln1494' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 16 [1/1] (2.99ns)   --->   "%angulo_V_11 = add i64 %theta_in_read, i64 18441438395395530286"   --->   Operation 16 'add' 'angulo_V_11' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 17 [1/1] (2.34ns)   --->   "%icmp_ln1494_5 = icmp_sgt  i64 %theta_in_read, i64 3537118876014220"   --->   Operation 17 'icmp' 'icmp_ln1494_5' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 18 [1/1] (2.34ns)   --->   "%icmp_ln1495 = icmp_slt  i64 %theta_in_read, i64 5305678314021330"   --->   Operation 18 'icmp' 'icmp_ln1495' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 19 [1/1] (0.80ns)   --->   "%and_ln367 = and i1 %icmp_ln1494_5, i1 %icmp_ln1495" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:367]   --->   Operation 19 'and' 'and_ln367' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 19 [1/1] (0.80ns)   --->   "%and_ln399 = and i1 %icmp_ln1494_5, i1 %icmp_ln1495" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:399]   --->   Operation 19 'and' 'and_ln399' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 20 [1/1] (2.99ns)   --->   "%angulo_V_12 = add i64 %theta_in_read, i64 18443206954833537396"   --->   Operation 20 'add' 'angulo_V_12' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 21 [1/1] (2.34ns)   --->   "%icmp_ln1494_6 = icmp_sgt  i64 %theta_in_read, i64 1768559438007110"   --->   Operation 21 'icmp' 'icmp_ln1494_6' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 22 [1/1] (2.34ns)   --->   "%icmp_ln1495_4 = icmp_slt  i64 %theta_in_read, i64 3537118876014220"   --->   Operation 22 'icmp' 'icmp_ln1495_4' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 23 [1/1] (0.80ns)   --->   "%and_ln370 = and i1 %icmp_ln1494_6, i1 %icmp_ln1495_4" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:370]   --->   Operation 23 'and' 'and_ln370' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 23 [1/1] (0.80ns)   --->   "%and_ln402 = and i1 %icmp_ln1494_6, i1 %icmp_ln1495_4" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:402]   --->   Operation 23 'and' 'and_ln402' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 24 [1/1] (2.99ns)   --->   "%angulo_V_13 = add i64 %theta_in_read, i64 18444975514271544506"   --->   Operation 24 'add' 'angulo_V_13' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 25 [1/1] (2.34ns)   --->   "%icmp_ln1494_7 = icmp_sgt  i64 %theta_in_read, i64 18444975514271544506"   --->   Operation 25 'icmp' 'icmp_ln1494_7' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 26 [1/1] (0.00ns)   --->   "%tmp_4 = bitselect i1 @_ssdm_op_BitSelect.i1.i64.i32, i64 %theta_in_read, i32 63"   --->   Operation 26 'bitselect' 'tmp_4' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 27 [1/1] (0.80ns)   --->   "%and_ln373 = and i1 %icmp_ln1494_7, i1 %tmp_4" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:373]   --->   Operation 27 'and' 'and_ln373' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 27 [1/1] (0.80ns)   --->   "%and_ln405 = and i1 %icmp_ln1494_7, i1 %tmp_4" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:405]   --->   Operation 27 'and' 'and_ln405' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 28 [1/1] (2.99ns)   --->   "%angulo_V_14 = add i64 %theta_in_read, i64 1768559438007110"   --->   Operation 28 'add' 'angulo_V_14' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 29 [1/1] (2.34ns)   --->   "%icmp_ln1494_8 = icmp_sgt  i64 %theta_in_read, i64 18443206954833537396"   --->   Operation 29 'icmp' 'icmp_ln1494_8' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 30 [1/1] (2.34ns)   --->   "%icmp_ln1495_5 = icmp_slt  i64 %theta_in_read, i64 18444975514271544506"   --->   Operation 30 'icmp' 'icmp_ln1495_5' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 31 [1/1] (2.99ns)   --->   "%angulo_V_15 = add i64 %theta_in_read, i64 3537118876014220"   --->   Operation 31 'add' 'angulo_V_15' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 32 [1/1] (2.34ns)   --->   "%icmp_ln1495_6 = icmp_slt  i64 %theta_in_read, i64 18443206954833537396"   --->   Operation 32 'icmp' 'icmp_ln1495_6' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_1 : Operation 33 [1/1] (2.99ns)   --->   "%angulo_V_16 = add i64 %theta_in_read, i64 5305678314021330"   --->   Operation 33 'add' 'angulo_V_16' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 34 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_17)   --->   "%select_ln379 = select i1 %icmp_ln1495_6, i64 %angulo_V_16, i64 %theta_in_read" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:379]   --->   Operation 34 'select' 'select_ln379' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_1 : Operation 35 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_17 = select i1 %icmp_ln1494, i64 %angulo_V_11, i64 %select_ln379"   --->   Operation 35 'select' 'angulo_V_17' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 34 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_17)   --->   "%select_ln411 = select i1 %icmp_ln1495_6, i64 %angulo_V_16, i64 %theta_in_read" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:411]   --->   Operation 34 'select' 'select_ln411' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 35 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_17 = select i1 %icmp_ln1494, i64 %angulo_V_11, i64 %select_ln411"   --->   Operation 35 'select' 'angulo_V_17' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_1 : Operation 36 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_18)   --->   "%xor_ln1494 = xor i1 %icmp_ln1494, i1 1"   --->   Operation 36 'xor' 'xor_ln1494' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 37 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_18)   --->   "%and_ln367_2 = and i1 %and_ln367, i1 %xor_ln1494" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:367]   --->   Operation 37 'and' 'and_ln367_2' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 38 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_18 = select i1 %and_ln367_2, i64 %angulo_V_12, i64 %angulo_V_17" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:367]   --->   Operation 38 'select' 'angulo_V_18' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_1 : Operation 39 [1/1] (0.80ns)   --->   "%or_ln367 = or i1 %icmp_ln1494, i1 %and_ln367" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:367]   --->   Operation 39 'or' 'or_ln367' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 40 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_19)   --->   "%xor_ln367 = xor i1 %or_ln367, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:367]   --->   Operation 40 'xor' 'xor_ln367' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 41 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_19)   --->   "%and_ln370_2 = and i1 %and_ln370, i1 %xor_ln367" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:370]   --->   Operation 41 'and' 'and_ln370_2' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 42 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_19 = select i1 %and_ln370_2, i64 %angulo_V_13, i64 %angulo_V_18" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:370]   --->   Operation 42 'select' 'angulo_V_19' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_1 : Operation 43 [1/1] (0.80ns)   --->   "%or_ln370 = or i1 %or_ln367, i1 %and_ln370" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:370]   --->   Operation 43 'or' 'or_ln370' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 44 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_20)   --->   "%xor_ln370 = xor i1 %or_ln370, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:370]   --->   Operation 44 'xor' 'xor_ln370' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 45 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_20)   --->   "%and_ln373_2 = and i1 %and_ln373, i1 %xor_ln370" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:373]   --->   Operation 45 'and' 'and_ln373_2' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 46 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_20 = select i1 %and_ln373_2, i64 %angulo_V_14, i64 %angulo_V_19" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:373]   --->   Operation 46 'select' 'angulo_V_20' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_1 : Operation 47 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_32)   --->   "%or_ln373 = or i1 %or_ln370, i1 %and_ln373" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:373]   --->   Operation 47 'or' 'or_ln373' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 48 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_32)   --->   "%xor_ln373 = xor i1 %or_ln373, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:373]   --->   Operation 48 'xor' 'xor_ln373' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 49 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_32)   --->   "%and_ln376 = and i1 %icmp_ln1495_5, i1 %xor_ln373" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:376]   --->   Operation 49 'and' 'and_ln376' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 50 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_32)   --->   "%and_ln376_2 = and i1 %and_ln376, i1 %icmp_ln1494_8" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:376]   --->   Operation 50 'and' 'and_ln376_2' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 51 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_32 = select i1 %and_ln376_2, i64 %angulo_V_15, i64 %angulo_V_20" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:376]   --->   Operation 51 'select' 'angulo_V_32' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 37 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_18)   --->   "%and_ln399_2 = and i1 %and_ln399, i1 %xor_ln1494" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:399]   --->   Operation 37 'and' 'and_ln399_2' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 38 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_18 = select i1 %and_ln399_2, i64 %angulo_V_12, i64 %angulo_V_17" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:399]   --->   Operation 38 'select' 'angulo_V_18' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 39 [1/1] (0.80ns)   --->   "%or_ln399 = or i1 %icmp_ln1494, i1 %and_ln399" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:399]   --->   Operation 39 'or' 'or_ln399' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 40 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_19)   --->   "%xor_ln399 = xor i1 %or_ln399, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:399]   --->   Operation 40 'xor' 'xor_ln399' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 41 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_19)   --->   "%and_ln402_2 = and i1 %and_ln402, i1 %xor_ln399" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:402]   --->   Operation 41 'and' 'and_ln402_2' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 42 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_19 = select i1 %and_ln402_2, i64 %angulo_V_13, i64 %angulo_V_18" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:402]   --->   Operation 42 'select' 'angulo_V_19' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 43 [1/1] (0.80ns)   --->   "%or_ln402 = or i1 %or_ln399, i1 %and_ln402" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:402]   --->   Operation 43 'or' 'or_ln402' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 44 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_20)   --->   "%xor_ln402 = xor i1 %or_ln402, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:402]   --->   Operation 44 'xor' 'xor_ln402' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 45 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_20)   --->   "%and_ln405_2 = and i1 %and_ln405, i1 %xor_ln402" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:405]   --->   Operation 45 'and' 'and_ln405_2' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 46 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_20 = select i1 %and_ln405_2, i64 %angulo_V_14, i64 %angulo_V_19" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:405]   --->   Operation 46 'select' 'angulo_V_20' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 47 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_32)   --->   "%or_ln405 = or i1 %or_ln402, i1 %and_ln405" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:405]   --->   Operation 47 'or' 'or_ln405' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 48 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_32)   --->   "%xor_ln405 = xor i1 %or_ln405, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:405]   --->   Operation 48 'xor' 'xor_ln405' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 49 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_32)   --->   "%and_ln408 = and i1 %icmp_ln1495_5, i1 %xor_ln405" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:408]   --->   Operation 49 'and' 'and_ln408' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 50 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_32)   --->   "%and_ln408_2 = and i1 %and_ln408, i1 %icmp_ln1494_8" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:408]   --->   Operation 50 'and' 'and_ln408_2' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 51 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_32 = select i1 %and_ln408_2, i64 %angulo_V_15, i64 %angulo_V_20" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:408]   --->   Operation 51 'select' 'angulo_V_32' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 
 State 2 <SV = 1> <Delay = 6.17>
 ST_2 : Operation 52 [1/1] (2.99ns)   --->   "%theta_aux_V = add i64 %angulo_V_32, i64 442139859501778"   --->   Operation 52 'add' 'theta_aux_V' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 53 [1/1] (2.34ns)   --->   "%icmp_ln1494_9 = icmp_sgt  i64 %theta_aux_V, i64 1768559438007110"   --->   Operation 53 'icmp' 'icmp_ln1494_9' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_2 : Operation 54 [1/1] (2.99ns)   --->   "%add_ln703 = add i64 %angulo_V_32, i64 18445417654131046284"   --->   Operation 54 'add' 'add_ln703' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 55 [1/1] (0.83ns)   --->   "%theta_aux_V_2 = select i1 %icmp_ln1494_9, i64 %add_ln703, i64 %theta_aux_V" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:413]   --->   Operation 55 'select' 'theta_aux_V_2' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_2 : Operation 55 [1/1] (0.83ns)   --->   "%theta_aux_V_2 = select i1 %icmp_ln1494_9, i64 %add_ln703, i64 %theta_aux_V" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:445]   --->   Operation 55 'select' 'theta_aux_V_2' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_2 : Operation 56 [1/1] (0.00ns)   --->   "%tmp_5 = bitselect i1 @_ssdm_op_BitSelect.i1.i64.i32, i64 %theta_aux_V_2, i32 63"   --->   Operation 56 'bitselect' 'tmp_5' <Predicate = true> <Delay = 0.00>
 
 State 3 <SV = 2> <Delay = 7.15>
@@ -346,38 +346,38 @@ ST_3 : Operation 57 [1/1] (2.34ns)   --->   "%icmp_ln1494_10 = icmp_sgt  i64 %th
 ST_3 : Operation 58 [1/1] (2.99ns)   --->   "%angulo_V_21 = add i64 %theta_aux_V_2, i64 18441438395395530286"   --->   Operation 58 'add' 'angulo_V_21' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 59 [1/1] (2.34ns)   --->   "%icmp_ln1494_11 = icmp_sgt  i64 %theta_aux_V_2, i64 3537118876014220"   --->   Operation 59 'icmp' 'icmp_ln1494_11' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 60 [1/1] (2.34ns)   --->   "%icmp_ln1495_7 = icmp_slt  i64 %theta_aux_V_2, i64 5305678314021330"   --->   Operation 60 'icmp' 'icmp_ln1495_7' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 61 [1/1] (0.80ns)   --->   "%and_ln367_3 = and i1 %icmp_ln1494_11, i1 %icmp_ln1495_7" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:367]   --->   Operation 61 'and' 'and_ln367_3' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 61 [1/1] (0.80ns)   --->   "%and_ln399_3 = and i1 %icmp_ln1494_11, i1 %icmp_ln1495_7" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:399]   --->   Operation 61 'and' 'and_ln399_3' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 62 [1/1] (2.99ns)   --->   "%angulo_V_22 = add i64 %theta_aux_V_2, i64 18443206954833537396"   --->   Operation 62 'add' 'angulo_V_22' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 63 [1/1] (2.34ns)   --->   "%icmp_ln1494_12 = icmp_sgt  i64 %theta_aux_V_2, i64 1768559438007110"   --->   Operation 63 'icmp' 'icmp_ln1494_12' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 64 [1/1] (2.34ns)   --->   "%icmp_ln1495_8 = icmp_slt  i64 %theta_aux_V_2, i64 3537118876014220"   --->   Operation 64 'icmp' 'icmp_ln1495_8' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 65 [1/1] (0.80ns)   --->   "%and_ln370_3 = and i1 %icmp_ln1494_12, i1 %icmp_ln1495_8" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:370]   --->   Operation 65 'and' 'and_ln370_3' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 65 [1/1] (0.80ns)   --->   "%and_ln402_3 = and i1 %icmp_ln1494_12, i1 %icmp_ln1495_8" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:402]   --->   Operation 65 'and' 'and_ln402_3' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 66 [1/1] (2.99ns)   --->   "%angulo_V_23 = add i64 %theta_aux_V_2, i64 18444975514271544506"   --->   Operation 66 'add' 'angulo_V_23' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 67 [1/1] (2.34ns)   --->   "%icmp_ln1494_13 = icmp_sgt  i64 %theta_aux_V_2, i64 18444975514271544506"   --->   Operation 67 'icmp' 'icmp_ln1494_13' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 68 [1/1] (0.80ns)   --->   "%and_ln373_3 = and i1 %icmp_ln1494_13, i1 %tmp_5" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:373]   --->   Operation 68 'and' 'and_ln373_3' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 68 [1/1] (0.80ns)   --->   "%and_ln405_3 = and i1 %icmp_ln1494_13, i1 %tmp_5" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:405]   --->   Operation 68 'and' 'and_ln405_3' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 69 [1/1] (2.99ns)   --->   "%angulo_V_24 = add i64 %theta_aux_V_2, i64 1768559438007110"   --->   Operation 69 'add' 'angulo_V_24' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 70 [1/1] (2.34ns)   --->   "%icmp_ln1494_14 = icmp_sgt  i64 %theta_aux_V_2, i64 18443206954833537396"   --->   Operation 70 'icmp' 'icmp_ln1494_14' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 71 [1/1] (2.34ns)   --->   "%icmp_ln1495_9 = icmp_slt  i64 %theta_aux_V_2, i64 18444975514271544506"   --->   Operation 71 'icmp' 'icmp_ln1495_9' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 72 [1/1] (2.99ns)   --->   "%angulo_V_25 = add i64 %theta_aux_V_2, i64 3537118876014220"   --->   Operation 72 'add' 'angulo_V_25' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 73 [1/1] (2.34ns)   --->   "%icmp_ln1495_10 = icmp_slt  i64 %theta_aux_V_2, i64 18443206954833537396"   --->   Operation 73 'icmp' 'icmp_ln1495_10' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 ST_3 : Operation 74 [1/1] (2.99ns)   --->   "%angulo_V_26 = add i64 %theta_aux_V_2, i64 5305678314021330"   --->   Operation 74 'add' 'angulo_V_26' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 75 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_27)   --->   "%select_ln379_1 = select i1 %icmp_ln1495_10, i64 %angulo_V_26, i64 %theta_aux_V_2" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:379]   --->   Operation 75 'select' 'select_ln379_1' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_3 : Operation 76 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_27 = select i1 %icmp_ln1494_10, i64 %angulo_V_21, i64 %select_ln379_1"   --->   Operation 76 'select' 'angulo_V_27' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 75 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_27)   --->   "%select_ln411_1 = select i1 %icmp_ln1495_10, i64 %angulo_V_26, i64 %theta_aux_V_2" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:411]   --->   Operation 75 'select' 'select_ln411_1' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 76 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_27 = select i1 %icmp_ln1494_10, i64 %angulo_V_21, i64 %select_ln411_1"   --->   Operation 76 'select' 'angulo_V_27' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_3 : Operation 77 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_28)   --->   "%xor_ln1494_1 = xor i1 %icmp_ln1494_10, i1 1"   --->   Operation 77 'xor' 'xor_ln1494_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 78 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_28)   --->   "%and_ln367_4 = and i1 %and_ln367_3, i1 %xor_ln1494_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:367]   --->   Operation 78 'and' 'and_ln367_4' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 79 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_28 = select i1 %and_ln367_4, i64 %angulo_V_22, i64 %angulo_V_27" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:367]   --->   Operation 79 'select' 'angulo_V_28' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_3 : Operation 80 [1/1] (0.80ns)   --->   "%or_ln367_1 = or i1 %icmp_ln1494_10, i1 %and_ln367_3" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:367]   --->   Operation 80 'or' 'or_ln367_1' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 81 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_29)   --->   "%xor_ln367_1 = xor i1 %or_ln367_1, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:367]   --->   Operation 81 'xor' 'xor_ln367_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 82 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_29)   --->   "%and_ln370_4 = and i1 %and_ln370_3, i1 %xor_ln367_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:370]   --->   Operation 82 'and' 'and_ln370_4' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 83 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_29 = select i1 %and_ln370_4, i64 %angulo_V_23, i64 %angulo_V_28" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:370]   --->   Operation 83 'select' 'angulo_V_29' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_3 : Operation 84 [1/1] (0.80ns)   --->   "%or_ln370_1 = or i1 %or_ln367_1, i1 %and_ln370_3" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:370]   --->   Operation 84 'or' 'or_ln370_1' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 85 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_30)   --->   "%xor_ln370_1 = xor i1 %or_ln370_1, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:370]   --->   Operation 85 'xor' 'xor_ln370_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 86 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_30)   --->   "%and_ln373_4 = and i1 %and_ln373_3, i1 %xor_ln370_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:373]   --->   Operation 86 'and' 'and_ln373_4' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 87 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_30 = select i1 %and_ln373_4, i64 %angulo_V_24, i64 %angulo_V_29" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:373]   --->   Operation 87 'select' 'angulo_V_30' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_3 : Operation 88 [1/1] (0.00ns) (grouped into LUT with out node angulo_V)   --->   "%or_ln373_1 = or i1 %or_ln370_1, i1 %and_ln373_3" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:373]   --->   Operation 88 'or' 'or_ln373_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 89 [1/1] (0.00ns) (grouped into LUT with out node angulo_V)   --->   "%xor_ln373_1 = xor i1 %or_ln373_1, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:373]   --->   Operation 89 'xor' 'xor_ln373_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 90 [1/1] (0.00ns) (grouped into LUT with out node angulo_V)   --->   "%and_ln376_3 = and i1 %icmp_ln1495_9, i1 %xor_ln373_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:376]   --->   Operation 90 'and' 'and_ln376_3' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 91 [1/1] (0.00ns) (grouped into LUT with out node angulo_V)   --->   "%and_ln376_4 = and i1 %and_ln376_3, i1 %icmp_ln1494_14" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:376]   --->   Operation 91 'and' 'and_ln376_4' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 92 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V = select i1 %and_ln376_4, i64 %angulo_V_25, i64 %angulo_V_30" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:376]   --->   Operation 92 'select' 'angulo_V' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 78 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_28)   --->   "%and_ln399_4 = and i1 %and_ln399_3, i1 %xor_ln1494_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:399]   --->   Operation 78 'and' 'and_ln399_4' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 79 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_28 = select i1 %and_ln399_4, i64 %angulo_V_22, i64 %angulo_V_27" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:399]   --->   Operation 79 'select' 'angulo_V_28' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 80 [1/1] (0.80ns)   --->   "%or_ln399_1 = or i1 %icmp_ln1494_10, i1 %and_ln399_3" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:399]   --->   Operation 80 'or' 'or_ln399_1' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 81 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_29)   --->   "%xor_ln399_1 = xor i1 %or_ln399_1, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:399]   --->   Operation 81 'xor' 'xor_ln399_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 82 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_29)   --->   "%and_ln402_4 = and i1 %and_ln402_3, i1 %xor_ln399_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:402]   --->   Operation 82 'and' 'and_ln402_4' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 83 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_29 = select i1 %and_ln402_4, i64 %angulo_V_23, i64 %angulo_V_28" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:402]   --->   Operation 83 'select' 'angulo_V_29' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 84 [1/1] (0.80ns)   --->   "%or_ln402_1 = or i1 %or_ln399_1, i1 %and_ln402_3" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:402]   --->   Operation 84 'or' 'or_ln402_1' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 85 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_30)   --->   "%xor_ln402_1 = xor i1 %or_ln402_1, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:402]   --->   Operation 85 'xor' 'xor_ln402_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 86 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_30)   --->   "%and_ln405_4 = and i1 %and_ln405_3, i1 %xor_ln402_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:405]   --->   Operation 86 'and' 'and_ln405_4' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 87 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_30 = select i1 %and_ln405_4, i64 %angulo_V_24, i64 %angulo_V_29" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:405]   --->   Operation 87 'select' 'angulo_V_30' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 88 [1/1] (0.00ns) (grouped into LUT with out node angulo_V)   --->   "%or_ln405_1 = or i1 %or_ln402_1, i1 %and_ln405_3" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:405]   --->   Operation 88 'or' 'or_ln405_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 89 [1/1] (0.00ns) (grouped into LUT with out node angulo_V)   --->   "%xor_ln405_1 = xor i1 %or_ln405_1, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:405]   --->   Operation 89 'xor' 'xor_ln405_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 90 [1/1] (0.00ns) (grouped into LUT with out node angulo_V)   --->   "%and_ln408_3 = and i1 %icmp_ln1495_9, i1 %xor_ln405_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:408]   --->   Operation 90 'and' 'and_ln408_3' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 91 [1/1] (0.00ns) (grouped into LUT with out node angulo_V)   --->   "%and_ln408_4 = and i1 %and_ln408_3, i1 %icmp_ln1494_14" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:408]   --->   Operation 91 'and' 'and_ln408_4' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 92 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V = select i1 %and_ln408_4, i64 %angulo_V_25, i64 %angulo_V_30" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:408]   --->   Operation 92 'select' 'angulo_V' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_3 : Operation 93 [1/1] (0.00ns)   --->   "%p_Result_s = bitselect i1 @_ssdm_op_BitSelect.i1.i64.i32, i64 %angulo_V, i32 63"   --->   Operation 93 'bitselect' 'p_Result_s' <Predicate = true> <Delay = 0.00>
 
 State 4 <SV = 3> <Delay = 3.82>
@@ -411,50 +411,50 @@ ST_10 : Operation 108 [1/1] (2.03ns)   --->   "%add_ln691 = add i26 %sext_ln831,
 ST_10 : Operation 109 [1/1] (0.00ns) (grouped into LUT with out node ret_V_4)   --->   "%select_ln850 = select i1 %icmp_ln851, i26 %add_ln691, i26 %sext_ln831"   --->   Operation 109 'select' 'select_ln850' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_10 : Operation 110 [1/1] (0.93ns) (out node of the LUT)   --->   "%ret_V_4 = select i1 %p_Result_3, i26 %select_ln850, i26 %sext_ln831"   --->   Operation 110 'select' 'ret_V_4' <Predicate = true> <Delay = 0.93> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 ST_10 : Operation 111 [1/1] (0.00ns)   --->   "%trunc_ln831 = trunc i26 %ret_V_4"   --->   Operation 111 'trunc' 'trunc_ln831' <Predicate = true> <Delay = 0.00>
-ST_10 : Operation 112 [1/1] (2.06ns)   --->   "%icmp_ln946 = icmp_slt  i26 %ret_V_4, i26 500" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:946->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 112 'icmp' 'icmp_ln946' <Predicate = true> <Delay = 2.06> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_10 : Operation 113 [1/1] (2.06ns)   --->   "%icmp_ln949 = icmp_slt  i26 %ret_V_4, i26 1000" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:949->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 113 'icmp' 'icmp_ln949' <Predicate = true> <Delay = 2.06> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_10 : Operation 114 [1/1] (2.06ns)   --->   "%icmp_ln953 = icmp_slt  i26 %ret_V_4, i26 1500" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:953->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 114 'icmp' 'icmp_ln953' <Predicate = true> <Delay = 2.06> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 112 [1/1] (2.06ns)   --->   "%icmp_ln978 = icmp_slt  i26 %ret_V_4, i26 500" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:978->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 112 'icmp' 'icmp_ln978' <Predicate = true> <Delay = 2.06> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 113 [1/1] (2.06ns)   --->   "%icmp_ln981 = icmp_slt  i26 %ret_V_4, i26 1000" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:981->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 113 'icmp' 'icmp_ln981' <Predicate = true> <Delay = 2.06> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_10 : Operation 114 [1/1] (2.06ns)   --->   "%icmp_ln985 = icmp_slt  i26 %ret_V_4, i26 1500" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:985->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 114 'icmp' 'icmp_ln985' <Predicate = true> <Delay = 2.06> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
 
 State 11 <SV = 10> <Delay = 4.50>
-ST_11 : Operation 115 [1/1] (0.00ns)   --->   "%zext_ln947 = zext i9 %trunc_ln831" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:947->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 115 'zext' 'zext_ln947' <Predicate = (icmp_ln946)> <Delay = 0.00>
-ST_11 : Operation 116 [1/1] (0.00ns)   --->   "%table_V_addr = getelementptr i49 %table_V, i64 0, i64 %zext_ln947" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:947->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 116 'getelementptr' 'table_V_addr' <Predicate = (icmp_ln946)> <Delay = 0.00>
-ST_11 : Operation 117 [2/2] (2.77ns)   --->   "%out_sin_V = load i9 %table_V_addr" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:947->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 117 'load' 'out_sin_V' <Predicate = (icmp_ln946)> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
-ST_11 : Operation 118 [1/1] (1.73ns)   --->   "%sub_ln951 = sub i9 487, i9 %trunc_ln831" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:951->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 118 'sub' 'sub_ln951' <Predicate = true> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_11 : Operation 119 [1/1] (0.00ns)   --->   "%zext_ln951 = zext i9 %sub_ln951" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:951->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 119 'zext' 'zext_ln951' <Predicate = true> <Delay = 0.00>
-ST_11 : Operation 120 [1/1] (0.00ns)   --->   "%table_V_addr_4 = getelementptr i49 %table_V, i64 0, i64 %zext_ln951" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:951->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 120 'getelementptr' 'table_V_addr_4' <Predicate = true> <Delay = 0.00>
-ST_11 : Operation 121 [2/2] (2.77ns)   --->   "%out_sin_V_9 = load i9 %table_V_addr_4" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:951->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 121 'load' 'out_sin_V_9' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
-ST_11 : Operation 122 [1/1] (1.73ns)   --->   "%n_aux = add i9 %trunc_ln831, i9 24" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:954->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 122 'add' 'n_aux' <Predicate = true> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_11 : Operation 123 [1/1] (0.00ns)   --->   "%zext_ln955 = zext i9 %n_aux" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:955->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 123 'zext' 'zext_ln955' <Predicate = true> <Delay = 0.00>
-ST_11 : Operation 124 [1/1] (0.00ns)   --->   "%table_V_addr_5 = getelementptr i49 %table_V, i64 0, i64 %zext_ln955"   --->   Operation 124 'getelementptr' 'table_V_addr_5' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 115 [1/1] (0.00ns)   --->   "%zext_ln979 = zext i9 %trunc_ln831" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:979->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 115 'zext' 'zext_ln979' <Predicate = (icmp_ln978)> <Delay = 0.00>
+ST_11 : Operation 116 [1/1] (0.00ns)   --->   "%table_V_addr = getelementptr i49 %table_V, i64 0, i64 %zext_ln979" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:979->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 116 'getelementptr' 'table_V_addr' <Predicate = (icmp_ln978)> <Delay = 0.00>
+ST_11 : Operation 117 [2/2] (2.77ns)   --->   "%out_sin_V = load i9 %table_V_addr" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:979->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 117 'load' 'out_sin_V' <Predicate = (icmp_ln978)> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
+ST_11 : Operation 118 [1/1] (1.73ns)   --->   "%sub_ln983 = sub i9 487, i9 %trunc_ln831" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:983->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 118 'sub' 'sub_ln983' <Predicate = true> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_11 : Operation 119 [1/1] (0.00ns)   --->   "%zext_ln983 = zext i9 %sub_ln983" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:983->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 119 'zext' 'zext_ln983' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 120 [1/1] (0.00ns)   --->   "%table_V_addr_4 = getelementptr i49 %table_V, i64 0, i64 %zext_ln983" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:983->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 120 'getelementptr' 'table_V_addr_4' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 121 [2/2] (2.77ns)   --->   "%out_sin_V_9 = load i9 %table_V_addr_4" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:983->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 121 'load' 'out_sin_V_9' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
+ST_11 : Operation 122 [1/1] (1.73ns)   --->   "%n_aux = add i9 %trunc_ln831, i9 24" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:986->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 122 'add' 'n_aux' <Predicate = true> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_11 : Operation 123 [1/1] (0.00ns)   --->   "%zext_ln987 = zext i9 %n_aux" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:987->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 123 'zext' 'zext_ln987' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 124 [1/1] (0.00ns)   --->   "%table_V_addr_5 = getelementptr i49 %table_V, i64 0, i64 %zext_ln987"   --->   Operation 124 'getelementptr' 'table_V_addr_5' <Predicate = true> <Delay = 0.00>
 ST_11 : Operation 125 [2/2] (2.77ns)   --->   "%table_V_load = load i9 %table_V_addr_5"   --->   Operation 125 'load' 'table_V_load' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
-ST_11 : Operation 126 [1/1] (1.73ns)   --->   "%sub_ln959 = sub i9 463, i9 %trunc_ln831" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:959->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 126 'sub' 'sub_ln959' <Predicate = (!icmp_ln946)> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_11 : Operation 127 [1/1] (0.00ns)   --->   "%zext_ln959 = zext i9 %sub_ln959" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:959->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 127 'zext' 'zext_ln959' <Predicate = (!icmp_ln946)> <Delay = 0.00>
-ST_11 : Operation 128 [1/1] (0.00ns)   --->   "%table_V_addr_6 = getelementptr i49 %table_V, i64 0, i64 %zext_ln959"   --->   Operation 128 'getelementptr' 'table_V_addr_6' <Predicate = (!icmp_ln946)> <Delay = 0.00>
-ST_11 : Operation 129 [2/2] (2.77ns)   --->   "%table_V_load_4 = load i9 %table_V_addr_6"   --->   Operation 129 'load' 'table_V_load_4' <Predicate = (!icmp_ln946)> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
+ST_11 : Operation 126 [1/1] (1.73ns)   --->   "%sub_ln991 = sub i9 463, i9 %trunc_ln831" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:991->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 126 'sub' 'sub_ln991' <Predicate = (!icmp_ln978)> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_11 : Operation 127 [1/1] (0.00ns)   --->   "%zext_ln991 = zext i9 %sub_ln991" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:991->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 127 'zext' 'zext_ln991' <Predicate = (!icmp_ln978)> <Delay = 0.00>
+ST_11 : Operation 128 [1/1] (0.00ns)   --->   "%table_V_addr_6 = getelementptr i49 %table_V, i64 0, i64 %zext_ln991"   --->   Operation 128 'getelementptr' 'table_V_addr_6' <Predicate = (!icmp_ln978)> <Delay = 0.00>
+ST_11 : Operation 129 [2/2] (2.77ns)   --->   "%table_V_load_4 = load i9 %table_V_addr_6"   --->   Operation 129 'load' 'table_V_load_4' <Predicate = (!icmp_ln978)> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
 
 State 12 <SV = 11> <Delay = 7.00>
-ST_12 : Operation 130 [1/2] (2.77ns)   --->   "%out_sin_V = load i9 %table_V_addr" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:947->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 130 'load' 'out_sin_V' <Predicate = (icmp_ln946)> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
-ST_12 : Operation 131 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_13)   --->   "%zext_ln937 = zext i49 %out_sin_V" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:937->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 131 'zext' 'zext_ln937' <Predicate = (icmp_ln946)> <Delay = 0.00>
-ST_12 : Operation 132 [1/2] (2.77ns)   --->   "%out_sin_V_9 = load i9 %table_V_addr_4" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:951->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 132 'load' 'out_sin_V_9' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
-ST_12 : Operation 133 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_13)   --->   "%zext_ln937_2 = zext i49 %out_sin_V_9" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:937->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 133 'zext' 'zext_ln937_2' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 130 [1/2] (2.77ns)   --->   "%out_sin_V = load i9 %table_V_addr" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:979->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 130 'load' 'out_sin_V' <Predicate = (icmp_ln978)> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
+ST_12 : Operation 131 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_13)   --->   "%zext_ln969 = zext i49 %out_sin_V" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:969->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 131 'zext' 'zext_ln969' <Predicate = (icmp_ln978)> <Delay = 0.00>
+ST_12 : Operation 132 [1/2] (2.77ns)   --->   "%out_sin_V_9 = load i9 %table_V_addr_4" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:983->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 132 'load' 'out_sin_V_9' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
+ST_12 : Operation 133 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_13)   --->   "%zext_ln969_2 = zext i49 %out_sin_V_9" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:969->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 133 'zext' 'zext_ln969_2' <Predicate = true> <Delay = 0.00>
 ST_12 : Operation 134 [1/2] (2.77ns)   --->   "%table_V_load = load i9 %table_V_addr_5"   --->   Operation 134 'load' 'table_V_load' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
 ST_12 : Operation 135 [1/1] (2.63ns)   --->   "%out_sin_V_10 = sub i49 0, i49 %table_V_load"   --->   Operation 135 'sub' 'out_sin_V_10' <Predicate = true> <Delay = 2.63> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_12 : Operation 136 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_14)   --->   "%sext_ln937 = sext i49 %out_sin_V_10" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:937->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 136 'sext' 'sext_ln937' <Predicate = true> <Delay = 0.00>
-ST_12 : Operation 137 [1/2] (2.77ns)   --->   "%table_V_load_4 = load i9 %table_V_addr_6"   --->   Operation 137 'load' 'table_V_load_4' <Predicate = (!icmp_ln946)> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
-ST_12 : Operation 138 [1/1] (2.63ns)   --->   "%out_sin_V_11 = sub i49 0, i49 %table_V_load_4"   --->   Operation 138 'sub' 'out_sin_V_11' <Predicate = (!icmp_ln946)> <Delay = 2.63> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_12 : Operation 139 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_13)   --->   "%sext_ln937_2 = sext i49 %out_sin_V_11" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:937->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 139 'sext' 'sext_ln937_2' <Predicate = (!icmp_ln946)> <Delay = 0.00>
-ST_12 : Operation 140 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_13)   --->   "%out_sin_V_12 = select i1 %icmp_ln946, i50 %zext_ln937, i50 %sext_ln937_2" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:946->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 140 'select' 'out_sin_V_12' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_12 : Operation 141 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_13)   --->   "%xor_ln946 = xor i1 %icmp_ln946, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:946->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 141 'xor' 'xor_ln946' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_12 : Operation 142 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_13)   --->   "%and_ln949 = and i1 %icmp_ln949, i1 %xor_ln946" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:949->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 142 'and' 'and_ln949' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_12 : Operation 143 [1/1] (0.80ns) (out node of the LUT)   --->   "%out_sin_V_13 = select i1 %and_ln949, i50 %zext_ln937_2, i50 %out_sin_V_12" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:949->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 143 'select' 'out_sin_V_13' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_12 : Operation 144 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_14)   --->   "%xor_ln949 = xor i1 %icmp_ln949, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:949->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 144 'xor' 'xor_ln949' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_12 : Operation 145 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_14)   --->   "%and_ln953 = and i1 %icmp_ln953, i1 %xor_ln949" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:953->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 145 'and' 'and_ln953' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_12 : Operation 146 [1/1] (0.80ns) (out node of the LUT)   --->   "%out_sin_V_14 = select i1 %and_ln953, i50 %sext_ln937, i50 %out_sin_V_13" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:953->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 146 'select' 'out_sin_V_14' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_12 : Operation 136 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_14)   --->   "%sext_ln969 = sext i49 %out_sin_V_10" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:969->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 136 'sext' 'sext_ln969' <Predicate = true> <Delay = 0.00>
+ST_12 : Operation 137 [1/2] (2.77ns)   --->   "%table_V_load_4 = load i9 %table_V_addr_6"   --->   Operation 137 'load' 'table_V_load_4' <Predicate = (!icmp_ln978)> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
+ST_12 : Operation 138 [1/1] (2.63ns)   --->   "%out_sin_V_11 = sub i49 0, i49 %table_V_load_4"   --->   Operation 138 'sub' 'out_sin_V_11' <Predicate = (!icmp_ln978)> <Delay = 2.63> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 139 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_13)   --->   "%sext_ln969_2 = sext i49 %out_sin_V_11" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:969->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 139 'sext' 'sext_ln969_2' <Predicate = (!icmp_ln978)> <Delay = 0.00>
+ST_12 : Operation 140 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_13)   --->   "%out_sin_V_12 = select i1 %icmp_ln978, i50 %zext_ln969, i50 %sext_ln969_2" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:978->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 140 'select' 'out_sin_V_12' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_12 : Operation 141 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_13)   --->   "%xor_ln978 = xor i1 %icmp_ln978, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:978->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 141 'xor' 'xor_ln978' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 142 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_13)   --->   "%and_ln981 = and i1 %icmp_ln981, i1 %xor_ln978" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:981->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 142 'and' 'and_ln981' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 143 [1/1] (0.80ns) (out node of the LUT)   --->   "%out_sin_V_13 = select i1 %and_ln981, i50 %zext_ln969_2, i50 %out_sin_V_12" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:981->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 143 'select' 'out_sin_V_13' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_12 : Operation 144 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_14)   --->   "%xor_ln981 = xor i1 %icmp_ln981, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:981->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 144 'xor' 'xor_ln981' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 145 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_14)   --->   "%and_ln985 = and i1 %icmp_ln985, i1 %xor_ln981" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:985->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 145 'and' 'and_ln985' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_12 : Operation 146 [1/1] (0.80ns) (out node of the LUT)   --->   "%out_sin_V_14 = select i1 %and_ln985, i50 %sext_ln969, i50 %out_sin_V_13" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:985->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 146 'select' 'out_sin_V_14' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 
 State 13 <SV = 12> <Delay = 3.40>
 ST_13 : Operation 147 [1/1] (2.65ns)   --->   "%sub_ln703 = sub i50 0, i50 %out_sin_V_14"   --->   Operation 147 'sub' 'sub_ln703' <Predicate = (p_Result_s)> <Delay = 2.65> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.99> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_13 : Operation 148 [1/1] (0.74ns)   --->   "%out_sin_V_16 = select i1 %p_Result_s, i50 %sub_ln703, i50 %out_sin_V_14" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:962->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 148 'select' 'out_sin_V_16' <Predicate = true> <Delay = 0.74> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_13 : Operation 149 [1/1] (0.00ns)   --->   "%ret_ln421 = ret i50 %out_sin_V_16" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:421]   --->   Operation 149 'ret' 'ret_ln421' <Predicate = true> <Delay = 0.00>
+ST_13 : Operation 148 [1/1] (0.74ns)   --->   "%out_sin_V_16 = select i1 %p_Result_s, i50 %sub_ln703, i50 %out_sin_V_14" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:994->../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 148 'select' 'out_sin_V_16' <Predicate = true> <Delay = 0.74> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.83> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_13 : Operation 149 [1/1] (0.00ns)   --->   "%ret_ln453 = ret i50 %out_sin_V_16" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:453]   --->   Operation 149 'ret' 'ret_ln453' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
@@ -481,38 +481,38 @@ icmp_ln1494    (icmp         ) [ 00000000000000]
 angulo_V_11    (add          ) [ 00000000000000]
 icmp_ln1494_5  (icmp         ) [ 00000000000000]
 icmp_ln1495    (icmp         ) [ 00000000000000]
-and_ln367      (and          ) [ 00000000000000]
+and_ln399      (and          ) [ 00000000000000]
 angulo_V_12    (add          ) [ 00000000000000]
 icmp_ln1494_6  (icmp         ) [ 00000000000000]
 icmp_ln1495_4  (icmp         ) [ 00000000000000]
-and_ln370      (and          ) [ 00000000000000]
+and_ln402      (and          ) [ 00000000000000]
 angulo_V_13    (add          ) [ 00000000000000]
 icmp_ln1494_7  (icmp         ) [ 00000000000000]
 tmp_4          (bitselect    ) [ 00000000000000]
-and_ln373      (and          ) [ 00000000000000]
+and_ln405      (and          ) [ 00000000000000]
 angulo_V_14    (add          ) [ 00000000000000]
 icmp_ln1494_8  (icmp         ) [ 00000000000000]
 icmp_ln1495_5  (icmp         ) [ 00000000000000]
 angulo_V_15    (add          ) [ 00000000000000]
 icmp_ln1495_6  (icmp         ) [ 00000000000000]
 angulo_V_16    (add          ) [ 00000000000000]
-select_ln379   (select       ) [ 00000000000000]
+select_ln411   (select       ) [ 00000000000000]
 angulo_V_17    (select       ) [ 00000000000000]
 xor_ln1494     (xor          ) [ 00000000000000]
-and_ln367_2    (and          ) [ 00000000000000]
+and_ln399_2    (and          ) [ 00000000000000]
 angulo_V_18    (select       ) [ 00000000000000]
-or_ln367       (or           ) [ 00000000000000]
-xor_ln367      (xor          ) [ 00000000000000]
-and_ln370_2    (and          ) [ 00000000000000]
+or_ln399       (or           ) [ 00000000000000]
+xor_ln399      (xor          ) [ 00000000000000]
+and_ln402_2    (and          ) [ 00000000000000]
 angulo_V_19    (select       ) [ 00000000000000]
-or_ln370       (or           ) [ 00000000000000]
-xor_ln370      (xor          ) [ 00000000000000]
-and_ln373_2    (and          ) [ 00000000000000]
+or_ln402       (or           ) [ 00000000000000]
+xor_ln402      (xor          ) [ 00000000000000]
+and_ln405_2    (and          ) [ 00000000000000]
 angulo_V_20    (select       ) [ 00000000000000]
-or_ln373       (or           ) [ 00000000000000]
-xor_ln373      (xor          ) [ 00000000000000]
-and_ln376      (and          ) [ 00000000000000]
-and_ln376_2    (and          ) [ 00000000000000]
+or_ln405       (or           ) [ 00000000000000]
+xor_ln405      (xor          ) [ 00000000000000]
+and_ln408      (and          ) [ 00000000000000]
+and_ln408_2    (and          ) [ 00000000000000]
 angulo_V_32    (select       ) [ 00100000000000]
 theta_aux_V    (add          ) [ 00000000000000]
 icmp_ln1494_9  (icmp         ) [ 00000000000000]
@@ -523,37 +523,37 @@ icmp_ln1494_10 (icmp         ) [ 00000000000000]
 angulo_V_21    (add          ) [ 00000000000000]
 icmp_ln1494_11 (icmp         ) [ 00000000000000]
 icmp_ln1495_7  (icmp         ) [ 00000000000000]
-and_ln367_3    (and          ) [ 00000000000000]
+and_ln399_3    (and          ) [ 00000000000000]
 angulo_V_22    (add          ) [ 00000000000000]
 icmp_ln1494_12 (icmp         ) [ 00000000000000]
 icmp_ln1495_8  (icmp         ) [ 00000000000000]
-and_ln370_3    (and          ) [ 00000000000000]
+and_ln402_3    (and          ) [ 00000000000000]
 angulo_V_23    (add          ) [ 00000000000000]
 icmp_ln1494_13 (icmp         ) [ 00000000000000]
-and_ln373_3    (and          ) [ 00000000000000]
+and_ln405_3    (and          ) [ 00000000000000]
 angulo_V_24    (add          ) [ 00000000000000]
 icmp_ln1494_14 (icmp         ) [ 00000000000000]
 icmp_ln1495_9  (icmp         ) [ 00000000000000]
 angulo_V_25    (add          ) [ 00000000000000]
 icmp_ln1495_10 (icmp         ) [ 00000000000000]
 angulo_V_26    (add          ) [ 00000000000000]
-select_ln379_1 (select       ) [ 00000000000000]
+select_ln411_1 (select       ) [ 00000000000000]
 angulo_V_27    (select       ) [ 00000000000000]
 xor_ln1494_1   (xor          ) [ 00000000000000]
-and_ln367_4    (and          ) [ 00000000000000]
+and_ln399_4    (and          ) [ 00000000000000]
 angulo_V_28    (select       ) [ 00000000000000]
-or_ln367_1     (or           ) [ 00000000000000]
-xor_ln367_1    (xor          ) [ 00000000000000]
-and_ln370_4    (and          ) [ 00000000000000]
+or_ln399_1     (or           ) [ 00000000000000]
+xor_ln399_1    (xor          ) [ 00000000000000]
+and_ln402_4    (and          ) [ 00000000000000]
 angulo_V_29    (select       ) [ 00000000000000]
-or_ln370_1     (or           ) [ 00000000000000]
-xor_ln370_1    (xor          ) [ 00000000000000]
-and_ln373_4    (and          ) [ 00000000000000]
+or_ln402_1     (or           ) [ 00000000000000]
+xor_ln402_1    (xor          ) [ 00000000000000]
+and_ln405_4    (and          ) [ 00000000000000]
 angulo_V_30    (select       ) [ 00000000000000]
-or_ln373_1     (or           ) [ 00000000000000]
-xor_ln373_1    (xor          ) [ 00000000000000]
-and_ln376_3    (and          ) [ 00000000000000]
-and_ln376_4    (and          ) [ 00000000000000]
+or_ln405_1     (or           ) [ 00000000000000]
+xor_ln405_1    (xor          ) [ 00000000000000]
+and_ln408_3    (and          ) [ 00000000000000]
+and_ln408_4    (and          ) [ 00000000000000]
 angulo_V       (select       ) [ 00001000000000]
 p_Result_s     (bitselect    ) [ 00001111111111]
 p_Val2_s       (sub          ) [ 00000000000000]
@@ -570,40 +570,40 @@ add_ln691      (add          ) [ 00000000000000]
 select_ln850   (select       ) [ 00000000000000]
 ret_V_4        (select       ) [ 00000000000000]
 trunc_ln831    (trunc        ) [ 00000000000100]
-icmp_ln946     (icmp         ) [ 00000000000110]
-icmp_ln949     (icmp         ) [ 00000000000110]
-icmp_ln953     (icmp         ) [ 00000000000110]
-zext_ln947     (zext         ) [ 00000000000000]
+icmp_ln978     (icmp         ) [ 00000000000110]
+icmp_ln981     (icmp         ) [ 00000000000110]
+icmp_ln985     (icmp         ) [ 00000000000110]
+zext_ln979     (zext         ) [ 00000000000000]
 table_V_addr   (getelementptr) [ 00000000000010]
-sub_ln951      (sub          ) [ 00000000000000]
-zext_ln951     (zext         ) [ 00000000000000]
+sub_ln983      (sub          ) [ 00000000000000]
+zext_ln983     (zext         ) [ 00000000000000]
 table_V_addr_4 (getelementptr) [ 00000000000010]
 n_aux          (add          ) [ 00000000000000]
-zext_ln955     (zext         ) [ 00000000000000]
+zext_ln987     (zext         ) [ 00000000000000]
 table_V_addr_5 (getelementptr) [ 00000000000010]
-sub_ln959      (sub          ) [ 00000000000000]
-zext_ln959     (zext         ) [ 00000000000000]
+sub_ln991      (sub          ) [ 00000000000000]
+zext_ln991     (zext         ) [ 00000000000000]
 table_V_addr_6 (getelementptr) [ 00000000000010]
 out_sin_V      (load         ) [ 00000000000000]
-zext_ln937     (zext         ) [ 00000000000000]
+zext_ln969     (zext         ) [ 00000000000000]
 out_sin_V_9    (load         ) [ 00000000000000]
-zext_ln937_2   (zext         ) [ 00000000000000]
+zext_ln969_2   (zext         ) [ 00000000000000]
 table_V_load   (load         ) [ 00000000000000]
 out_sin_V_10   (sub          ) [ 00000000000000]
-sext_ln937     (sext         ) [ 00000000000000]
+sext_ln969     (sext         ) [ 00000000000000]
 table_V_load_4 (load         ) [ 00000000000000]
 out_sin_V_11   (sub          ) [ 00000000000000]
-sext_ln937_2   (sext         ) [ 00000000000000]
+sext_ln969_2   (sext         ) [ 00000000000000]
 out_sin_V_12   (select       ) [ 00000000000000]
-xor_ln946      (xor          ) [ 00000000000000]
-and_ln949      (and          ) [ 00000000000000]
+xor_ln978      (xor          ) [ 00000000000000]
+and_ln981      (and          ) [ 00000000000000]
 out_sin_V_13   (select       ) [ 00000000000000]
-xor_ln949      (xor          ) [ 00000000000000]
-and_ln953      (and          ) [ 00000000000000]
+xor_ln981      (xor          ) [ 00000000000000]
+and_ln985      (and          ) [ 00000000000000]
 out_sin_V_14   (select       ) [ 00000000000001]
 sub_ln703      (sub          ) [ 00000000000000]
 out_sin_V_16   (select       ) [ 00000000000000]
-ret_ln421      (ret          ) [ 00000000000000]
+ret_ln453      (ret          ) [ 00000000000000]
 </LifeTime>
 
 <model>
@@ -1031,7 +1031,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="139" class="1004" name="and_ln367_fu_139">
+<comp id="139" class="1004" name="and_ln399_fu_139">
 <pin_list>
 <pin id="140" dir="0" index="0" bw="1" slack="0"/>
 <pin id="141" dir="0" index="1" bw="1" slack="0"/>
@@ -1039,7 +1039,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln367/1 "/>
+<opset="and_ln399/1 "/>
 </bind>
 </comp>
 
@@ -1079,7 +1079,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="163" class="1004" name="and_ln370_fu_163">
+<comp id="163" class="1004" name="and_ln402_fu_163">
 <pin_list>
 <pin id="164" dir="0" index="0" bw="1" slack="0"/>
 <pin id="165" dir="0" index="1" bw="1" slack="0"/>
@@ -1087,7 +1087,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln370/1 "/>
+<opset="and_ln402/1 "/>
 </bind>
 </comp>
 
@@ -1128,7 +1128,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="189" class="1004" name="and_ln373_fu_189">
+<comp id="189" class="1004" name="and_ln405_fu_189">
 <pin_list>
 <pin id="190" dir="0" index="0" bw="1" slack="0"/>
 <pin id="191" dir="0" index="1" bw="1" slack="0"/>
@@ -1136,7 +1136,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln373/1 "/>
+<opset="and_ln405/1 "/>
 </bind>
 </comp>
 
@@ -1212,7 +1212,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="231" class="1004" name="select_ln379_fu_231">
+<comp id="231" class="1004" name="select_ln411_fu_231">
 <pin_list>
 <pin id="232" dir="0" index="0" bw="1" slack="0"/>
 <pin id="233" dir="0" index="1" bw="64" slack="0"/>
@@ -1221,7 +1221,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="select(49) " fcode="select"/>
-<opset="select_ln379/1 "/>
+<opset="select_ln411/1 "/>
 </bind>
 </comp>
 
@@ -1250,7 +1250,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="253" class="1004" name="and_ln367_2_fu_253">
+<comp id="253" class="1004" name="and_ln399_2_fu_253">
 <pin_list>
 <pin id="254" dir="0" index="0" bw="1" slack="0"/>
 <pin id="255" dir="0" index="1" bw="1" slack="0"/>
@@ -1258,7 +1258,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln367_2/1 "/>
+<opset="and_ln399_2/1 "/>
 </bind>
 </comp>
 
@@ -1275,7 +1275,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="267" class="1004" name="or_ln367_fu_267">
+<comp id="267" class="1004" name="or_ln399_fu_267">
 <pin_list>
 <pin id="268" dir="0" index="0" bw="1" slack="0"/>
 <pin id="269" dir="0" index="1" bw="1" slack="0"/>
@@ -1283,11 +1283,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="or(24) " fcode="or"/>
-<opset="or_ln367/1 "/>
+<opset="or_ln399/1 "/>
 </bind>
 </comp>
 
-<comp id="273" class="1004" name="xor_ln367_fu_273">
+<comp id="273" class="1004" name="xor_ln399_fu_273">
 <pin_list>
 <pin id="274" dir="0" index="0" bw="1" slack="0"/>
 <pin id="275" dir="0" index="1" bw="1" slack="0"/>
@@ -1295,11 +1295,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="xor(25) " fcode="xor"/>
-<opset="xor_ln367/1 "/>
+<opset="xor_ln399/1 "/>
 </bind>
 </comp>
 
-<comp id="279" class="1004" name="and_ln370_2_fu_279">
+<comp id="279" class="1004" name="and_ln402_2_fu_279">
 <pin_list>
 <pin id="280" dir="0" index="0" bw="1" slack="0"/>
 <pin id="281" dir="0" index="1" bw="1" slack="0"/>
@@ -1307,7 +1307,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln370_2/1 "/>
+<opset="and_ln402_2/1 "/>
 </bind>
 </comp>
 
@@ -1324,7 +1324,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="293" class="1004" name="or_ln370_fu_293">
+<comp id="293" class="1004" name="or_ln402_fu_293">
 <pin_list>
 <pin id="294" dir="0" index="0" bw="1" slack="0"/>
 <pin id="295" dir="0" index="1" bw="1" slack="0"/>
@@ -1332,11 +1332,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="or(24) " fcode="or"/>
-<opset="or_ln370/1 "/>
+<opset="or_ln402/1 "/>
 </bind>
 </comp>
 
-<comp id="299" class="1004" name="xor_ln370_fu_299">
+<comp id="299" class="1004" name="xor_ln402_fu_299">
 <pin_list>
 <pin id="300" dir="0" index="0" bw="1" slack="0"/>
 <pin id="301" dir="0" index="1" bw="1" slack="0"/>
@@ -1344,11 +1344,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="xor(25) " fcode="xor"/>
-<opset="xor_ln370/1 "/>
+<opset="xor_ln402/1 "/>
 </bind>
 </comp>
 
-<comp id="305" class="1004" name="and_ln373_2_fu_305">
+<comp id="305" class="1004" name="and_ln405_2_fu_305">
 <pin_list>
 <pin id="306" dir="0" index="0" bw="1" slack="0"/>
 <pin id="307" dir="0" index="1" bw="1" slack="0"/>
@@ -1356,7 +1356,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln373_2/1 "/>
+<opset="and_ln405_2/1 "/>
 </bind>
 </comp>
 
@@ -1373,7 +1373,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="319" class="1004" name="or_ln373_fu_319">
+<comp id="319" class="1004" name="or_ln405_fu_319">
 <pin_list>
 <pin id="320" dir="0" index="0" bw="1" slack="0"/>
 <pin id="321" dir="0" index="1" bw="1" slack="0"/>
@@ -1381,11 +1381,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="or(24) " fcode="or"/>
-<opset="or_ln373/1 "/>
+<opset="or_ln405/1 "/>
 </bind>
 </comp>
 
-<comp id="325" class="1004" name="xor_ln373_fu_325">
+<comp id="325" class="1004" name="xor_ln405_fu_325">
 <pin_list>
 <pin id="326" dir="0" index="0" bw="1" slack="0"/>
 <pin id="327" dir="0" index="1" bw="1" slack="0"/>
@@ -1393,11 +1393,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="xor(25) " fcode="xor"/>
-<opset="xor_ln373/1 "/>
+<opset="xor_ln405/1 "/>
 </bind>
 </comp>
 
-<comp id="331" class="1004" name="and_ln376_fu_331">
+<comp id="331" class="1004" name="and_ln408_fu_331">
 <pin_list>
 <pin id="332" dir="0" index="0" bw="1" slack="0"/>
 <pin id="333" dir="0" index="1" bw="1" slack="0"/>
@@ -1405,11 +1405,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln376/1 "/>
+<opset="and_ln408/1 "/>
 </bind>
 </comp>
 
-<comp id="337" class="1004" name="and_ln376_2_fu_337">
+<comp id="337" class="1004" name="and_ln408_2_fu_337">
 <pin_list>
 <pin id="338" dir="0" index="0" bw="1" slack="0"/>
 <pin id="339" dir="0" index="1" bw="1" slack="0"/>
@@ -1417,7 +1417,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln376_2/1 "/>
+<opset="and_ln408_2/1 "/>
 </bind>
 </comp>
 
@@ -1544,7 +1544,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="403" class="1004" name="and_ln367_3_fu_403">
+<comp id="403" class="1004" name="and_ln399_3_fu_403">
 <pin_list>
 <pin id="404" dir="0" index="0" bw="1" slack="0"/>
 <pin id="405" dir="0" index="1" bw="1" slack="0"/>
@@ -1552,7 +1552,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln367_3/3 "/>
+<opset="and_ln399_3/3 "/>
 </bind>
 </comp>
 
@@ -1592,7 +1592,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="424" class="1004" name="and_ln370_3_fu_424">
+<comp id="424" class="1004" name="and_ln402_3_fu_424">
 <pin_list>
 <pin id="425" dir="0" index="0" bw="1" slack="0"/>
 <pin id="426" dir="0" index="1" bw="1" slack="0"/>
@@ -1600,7 +1600,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln370_3/3 "/>
+<opset="and_ln402_3/3 "/>
 </bind>
 </comp>
 
@@ -1628,7 +1628,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="440" class="1004" name="and_ln373_3_fu_440">
+<comp id="440" class="1004" name="and_ln405_3_fu_440">
 <pin_list>
 <pin id="441" dir="0" index="0" bw="1" slack="0"/>
 <pin id="442" dir="0" index="1" bw="1" slack="1"/>
@@ -1636,7 +1636,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln373_3/3 "/>
+<opset="and_ln405_3/3 "/>
 </bind>
 </comp>
 
@@ -1712,7 +1712,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="475" class="1004" name="select_ln379_1_fu_475">
+<comp id="475" class="1004" name="select_ln411_1_fu_475">
 <pin_list>
 <pin id="476" dir="0" index="0" bw="1" slack="0"/>
 <pin id="477" dir="0" index="1" bw="64" slack="0"/>
@@ -1721,7 +1721,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="select(49) " fcode="select"/>
-<opset="select_ln379_1/3 "/>
+<opset="select_ln411_1/3 "/>
 </bind>
 </comp>
 
@@ -1750,7 +1750,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="496" class="1004" name="and_ln367_4_fu_496">
+<comp id="496" class="1004" name="and_ln399_4_fu_496">
 <pin_list>
 <pin id="497" dir="0" index="0" bw="1" slack="0"/>
 <pin id="498" dir="0" index="1" bw="1" slack="0"/>
@@ -1758,7 +1758,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln367_4/3 "/>
+<opset="and_ln399_4/3 "/>
 </bind>
 </comp>
 
@@ -1775,7 +1775,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="510" class="1004" name="or_ln367_1_fu_510">
+<comp id="510" class="1004" name="or_ln399_1_fu_510">
 <pin_list>
 <pin id="511" dir="0" index="0" bw="1" slack="0"/>
 <pin id="512" dir="0" index="1" bw="1" slack="0"/>
@@ -1783,11 +1783,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="or(24) " fcode="or"/>
-<opset="or_ln367_1/3 "/>
+<opset="or_ln399_1/3 "/>
 </bind>
 </comp>
 
-<comp id="516" class="1004" name="xor_ln367_1_fu_516">
+<comp id="516" class="1004" name="xor_ln399_1_fu_516">
 <pin_list>
 <pin id="517" dir="0" index="0" bw="1" slack="0"/>
 <pin id="518" dir="0" index="1" bw="1" slack="0"/>
@@ -1795,11 +1795,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="xor(25) " fcode="xor"/>
-<opset="xor_ln367_1/3 "/>
+<opset="xor_ln399_1/3 "/>
 </bind>
 </comp>
 
-<comp id="522" class="1004" name="and_ln370_4_fu_522">
+<comp id="522" class="1004" name="and_ln402_4_fu_522">
 <pin_list>
 <pin id="523" dir="0" index="0" bw="1" slack="0"/>
 <pin id="524" dir="0" index="1" bw="1" slack="0"/>
@@ -1807,7 +1807,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln370_4/3 "/>
+<opset="and_ln402_4/3 "/>
 </bind>
 </comp>
 
@@ -1824,7 +1824,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="536" class="1004" name="or_ln370_1_fu_536">
+<comp id="536" class="1004" name="or_ln402_1_fu_536">
 <pin_list>
 <pin id="537" dir="0" index="0" bw="1" slack="0"/>
 <pin id="538" dir="0" index="1" bw="1" slack="0"/>
@@ -1832,11 +1832,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="or(24) " fcode="or"/>
-<opset="or_ln370_1/3 "/>
+<opset="or_ln402_1/3 "/>
 </bind>
 </comp>
 
-<comp id="542" class="1004" name="xor_ln370_1_fu_542">
+<comp id="542" class="1004" name="xor_ln402_1_fu_542">
 <pin_list>
 <pin id="543" dir="0" index="0" bw="1" slack="0"/>
 <pin id="544" dir="0" index="1" bw="1" slack="0"/>
@@ -1844,11 +1844,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="xor(25) " fcode="xor"/>
-<opset="xor_ln370_1/3 "/>
+<opset="xor_ln402_1/3 "/>
 </bind>
 </comp>
 
-<comp id="548" class="1004" name="and_ln373_4_fu_548">
+<comp id="548" class="1004" name="and_ln405_4_fu_548">
 <pin_list>
 <pin id="549" dir="0" index="0" bw="1" slack="0"/>
 <pin id="550" dir="0" index="1" bw="1" slack="0"/>
@@ -1856,7 +1856,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln373_4/3 "/>
+<opset="and_ln405_4/3 "/>
 </bind>
 </comp>
 
@@ -1873,7 +1873,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="562" class="1004" name="or_ln373_1_fu_562">
+<comp id="562" class="1004" name="or_ln405_1_fu_562">
 <pin_list>
 <pin id="563" dir="0" index="0" bw="1" slack="0"/>
 <pin id="564" dir="0" index="1" bw="1" slack="0"/>
@@ -1881,11 +1881,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="or(24) " fcode="or"/>
-<opset="or_ln373_1/3 "/>
+<opset="or_ln405_1/3 "/>
 </bind>
 </comp>
 
-<comp id="568" class="1004" name="xor_ln373_1_fu_568">
+<comp id="568" class="1004" name="xor_ln405_1_fu_568">
 <pin_list>
 <pin id="569" dir="0" index="0" bw="1" slack="0"/>
 <pin id="570" dir="0" index="1" bw="1" slack="0"/>
@@ -1893,11 +1893,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="xor(25) " fcode="xor"/>
-<opset="xor_ln373_1/3 "/>
+<opset="xor_ln405_1/3 "/>
 </bind>
 </comp>
 
-<comp id="574" class="1004" name="and_ln376_3_fu_574">
+<comp id="574" class="1004" name="and_ln408_3_fu_574">
 <pin_list>
 <pin id="575" dir="0" index="0" bw="1" slack="0"/>
 <pin id="576" dir="0" index="1" bw="1" slack="0"/>
@@ -1905,11 +1905,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln376_3/3 "/>
+<opset="and_ln408_3/3 "/>
 </bind>
 </comp>
 
-<comp id="580" class="1004" name="and_ln376_4_fu_580">
+<comp id="580" class="1004" name="and_ln408_4_fu_580">
 <pin_list>
 <pin id="581" dir="0" index="0" bw="1" slack="0"/>
 <pin id="582" dir="0" index="1" bw="1" slack="0"/>
@@ -1917,7 +1917,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln376_4/3 "/>
+<opset="and_ln408_4/3 "/>
 </bind>
 </comp>
 
@@ -2119,7 +2119,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="687" class="1004" name="icmp_ln946_fu_687">
+<comp id="687" class="1004" name="icmp_ln978_fu_687">
 <pin_list>
 <pin id="688" dir="0" index="0" bw="26" slack="0"/>
 <pin id="689" dir="0" index="1" bw="26" slack="0"/>
@@ -2127,11 +2127,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="icmp(45) " fcode="icmp"/>
-<opset="icmp_ln946/10 "/>
+<opset="icmp_ln978/10 "/>
 </bind>
 </comp>
 
-<comp id="693" class="1004" name="icmp_ln949_fu_693">
+<comp id="693" class="1004" name="icmp_ln981_fu_693">
 <pin_list>
 <pin id="694" dir="0" index="0" bw="26" slack="0"/>
 <pin id="695" dir="0" index="1" bw="26" slack="0"/>
@@ -2139,11 +2139,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="icmp(45) " fcode="icmp"/>
-<opset="icmp_ln949/10 "/>
+<opset="icmp_ln981/10 "/>
 </bind>
 </comp>
 
-<comp id="699" class="1004" name="icmp_ln953_fu_699">
+<comp id="699" class="1004" name="icmp_ln985_fu_699">
 <pin_list>
 <pin id="700" dir="0" index="0" bw="26" slack="0"/>
 <pin id="701" dir="0" index="1" bw="26" slack="0"/>
@@ -2151,22 +2151,22 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="icmp(45) " fcode="icmp"/>
-<opset="icmp_ln953/10 "/>
+<opset="icmp_ln985/10 "/>
 </bind>
 </comp>
 
-<comp id="705" class="1004" name="zext_ln947_fu_705">
+<comp id="705" class="1004" name="zext_ln979_fu_705">
 <pin_list>
 <pin id="706" dir="0" index="0" bw="9" slack="1"/>
 <pin id="707" dir="1" index="1" bw="64" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="zext_ln947/11 "/>
+<opset="zext_ln979/11 "/>
 </bind>
 </comp>
 
-<comp id="709" class="1004" name="sub_ln951_fu_709">
+<comp id="709" class="1004" name="sub_ln983_fu_709">
 <pin_list>
 <pin id="710" dir="0" index="0" bw="6" slack="0"/>
 <pin id="711" dir="0" index="1" bw="9" slack="1"/>
@@ -2174,18 +2174,18 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="sub(10) " fcode="sub"/>
-<opset="sub_ln951/11 "/>
+<opset="sub_ln983/11 "/>
 </bind>
 </comp>
 
-<comp id="714" class="1004" name="zext_ln951_fu_714">
+<comp id="714" class="1004" name="zext_ln983_fu_714">
 <pin_list>
 <pin id="715" dir="0" index="0" bw="9" slack="0"/>
 <pin id="716" dir="1" index="1" bw="64" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="zext_ln951/11 "/>
+<opset="zext_ln983/11 "/>
 </bind>
 </comp>
 
@@ -2201,18 +2201,18 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="724" class="1004" name="zext_ln955_fu_724">
+<comp id="724" class="1004" name="zext_ln987_fu_724">
 <pin_list>
 <pin id="725" dir="0" index="0" bw="9" slack="0"/>
 <pin id="726" dir="1" index="1" bw="64" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="zext_ln955/11 "/>
+<opset="zext_ln987/11 "/>
 </bind>
 </comp>
 
-<comp id="729" class="1004" name="sub_ln959_fu_729">
+<comp id="729" class="1004" name="sub_ln991_fu_729">
 <pin_list>
 <pin id="730" dir="0" index="0" bw="7" slack="0"/>
 <pin id="731" dir="0" index="1" bw="9" slack="1"/>
@@ -2220,40 +2220,40 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="sub(10) " fcode="sub"/>
-<opset="sub_ln959/11 "/>
+<opset="sub_ln991/11 "/>
 </bind>
 </comp>
 
-<comp id="734" class="1004" name="zext_ln959_fu_734">
+<comp id="734" class="1004" name="zext_ln991_fu_734">
 <pin_list>
 <pin id="735" dir="0" index="0" bw="9" slack="0"/>
 <pin id="736" dir="1" index="1" bw="64" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="zext_ln959/11 "/>
+<opset="zext_ln991/11 "/>
 </bind>
 </comp>
 
-<comp id="739" class="1004" name="zext_ln937_fu_739">
+<comp id="739" class="1004" name="zext_ln969_fu_739">
 <pin_list>
 <pin id="740" dir="0" index="0" bw="49" slack="0"/>
 <pin id="741" dir="1" index="1" bw="50" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="zext_ln937/12 "/>
+<opset="zext_ln969/12 "/>
 </bind>
 </comp>
 
-<comp id="743" class="1004" name="zext_ln937_2_fu_743">
+<comp id="743" class="1004" name="zext_ln969_2_fu_743">
 <pin_list>
 <pin id="744" dir="0" index="0" bw="49" slack="0"/>
 <pin id="745" dir="1" index="1" bw="50" slack="0"/>
 </pin_list>
 <bind>
 <opcode="zext(34) " fcode="zext"/>
-<opset="zext_ln937_2/12 "/>
+<opset="zext_ln969_2/12 "/>
 </bind>
 </comp>
 
@@ -2269,14 +2269,14 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="753" class="1004" name="sext_ln937_fu_753">
+<comp id="753" class="1004" name="sext_ln969_fu_753">
 <pin_list>
 <pin id="754" dir="0" index="0" bw="49" slack="0"/>
 <pin id="755" dir="1" index="1" bw="50" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln937/12 "/>
+<opset="sext_ln969/12 "/>
 </bind>
 </comp>
 
@@ -2292,14 +2292,14 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="763" class="1004" name="sext_ln937_2_fu_763">
+<comp id="763" class="1004" name="sext_ln969_2_fu_763">
 <pin_list>
 <pin id="764" dir="0" index="0" bw="49" slack="0"/>
 <pin id="765" dir="1" index="1" bw="50" slack="0"/>
 </pin_list>
 <bind>
 <opcode="sext(35) " fcode="sext"/>
-<opset="sext_ln937_2/12 "/>
+<opset="sext_ln969_2/12 "/>
 </bind>
 </comp>
 
@@ -2316,7 +2316,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="774" class="1004" name="xor_ln946_fu_774">
+<comp id="774" class="1004" name="xor_ln978_fu_774">
 <pin_list>
 <pin id="775" dir="0" index="0" bw="1" slack="2"/>
 <pin id="776" dir="0" index="1" bw="1" slack="0"/>
@@ -2324,11 +2324,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="xor(25) " fcode="xor"/>
-<opset="xor_ln946/12 "/>
+<opset="xor_ln978/12 "/>
 </bind>
 </comp>
 
-<comp id="779" class="1004" name="and_ln949_fu_779">
+<comp id="779" class="1004" name="and_ln981_fu_779">
 <pin_list>
 <pin id="780" dir="0" index="0" bw="1" slack="2"/>
 <pin id="781" dir="0" index="1" bw="1" slack="0"/>
@@ -2336,7 +2336,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln949/12 "/>
+<opset="and_ln981/12 "/>
 </bind>
 </comp>
 
@@ -2353,7 +2353,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="792" class="1004" name="xor_ln949_fu_792">
+<comp id="792" class="1004" name="xor_ln981_fu_792">
 <pin_list>
 <pin id="793" dir="0" index="0" bw="1" slack="2"/>
 <pin id="794" dir="0" index="1" bw="1" slack="0"/>
@@ -2361,11 +2361,11 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="xor(25) " fcode="xor"/>
-<opset="xor_ln949/12 "/>
+<opset="xor_ln981/12 "/>
 </bind>
 </comp>
 
-<comp id="797" class="1004" name="and_ln953_fu_797">
+<comp id="797" class="1004" name="and_ln985_fu_797">
 <pin_list>
 <pin id="798" dir="0" index="0" bw="1" slack="2"/>
 <pin id="799" dir="0" index="1" bw="1" slack="0"/>
@@ -2373,7 +2373,7 @@ ret_ln421      (ret          ) [ 00000000000000]
 </pin_list>
 <bind>
 <opcode="and(23) " fcode="and"/>
-<opset="and_ln953/12 "/>
+<opset="and_ln985/12 "/>
 </bind>
 </comp>
 
@@ -2525,33 +2525,33 @@ ret_ln421      (ret          ) [ 00000000000000]
 </bind>
 </comp>
 
-<comp id="897" class="1005" name="icmp_ln946_reg_897">
+<comp id="897" class="1005" name="icmp_ln978_reg_897">
 <pin_list>
 <pin id="898" dir="0" index="0" bw="1" slack="1"/>
 <pin id="899" dir="1" index="1" bw="1" slack="2"/>
 </pin_list>
 <bind>
-<opset="icmp_ln946 "/>
+<opset="icmp_ln978 "/>
 </bind>
 </comp>
 
-<comp id="903" class="1005" name="icmp_ln949_reg_903">
+<comp id="903" class="1005" name="icmp_ln981_reg_903">
 <pin_list>
 <pin id="904" dir="0" index="0" bw="1" slack="2"/>
 <pin id="905" dir="1" index="1" bw="1" slack="2"/>
 </pin_list>
 <bind>
-<opset="icmp_ln949 "/>
+<opset="icmp_ln981 "/>
 </bind>
 </comp>
 
-<comp id="909" class="1005" name="icmp_ln953_reg_909">
+<comp id="909" class="1005" name="icmp_ln985_reg_909">
 <pin_list>
 <pin id="910" dir="0" index="0" bw="1" slack="2"/>
 <pin id="911" dir="1" index="1" bw="1" slack="2"/>
 </pin_list>
 <bind>
-<opset="icmp_ln953 "/>
+<opset="icmp_ln985 "/>
 </bind>
 </comp>
 
@@ -3209,52 +3209,52 @@ ret_ln421      (ret          ) [ 00000000000000]
 	Port: cos_2000 : table_V | {11 12 }
   - Chain level:
 	State 1
-		and_ln367 : 1
-		and_ln370 : 1
-		and_ln373 : 1
-		select_ln379 : 1
+		and_ln399 : 1
+		and_ln402 : 1
+		and_ln405 : 1
+		select_ln411 : 1
 		angulo_V_17 : 2
 		xor_ln1494 : 1
-		and_ln367_2 : 1
+		and_ln399_2 : 1
 		angulo_V_18 : 3
-		or_ln367 : 1
-		xor_ln367 : 1
-		and_ln370_2 : 1
+		or_ln399 : 1
+		xor_ln399 : 1
+		and_ln402_2 : 1
 		angulo_V_19 : 1
-		or_ln370 : 1
-		xor_ln370 : 1
-		and_ln373_2 : 1
+		or_ln402 : 1
+		xor_ln402 : 1
+		and_ln405_2 : 1
 		angulo_V_20 : 1
-		or_ln373 : 1
-		xor_ln373 : 1
-		and_ln376 : 1
-		and_ln376_2 : 1
+		or_ln405 : 1
+		xor_ln405 : 1
+		and_ln408 : 1
+		and_ln408_2 : 1
 		angulo_V_32 : 1
 	State 2
 		icmp_ln1494_9 : 1
 		theta_aux_V_2 : 2
 		tmp_5 : 3
 	State 3
-		and_ln367_3 : 1
-		and_ln370_3 : 1
-		and_ln373_3 : 1
-		select_ln379_1 : 1
+		and_ln399_3 : 1
+		and_ln402_3 : 1
+		and_ln405_3 : 1
+		select_ln411_1 : 1
 		angulo_V_27 : 2
 		xor_ln1494_1 : 1
-		and_ln367_4 : 1
+		and_ln399_4 : 1
 		angulo_V_28 : 3
-		or_ln367_1 : 1
-		xor_ln367_1 : 1
-		and_ln370_4 : 1
+		or_ln399_1 : 1
+		xor_ln399_1 : 1
+		and_ln402_4 : 1
 		angulo_V_29 : 1
-		or_ln370_1 : 1
-		xor_ln370_1 : 1
-		and_ln373_4 : 1
+		or_ln402_1 : 1
+		xor_ln402_1 : 1
+		and_ln405_4 : 1
 		angulo_V_30 : 1
-		or_ln373_1 : 1
-		xor_ln373_1 : 1
-		and_ln376_3 : 1
-		and_ln376_4 : 1
+		or_ln405_1 : 1
+		xor_ln405_1 : 1
+		and_ln408_3 : 1
+		and_ln408_4 : 1
 		angulo_V : 1
 		p_Result_s : 2
 	State 4
@@ -3273,34 +3273,34 @@ ret_ln421      (ret          ) [ 00000000000000]
 		select_ln850 : 2
 		ret_V_4 : 3
 		trunc_ln831 : 4
-		icmp_ln946 : 4
-		icmp_ln949 : 4
-		icmp_ln953 : 4
+		icmp_ln978 : 4
+		icmp_ln981 : 4
+		icmp_ln985 : 4
 	State 11
 		table_V_addr : 1
 		out_sin_V : 2
-		zext_ln951 : 1
+		zext_ln983 : 1
 		table_V_addr_4 : 2
 		out_sin_V_9 : 3
-		zext_ln955 : 1
+		zext_ln987 : 1
 		table_V_addr_5 : 2
 		table_V_load : 3
-		zext_ln959 : 1
+		zext_ln991 : 1
 		table_V_addr_6 : 2
 		table_V_load_4 : 3
 	State 12
-		zext_ln937 : 1
-		zext_ln937_2 : 1
+		zext_ln969 : 1
+		zext_ln969_2 : 1
 		out_sin_V_10 : 1
-		sext_ln937 : 2
+		sext_ln969 : 2
 		out_sin_V_11 : 1
-		sext_ln937_2 : 2
+		sext_ln969_2 : 2
 		out_sin_V_12 : 3
 		out_sin_V_13 : 4
 		out_sin_V_14 : 5
 	State 13
 		out_sin_V_16 : 1
-		ret_ln421 : 2
+		ret_ln453 : 2
 
 
 ============================================================
@@ -3311,14 +3311,14 @@ ret_ln421      (ret          ) [ 00000000000000]
 |----------|--------------------------|---------|---------|---------|
 | Operation|      Functional Unit     |   DSP   |    FF   |   LUT   |
 |----------|--------------------------|---------|---------|---------|
-|          |    select_ln379_fu_231   |    0    |    0    |    64   |
+|          |    select_ln411_fu_231   |    0    |    0    |    64   |
 |          |    angulo_V_17_fu_239    |    0    |    0    |    64   |
 |          |    angulo_V_18_fu_259    |    0    |    0    |    64   |
 |          |    angulo_V_19_fu_285    |    0    |    0    |    64   |
 |          |    angulo_V_20_fu_311    |    0    |    0    |    64   |
 |          |    angulo_V_32_fu_343    |    0    |    0    |    64   |
 |          |   theta_aux_V_2_fu_367   |    0    |    0    |    64   |
-|          |   select_ln379_1_fu_475  |    0    |    0    |    64   |
+|          |   select_ln411_1_fu_475  |    0    |    0    |    64   |
 |          |    angulo_V_27_fu_482    |    0    |    0    |    64   |
 |  select  |    angulo_V_28_fu_502    |    0    |    0    |    64   |
 |          |    angulo_V_29_fu_528    |    0    |    0    |    64   |
@@ -3371,53 +3371,53 @@ ret_ln421      (ret          ) [ 00000000000000]
 |          |   icmp_ln1495_9_fu_455   |    0    |    0    |    29   |
 |          |   icmp_ln1495_10_fu_465  |    0    |    0    |    29   |
 |          |     icmp_ln851_fu_656    |    0    |    0    |    39   |
-|          |     icmp_ln946_fu_687    |    0    |    0    |    16   |
-|          |     icmp_ln949_fu_693    |    0    |    0    |    16   |
-|          |     icmp_ln953_fu_699    |    0    |    0    |    16   |
+|          |     icmp_ln978_fu_687    |    0    |    0    |    16   |
+|          |     icmp_ln981_fu_693    |    0    |    0    |    16   |
+|          |     icmp_ln985_fu_699    |    0    |    0    |    16   |
 |----------|--------------------------|---------|---------|---------|
 |          |      p_Val2_s_fu_602     |    0    |    0    |    71   |
-|          |     sub_ln951_fu_709     |    0    |    0    |    16   |
-|    sub   |     sub_ln959_fu_729     |    0    |    0    |    16   |
+|          |     sub_ln983_fu_709     |    0    |    0    |    16   |
+|    sub   |     sub_ln991_fu_729     |    0    |    0    |    16   |
 |          |    out_sin_V_10_fu_747   |    0    |    0    |    56   |
 |          |    out_sin_V_11_fu_757   |    0    |    0    |    56   |
 |          |     sub_ln703_fu_810     |    0    |    0    |    57   |
 |----------|--------------------------|---------|---------|---------|
-|          |     and_ln367_fu_139     |    0    |    0    |    2    |
-|          |     and_ln370_fu_163     |    0    |    0    |    2    |
-|          |     and_ln373_fu_189     |    0    |    0    |    2    |
-|          |    and_ln367_2_fu_253    |    0    |    0    |    2    |
-|          |    and_ln370_2_fu_279    |    0    |    0    |    2    |
-|          |    and_ln373_2_fu_305    |    0    |    0    |    2    |
-|          |     and_ln376_fu_331     |    0    |    0    |    2    |
-|          |    and_ln376_2_fu_337    |    0    |    0    |    2    |
-|    and   |    and_ln367_3_fu_403    |    0    |    0    |    2    |
-|          |    and_ln370_3_fu_424    |    0    |    0    |    2    |
-|          |    and_ln373_3_fu_440    |    0    |    0    |    2    |
-|          |    and_ln367_4_fu_496    |    0    |    0    |    2    |
-|          |    and_ln370_4_fu_522    |    0    |    0    |    2    |
-|          |    and_ln373_4_fu_548    |    0    |    0    |    2    |
-|          |    and_ln376_3_fu_574    |    0    |    0    |    2    |
-|          |    and_ln376_4_fu_580    |    0    |    0    |    2    |
-|          |     and_ln949_fu_779     |    0    |    0    |    2    |
-|          |     and_ln953_fu_797     |    0    |    0    |    2    |
+|          |     and_ln399_fu_139     |    0    |    0    |    2    |
+|          |     and_ln402_fu_163     |    0    |    0    |    2    |
+|          |     and_ln405_fu_189     |    0    |    0    |    2    |
+|          |    and_ln399_2_fu_253    |    0    |    0    |    2    |
+|          |    and_ln402_2_fu_279    |    0    |    0    |    2    |
+|          |    and_ln405_2_fu_305    |    0    |    0    |    2    |
+|          |     and_ln408_fu_331     |    0    |    0    |    2    |
+|          |    and_ln408_2_fu_337    |    0    |    0    |    2    |
+|    and   |    and_ln399_3_fu_403    |    0    |    0    |    2    |
+|          |    and_ln402_3_fu_424    |    0    |    0    |    2    |
+|          |    and_ln405_3_fu_440    |    0    |    0    |    2    |
+|          |    and_ln399_4_fu_496    |    0    |    0    |    2    |
+|          |    and_ln402_4_fu_522    |    0    |    0    |    2    |
+|          |    and_ln405_4_fu_548    |    0    |    0    |    2    |
+|          |    and_ln408_3_fu_574    |    0    |    0    |    2    |
+|          |    and_ln408_4_fu_580    |    0    |    0    |    2    |
+|          |     and_ln981_fu_779     |    0    |    0    |    2    |
+|          |     and_ln985_fu_797     |    0    |    0    |    2    |
 |----------|--------------------------|---------|---------|---------|
 |          |     xor_ln1494_fu_247    |    0    |    0    |    2    |
-|          |     xor_ln367_fu_273     |    0    |    0    |    2    |
-|          |     xor_ln370_fu_299     |    0    |    0    |    2    |
-|          |     xor_ln373_fu_325     |    0    |    0    |    2    |
+|          |     xor_ln399_fu_273     |    0    |    0    |    2    |
+|          |     xor_ln402_fu_299     |    0    |    0    |    2    |
+|          |     xor_ln405_fu_325     |    0    |    0    |    2    |
 |    xor   |    xor_ln1494_1_fu_490   |    0    |    0    |    2    |
-|          |    xor_ln367_1_fu_516    |    0    |    0    |    2    |
-|          |    xor_ln370_1_fu_542    |    0    |    0    |    2    |
-|          |    xor_ln373_1_fu_568    |    0    |    0    |    2    |
-|          |     xor_ln946_fu_774     |    0    |    0    |    2    |
-|          |     xor_ln949_fu_792     |    0    |    0    |    2    |
+|          |    xor_ln399_1_fu_516    |    0    |    0    |    2    |
+|          |    xor_ln402_1_fu_542    |    0    |    0    |    2    |
+|          |    xor_ln405_1_fu_568    |    0    |    0    |    2    |
+|          |     xor_ln978_fu_774     |    0    |    0    |    2    |
+|          |     xor_ln981_fu_792     |    0    |    0    |    2    |
 |----------|--------------------------|---------|---------|---------|
-|          |      or_ln367_fu_267     |    0    |    0    |    2    |
-|          |      or_ln370_fu_293     |    0    |    0    |    2    |
-|    or    |      or_ln373_fu_319     |    0    |    0    |    2    |
-|          |     or_ln367_1_fu_510    |    0    |    0    |    2    |
-|          |     or_ln370_1_fu_536    |    0    |    0    |    2    |
-|          |     or_ln373_1_fu_562    |    0    |    0    |    2    |
+|          |      or_ln399_fu_267     |    0    |    0    |    2    |
+|          |      or_ln402_fu_293     |    0    |    0    |    2    |
+|    or    |      or_ln405_fu_319     |    0    |    0    |    2    |
+|          |     or_ln399_1_fu_510    |    0    |    0    |    2    |
+|          |     or_ln402_1_fu_536    |    0    |    0    |    2    |
+|          |     or_ln405_1_fu_562    |    0    |    0    |    2    |
 |----------|--------------------------|---------|---------|---------|
 |   read   | theta_in_read_read_fu_64 |    0    |    0    |    0    |
 |----------|--------------------------|---------|---------|---------|
@@ -3430,20 +3430,20 @@ ret_ln421      (ret          ) [ 00000000000000]
 |----------|--------------------------|---------|---------|---------|
 |          |    sext_ln1118_fu_623    |    0    |    0    |    0    |
 |   sext   |     sext_ln831_fu_646    |    0    |    0    |    0    |
-|          |     sext_ln937_fu_753    |    0    |    0    |    0    |
-|          |    sext_ln937_2_fu_763   |    0    |    0    |    0    |
+|          |     sext_ln969_fu_753    |    0    |    0    |    0    |
+|          |    sext_ln969_2_fu_763   |    0    |    0    |    0    |
 |----------|--------------------------|---------|---------|---------|
 |partselect|       ret_V_fu_632       |    0    |    0    |    0    |
 |----------|--------------------------|---------|---------|---------|
 |   trunc  |    trunc_ln851_fu_642    |    0    |    0    |    0    |
 |          |    trunc_ln831_fu_683    |    0    |    0    |    0    |
 |----------|--------------------------|---------|---------|---------|
-|          |     zext_ln947_fu_705    |    0    |    0    |    0    |
-|          |     zext_ln951_fu_714    |    0    |    0    |    0    |
-|   zext   |     zext_ln955_fu_724    |    0    |    0    |    0    |
-|          |     zext_ln959_fu_734    |    0    |    0    |    0    |
-|          |     zext_ln937_fu_739    |    0    |    0    |    0    |
-|          |    zext_ln937_2_fu_743   |    0    |    0    |    0    |
+|          |     zext_ln979_fu_705    |    0    |    0    |    0    |
+|          |     zext_ln983_fu_714    |    0    |    0    |    0    |
+|   zext   |     zext_ln987_fu_724    |    0    |    0    |    0    |
+|          |     zext_ln991_fu_734    |    0    |    0    |    0    |
+|          |     zext_ln969_fu_739    |    0    |    0    |    0    |
+|          |    zext_ln969_2_fu_743   |    0    |    0    |    0    |
 |----------|--------------------------|---------|---------|---------|
 |   Total  |                          |    4    |   441   |   3424  |
 |----------|--------------------------|---------|---------|---------|
@@ -3457,9 +3457,9 @@ N/A
 +----------------------+--------+
 |  angulo_V_32_reg_821 |   64   |
 |   angulo_V_reg_852   |   64   |
-|  icmp_ln946_reg_897  |    1   |
-|  icmp_ln949_reg_903  |    1   |
-|  icmp_ln953_reg_909  |    1   |
+|  icmp_ln978_reg_897  |    1   |
+|  icmp_ln981_reg_903  |    1   |
+|  icmp_ln985_reg_909  |    1   |
 | out_sin_V_14_reg_934 |   50   |
 |  p_Result_s_reg_858  |    1   |
 |      r_V_reg_874     |   121  |

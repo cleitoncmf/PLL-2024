@@ -48,8 +48,8 @@ preplace netloc xlconstant_9_dout 1 2 1 490J 1150n
 preplace netloc xlconstant_8_dout 1 2 1 500J 1050n
 preplace netloc xlconstant_13_dout 1 1 1 220 330n
 preplace netloc xlconstant_14_dout 1 1 1 230 350n
-levelinfo -pg 1 0 100 360 740 1000
-pagesize -pg 1 -db -bbox -sgen 0 -30 1000 1910
+levelinfo -pg 1 -10 100 360 740 1000
+pagesize -pg 1 -db -bbox -sgen -10 -30 1000 1910
 "
 }
-
+0
