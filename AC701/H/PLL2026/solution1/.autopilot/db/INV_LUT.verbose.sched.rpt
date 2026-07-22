@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'INV_LUT'
 ================================================================
-* Date:           Fri Jul 10 13:31:04 2026
+* Date:           Wed Jul 22 15:27:22 2026
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)
 * Project:        PLL2026
@@ -41,7 +41,7 @@
         |                     |  Latency (cycles) | Iteration|  Initiation Interval  | Trip |          |
         |      Loop Name      |   min   |   max   |  Latency |  achieved |   target  | Count| Pipelined|
         +---------------------+---------+---------+----------+-----------+-----------+------+----------+
-        |- VITIS_LOOP_1018_1  |        ?|        ?|         2|          2|          1|     ?|       yes|
+        |- VITIS_LOOP_1024_1  |        ?|        ?|         2|          2|          1|     ?|       yes|
         +---------------------+---------+---------+----------+-----------+-----------+------+----------+
 
 ============================================================
@@ -94,40 +94,40 @@ IsGatedGlobalClock: 0
 * FSM state operations: 
 
 State 1 <SV = 0> <Delay = 3.66>
-ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%x_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %x" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1009]   --->   Operation 12 'read' 'x_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%x_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %x" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1015]   --->   Operation 12 'read' 'x_read' <Predicate = true> <Delay = 0.00>
 ST_1 : Operation 13 [1/1] (2.34ns)   --->   "%icmp_ln1495 = icmp_slt  i64 %x_read, i64 2814749767106"   --->   Operation 13 'icmp' 'icmp_ln1495' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.34> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 14 [1/1] (1.32ns)   --->   "%br_ln1882 = br i1 %icmp_ln1495, void %_ZN13ap_fixed_baseILi129ELi33ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi128ELi32ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.preheader, void %_ZN8ap_fixedILi64ELi16EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2Ei.exit" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1882]   --->   Operation 14 'br' 'br_ln1882' <Predicate = true> <Delay = 1.32>
+ST_1 : Operation 14 [1/1] (1.32ns)   --->   "%br_ln1925 = br i1 %icmp_ln1495, void %_ZN13ap_fixed_baseILi129ELi33ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi128ELi32ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.preheader, void %_ZN8ap_fixedILi64ELi16EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2Ei.exit" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1925]   --->   Operation 14 'br' 'br_ln1925' <Predicate = true> <Delay = 1.32>
 ST_1 : Operation 15 [1/1] (1.32ns)   --->   "%br_ln0 = br void %_ZN13ap_fixed_baseILi129ELi33ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi128ELi32ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i"   --->   Operation 15 'br' 'br_ln0' <Predicate = (!icmp_ln1495)> <Delay = 1.32>
 
 State 2 <SV = 1> <Delay = 7.13>
 ST_2 : Operation 16 [1/1] (0.00ns)   --->   "%intervalo_begin = phi i32 %intervalo_begin_4, void, i32 0, void %_ZN13ap_fixed_baseILi129ELi33ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi128ELi32ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.preheader"   --->   Operation 16 'phi' 'intervalo_begin' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 17 [1/1] (0.00ns)   --->   "%intervalo_end = phi i32 %intervalo_end_4, void, i32 115, void %_ZN13ap_fixed_baseILi129ELi33ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi128ELi32ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i.preheader"   --->   Operation 17 'phi' 'intervalo_end' <Predicate = true> <Delay = 0.00>
 ST_2 : Operation 18 [1/1] (0.00ns)   --->   "%specpipeline_ln0 = specpipeline void @_ssdm_op_SpecPipeline, i32 4294967295, i32 0, i32 1, i32 0, void @p_str"   --->   Operation 18 'specpipeline' 'specpipeline_ln0' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 19 [1/1] (2.18ns)   --->   "%sub_ln1018 = sub i32 %intervalo_end, i32 %intervalo_begin" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1018]   --->   Operation 19 'sub' 'sub_ln1018' <Predicate = true> <Delay = 2.18> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 4.17> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 20 [1/1] (0.00ns)   --->   "%tmp = partselect i31 @_ssdm_op_PartSelect.i31.i32.i32.i32, i32 %sub_ln1018, i32 1, i32 31" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1018]   --->   Operation 20 'partselect' 'tmp' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 21 [1/1] (2.10ns)   --->   "%icmp_ln1018 = icmp_sgt  i31 %tmp, i31 0" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1018]   --->   Operation 21 'icmp' 'icmp_ln1018' <Predicate = true> <Delay = 2.10> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.34> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%br_ln1018 = br i1 %icmp_ln1018, void %_Z13busca_binariaP8ap_fixedILi64ELi16EL9ap_q_mode5EL9ap_o_mode3ELi0EEiS2_.exit, void" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1018]   --->   Operation 22 'br' 'br_ln1018' <Predicate = true> <Delay = 0.00>
-ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%div1_i = partselect i31 @_ssdm_op_PartSelect.i31.i32.i32.i32, i32 %sub_ln1018, i32 1, i32 31" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1018]   --->   Operation 23 'partselect' 'div1_i' <Predicate = (icmp_ln1018)> <Delay = 0.00>
-ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%div1_i_cast = zext i31 %div1_i" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1018]   --->   Operation 24 'zext' 'div1_i_cast' <Predicate = (icmp_ln1018)> <Delay = 0.00>
-ST_2 : Operation 25 [1/1] (2.18ns)   --->   "%half_list = add i32 %div1_i_cast, i32 %intervalo_begin" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1021]   --->   Operation 25 'add' 'half_list' <Predicate = (icmp_ln1018)> <Delay = 2.18> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 4.17> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 26 [1/1] (0.00ns)   --->   "%zext_ln1023 = zext i32 %half_list" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1023]   --->   Operation 26 'zext' 'zext_ln1023' <Predicate = (icmp_ln1018)> <Delay = 0.00>
-ST_2 : Operation 27 [1/1] (0.00ns)   --->   "%table_mark_V_1_addr = getelementptr i58 %table_mark_V_1, i64 0, i64 %zext_ln1023"   --->   Operation 27 'getelementptr' 'table_mark_V_1_addr' <Predicate = (icmp_ln1018)> <Delay = 0.00>
-ST_2 : Operation 28 [2/2] (2.77ns)   --->   "%table_mark_V_1_load = load i7 %table_mark_V_1_addr"   --->   Operation 28 'load' 'table_mark_V_1_load' <Predicate = (icmp_ln1018)> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 58> <Depth = 116> <ROM>
+ST_2 : Operation 19 [1/1] (2.18ns)   --->   "%sub_ln1024 = sub i32 %intervalo_end, i32 %intervalo_begin" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1024]   --->   Operation 19 'sub' 'sub_ln1024' <Predicate = true> <Delay = 2.18> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 4.17> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 20 [1/1] (0.00ns)   --->   "%tmp = partselect i31 @_ssdm_op_PartSelect.i31.i32.i32.i32, i32 %sub_ln1024, i32 1, i32 31" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1024]   --->   Operation 20 'partselect' 'tmp' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 21 [1/1] (2.10ns)   --->   "%icmp_ln1024 = icmp_sgt  i31 %tmp, i31 0" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1024]   --->   Operation 21 'icmp' 'icmp_ln1024' <Predicate = true> <Delay = 2.10> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.34> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 22 [1/1] (0.00ns)   --->   "%br_ln1024 = br i1 %icmp_ln1024, void %_Z13busca_binariaP8ap_fixedILi64ELi16EL9ap_q_mode5EL9ap_o_mode3ELi0EEiS2_.exit, void" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1024]   --->   Operation 22 'br' 'br_ln1024' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 23 [1/1] (0.00ns)   --->   "%div1_i = partselect i31 @_ssdm_op_PartSelect.i31.i32.i32.i32, i32 %sub_ln1024, i32 1, i32 31" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1024]   --->   Operation 23 'partselect' 'div1_i' <Predicate = (icmp_ln1024)> <Delay = 0.00>
+ST_2 : Operation 24 [1/1] (0.00ns)   --->   "%div1_i_cast = zext i31 %div1_i" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1024]   --->   Operation 24 'zext' 'div1_i_cast' <Predicate = (icmp_ln1024)> <Delay = 0.00>
+ST_2 : Operation 25 [1/1] (2.18ns)   --->   "%half_list = add i32 %div1_i_cast, i32 %intervalo_begin" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1027]   --->   Operation 25 'add' 'half_list' <Predicate = (icmp_ln1024)> <Delay = 2.18> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 4.17> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 26 [1/1] (0.00ns)   --->   "%zext_ln1029 = zext i32 %half_list" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1029]   --->   Operation 26 'zext' 'zext_ln1029' <Predicate = (icmp_ln1024)> <Delay = 0.00>
+ST_2 : Operation 27 [1/1] (0.00ns)   --->   "%table_mark_V_1_addr = getelementptr i58 %table_mark_V_1, i64 0, i64 %zext_ln1029"   --->   Operation 27 'getelementptr' 'table_mark_V_1_addr' <Predicate = (icmp_ln1024)> <Delay = 0.00>
+ST_2 : Operation 28 [2/2] (2.77ns)   --->   "%table_mark_V_1_load = load i7 %table_mark_V_1_addr"   --->   Operation 28 'load' 'table_mark_V_1_load' <Predicate = (icmp_ln1024)> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 58> <Depth = 116> <ROM>
 
 State 3 <SV = 2> <Delay = 5.88>
 ST_3 : Operation 29 [1/1] (0.00ns)   --->   "%specloopname_ln0 = specloopname void @_ssdm_op_SpecLoopName, void @empty_0"   --->   Operation 29 'specloopname' 'specloopname_ln0' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 30 [1/2] (2.77ns)   --->   "%table_mark_V_1_load = load i7 %table_mark_V_1_addr"   --->   Operation 30 'load' 'table_mark_V_1_load' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 58> <Depth = 116> <ROM>
 ST_3 : Operation 31 [1/1] (0.00ns)   --->   "%zext_ln1494 = zext i58 %table_mark_V_1_load"   --->   Operation 31 'zext' 'zext_ln1494' <Predicate = true> <Delay = 0.00>
 ST_3 : Operation 32 [1/1] (2.34ns)   --->   "%icmp_ln1494 = icmp_slt  i64 %zext_ln1494, i64 %x_read"   --->   Operation 32 'icmp' 'icmp_ln1494' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.34> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_3 : Operation 33 [1/1] (0.77ns)   --->   "%intervalo_begin_4 = select i1 %icmp_ln1494, i32 %half_list, i32 %intervalo_begin" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1025]   --->   Operation 33 'select' 'intervalo_begin_4' <Predicate = true> <Delay = 0.77> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_3 : Operation 34 [1/1] (0.77ns)   --->   "%intervalo_end_4 = select i1 %icmp_ln1494, i32 %intervalo_end, i32 %half_list" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1025]   --->   Operation 34 'select' 'intervalo_end_4' <Predicate = true> <Delay = 0.77> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_3 : Operation 35 [1/1] (0.00ns)   --->   "%br_ln1018 = br void %_ZN13ap_fixed_baseILi129ELi33ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi128ELi32ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1018]   --->   Operation 35 'br' 'br_ln1018' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 33 [1/1] (0.77ns)   --->   "%intervalo_begin_4 = select i1 %icmp_ln1494, i32 %half_list, i32 %intervalo_begin" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1031]   --->   Operation 33 'select' 'intervalo_begin_4' <Predicate = true> <Delay = 0.77> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 34 [1/1] (0.77ns)   --->   "%intervalo_end_4 = select i1 %icmp_ln1494, i32 %intervalo_end, i32 %half_list" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1031]   --->   Operation 34 'select' 'intervalo_end_4' <Predicate = true> <Delay = 0.77> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.77> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_3 : Operation 35 [1/1] (0.00ns)   --->   "%br_ln1024 = br void %_ZN13ap_fixed_baseILi129ELi33ELb1EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2ILi128ELi32ELb1ELS0_5ELS1_3ELi0EEERKS_IXT_EXT0_EXT1_EXT2_EXT3_EXT4_EE.exit.i" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1024]   --->   Operation 35 'br' 'br_ln1024' <Predicate = true> <Delay = 0.00>
 
 State 4 <SV = 2> <Delay = 2.77>
-ST_4 : Operation 36 [1/1] (0.00ns)   --->   "%zext_ln1890 = zext i32 %intervalo_begin" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1890]   --->   Operation 36 'zext' 'zext_ln1890' <Predicate = true> <Delay = 0.00>
-ST_4 : Operation 37 [1/1] (0.00ns)   --->   "%table_m_V_1_addr = getelementptr i63 %table_m_V_1, i64 0, i64 %zext_ln1890"   --->   Operation 37 'getelementptr' 'table_m_V_1_addr' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 36 [1/1] (0.00ns)   --->   "%zext_ln1933 = zext i32 %intervalo_begin" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1933]   --->   Operation 36 'zext' 'zext_ln1933' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 37 [1/1] (0.00ns)   --->   "%table_m_V_1_addr = getelementptr i63 %table_m_V_1, i64 0, i64 %zext_ln1933"   --->   Operation 37 'getelementptr' 'table_m_V_1_addr' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 38 [2/2] (2.77ns)   --->   "%r_V = load i7 %table_m_V_1_addr"   --->   Operation 38 'load' 'r_V' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 63> <Depth = 115> <ROM>
-ST_4 : Operation 39 [1/1] (0.00ns)   --->   "%table_n_V_1_addr = getelementptr i56 %table_n_V_1, i64 0, i64 %zext_ln1890"   --->   Operation 39 'getelementptr' 'table_n_V_1_addr' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 39 [1/1] (0.00ns)   --->   "%table_n_V_1_addr = getelementptr i56 %table_n_V_1, i64 0, i64 %zext_ln1933"   --->   Operation 39 'getelementptr' 'table_n_V_1_addr' <Predicate = true> <Delay = 0.00>
 ST_4 : Operation 40 [2/2] (2.77ns)   --->   "%rhs = load i7 %table_n_V_1_addr"   --->   Operation 40 'load' 'rhs' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 56> <Depth = 115> <ROM>
 
 State 5 <SV = 3> <Delay = 2.77>
@@ -158,7 +158,7 @@ ST_11 : Operation 52 [1/1] (4.17ns)   --->   "%ret_V = add i112 %zext_ln1192, i1
 ST_11 : Operation 53 [1/1] (0.00ns)   --->   "%trunc_ln = partselect i64 @_ssdm_op_PartSelect.i64.i112.i32.i32, i112 %ret_V, i32 48, i32 111"   --->   Operation 53 'partselect' 'trunc_ln' <Predicate = (!icmp_ln1495)> <Delay = 0.00>
 ST_11 : Operation 54 [1/1] (1.32ns)   --->   "%br_ln0 = br void %_ZN8ap_fixedILi64ELi16EL9ap_q_mode5EL9ap_o_mode3ELi0EEC2Ei.exit"   --->   Operation 54 'br' 'br_ln0' <Predicate = (!icmp_ln1495)> <Delay = 1.32>
 ST_11 : Operation 55 [1/1] (0.00ns)   --->   "%y_V = phi i64 %trunc_ln, void %_Z13busca_binariaP8ap_fixedILi64ELi16EL9ap_q_mode5EL9ap_o_mode3ELi0EEiS2_.exit, i64 8805944646392872960, void"   --->   Operation 55 'phi' 'y_V' <Predicate = true> <Delay = 0.00>
-ST_11 : Operation 56 [1/1] (0.00ns)   --->   "%ret_ln1896 = ret i64 %y_V" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1896]   --->   Operation 56 'ret' 'ret_ln1896' <Predicate = true> <Delay = 0.00>
+ST_11 : Operation 56 [1/1] (0.00ns)   --->   "%ret_ln1939 = ret i64 %y_V" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1939]   --->   Operation 56 'ret' 'ret_ln1939' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
@@ -168,15 +168,15 @@ Target clock period: 10ns, clock uncertainty: 2.7ns.
 
  <State 1>: 3.67ns
 The critical path consists of the following:
-	wire read on port 'x' (../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1009) [8]  (0 ns)
+	wire read on port 'x' (../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1015) [8]  (0 ns)
 	'icmp' operation ('icmp_ln1495') [9]  (2.34 ns)
 	multiplexor before 'phi' operation ('y.V') with incoming values : ('trunc_ln') [49]  (1.32 ns)
 
  <State 2>: 7.13ns
 The critical path consists of the following:
-	'phi' operation ('intervalo_begin') with incoming values : ('intervalo_begin', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1025) [14]  (0 ns)
-	'sub' operation ('sub_ln1018', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1018) [17]  (2.18 ns)
-	'add' operation ('half_list', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1021) [25]  (2.18 ns)
+	'phi' operation ('intervalo_begin') with incoming values : ('intervalo_begin', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1031) [14]  (0 ns)
+	'sub' operation ('sub_ln1024', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1024) [17]  (2.18 ns)
+	'add' operation ('half_list', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1027) [25]  (2.18 ns)
 	'getelementptr' operation ('table_mark_V_1_addr') [27]  (0 ns)
 	'load' operation ('table_mark_V_1_load') on array 'table_mark_V_1' [28]  (2.77 ns)
 
@@ -184,7 +184,7 @@ The critical path consists of the following:
 The critical path consists of the following:
 	'load' operation ('table_mark_V_1_load') on array 'table_mark_V_1' [28]  (2.77 ns)
 	'icmp' operation ('icmp_ln1494') [30]  (2.34 ns)
-	'select' operation ('intervalo_begin', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1025) [31]  (0.773 ns)
+	'select' operation ('intervalo_begin', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1031) [31]  (0.773 ns)
 
  <State 4>: 2.77ns
 The critical path consists of the following:

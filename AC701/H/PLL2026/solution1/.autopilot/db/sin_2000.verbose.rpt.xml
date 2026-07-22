@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'sin_2000'" level="0">
-<item name = "Date">Fri Jul 10 13:31:09 2026
+<item name = "Date">Wed Jul 22 15:27:27 2026
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)</item>
 <item name = "Project">PLL2026</item>
@@ -91,18 +91,18 @@
 <column name="out_sin_V_3_fu_510_p2">-, 0, 0, 56, 1, 49</column>
 <column name="p_Val2_s_fu_355_p2">-, 0, 0, 71, 1, 64</column>
 <column name="sub_ln703_fu_563_p2">-, 0, 0, 57, 1, 50</column>
-<column name="sub_ln983_fu_462_p2">-, 0, 0, 16, 6, 9</column>
-<column name="sub_ln991_fu_482_p2">-, 0, 0, 16, 7, 9</column>
-<column name="and_ln399_1_fu_249_p2">and, 0, 0, 2, 1, 1</column>
-<column name="and_ln399_fu_135_p2">and, 0, 0, 2, 1, 1</column>
-<column name="and_ln402_1_fu_275_p2">and, 0, 0, 2, 1, 1</column>
-<column name="and_ln402_fu_159_p2">and, 0, 0, 2, 1, 1</column>
-<column name="and_ln405_1_fu_301_p2">and, 0, 0, 2, 1, 1</column>
-<column name="and_ln405_fu_185_p2">and, 0, 0, 2, 1, 1</column>
-<column name="and_ln408_1_fu_333_p2">and, 0, 0, 2, 1, 1</column>
-<column name="and_ln408_fu_327_p2">and, 0, 0, 2, 1, 1</column>
-<column name="and_ln981_fu_532_p2">and, 0, 0, 2, 1, 1</column>
-<column name="and_ln985_fu_550_p2">and, 0, 0, 2, 1, 1</column>
+<column name="sub_ln989_fu_462_p2">-, 0, 0, 16, 6, 9</column>
+<column name="sub_ln997_fu_482_p2">-, 0, 0, 16, 7, 9</column>
+<column name="and_ln405_1_fu_249_p2">and, 0, 0, 2, 1, 1</column>
+<column name="and_ln405_fu_135_p2">and, 0, 0, 2, 1, 1</column>
+<column name="and_ln408_1_fu_275_p2">and, 0, 0, 2, 1, 1</column>
+<column name="and_ln408_fu_159_p2">and, 0, 0, 2, 1, 1</column>
+<column name="and_ln411_1_fu_301_p2">and, 0, 0, 2, 1, 1</column>
+<column name="and_ln411_fu_185_p2">and, 0, 0, 2, 1, 1</column>
+<column name="and_ln414_1_fu_333_p2">and, 0, 0, 2, 1, 1</column>
+<column name="and_ln414_fu_327_p2">and, 0, 0, 2, 1, 1</column>
+<column name="and_ln987_fu_532_p2">and, 0, 0, 2, 1, 1</column>
+<column name="and_ln991_fu_550_p2">and, 0, 0, 2, 1, 1</column>
 <column name="icmp_ln1494_1_fu_123_p2">icmp, 0, 0, 29, 64, 52</column>
 <column name="icmp_ln1494_2_fu_147_p2">icmp, 0, 0, 29, 64, 51</column>
 <column name="icmp_ln1494_3_fu_171_p2">icmp, 0, 0, 29, 64, 52</column>
@@ -113,12 +113,12 @@
 <column name="icmp_ln1495_3_fu_215_p2">icmp, 0, 0, 29, 64, 53</column>
 <column name="icmp_ln1495_fu_129_p2">icmp, 0, 0, 29, 64, 53</column>
 <column name="icmp_ln851_fu_409_p2">icmp, 0, 0, 39, 96, 1</column>
-<column name="icmp_ln978_fu_440_p2">icmp, 0, 0, 16, 26, 9</column>
-<column name="icmp_ln981_fu_446_p2">icmp, 0, 0, 16, 26, 10</column>
-<column name="icmp_ln985_fu_452_p2">icmp, 0, 0, 16, 26, 11</column>
-<column name="or_ln399_fu_263_p2">or, 0, 0, 2, 1, 1</column>
-<column name="or_ln402_fu_289_p2">or, 0, 0, 2, 1, 1</column>
-<column name="or_ln405_fu_315_p2">or, 0, 0, 2, 1, 1</column>
+<column name="icmp_ln984_fu_440_p2">icmp, 0, 0, 16, 26, 9</column>
+<column name="icmp_ln987_fu_446_p2">icmp, 0, 0, 16, 26, 10</column>
+<column name="icmp_ln991_fu_452_p2">icmp, 0, 0, 16, 26, 11</column>
+<column name="or_ln405_fu_263_p2">or, 0, 0, 2, 1, 1</column>
+<column name="or_ln408_fu_289_p2">or, 0, 0, 2, 1, 1</column>
+<column name="or_ln411_fu_315_p2">or, 0, 0, 2, 1, 1</column>
 <column name="angulo_V_10_fu_307_p3">select, 0, 0, 64, 1, 64</column>
 <column name="angulo_V_7_fu_235_p3">select, 0, 0, 64, 1, 64</column>
 <column name="angulo_V_8_fu_255_p3">select, 0, 0, 64, 1, 64</column>
@@ -129,15 +129,15 @@
 <column name="out_sin_V_5_fu_537_p3">select, 0, 0, 50, 1, 50</column>
 <column name="out_sin_V_6_fu_555_p3">select, 0, 0, 50, 1, 50</column>
 <column name="ret_V_2_fu_428_p3">select, 0, 0, 26, 1, 26</column>
-<column name="select_ln411_fu_227_p3">select, 0, 0, 64, 1, 64</column>
+<column name="select_ln417_fu_227_p3">select, 0, 0, 64, 1, 64</column>
 <column name="select_ln850_fu_420_p3">select, 0, 0, 26, 1, 26</column>
 <column name="theta_abs_V_fu_370_p3">select, 0, 0, 64, 1, 64</column>
 <column name="xor_ln1494_fu_243_p2">xor, 0, 0, 2, 1, 2</column>
-<column name="xor_ln399_fu_269_p2">xor, 0, 0, 2, 1, 2</column>
-<column name="xor_ln402_fu_295_p2">xor, 0, 0, 2, 1, 2</column>
-<column name="xor_ln405_fu_321_p2">xor, 0, 0, 2, 1, 2</column>
-<column name="xor_ln978_fu_527_p2">xor, 0, 0, 2, 1, 2</column>
-<column name="xor_ln981_fu_545_p2">xor, 0, 0, 2, 1, 2</column>
+<column name="xor_ln405_fu_269_p2">xor, 0, 0, 2, 1, 2</column>
+<column name="xor_ln408_fu_295_p2">xor, 0, 0, 2, 1, 2</column>
+<column name="xor_ln411_fu_321_p2">xor, 0, 0, 2, 1, 2</column>
+<column name="xor_ln984_fu_527_p2">xor, 0, 0, 2, 1, 2</column>
+<column name="xor_ln987_fu_545_p2">xor, 0, 0, 2, 1, 2</column>
 </table>
 </item>
 <item name = "Multiplexer"><table name="" hasTotal="1">
@@ -150,9 +150,9 @@
 <keys size="5">Name, FF, LUT, Bits, Const Bits</keys>
 <column name="angulo_V_reg_574">64, 0, 64, 0</column>
 <column name="ap_CS_fsm">11, 0, 11, 0</column>
-<column name="icmp_ln978_reg_619">1, 0, 1, 0</column>
-<column name="icmp_ln981_reg_625">1, 0, 1, 0</column>
-<column name="icmp_ln985_reg_631">1, 0, 1, 0</column>
+<column name="icmp_ln984_reg_619">1, 0, 1, 0</column>
+<column name="icmp_ln987_reg_625">1, 0, 1, 0</column>
+<column name="icmp_ln991_reg_631">1, 0, 1, 0</column>
 <column name="out_sin_V_6_reg_656">50, 0, 50, 0</column>
 <column name="p_Result_s_reg_580">1, 0, 1, 0</column>
 <column name="r_V_reg_596">121, 0, 121, 0</column>

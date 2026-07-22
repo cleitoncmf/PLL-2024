@@ -247,15 +247,20 @@ void PLL2026_x64(uint1_t sinc,
 		delta = delta_old + Ts*wcd*(delta_raw - delta_old);
 
 		// Filtragem da amplitude da seq negativa
+		Amp_vneg = Amp_vneg_old + Ts*wca*(Amp_vneg_raw - Amp_vneg_old);
+		/*
 		if(time>data_t(100e-3)){
 			Amp_vneg = Amp_vneg_old + Ts*wca*(Amp_vneg_raw - Amp_vneg_old);
 		}
 		else{
 			Amp_vneg = data_t(0);
 		}
+		*/
 
 
 		// Cálculo dos sinais de compensação
+		theta1_2x_d = theta1_2x + delta;
+		/*
 		if(time>data_t(100e-3)){
 			//theta1_2x_d = theta1_2x - data_t(1.0471975512);
 			theta1_2x_d = theta1_2x + delta;
@@ -263,6 +268,7 @@ void PLL2026_x64(uint1_t sinc,
 		else{
 			theta1_2x_d = theta1_2x;
 		}
+		*/
 
 
 
@@ -1450,9 +1456,9 @@ data_t ATAN2_LUT(data_t xd, data_t xq){
 			y = ATAN_LUT(q_o_d);
 			*/
 
-			xq_inv = INV_LUT(xq);
-			d_o_q = xd * xq_inv;
-			y = ATAN_LUT(d_o_q);
+			xd_inv = INV_LUT(xd);
+			q_o_d = xq * xd_inv;
+			y = ATAN_LUT(q_o_d);
 
 		}
 		else{
@@ -1467,8 +1473,9 @@ data_t ATAN2_LUT(data_t xd, data_t xq){
 			*/
 
 
-			xq_aux = -xq;
-			xd_inv = INV_LUT(xd_aux);
+			xd_inv = INV_LUT(xd);
+			q_o_d = (-xq) * xd_inv;
+			y = -ATAN_LUT(q_o_d);
 
 
 
@@ -1481,21 +1488,39 @@ data_t ATAN2_LUT(data_t xd, data_t xq){
 
 		if(xq>data_t(0)){
 			//segundo quadrante
+
+			/*
 			xd_aux = -xd;
 			xq_inv = INV_LUT(xq);
 			d_o_q = xd_aux*xq_inv;
 			y_aux = ATAN_LUT(d_o_q);
 			y = y_aux + arc90;
+			*/
+
+
+			xd_aux = -xd;
+			xd_inv = INV_LUT(xd_aux);
+			q_o_d = xq * xd_inv;
+			y = -(ATAN_LUT(q_o_d) + pi);
 
 		}
 		else{
 			//terceiro quadrante
+
+			/*
 			xd_aux = -xd;
 			xq_aux = -xq;
 			xd_inv = INV_LUT(xd_aux);
 			q_o_d = xd_inv*xq_aux;
 			y_aux = ATAN_LUT(q_o_d);
 			y = y_aux + pi;
+			*/
+
+			xd_aux = -xd;
+			xq_aux = -xq;
+			xd_inv = INV_LUT(xd_aux);
+			q_o_d = xq_aux * xd_inv;
+			y = (ATAN_LUT(q_o_d) + pi);
 
 		}
 

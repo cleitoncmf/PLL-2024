@@ -37,8 +37,8 @@
 <Resources>
 <BRAM_18K>6</BRAM_18K>
 <DSP>2</DSP>
-<FF>1506</FF>
-<LUT>2061</LUT>
+<FF>1555</FF>
+<LUT>2168</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>
@@ -129,7 +129,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_INV_LUT_fu_819_p_din1</name>
+<name>grp_INV_LUT_fu_809_p_din1</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -140,7 +140,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_INV_LUT_fu_819_p_dout0</name>
+<name>grp_INV_LUT_fu_809_p_dout0</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -151,7 +151,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_INV_LUT_fu_819_p_start</name>
+<name>grp_INV_LUT_fu_809_p_start</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -162,7 +162,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_INV_LUT_fu_819_p_ready</name>
+<name>grp_INV_LUT_fu_809_p_ready</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -173,7 +173,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_INV_LUT_fu_819_p_done</name>
+<name>grp_INV_LUT_fu_809_p_done</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -184,7 +184,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_INV_LUT_fu_819_p_idle</name>
+<name>grp_INV_LUT_fu_809_p_idle</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -195,18 +195,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2690_p_din0</name>
-<Object>ATAN2_LUT</Object>
-<Type>return value</Type>
-<Scope></Scope>
-<IOProtocol>ap_ctrl_hs</IOProtocol>
-<IOConfig></IOConfig>
-<Dir>out</Dir>
-<Bits>64</Bits>
-<Attribute>data</Attribute>
-</RtlPorts>
-<RtlPorts>
-<name>grp_fu_2690_p_din1</name>
+<name>grp_fu_2648_p_din0</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -217,7 +206,18 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2690_p_dout0</name>
+<name>grp_fu_2648_p_din1</name>
+<Object>ATAN2_LUT</Object>
+<Type>return value</Type>
+<Scope></Scope>
+<IOProtocol>ap_ctrl_hs</IOProtocol>
+<IOConfig></IOConfig>
+<Dir>out</Dir>
+<Bits>64</Bits>
+<Attribute>data</Attribute>
+</RtlPorts>
+<RtlPorts>
+<name>grp_fu_2648_p_dout0</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -228,7 +228,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2690_p_ce</name>
+<name>grp_fu_2648_p_ce</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -239,7 +239,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2694_p_din0</name>
+<name>grp_fu_2652_p_din0</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -250,7 +250,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2694_p_din1</name>
+<name>grp_fu_2652_p_din1</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -261,7 +261,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2694_p_dout0</name>
+<name>grp_fu_2652_p_dout0</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -272,7 +272,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2694_p_ce</name>
+<name>grp_fu_2652_p_ce</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -283,7 +283,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2698_p_din0</name>
+<name>grp_fu_2656_p_din0</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -294,7 +294,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2698_p_din1</name>
+<name>grp_fu_2656_p_din1</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -305,7 +305,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2698_p_dout0</name>
+<name>grp_fu_2656_p_dout0</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -316,7 +316,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2698_p_ce</name>
+<name>grp_fu_2656_p_ce</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -327,7 +327,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2702_p_din0</name>
+<name>grp_fu_2660_p_din0</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -338,7 +338,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2702_p_din1</name>
+<name>grp_fu_2660_p_din1</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -349,7 +349,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2702_p_dout0</name>
+<name>grp_fu_2660_p_dout0</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -360,7 +360,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2702_p_ce</name>
+<name>grp_fu_2660_p_ce</name>
 <Object>ATAN2_LUT</Object>
 <Type>return value</Type>
 <Scope></Scope>

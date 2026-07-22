@@ -32,20 +32,20 @@
 <Interval-max>undef</Interval-max>
 </SummaryOfOverallLatency>
 <SummaryOfLoopLatency>
-<VITIS_LOOP_1018_1>
+<VITIS_LOOP_1024_1>
 <TripCount>undef</TripCount>
 <Latency>undef</Latency>
 <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
 <PipelineII>2</PipelineII>
 <PipelineDepth>2</PipelineDepth>
-</VITIS_LOOP_1018_1>
-<VITIS_LOOP_1018_1>
+</VITIS_LOOP_1024_1>
+<VITIS_LOOP_1024_1>
 <TripCount>undef</TripCount>
 <Latency>undef</Latency>
 <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
 <PipelineII>2</PipelineII>
 <PipelineDepth>2</PipelineDepth>
-</VITIS_LOOP_1018_1>
+</VITIS_LOOP_1024_1>
 </SummaryOfLoopLatency>
 </PerformanceEstimates>
 
@@ -145,7 +145,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2706_p_din0</name>
+<name>grp_fu_2664_p_din0</name>
 <Object>ATAN_LUT_signed</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -156,7 +156,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2706_p_din1</name>
+<name>grp_fu_2664_p_din1</name>
 <Object>ATAN_LUT_signed</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -167,7 +167,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2706_p_dout0</name>
+<name>grp_fu_2664_p_dout0</name>
 <Object>ATAN_LUT_signed</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -178,7 +178,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2706_p_ce</name>
+<name>grp_fu_2664_p_ce</name>
 <Object>ATAN_LUT_signed</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -189,7 +189,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2710_p_din0</name>
+<name>grp_fu_2668_p_din0</name>
 <Object>ATAN_LUT_signed</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -200,7 +200,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2710_p_din1</name>
+<name>grp_fu_2668_p_din1</name>
 <Object>ATAN_LUT_signed</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -211,7 +211,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2710_p_dout0</name>
+<name>grp_fu_2668_p_dout0</name>
 <Object>ATAN_LUT_signed</Object>
 <Type>return value</Type>
 <Scope></Scope>
@@ -222,7 +222,7 @@
 <Attribute>data</Attribute>
 </RtlPorts>
 <RtlPorts>
-<name>grp_fu_2710_p_ce</name>
+<name>grp_fu_2668_p_ce</name>
 <Object>ATAN_LUT_signed</Object>
 <Type>return value</Type>
 <Scope></Scope>

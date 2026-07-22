@@ -26477,28 +26477,10 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
   delta = delta_old + data_t(5e-6)*data_t(1884.95)*(delta_raw - delta_old);
 
 
-  if(time>data_t(100e-3)){
-   Amp_vneg = Amp_vneg_old + data_t(5e-6)*data_t(7539.82)*(Amp_vneg_raw - Amp_vneg_old);
-  }
-  else{
-   Amp_vneg = data_t(0);
-  }
-
-
-
-  if(time>data_t(100e-3)){
-
-   theta1_2x_d = theta1_2x + delta;
-  }
-  else{
-   theta1_2x_d = theta1_2x;
-  }
-
-
-
-
-
-
+  Amp_vneg = Amp_vneg_old + data_t(5e-6)*data_t(7539.82)*(Amp_vneg_raw - Amp_vneg_old);
+# 262 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
+  theta1_2x_d = theta1_2x + delta;
+# 278 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
   v1_q_comp = Amp_vneg * sin_2000(theta1_2x_d);
   v1_d_comp = Amp_vneg * cos_2000(theta1_2x_d);
 
@@ -26509,7 +26491,7 @@ __attribute__((sdx_kernel("PLL2026_x64", 0))) void PLL2026_x64(uint1_t sinc,
 
   pll_alfa = amp_vPos * sen_teta1;
   pll_beta = - amp_vPos * cos_teta1;
-# 296 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
+# 302 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
   in_inv_aux_old = in_inv_aux;
 
   if(in_inv_aux>data_t(1000)){
@@ -26628,7 +26610,7 @@ data_t wrap_2pi(data_t angulo_in){
     else if(angulo<-data_t(12.566370614359172)){
         angulo = angulo+data_t(18.849555921538759);
     }
-# 427 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
+# 433 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
     return angulo;
 
 }
@@ -27220,7 +27202,7 @@ int busca_binaria(data_t *vetor, int Tamanho, data_t valor){
     int half_list;
 
 
-    VITIS_LOOP_1018_1: while( (intervalo_end-intervalo_begin)>1 ){
+    VITIS_LOOP_1024_1: while( (intervalo_end-intervalo_begin)>1 ){
 
 
      half_list = intervalo_begin + (intervalo_end - intervalo_begin)/2;
@@ -27646,20 +27628,21 @@ data_t ATAN2_LUT(data_t xd, data_t xq){
  if(xd>data_t(0)){
 
   if(xq>data_t(0)){
-
-
+# 1459 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
    xd_inv = INV_LUT(xd);
-   q_o_d = xq*xd_inv;
+   q_o_d = xq * xd_inv;
    y = ATAN_LUT(q_o_d);
 
   }
   else{
+# 1476 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
+   xd_inv = INV_LUT(xd);
+   q_o_d = (-xq) * xd_inv;
+   y = -ATAN_LUT(q_o_d);
 
-   xq_aux = -xq;
-   xq_inv = INV_LUT(xq_aux);
-   d_o_q = xq_inv*xd;
-   y_aux = ATAN_LUT(d_o_q);
-   y = y_aux + data_t(4.712388980384690);
+
+
+
 
   }
 
@@ -27667,22 +27650,20 @@ data_t ATAN2_LUT(data_t xd, data_t xq){
  else{
 
   if(xq>data_t(0)){
-
+# 1501 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
    xd_aux = -xd;
-   xq_inv = INV_LUT(xq);
-   d_o_q = xd_aux*xq_inv;
-   y_aux = ATAN_LUT(d_o_q);
-   y = y_aux + data_t(1.570796326794897);
+   xd_inv = INV_LUT(xd_aux);
+   q_o_d = xq * xd_inv;
+   y = -(ATAN_LUT(q_o_d) + data_t(3.141592653589793));
 
   }
   else{
-
+# 1519 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
    xd_aux = -xd;
    xq_aux = -xq;
    xd_inv = INV_LUT(xd_aux);
-   q_o_d = xd_inv*xq_aux;
-   y_aux = ATAN_LUT(q_o_d);
-   y = y_aux + data_t(3.141592653589793);
+   q_o_d = xq_aux * xd_inv;
+   y = (ATAN_LUT(q_o_d) + data_t(3.141592653589793));
 
   }
 
@@ -27697,7 +27678,7 @@ data_t ATAN2_LUT(data_t xd, data_t xq){
 
 
 }
-# 1509 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
+# 1552 "../../C-Codes/Fixed_x64/PLL2026_x64.cpp"
 data_t INV_LUT(data_t x){
 
     data_t y;

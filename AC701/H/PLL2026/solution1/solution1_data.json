@@ -1764,7 +1764,7 @@
       "Instances": [
         {
           "ModuleName": "ATAN2_LUT",
-          "InstanceName": "grp_ATAN2_LUT_fu_769",
+          "InstanceName": "grp_ATAN2_LUT_fu_759",
           "Instances": [
             {
               "ModuleName": "INV_LUT",
@@ -1778,23 +1778,23 @@
         },
         {
           "ModuleName": "cos_2000",
-          "InstanceName": "grp_cos_2000_fu_787"
+          "InstanceName": "grp_cos_2000_fu_777"
         },
         {
           "ModuleName": "cos_2000",
-          "InstanceName": "grp_cos_2000_fu_794"
+          "InstanceName": "grp_cos_2000_fu_784"
         },
         {
           "ModuleName": "ATAN_LUT_signed",
-          "InstanceName": "grp_ATAN_LUT_signed_fu_801"
+          "InstanceName": "grp_ATAN_LUT_signed_fu_791"
         },
         {
           "ModuleName": "sin_2000",
-          "InstanceName": "grp_sin_2000_fu_812"
+          "InstanceName": "grp_sin_2000_fu_802"
         },
         {
           "ModuleName": "INV_LUT",
-          "InstanceName": "grp_INV_LUT_fu_819"
+          "InstanceName": "grp_INV_LUT_fu_809"
         }
       ]
     },
@@ -1929,7 +1929,7 @@
           "Estimate": "7.132"
         },
         "Loops": [{
-            "Name": "VITIS_LOOP_1018_1",
+            "Name": "VITIS_LOOP_1024_1",
             "TripCount": "",
             "Latency": "",
             "PipelineII": "2",
@@ -1968,7 +1968,7 @@
           "Estimate": "7.132"
         },
         "Loops": [{
-            "Name": "VITIS_LOOP_1018_1",
+            "Name": "VITIS_LOOP_1024_1",
             "TripCount": "",
             "Latency": "",
             "PipelineII": "2",
@@ -2013,10 +2013,10 @@
           "DSP": "2",
           "AVAIL_DSP": "740",
           "UTIL_DSP": "~0",
-          "FF": "1506",
+          "FF": "1555",
           "AVAIL_FF": "269200",
           "UTIL_FF": "~0",
-          "LUT": "2061",
+          "LUT": "2168",
           "AVAIL_LUT": "134600",
           "UTIL_LUT": "1",
           "URAM": "0",
@@ -2040,14 +2040,14 @@
         },
         "Loops": [
           {
-            "Name": "VITIS_LOOP_1018_1",
+            "Name": "VITIS_LOOP_1024_1",
             "TripCount": "",
             "Latency": "",
             "PipelineII": "2",
             "PipelineDepth": "2"
           },
           {
-            "Name": "VITIS_LOOP_1018_1",
+            "Name": "VITIS_LOOP_1024_1",
             "TripCount": "",
             "Latency": "",
             "PipelineII": "2",
@@ -2088,14 +2088,14 @@
         },
         "Loops": [
           {
-            "Name": "VITIS_LOOP_1018_1",
+            "Name": "VITIS_LOOP_1024_1",
             "TripCount": "",
             "Latency": "",
             "PipelineII": "2",
             "PipelineDepth": "2"
           },
           {
-            "Name": "VITIS_LOOP_1018_1",
+            "Name": "VITIS_LOOP_1024_1",
             "TripCount": "",
             "Latency": "",
             "PipelineII": "2",
@@ -2109,10 +2109,10 @@
           "DSP": "100",
           "AVAIL_DSP": "740",
           "UTIL_DSP": "13",
-          "FF": "25347",
+          "FF": "25395",
           "AVAIL_FF": "269200",
           "UTIL_FF": "9",
-          "LUT": "24651",
+          "LUT": "24590",
           "AVAIL_LUT": "134600",
           "UTIL_LUT": "18",
           "URAM": "0",
@@ -2125,7 +2125,7 @@
   "GenerateBdFiles": "0",
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2026-07-10 13:31:22 -0300",
+    "Time": "2026-07-22 15:27:39 -0300",
     "ToolName": "vivado_hls",
     "ToolVersion": "2020.2"
   }

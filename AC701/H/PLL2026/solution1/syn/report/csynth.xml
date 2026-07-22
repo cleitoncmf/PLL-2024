@@ -29,28 +29,28 @@
             <Interval-max>undef</Interval-max>
         </SummaryOfOverallLatency>
         <SummaryOfLoopLatency>
-            <VITIS_LOOP_1018_1>
+            <VITIS_LOOP_1024_1>
                 <TripCount>undef</TripCount>
                 <Latency>undef</Latency>
                 <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
                 <PipelineII>2</PipelineII>
                 <PipelineDepth>2</PipelineDepth>
-            </VITIS_LOOP_1018_1>
-            <VITIS_LOOP_1018_1>
+            </VITIS_LOOP_1024_1>
+            <VITIS_LOOP_1024_1>
                 <TripCount>undef</TripCount>
                 <Latency>undef</Latency>
                 <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
                 <PipelineII>2</PipelineII>
                 <PipelineDepth>2</PipelineDepth>
-            </VITIS_LOOP_1018_1>
+            </VITIS_LOOP_1024_1>
         </SummaryOfLoopLatency>
     </PerformanceEstimates>
     <AreaEstimates>
         <Resources>
             <BRAM_18K>42</BRAM_18K>
             <DSP>100</DSP>
-            <FF>25347</FF>
-            <LUT>24651</LUT>
+            <FF>25395</FF>
+            <LUT>24590</LUT>
             <URAM>0</URAM>
         </Resources>
         <AvailableResources>
@@ -914,10 +914,10 @@
             <ModuleName>PLL2026_x64</ModuleName>
             <InstancesList>
                 <Instance>
-                    <InstName>grp_ATAN2_LUT_fu_769</InstName>
+                    <InstName>grp_ATAN2_LUT_fu_759</InstName>
                     <ModuleName>ATAN2_LUT</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>769</ID>
+                    <ID>759</ID>
                     <InstancesList>
                         <Instance>
                             <InstName>grp_INV_LUT_fu_88</InstName>
@@ -934,34 +934,34 @@
                     </InstancesList>
                 </Instance>
                 <Instance>
-                    <InstName>grp_cos_2000_fu_787</InstName>
+                    <InstName>grp_cos_2000_fu_777</InstName>
                     <ModuleName>cos_2000</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>787</ID>
+                    <ID>777</ID>
                 </Instance>
                 <Instance>
-                    <InstName>grp_cos_2000_fu_794</InstName>
+                    <InstName>grp_cos_2000_fu_784</InstName>
                     <ModuleName>cos_2000</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>794</ID>
+                    <ID>784</ID>
                 </Instance>
                 <Instance>
-                    <InstName>grp_ATAN_LUT_signed_fu_801</InstName>
+                    <InstName>grp_ATAN_LUT_signed_fu_791</InstName>
                     <ModuleName>ATAN_LUT_signed</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>801</ID>
+                    <ID>791</ID>
                 </Instance>
                 <Instance>
-                    <InstName>grp_sin_2000_fu_812</InstName>
+                    <InstName>grp_sin_2000_fu_802</InstName>
                     <ModuleName>sin_2000</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>812</ID>
+                    <ID>802</ID>
                 </Instance>
                 <Instance>
-                    <InstName>grp_INV_LUT_fu_819</InstName>
+                    <InstName>grp_INV_LUT_fu_809</InstName>
                     <ModuleName>INV_LUT</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>819</ID>
+                    <ID>809</ID>
                 </Instance>
             </InstancesList>
         </TopModule>
@@ -1244,14 +1244,14 @@
                     <PipelineType>none</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_1018_1>
-                        <Name>VITIS_LOOP_1018_1</Name>
+                    <VITIS_LOOP_1024_1>
+                        <Name>VITIS_LOOP_1024_1</Name>
                         <TripCount>undef</TripCount>
                         <Latency>undef</Latency>
                         <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
                         <PipelineII>2</PipelineII>
                         <PipelineDepth>2</PipelineDepth>
-                    </VITIS_LOOP_1018_1>
+                    </VITIS_LOOP_1024_1>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -1383,14 +1383,14 @@
                     <PipelineType>none</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_1018_1>
-                        <Name>VITIS_LOOP_1018_1</Name>
+                    <VITIS_LOOP_1024_1>
+                        <Name>VITIS_LOOP_1024_1</Name>
                         <TripCount>undef</TripCount>
                         <Latency>undef</Latency>
                         <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
                         <PipelineII>2</PipelineII>
                         <PipelineDepth>2</PipelineDepth>
-                    </VITIS_LOOP_1018_1>
+                    </VITIS_LOOP_1024_1>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -1530,10 +1530,10 @@
                     <DSP>2</DSP>
                     <AVAIL_DSP>740</AVAIL_DSP>
                     <UTIL_DSP>~0</UTIL_DSP>
-                    <FF>1506</FF>
+                    <FF>1555</FF>
                     <AVAIL_FF>269200</AVAIL_FF>
                     <UTIL_FF>~0</UTIL_FF>
-                    <LUT>2061</LUT>
+                    <LUT>2168</LUT>
                     <AVAIL_LUT>134600</AVAIL_LUT>
                     <UTIL_LUT>1</UTIL_LUT>
                     <URAM>0</URAM>
@@ -1620,7 +1620,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_INV_LUT_fu_819_p_din1</name>
+                    <name>grp_INV_LUT_fu_809_p_din1</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1631,7 +1631,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_INV_LUT_fu_819_p_dout0</name>
+                    <name>grp_INV_LUT_fu_809_p_dout0</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1642,7 +1642,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_INV_LUT_fu_819_p_start</name>
+                    <name>grp_INV_LUT_fu_809_p_start</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1653,7 +1653,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_INV_LUT_fu_819_p_ready</name>
+                    <name>grp_INV_LUT_fu_809_p_ready</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1664,7 +1664,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_INV_LUT_fu_819_p_done</name>
+                    <name>grp_INV_LUT_fu_809_p_done</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1675,7 +1675,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_INV_LUT_fu_819_p_idle</name>
+                    <name>grp_INV_LUT_fu_809_p_idle</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1686,18 +1686,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2690_p_din0</name>
-                    <Object>ATAN2_LUT</Object>
-                    <Type>return value</Type>
-                    <Scope/>
-                    <IOProtocol>ap_ctrl_hs</IOProtocol>
-                    <IOConfig/>
-                    <Dir>out</Dir>
-                    <Bits>64</Bits>
-                    <Attribute>data</Attribute>
-                </RtlPorts>
-                <RtlPorts>
-                    <name>grp_fu_2690_p_din1</name>
+                    <name>grp_fu_2648_p_din0</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1708,7 +1697,18 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2690_p_dout0</name>
+                    <name>grp_fu_2648_p_din1</name>
+                    <Object>ATAN2_LUT</Object>
+                    <Type>return value</Type>
+                    <Scope/>
+                    <IOProtocol>ap_ctrl_hs</IOProtocol>
+                    <IOConfig/>
+                    <Dir>out</Dir>
+                    <Bits>64</Bits>
+                    <Attribute>data</Attribute>
+                </RtlPorts>
+                <RtlPorts>
+                    <name>grp_fu_2648_p_dout0</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1719,7 +1719,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2690_p_ce</name>
+                    <name>grp_fu_2648_p_ce</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1730,7 +1730,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2694_p_din0</name>
+                    <name>grp_fu_2652_p_din0</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1741,7 +1741,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2694_p_din1</name>
+                    <name>grp_fu_2652_p_din1</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1752,7 +1752,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2694_p_dout0</name>
+                    <name>grp_fu_2652_p_dout0</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1763,7 +1763,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2694_p_ce</name>
+                    <name>grp_fu_2652_p_ce</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1774,7 +1774,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2698_p_din0</name>
+                    <name>grp_fu_2656_p_din0</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1785,7 +1785,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2698_p_din1</name>
+                    <name>grp_fu_2656_p_din1</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1796,7 +1796,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2698_p_dout0</name>
+                    <name>grp_fu_2656_p_dout0</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1807,7 +1807,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2698_p_ce</name>
+                    <name>grp_fu_2656_p_ce</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1818,7 +1818,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2702_p_din0</name>
+                    <name>grp_fu_2660_p_din0</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1829,7 +1829,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2702_p_din1</name>
+                    <name>grp_fu_2660_p_din1</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1840,7 +1840,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2702_p_dout0</name>
+                    <name>grp_fu_2660_p_dout0</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1851,7 +1851,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2702_p_ce</name>
+                    <name>grp_fu_2660_p_ce</name>
                     <Object>ATAN2_LUT</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -1904,22 +1904,22 @@
                     <PipelineType>none</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_1018_1>
-                        <Name>VITIS_LOOP_1018_1</Name>
+                    <VITIS_LOOP_1024_1>
+                        <Name>VITIS_LOOP_1024_1</Name>
                         <TripCount>undef</TripCount>
                         <Latency>undef</Latency>
                         <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
                         <PipelineII>2</PipelineII>
                         <PipelineDepth>2</PipelineDepth>
-                    </VITIS_LOOP_1018_1>
-                    <VITIS_LOOP_1018_1>
-                        <Name>VITIS_LOOP_1018_1</Name>
+                    </VITIS_LOOP_1024_1>
+                    <VITIS_LOOP_1024_1>
+                        <Name>VITIS_LOOP_1024_1</Name>
                         <TripCount>undef</TripCount>
                         <Latency>undef</Latency>
                         <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
                         <PipelineII>2</PipelineII>
                         <PipelineDepth>2</PipelineDepth>
-                    </VITIS_LOOP_1018_1>
+                    </VITIS_LOOP_1024_1>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -2020,7 +2020,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2706_p_din0</name>
+                    <name>grp_fu_2664_p_din0</name>
                     <Object>ATAN_LUT_signed</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -2031,7 +2031,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2706_p_din1</name>
+                    <name>grp_fu_2664_p_din1</name>
                     <Object>ATAN_LUT_signed</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -2042,7 +2042,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2706_p_dout0</name>
+                    <name>grp_fu_2664_p_dout0</name>
                     <Object>ATAN_LUT_signed</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -2053,7 +2053,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2706_p_ce</name>
+                    <name>grp_fu_2664_p_ce</name>
                     <Object>ATAN_LUT_signed</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -2064,7 +2064,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2710_p_din0</name>
+                    <name>grp_fu_2668_p_din0</name>
                     <Object>ATAN_LUT_signed</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -2075,7 +2075,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2710_p_din1</name>
+                    <name>grp_fu_2668_p_din1</name>
                     <Object>ATAN_LUT_signed</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -2086,7 +2086,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2710_p_dout0</name>
+                    <name>grp_fu_2668_p_dout0</name>
                     <Object>ATAN_LUT_signed</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -2097,7 +2097,7 @@
                     <Attribute>data</Attribute>
                 </RtlPorts>
                 <RtlPorts>
-                    <name>grp_fu_2710_p_ce</name>
+                    <name>grp_fu_2668_p_ce</name>
                     <Object>ATAN_LUT_signed</Object>
                     <Type>return value</Type>
                     <Scope/>
@@ -2139,22 +2139,22 @@
                     <PipelineType>none</PipelineType>
                 </SummaryOfOverallLatency>
                 <SummaryOfLoopLatency>
-                    <VITIS_LOOP_1018_1>
-                        <Name>VITIS_LOOP_1018_1</Name>
+                    <VITIS_LOOP_1024_1>
+                        <Name>VITIS_LOOP_1024_1</Name>
                         <TripCount>undef</TripCount>
                         <Latency>undef</Latency>
                         <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
                         <PipelineII>2</PipelineII>
                         <PipelineDepth>2</PipelineDepth>
-                    </VITIS_LOOP_1018_1>
-                    <VITIS_LOOP_1018_1>
-                        <Name>VITIS_LOOP_1018_1</Name>
+                    </VITIS_LOOP_1024_1>
+                    <VITIS_LOOP_1024_1>
+                        <Name>VITIS_LOOP_1024_1</Name>
                         <TripCount>undef</TripCount>
                         <Latency>undef</Latency>
                         <AbsoluteTimeLatency>undef</AbsoluteTimeLatency>
                         <PipelineII>2</PipelineII>
                         <PipelineDepth>2</PipelineDepth>
-                    </VITIS_LOOP_1018_1>
+                    </VITIS_LOOP_1024_1>
                 </SummaryOfLoopLatency>
             </PerformanceEstimates>
             <AreaEstimates>
@@ -2165,10 +2165,10 @@
                     <DSP>100</DSP>
                     <AVAIL_DSP>740</AVAIL_DSP>
                     <UTIL_DSP>13</UTIL_DSP>
-                    <FF>25347</FF>
+                    <FF>25395</FF>
                     <AVAIL_FF>269200</AVAIL_FF>
                     <UTIL_FF>9</UTIL_FF>
-                    <LUT>24651</LUT>
+                    <LUT>24590</LUT>
                     <AVAIL_LUT>134600</AVAIL_LUT>
                     <UTIL_LUT>18</UTIL_LUT>
                     <URAM>0</URAM>
@@ -3896,7 +3896,7 @@
             <item name="Burst Missed">
                 <table>
                     <keys size="4">Variable, Problem, Resolution, Location</keys>
-                    <column name="">Cannot analyze the loop bounds of 'VITIS_LOOP_1018_1', 214-252, ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1018:24</column>
+                    <column name="">Cannot analyze the loop bounds of 'VITIS_LOOP_1024_1', 214-252, ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1024:24</column>
                 </table>
             </item>
         </section>
