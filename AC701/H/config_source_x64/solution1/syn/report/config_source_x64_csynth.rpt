@@ -1,0 +1,177 @@
+
+
+================================================================
+== Vitis HLS Report for 'config_source_x64'
+================================================================
+* Date:           Wed Nov  4 16:03:59 2026
+
+* Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)
+* Project:        config_source_x64
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: artix7
+* Target device:  xc7a200t-fbg676-2
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  3.108 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    1|    1|     none|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+--------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |   LUT  | URAM|
++-----------------+---------+-----+--------+--------+-----+
+|DSP              |        -|    -|       -|       -|    -|
+|Expression       |        -|    -|       0|     259|    -|
+|FIFO             |        -|    -|       -|       -|    -|
+|Instance         |        -|    -|       -|       -|    -|
+|Memory           |        -|    -|       -|       -|    -|
+|Multiplexer      |        -|    -|       -|      54|    -|
+|Register         |        -|    -|     112|       -|    -|
++-----------------+---------+-----+--------+--------+-----+
+|Total            |        0|    0|     112|     313|    0|
++-----------------+---------+-----+--------+--------+-----+
+|Available        |      730|  740|  269200|  134600|    0|
++-----------------+---------+-----+--------+--------+-----+
+|Utilization (%)  |        0|    0|      ~0|      ~0|    0|
++-----------------+---------+-----+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +------------------------+----------+----+---+----+------------+------------+
+    |      Variable Name     | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +------------------------+----------+----+---+----+------------+------------+
+    |and_ln353_1_fu_380_p2   |       and|   0|  0|   2|           1|           1|
+    |and_ln353_2_fu_428_p2   |       and|   0|  0|   2|           1|           1|
+    |and_ln353_3_fu_471_p2   |       and|   0|  0|   2|           1|           1|
+    |and_ln353_fu_332_p2     |       and|   0|  0|   2|           1|           1|
+    |icmp_ln850_1_fu_374_p2  |      icmp|   0|  0|  23|          48|           1|
+    |icmp_ln850_2_fu_422_p2  |      icmp|   0|  0|  23|          48|           1|
+    |icmp_ln850_3_fu_465_p2  |      icmp|   0|  0|  23|          48|           1|
+    |icmp_ln850_fu_326_p2    |      icmp|   0|  0|  23|          48|           1|
+    |select_ln101_fu_260_p3  |    select|   0|  0|  50|           1|          50|
+    |select_ln112_fu_288_p3  |    select|   0|  0|  49|           1|          49|
+    |select_ln71_fu_226_p3   |    select|   0|  0|  50|           1|          50|
+    |Ang_1n                  |       xor|   0|  0|   2|           1|           1|
+    |Ang_1p                  |       xor|   0|  0|   2|           1|           1|
+    |Ang_5n                  |       xor|   0|  0|   2|           1|           1|
+    |Ang_7p                  |       xor|   0|  0|   2|           1|           1|
+    |xor_ln870_fu_206_p2     |       xor|   0|  0|   2|           1|           1|
+    +------------------------+----------+----+---+----+------------+------------+
+    |Total                   |          |   0|  0| 259|         204|         162|
+    +------------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +----------------------------------+----+-----------+-----+-----------+
+    |               Name               | LUT| Input Size| Bits| Total Bits|
+    +----------------------------------+----+-----------+-----+-----------+
+    |ap_sig_allocacmp_aux_A_1n_V_load  |   9|          2|    1|          2|
+    |ap_sig_allocacmp_aux_A_5n_V_load  |   9|          2|    1|          2|
+    |ap_sig_allocacmp_p_Val2_1         |   9|          2|   27|         54|
+    |ap_sig_allocacmp_p_Val2_2         |   9|          2|   27|         54|
+    |ap_sig_allocacmp_p_Val2_3         |   9|          2|   27|         54|
+    |ap_sig_allocacmp_p_Val2_s         |   9|          2|   27|         54|
+    +----------------------------------+----+-----------+-----+-----------+
+    |Total                             |  54|         12|  110|        220|
+    +----------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------+----+----+-----+-----------+
+    |     Name     | FF | LUT| Bits| Const Bits|
+    +--------------+----+----+-----+-----------+
+    |ap_CS_fsm     |   1|   0|    1|          0|
+    |aux_A_1n_V    |   1|   0|    1|          0|
+    |aux_A_5n_V    |   1|   0|    1|          0|
+    |aux_Ang_1n_V  |  27|   0|   50|         23|
+    |aux_Ang_1p_V  |  27|   0|   49|         22|
+    |aux_Ang_5n_V  |  27|   0|   50|         23|
+    |aux_Ang_7p_V  |  27|   0|   50|         23|
+    |aux_sinc_V    |   1|   0|    1|          0|
+    +--------------+----+----+-----+-----------+
+    |Total         | 112|   0|  203|         91|
+    +--------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------+-----+-----+------------+-------------------+--------------+
+|   RTL Ports   | Dir | Bits|  Protocol  |   Source Object   |    C Type    |
++---------------+-----+-----+------------+-------------------+--------------+
+|ap_clk         |   in|    1|  ap_ctrl_hs|  config_source_x64|  return value|
+|ap_rst         |   in|    1|  ap_ctrl_hs|  config_source_x64|  return value|
+|ap_start       |   in|    1|  ap_ctrl_hs|  config_source_x64|  return value|
+|ap_done        |  out|    1|  ap_ctrl_hs|  config_source_x64|  return value|
+|ap_idle        |  out|    1|  ap_ctrl_hs|  config_source_x64|  return value|
+|ap_ready       |  out|    1|  ap_ctrl_hs|  config_source_x64|  return value|
+|sinc           |   in|    1|     ap_none|               sinc|        scalar|
+|Sel            |   in|    5|     ap_none|                Sel|        scalar|
+|f              |  out|    1|      ap_vld|                  f|       pointer|
+|f_ap_vld       |  out|    1|      ap_vld|                  f|       pointer|
+|A_1p           |  out|    1|      ap_vld|               A_1p|       pointer|
+|A_1p_ap_vld    |  out|    1|      ap_vld|               A_1p|       pointer|
+|Ang_1p         |  out|    1|      ap_vld|             Ang_1p|       pointer|
+|Ang_1p_ap_vld  |  out|    1|      ap_vld|             Ang_1p|       pointer|
+|A_1n           |  out|    1|      ap_vld|               A_1n|       pointer|
+|A_1n_ap_vld    |  out|    1|      ap_vld|               A_1n|       pointer|
+|Ang_1n         |  out|    1|      ap_vld|             Ang_1n|       pointer|
+|Ang_1n_ap_vld  |  out|    1|      ap_vld|             Ang_1n|       pointer|
+|A_5p           |  out|    1|      ap_vld|               A_5p|       pointer|
+|A_5p_ap_vld    |  out|    1|      ap_vld|               A_5p|       pointer|
+|Ang_5p         |  out|    1|      ap_vld|             Ang_5p|       pointer|
+|Ang_5p_ap_vld  |  out|    1|      ap_vld|             Ang_5p|       pointer|
+|A_5n           |  out|    1|      ap_vld|               A_5n|       pointer|
+|A_5n_ap_vld    |  out|    1|      ap_vld|               A_5n|       pointer|
+|Ang_5n         |  out|    1|      ap_vld|             Ang_5n|       pointer|
+|Ang_5n_ap_vld  |  out|    1|      ap_vld|             Ang_5n|       pointer|
+|A_7p           |  out|    1|      ap_vld|               A_7p|       pointer|
+|A_7p_ap_vld    |  out|    1|      ap_vld|               A_7p|       pointer|
+|Ang_7p         |  out|    1|      ap_vld|             Ang_7p|       pointer|
+|Ang_7p_ap_vld  |  out|    1|      ap_vld|             Ang_7p|       pointer|
+|A_7n           |  out|    1|      ap_vld|               A_7n|       pointer|
+|A_7n_ap_vld    |  out|    1|      ap_vld|               A_7n|       pointer|
+|Ang_7n         |  out|    1|      ap_vld|             Ang_7n|       pointer|
+|Ang_7n_ap_vld  |  out|    1|      ap_vld|             Ang_7n|       pointer|
++---------------+-----+-----+------------+-------------------+--------------+
+

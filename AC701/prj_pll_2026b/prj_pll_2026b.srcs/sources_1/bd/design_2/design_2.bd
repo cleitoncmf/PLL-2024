@@ -7,21 +7,14 @@
       "name": "design_2",
       "rev_ctrl_bd_flag": "RevCtrlBdOff",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2020.2",
-      "validated": "true"
+      "tool_version": "2020.2"
     },
     "design_tree": {
       "xlconstant_0": "",
-      "sim_clk_gen_0": "",
-      "sim_clk_gen_1": "",
-      "xlconstant_1": "",
-      "xlconstant_2": "",
       "xlconstant_3": "",
       "xlconstant_4": "",
       "xlconstant_5": "",
-      "sim_clk_gen_2": "",
       "xlconstant_6": "",
-      "sim_clk_gen_3": "",
       "xlconstant_7": "",
       "xlconstant_8": "",
       "xlconstant_9": "",
@@ -29,9 +22,56 @@
       "xlconstant_11": "",
       "xlconstant_12": "",
       "sin_gen_varAmp2_3phi_0": "",
+      "PLL2026_x64_0": "",
+      "clk_wiz_0": "",
+      "pwmExport_fixed64_0": "",
+      "muxPWMout_x64_0": "",
+      "pwmExport_fixed64_1": "",
+      "pwmExport_fixed64_2": "",
+      "pwmExport_fixed64_3": "",
+      "pwmExport_fixed64_4": "",
+      "pwmExport_fixed64_5": "",
+      "pwmExport_fixed64_6": "",
+      "pwmExport_fixed64_7": "",
+      "xlconstant_15": "",
+      "FreqDiV_0": "",
+      "xlconstant_16": "",
+      "xlconstant_17": "",
+      "config_source_x64_0": "",
       "xlconstant_13": "",
+      "xlconstant_1": "",
+      "xlconstant_2": "",
       "xlconstant_14": "",
-      "PLL2026_x64_0": ""
+      "xlconstant_18": "",
+      "xlconstant_19": "",
+      "xlconstant_20": "",
+      "xlconstant_21": "",
+      "xlconstant_22": "",
+      "xlconstant_23": "",
+      "xlconstant_24": ""
+    },
+    "interface_ports": {
+      "sys_diff_clock": {
+        "mode": "Slave",
+        "vlnv": "xilinx.com:interface:diff_clock_rtl:1.0",
+        "parameters": {
+          "FREQ_HZ": {
+            "value": "200000000"
+          }
+        }
+      }
+    },
+    "ports": {
+      "Sel_0": {
+        "direction": "I",
+        "left": "3",
+        "right": "0"
+      },
+      "Sel_1": {
+        "direction": "I",
+        "left": "4",
+        "right": "0"
+      }
     },
     "components": {
       "xlconstant_0": {
@@ -39,51 +79,6 @@
         "xci_name": "design_2_xlconstant_0_0",
         "xci_path": "ip\\design_2_xlconstant_0_0\\design_2_xlconstant_0_0.xci",
         "inst_hier_path": "xlconstant_0"
-      },
-      "sim_clk_gen_0": {
-        "vlnv": "xilinx.com:ip:sim_clk_gen:1.0",
-        "xci_name": "design_2_sim_clk_gen_0_0",
-        "xci_path": "ip\\design_2_sim_clk_gen_0_0\\design_2_sim_clk_gen_0_0.xci",
-        "inst_hier_path": "sim_clk_gen_0"
-      },
-      "sim_clk_gen_1": {
-        "vlnv": "xilinx.com:ip:sim_clk_gen:1.0",
-        "xci_name": "design_2_sim_clk_gen_1_0",
-        "xci_path": "ip\\design_2_sim_clk_gen_1_0\\design_2_sim_clk_gen_1_0.xci",
-        "inst_hier_path": "sim_clk_gen_1",
-        "parameters": {
-          "FREQ_HZ": {
-            "value": "100000"
-          }
-        }
-      },
-      "xlconstant_1": {
-        "vlnv": "xilinx.com:ip:xlconstant:1.1",
-        "xci_name": "design_2_xlconstant_1_0",
-        "xci_path": "ip\\design_2_xlconstant_1_0\\design_2_xlconstant_1_0.xci",
-        "inst_hier_path": "xlconstant_1",
-        "parameters": {
-          "CONST_VAL": {
-            "value": "0x3c000000000000"
-          },
-          "CONST_WIDTH": {
-            "value": "64"
-          }
-        }
-      },
-      "xlconstant_2": {
-        "vlnv": "xilinx.com:ip:xlconstant:1.1",
-        "xci_name": "design_2_xlconstant_2_0",
-        "xci_path": "ip\\design_2_xlconstant_2_0\\design_2_xlconstant_2_0.xci",
-        "inst_hier_path": "xlconstant_2",
-        "parameters": {
-          "CONST_VAL": {
-            "value": "0x1e000000000000"
-          },
-          "CONST_WIDTH": {
-            "value": "64"
-          }
-        }
       },
       "xlconstant_3": {
         "vlnv": "xilinx.com:ip:xlconstant:1.1",
@@ -127,28 +122,11 @@
           }
         }
       },
-      "sim_clk_gen_2": {
-        "vlnv": "xilinx.com:ip:sim_clk_gen:1.0",
-        "xci_name": "design_2_sim_clk_gen_2_0",
-        "xci_path": "ip\\design_2_sim_clk_gen_2_0\\design_2_sim_clk_gen_2_0.xci",
-        "inst_hier_path": "sim_clk_gen_2"
-      },
       "xlconstant_6": {
         "vlnv": "xilinx.com:ip:xlconstant:1.1",
         "xci_name": "design_2_xlconstant_6_0",
         "xci_path": "ip\\design_2_xlconstant_6_0\\design_2_xlconstant_6_0.xci",
         "inst_hier_path": "xlconstant_6"
-      },
-      "sim_clk_gen_3": {
-        "vlnv": "xilinx.com:ip:sim_clk_gen:1.0",
-        "xci_name": "design_2_sim_clk_gen_3_0",
-        "xci_path": "ip\\design_2_sim_clk_gen_3_0\\design_2_sim_clk_gen_3_0.xci",
-        "inst_hier_path": "sim_clk_gen_3",
-        "parameters": {
-          "FREQ_HZ": {
-            "value": "100000"
-          }
-        }
       },
       "xlconstant_7": {
         "vlnv": "xilinx.com:ip:xlconstant:1.1",
@@ -207,14 +185,191 @@
         "xci_path": "ip\\design_2_sin_gen_varAmp2_3phi_0_0\\design_2_sin_gen_varAmp2_3phi_0_0.xci",
         "inst_hier_path": "sin_gen_varAmp2_3phi_0"
       },
-      "xlconstant_13": {
+      "PLL2026_x64_0": {
+        "vlnv": "xilinx.com:user:PLL2026_x64:1.0",
+        "xci_name": "design_2_PLL2026_x64_0_0",
+        "xci_path": "ip\\design_2_PLL2026_x64_0_0\\design_2_PLL2026_x64_0_0.xci",
+        "inst_hier_path": "PLL2026_x64_0"
+      },
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "design_2_clk_wiz_0_0",
+        "xci_path": "ip\\design_2_clk_wiz_0_0\\design_2_clk_wiz_0_0.xci",
+        "inst_hier_path": "clk_wiz_0",
+        "parameters": {
+          "CLKOUT1_JITTER": {
+            "value": "105.772"
+          },
+          "CLKOUT1_PHASE_ERROR": {
+            "value": "96.629"
+          },
+          "CLKOUT2_JITTER": {
+            "value": "168.593"
+          },
+          "CLKOUT2_PHASE_ERROR": {
+            "value": "96.629"
+          },
+          "CLKOUT2_REQUESTED_OUT_FREQ": {
+            "value": "10.000"
+          },
+          "CLKOUT2_USED": {
+            "value": "true"
+          },
+          "CLKOUT3_JITTER": {
+            "value": "180.980"
+          },
+          "CLKOUT3_PHASE_ERROR": {
+            "value": "96.629"
+          },
+          "CLKOUT3_REQUESTED_OUT_FREQ": {
+            "value": "7"
+          },
+          "CLKOUT3_USED": {
+            "value": "true"
+          },
+          "CLK_IN1_BOARD_INTERFACE": {
+            "value": "sys_diff_clock"
+          },
+          "MMCM_CLKFBOUT_MULT_F": {
+            "value": "3.500"
+          },
+          "MMCM_CLKOUT0_DIVIDE_F": {
+            "value": "7.000"
+          },
+          "MMCM_CLKOUT1_DIVIDE": {
+            "value": "70"
+          },
+          "MMCM_CLKOUT2_DIVIDE": {
+            "value": "100"
+          },
+          "NUM_OUT_CLKS": {
+            "value": "3"
+          },
+          "USE_BOARD_FLOW": {
+            "value": "true"
+          }
+        }
+      },
+      "pwmExport_fixed64_0": {
+        "vlnv": "xilinx.com:user:pwmExport_fixed64:1.0",
+        "xci_name": "design_2_pwmExport_fixed64_0_0",
+        "xci_path": "ip\\design_2_pwmExport_fixed64_0_0\\design_2_pwmExport_fixed64_0_0.xci",
+        "inst_hier_path": "pwmExport_fixed64_0"
+      },
+      "muxPWMout_x64_0": {
+        "vlnv": "xilinx.com:user:muxPWMout_x64:1.0",
+        "xci_name": "design_2_muxPWMout_x64_0_0",
+        "xci_path": "ip\\design_2_muxPWMout_x64_0_0\\design_2_muxPWMout_x64_0_0.xci",
+        "inst_hier_path": "muxPWMout_x64_0"
+      },
+      "pwmExport_fixed64_1": {
+        "vlnv": "xilinx.com:user:pwmExport_fixed64:1.0",
+        "xci_name": "design_2_pwmExport_fixed64_0_1",
+        "xci_path": "ip\\design_2_pwmExport_fixed64_0_1\\design_2_pwmExport_fixed64_0_1.xci",
+        "inst_hier_path": "pwmExport_fixed64_1"
+      },
+      "pwmExport_fixed64_2": {
+        "vlnv": "xilinx.com:user:pwmExport_fixed64:1.0",
+        "xci_name": "design_2_pwmExport_fixed64_0_2",
+        "xci_path": "ip\\design_2_pwmExport_fixed64_0_2\\design_2_pwmExport_fixed64_0_2.xci",
+        "inst_hier_path": "pwmExport_fixed64_2"
+      },
+      "pwmExport_fixed64_3": {
+        "vlnv": "xilinx.com:user:pwmExport_fixed64:1.0",
+        "xci_name": "design_2_pwmExport_fixed64_0_3",
+        "xci_path": "ip\\design_2_pwmExport_fixed64_0_3\\design_2_pwmExport_fixed64_0_3.xci",
+        "inst_hier_path": "pwmExport_fixed64_3"
+      },
+      "pwmExport_fixed64_4": {
+        "vlnv": "xilinx.com:user:pwmExport_fixed64:1.0",
+        "xci_name": "design_2_pwmExport_fixed64_3_1",
+        "xci_path": "ip\\design_2_pwmExport_fixed64_3_1\\design_2_pwmExport_fixed64_3_1.xci",
+        "inst_hier_path": "pwmExport_fixed64_4"
+      },
+      "pwmExport_fixed64_5": {
+        "vlnv": "xilinx.com:user:pwmExport_fixed64:1.0",
+        "xci_name": "design_2_pwmExport_fixed64_3_2",
+        "xci_path": "ip\\design_2_pwmExport_fixed64_3_2\\design_2_pwmExport_fixed64_3_2.xci",
+        "inst_hier_path": "pwmExport_fixed64_5"
+      },
+      "pwmExport_fixed64_6": {
+        "vlnv": "xilinx.com:user:pwmExport_fixed64:1.0",
+        "xci_name": "design_2_pwmExport_fixed64_3_3",
+        "xci_path": "ip\\design_2_pwmExport_fixed64_3_3\\design_2_pwmExport_fixed64_3_3.xci",
+        "inst_hier_path": "pwmExport_fixed64_6"
+      },
+      "pwmExport_fixed64_7": {
+        "vlnv": "xilinx.com:user:pwmExport_fixed64:1.0",
+        "xci_name": "design_2_pwmExport_fixed64_3_4",
+        "xci_path": "ip\\design_2_pwmExport_fixed64_3_4\\design_2_pwmExport_fixed64_3_4.xci",
+        "inst_hier_path": "pwmExport_fixed64_7"
+      },
+      "xlconstant_15": {
         "vlnv": "xilinx.com:ip:xlconstant:1.1",
-        "xci_name": "design_2_xlconstant_13_0",
-        "xci_path": "ip\\design_2_xlconstant_13_0\\design_2_xlconstant_13_0.xci",
-        "inst_hier_path": "xlconstant_13",
+        "xci_name": "design_2_xlconstant_6_1",
+        "xci_path": "ip\\design_2_xlconstant_6_1\\design_2_xlconstant_6_1.xci",
+        "inst_hier_path": "xlconstant_15"
+      },
+      "FreqDiV_0": {
+        "vlnv": "xilinx.com:user:FreqDiV:1.0",
+        "xci_name": "design_2_FreqDiV_0_0",
+        "xci_path": "ip\\design_2_FreqDiV_0_0\\design_2_FreqDiV_0_0.xci",
+        "inst_hier_path": "FreqDiV_0"
+      },
+      "xlconstant_16": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_2_xlconstant_15_0",
+        "xci_path": "ip\\design_2_xlconstant_15_0\\design_2_xlconstant_15_0.xci",
+        "inst_hier_path": "xlconstant_16"
+      },
+      "xlconstant_17": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_2_xlconstant_16_0",
+        "xci_path": "ip\\design_2_xlconstant_16_0\\design_2_xlconstant_16_0.xci",
+        "inst_hier_path": "xlconstant_17",
         "parameters": {
           "CONST_VAL": {
-            "value": "0x5000000000000"
+            "value": "10"
+          },
+          "CONST_WIDTH": {
+            "value": "32"
+          }
+        }
+      },
+      "config_source_x64_0": {
+        "vlnv": "xilinx.com:user:config_source_x64:1.0",
+        "xci_name": "design_2_config_source_x64_0_0",
+        "xci_path": "ip\\design_2_config_source_x64_0_0\\design_2_config_source_x64_0_0.xci",
+        "inst_hier_path": "config_source_x64_0"
+      },
+      "xlconstant_13": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_2_xlconstant_8_1",
+        "xci_path": "ip\\design_2_xlconstant_8_1\\design_2_xlconstant_8_1.xci",
+        "inst_hier_path": "xlconstant_13"
+      },
+      "xlconstant_1": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_2_xlconstant_1_1",
+        "xci_path": "ip\\design_2_xlconstant_1_1\\design_2_xlconstant_1_1.xci",
+        "inst_hier_path": "xlconstant_1",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0x55000000000000"
+          },
+          "CONST_WIDTH": {
+            "value": "64"
+          }
+        }
+      },
+      "xlconstant_2": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_2_xlconstant_1_2",
+        "xci_path": "ip\\design_2_xlconstant_1_2\\design_2_xlconstant_1_2.xci",
+        "inst_hier_path": "xlconstant_2",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
           },
           "CONST_WIDTH": {
             "value": "64"
@@ -223,23 +378,123 @@
       },
       "xlconstant_14": {
         "vlnv": "xilinx.com:ip:xlconstant:1.1",
-        "xci_name": "design_2_xlconstant_14_0",
-        "xci_path": "ip\\design_2_xlconstant_14_0\\design_2_xlconstant_14_0.xci",
+        "xci_name": "design_2_xlconstant_14_1",
+        "xci_path": "ip\\design_2_xlconstant_14_1\\design_2_xlconstant_14_1.xci",
         "inst_hier_path": "xlconstant_14",
         "parameters": {
           "CONST_VAL": {
-            "value": "0xfffef3eadc7d28ca"
+            "value": "0x1800000000000"
           },
           "CONST_WIDTH": {
             "value": "64"
           }
         }
       },
-      "PLL2026_x64_0": {
-        "vlnv": "xilinx.com:user:PLL2026_x64:1.0",
-        "xci_name": "design_2_PLL2026_x64_0_0",
-        "xci_path": "ip\\design_2_PLL2026_x64_0_0\\design_2_PLL2026_x64_0_0.xci",
-        "inst_hier_path": "PLL2026_x64_0"
+      "xlconstant_18": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_2_xlconstant_14_2",
+        "xci_path": "ip\\design_2_xlconstant_14_2\\design_2_xlconstant_14_2.xci",
+        "inst_hier_path": "xlconstant_18",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0"
+          },
+          "CONST_WIDTH": {
+            "value": "64"
+          }
+        }
+      },
+      "xlconstant_19": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_2_xlconstant_19_0",
+        "xci_path": "ip\\design_2_xlconstant_19_0\\design_2_xlconstant_19_0.xci",
+        "inst_hier_path": "xlconstant_19",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0xcccccccccccc"
+          },
+          "CONST_WIDTH": {
+            "value": "64"
+          }
+        }
+      },
+      "xlconstant_20": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_2_xlconstant_19_1",
+        "xci_path": "ip\\design_2_xlconstant_19_1\\design_2_xlconstant_19_1.xci",
+        "inst_hier_path": "xlconstant_20",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0xfed4000000000000"
+          },
+          "CONST_WIDTH": {
+            "value": "64"
+          }
+        }
+      },
+      "xlconstant_21": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_2_xlconstant_21_0",
+        "xci_path": "ip\\design_2_xlconstant_21_0\\design_2_xlconstant_21_0.xci",
+        "inst_hier_path": "xlconstant_21",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0x3553f7ced9168"
+          },
+          "CONST_WIDTH": {
+            "value": "64"
+          }
+        }
+      },
+      "xlconstant_22": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_2_xlconstant_22_0",
+        "xci_path": "ip\\design_2_xlconstant_22_0\\design_2_xlconstant_22_0.xci",
+        "inst_hier_path": "xlconstant_22",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0x3553f7ced9168"
+          },
+          "CONST_WIDTH": {
+            "value": "64"
+          }
+        }
+      },
+      "xlconstant_23": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_2_xlconstant_23_0",
+        "xci_path": "ip\\design_2_xlconstant_23_0\\design_2_xlconstant_23_0.xci",
+        "inst_hier_path": "xlconstant_23",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0x19000000000000"
+          },
+          "CONST_WIDTH": {
+            "value": "64"
+          }
+        }
+      },
+      "xlconstant_24": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_2_xlconstant_23_1",
+        "xci_path": "ip\\design_2_xlconstant_23_1\\design_2_xlconstant_23_1.xci",
+        "inst_hier_path": "xlconstant_24",
+        "parameters": {
+          "CONST_VAL": {
+            "value": "0xffb5000000000000"
+          },
+          "CONST_WIDTH": {
+            "value": "64"
+          }
+        }
+      }
+    },
+    "interface_nets": {
+      "sys_diff_clock_1": {
+        "interface_ports": [
+          "sys_diff_clock",
+          "clk_wiz_0/CLK_IN1_D"
+        ]
       }
     },
     "nets": {
@@ -247,30 +502,6 @@
         "ports": [
           "xlconstant_0/dout",
           "sin_gen_varAmp2_3phi_0/ap_start"
-        ]
-      },
-      "sim_clk_gen_0_clk": {
-        "ports": [
-          "sim_clk_gen_0/clk",
-          "sin_gen_varAmp2_3phi_0/ap_clk"
-        ]
-      },
-      "sim_clk_gen_1_clk": {
-        "ports": [
-          "sim_clk_gen_1/clk",
-          "sin_gen_varAmp2_3phi_0/sinc"
-        ]
-      },
-      "xlconstant_1_dout": {
-        "ports": [
-          "xlconstant_1/dout",
-          "sin_gen_varAmp2_3phi_0/f"
-        ]
-      },
-      "xlconstant_2_dout": {
-        "ports": [
-          "xlconstant_2/dout",
-          "sin_gen_varAmp2_3phi_0/A_1p"
         ]
       },
       "sin_gen_varAmp2_3phi_0_vout_a": {
@@ -309,22 +540,10 @@
           "PLL2026_x64_0/in_3"
         ]
       },
-      "sim_clk_gen_2_clk": {
-        "ports": [
-          "sim_clk_gen_2/clk",
-          "PLL2026_x64_0/ap_clk"
-        ]
-      },
       "xlconstant_6_dout": {
         "ports": [
           "xlconstant_6/dout",
           "PLL2026_x64_0/ap_start"
-        ]
-      },
-      "sim_clk_gen_3_clk": {
-        "ports": [
-          "sim_clk_gen_3/clk",
-          "PLL2026_x64_0/sinc"
         ]
       },
       "xlconstant_7_dout": {
@@ -363,16 +582,377 @@
           "PLL2026_x64_0/EN1"
         ]
       },
+      "pwmExport_fixed64_0_pwm": {
+        "ports": [
+          "pwmExport_fixed64_0/pwm",
+          "muxPWMout_x64_0/IN0"
+        ]
+      },
+      "pwmExport_fixed64_1_pwm": {
+        "ports": [
+          "pwmExport_fixed64_1/pwm",
+          "muxPWMout_x64_0/IN1"
+        ]
+      },
+      "pwmExport_fixed64_2_pwm": {
+        "ports": [
+          "pwmExport_fixed64_2/pwm",
+          "muxPWMout_x64_0/IN2"
+        ]
+      },
+      "pwmExport_fixed64_3_pwm": {
+        "ports": [
+          "pwmExport_fixed64_3/pwm",
+          "muxPWMout_x64_0/IN3"
+        ]
+      },
+      "pwmExport_fixed64_4_pwm": {
+        "ports": [
+          "pwmExport_fixed64_4/pwm",
+          "muxPWMout_x64_0/IN4"
+        ]
+      },
+      "pwmExport_fixed64_5_pwm": {
+        "ports": [
+          "pwmExport_fixed64_5/pwm",
+          "muxPWMout_x64_0/IN5"
+        ]
+      },
+      "pwmExport_fixed64_6_pwm": {
+        "ports": [
+          "pwmExport_fixed64_6/pwm",
+          "muxPWMout_x64_0/IN6"
+        ]
+      },
+      "pwmExport_fixed64_7_pwm": {
+        "ports": [
+          "pwmExport_fixed64_7/pwm",
+          "muxPWMout_x64_0/IN7"
+        ]
+      },
+      "pwmExport_fixed64_0_pwm_n": {
+        "ports": [
+          "pwmExport_fixed64_0/pwm_n",
+          "muxPWMout_x64_0/IN0_n"
+        ]
+      },
+      "pwmExport_fixed64_1_pwm_n": {
+        "ports": [
+          "pwmExport_fixed64_1/pwm_n",
+          "muxPWMout_x64_0/IN1_n"
+        ]
+      },
+      "pwmExport_fixed64_2_pwm_n": {
+        "ports": [
+          "pwmExport_fixed64_2/pwm_n",
+          "muxPWMout_x64_0/IN2_n"
+        ]
+      },
+      "pwmExport_fixed64_3_pwm_n": {
+        "ports": [
+          "pwmExport_fixed64_3/pwm_n",
+          "muxPWMout_x64_0/IN3_n"
+        ]
+      },
+      "pwmExport_fixed64_4_pwm_n": {
+        "ports": [
+          "pwmExport_fixed64_4/pwm_n",
+          "muxPWMout_x64_0/IN4_n"
+        ]
+      },
+      "pwmExport_fixed64_5_pwm_n": {
+        "ports": [
+          "pwmExport_fixed64_5/pwm_n",
+          "muxPWMout_x64_0/IN5_n"
+        ]
+      },
+      "pwmExport_fixed64_6_pwm_n": {
+        "ports": [
+          "pwmExport_fixed64_6/pwm_n",
+          "muxPWMout_x64_0/IN6_n"
+        ]
+      },
+      "pwmExport_fixed64_7_pwm_n": {
+        "ports": [
+          "pwmExport_fixed64_7/pwm_n",
+          "muxPWMout_x64_0/IN7_n"
+        ]
+      },
+      "Sel_0_1": {
+        "ports": [
+          "Sel_0",
+          "muxPWMout_x64_0/Sel"
+        ]
+      },
+      "xlconstant_15_dout": {
+        "ports": [
+          "xlconstant_15/dout",
+          "muxPWMout_x64_0/ap_start",
+          "pwmExport_fixed64_0/ap_start",
+          "pwmExport_fixed64_1/ap_start",
+          "pwmExport_fixed64_2/ap_start",
+          "pwmExport_fixed64_3/ap_start",
+          "pwmExport_fixed64_4/ap_start",
+          "pwmExport_fixed64_5/ap_start",
+          "pwmExport_fixed64_6/ap_start",
+          "pwmExport_fixed64_7/ap_start"
+        ]
+      },
+      "clk_wiz_0_clk_out1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "sin_gen_varAmp2_3phi_0/ap_clk",
+          "PLL2026_x64_0/ap_clk",
+          "pwmExport_fixed64_0/ap_clk",
+          "pwmExport_fixed64_1/ap_clk",
+          "pwmExport_fixed64_2/ap_clk",
+          "pwmExport_fixed64_3/ap_clk",
+          "pwmExport_fixed64_4/ap_clk",
+          "pwmExport_fixed64_5/ap_clk",
+          "pwmExport_fixed64_6/ap_clk",
+          "pwmExport_fixed64_7/ap_clk",
+          "FreqDiV_0/ap_clk",
+          "muxPWMout_x64_0/ap_clk",
+          "config_source_x64_0/ap_clk"
+        ]
+      },
+      "xlconstant_16_dout": {
+        "ports": [
+          "xlconstant_16/dout",
+          "FreqDiV_0/ap_start"
+        ]
+      },
+      "clk_wiz_0_clk_out2": {
+        "ports": [
+          "clk_wiz_0/clk_out2",
+          "FreqDiV_0/sinc"
+        ]
+      },
+      "xlconstant_17_dout": {
+        "ports": [
+          "xlconstant_17/dout",
+          "FreqDiV_0/DIV"
+        ]
+      },
+      "FreqDiV_0_outPulse": {
+        "ports": [
+          "FreqDiV_0/outPulse",
+          "PLL2026_x64_0/sinc",
+          "sin_gen_varAmp2_3phi_0/sinc",
+          "pwmExport_fixed64_0/sinc",
+          "pwmExport_fixed64_1/sinc",
+          "pwmExport_fixed64_2/sinc",
+          "pwmExport_fixed64_3/sinc",
+          "pwmExport_fixed64_4/sinc",
+          "pwmExport_fixed64_5/sinc",
+          "pwmExport_fixed64_6/sinc",
+          "pwmExport_fixed64_7/sinc",
+          "muxPWMout_x64_0/sinc",
+          "config_source_x64_0/sinc"
+        ]
+      },
+      "config_source_x64_0_f": {
+        "ports": [
+          "config_source_x64_0/f",
+          "sin_gen_varAmp2_3phi_0/f"
+        ]
+      },
+      "config_source_x64_0_A_1p": {
+        "ports": [
+          "config_source_x64_0/A_1p",
+          "sin_gen_varAmp2_3phi_0/A_1p"
+        ]
+      },
+      "config_source_x64_0_Ang_1p": {
+        "ports": [
+          "config_source_x64_0/Ang_1p",
+          "sin_gen_varAmp2_3phi_0/Ang_1p"
+        ]
+      },
+      "config_source_x64_0_A_1n": {
+        "ports": [
+          "config_source_x64_0/A_1n",
+          "sin_gen_varAmp2_3phi_0/A_1n"
+        ]
+      },
+      "config_source_x64_0_Ang_1n": {
+        "ports": [
+          "config_source_x64_0/Ang_1n",
+          "sin_gen_varAmp2_3phi_0/Ang_1n"
+        ]
+      },
+      "config_source_x64_0_A_5p": {
+        "ports": [
+          "config_source_x64_0/A_5p",
+          "sin_gen_varAmp2_3phi_0/A_5p"
+        ]
+      },
+      "config_source_x64_0_Ang_5p": {
+        "ports": [
+          "config_source_x64_0/Ang_5p",
+          "sin_gen_varAmp2_3phi_0/Ang_5p"
+        ]
+      },
+      "config_source_x64_0_A_5n": {
+        "ports": [
+          "config_source_x64_0/A_5n",
+          "sin_gen_varAmp2_3phi_0/A_5n"
+        ]
+      },
+      "config_source_x64_0_Ang_5n": {
+        "ports": [
+          "config_source_x64_0/Ang_5n",
+          "sin_gen_varAmp2_3phi_0/Ang_5n"
+        ]
+      },
+      "config_source_x64_0_A_7p": {
+        "ports": [
+          "config_source_x64_0/A_7p",
+          "sin_gen_varAmp2_3phi_0/A_7p"
+        ]
+      },
+      "config_source_x64_0_Ang_7p": {
+        "ports": [
+          "config_source_x64_0/Ang_7p",
+          "sin_gen_varAmp2_3phi_0/Ang_7p"
+        ]
+      },
+      "config_source_x64_0_A_7n": {
+        "ports": [
+          "config_source_x64_0/A_7n",
+          "sin_gen_varAmp2_3phi_0/A_7n"
+        ]
+      },
+      "config_source_x64_0_Ang_7n": {
+        "ports": [
+          "config_source_x64_0/Ang_7n",
+          "sin_gen_varAmp2_3phi_0/Ang_7n"
+        ]
+      },
+      "Sel_1_1": {
+        "ports": [
+          "Sel_1",
+          "config_source_x64_0/Sel"
+        ]
+      },
       "xlconstant_13_dout": {
         "ports": [
           "xlconstant_13/dout",
-          "sin_gen_varAmp2_3phi_0/A_1n"
+          "config_source_x64_0/ap_start"
+        ]
+      },
+      "PLL2026_x64_0_pll_alpha_out": {
+        "ports": [
+          "PLL2026_x64_0/pll_alpha_out",
+          "pwmExport_fixed64_0/IN_r"
+        ]
+      },
+      "xlconstant_1_dout": {
+        "ports": [
+          "xlconstant_1/dout",
+          "pwmExport_fixed64_0/Scale",
+          "pwmExport_fixed64_4/Scale"
+        ]
+      },
+      "xlconstant_2_dout": {
+        "ports": [
+          "xlconstant_2/dout",
+          "pwmExport_fixed64_0/Offset",
+          "pwmExport_fixed64_4/Offset"
+        ]
+      },
+      "PLL2026_x64_0_pll_beta_out": {
+        "ports": [
+          "PLL2026_x64_0/pll_beta_out",
+          "pwmExport_fixed64_4/IN_r"
+        ]
+      },
+      "xlconstant_18_dout": {
+        "ports": [
+          "xlconstant_18/dout",
+          "pwmExport_fixed64_1/Offset",
+          "pwmExport_fixed64_5/Offset"
         ]
       },
       "xlconstant_14_dout": {
         "ports": [
           "xlconstant_14/dout",
-          "sin_gen_varAmp2_3phi_0/Ang_1n"
+          "pwmExport_fixed64_1/Scale",
+          "pwmExport_fixed64_5/Scale"
+        ]
+      },
+      "PLL2026_x64_0_v_beta_in": {
+        "ports": [
+          "PLL2026_x64_0/v_beta_in",
+          "pwmExport_fixed64_1/IN_r"
+        ]
+      },
+      "xlconstant_19_dout": {
+        "ports": [
+          "xlconstant_19/dout",
+          "pwmExport_fixed64_2/Scale"
+        ]
+      },
+      "xlconstant_20_dout": {
+        "ports": [
+          "xlconstant_20/dout",
+          "pwmExport_fixed64_2/Offset"
+        ]
+      },
+      "PLL2026_x64_0_w_out": {
+        "ports": [
+          "PLL2026_x64_0/w_out",
+          "pwmExport_fixed64_2/IN_r"
+        ]
+      },
+      "xlconstant_22_dout": {
+        "ports": [
+          "xlconstant_22/dout",
+          "pwmExport_fixed64_3/Scale",
+          "pwmExport_fixed64_7/Scale"
+        ]
+      },
+      "xlconstant_21_dout": {
+        "ports": [
+          "xlconstant_21/dout",
+          "pwmExport_fixed64_3/Offset",
+          "pwmExport_fixed64_7/Offset"
+        ]
+      },
+      "PLL2026_x64_0_v_alfa_in": {
+        "ports": [
+          "PLL2026_x64_0/v_alfa_in",
+          "pwmExport_fixed64_5/IN_r"
+        ]
+      },
+      "PLL2026_x64_0_amp_vPos_out": {
+        "ports": [
+          "PLL2026_x64_0/amp_vPos_out",
+          "pwmExport_fixed64_3/IN_r"
+        ]
+      },
+      "PLL2026_x64_0_Amp_vneg_out": {
+        "ports": [
+          "PLL2026_x64_0/Amp_vneg_out",
+          "pwmExport_fixed64_7/IN_r"
+        ]
+      },
+      "xlconstant_23_dout": {
+        "ports": [
+          "xlconstant_23/dout",
+          "pwmExport_fixed64_6/Scale"
+        ]
+      },
+      "xlconstant_24_dout": {
+        "ports": [
+          "xlconstant_24/dout",
+          "pwmExport_fixed64_6/Offset"
+        ]
+      },
+      "PLL2026_x64_0_theta_out": {
+        "ports": [
+          "PLL2026_x64_0/theta_out",
+          "pwmExport_fixed64_6/IN_r"
         ]
       }
     }

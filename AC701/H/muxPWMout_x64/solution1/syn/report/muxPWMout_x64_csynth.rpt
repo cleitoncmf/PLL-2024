@@ -1,0 +1,161 @@
+
+
+================================================================
+== Vitis HLS Report for 'muxPWMout_x64'
+================================================================
+* Date:           Wed Nov  4 12:56:40 2026
+
+* Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)
+* Project:        muxPWMout_x64
+* Solution:       solution1 (Vivado IP Flow Target)
+* Product family: artix7
+* Target device:  xc7a200t-fbg676-2
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing: 
+    * Summary: 
+    +--------+----------+----------+------------+
+    |  Clock |  Target  | Estimated| Uncertainty|
+    +--------+----------+----------+------------+
+    |ap_clk  |  10.00 ns|  2.174 ns|     2.70 ns|
+    +--------+----------+----------+------------+
+
++ Latency: 
+    * Summary: 
+    +---------+---------+----------+----------+-----+-----+---------+
+    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
+    |   min   |   max   |    min   |    max   | min | max |   Type  |
+    +---------+---------+----------+----------+-----+-----+---------+
+    |        0|        0|      0 ns|      0 ns|    1|    1|     none|
+    +---------+---------+----------+----------+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        N/A
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-----+--------+--------+-----+
+|       Name      | BRAM_18K| DSP |   FF   |   LUT  | URAM|
++-----------------+---------+-----+--------+--------+-----+
+|DSP              |        -|    -|       -|       -|    -|
+|Expression       |        -|    -|       0|       4|    -|
+|FIFO             |        -|    -|       -|       -|    -|
+|Instance         |        -|    -|       -|       -|    -|
+|Memory           |        -|    -|       -|       -|    -|
+|Multiplexer      |        -|    -|       -|     152|    -|
+|Register         |        -|    -|       6|       -|    -|
++-----------------+---------+-----+--------+--------+-----+
+|Total            |        0|    0|       6|     156|    0|
++-----------------+---------+-----+--------+--------+-----+
+|Available        |      730|  740|  269200|  134600|    0|
++-----------------+---------+-----+--------+--------+-----+
+|Utilization (%)  |        0|    0|      ~0|      ~0|    0|
++-----------------+---------+-----+--------+--------+-----+
+
++ Detail: 
+    * Instance: 
+    N/A
+
+    * DSP: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------------+----------+----+---+----+------------+------------+
+    |    Variable Name    | Operation| DSP| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------------+----------+----+---+----+------------+------------+
+    |ap_condition_59      |       and|   0|  0|   2|           1|           1|
+    |xor_ln870_fu_226_p2  |       xor|   0|  0|   2|           1|           1|
+    +---------------------+----------+----+---+----+------------+------------+
+    |Total                |          |   0|  0|   4|           2|           2|
+    +---------------------+----------+----+---+----+------------+------------+
+
+    * Multiplexer: 
+    +------------------------------------+----+-----------+-----+-----------+
+    |                Name                | LUT| Input Size| Bits| Total Bits|
+    +------------------------------------+----+-----------+-----+-----------+
+    |ap_sig_allocacmp_aux_pwm0_V_load    |  21|          5|    1|          5|
+    |ap_sig_allocacmp_aux_pwm0_n_V_load  |  21|          5|    1|          5|
+    |ap_sig_allocacmp_aux_pwm1_V_load    |  21|          5|    1|          5|
+    |ap_sig_allocacmp_aux_pwm1_n_V_load  |  21|          5|    1|          5|
+    |aux_pwm0_V                          |  17|          4|    1|          4|
+    |aux_pwm0_n_V                        |  17|          4|    1|          4|
+    |aux_pwm1_V                          |  17|          4|    1|          4|
+    |aux_pwm1_n_V                        |  17|          4|    1|          4|
+    +------------------------------------+----+-----------+-----+-----------+
+    |Total                               | 152|         36|    8|         36|
+    +------------------------------------+----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------+---+----+-----+-----------+
+    |     Name     | FF| LUT| Bits| Const Bits|
+    +--------------+---+----+-----+-----------+
+    |ap_CS_fsm     |  1|   0|    1|          0|
+    |aux_pwm0_V    |  1|   0|    1|          0|
+    |aux_pwm0_n_V  |  1|   0|    1|          0|
+    |aux_pwm1_V    |  1|   0|    1|          0|
+    |aux_pwm1_n_V  |  1|   0|    1|          0|
+    |aux_sinc_V    |  1|   0|    1|          0|
+    +--------------+---+----+-----+-----------+
+    |Total         |  6|   0|    6|          0|
+    +--------------+---+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++---------------+-----+-----+------------+---------------+--------------+
+|   RTL Ports   | Dir | Bits|  Protocol  | Source Object |    C Type    |
++---------------+-----+-----+------------+---------------+--------------+
+|ap_clk         |   in|    1|  ap_ctrl_hs|  muxPWMout_x64|  return value|
+|ap_rst         |   in|    1|  ap_ctrl_hs|  muxPWMout_x64|  return value|
+|ap_start       |   in|    1|  ap_ctrl_hs|  muxPWMout_x64|  return value|
+|ap_done        |  out|    1|  ap_ctrl_hs|  muxPWMout_x64|  return value|
+|ap_idle        |  out|    1|  ap_ctrl_hs|  muxPWMout_x64|  return value|
+|ap_ready       |  out|    1|  ap_ctrl_hs|  muxPWMout_x64|  return value|
+|sinc           |   in|    1|     ap_none|           sinc|        scalar|
+|Sel            |   in|    4|     ap_none|            Sel|        scalar|
+|IN0            |   in|    1|     ap_none|            IN0|        scalar|
+|IN1            |   in|    1|     ap_none|            IN1|        scalar|
+|IN2            |   in|    1|     ap_none|            IN2|        scalar|
+|IN3            |   in|    1|     ap_none|            IN3|        scalar|
+|IN4            |   in|    1|     ap_none|            IN4|        scalar|
+|IN5            |   in|    1|     ap_none|            IN5|        scalar|
+|IN6            |   in|    1|     ap_none|            IN6|        scalar|
+|IN7            |   in|    1|     ap_none|            IN7|        scalar|
+|IN0_n          |   in|    1|     ap_none|          IN0_n|        scalar|
+|IN1_n          |   in|    1|     ap_none|          IN1_n|        scalar|
+|IN2_n          |   in|    1|     ap_none|          IN2_n|        scalar|
+|IN3_n          |   in|    1|     ap_none|          IN3_n|        scalar|
+|IN4_n          |   in|    1|     ap_none|          IN4_n|        scalar|
+|IN5_n          |   in|    1|     ap_none|          IN5_n|        scalar|
+|IN6_n          |   in|    1|     ap_none|          IN6_n|        scalar|
+|IN7_n          |   in|    1|     ap_none|          IN7_n|        scalar|
+|pwm0           |  out|    1|      ap_vld|           pwm0|       pointer|
+|pwm0_ap_vld    |  out|    1|      ap_vld|           pwm0|       pointer|
+|pwm0_n         |  out|    1|      ap_vld|         pwm0_n|       pointer|
+|pwm0_n_ap_vld  |  out|    1|      ap_vld|         pwm0_n|       pointer|
+|pwm1           |  out|    1|      ap_vld|           pwm1|       pointer|
+|pwm1_ap_vld    |  out|    1|      ap_vld|           pwm1|       pointer|
+|pwm1_n         |  out|    1|      ap_vld|         pwm1_n|       pointer|
+|pwm1_n_ap_vld  |  out|    1|      ap_vld|         pwm1_n|       pointer|
++---------------+-----+-----+------------+---------------+--------------+
+
