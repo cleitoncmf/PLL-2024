@@ -13,7 +13,7 @@
 						"AP_START": { "actual": "ap_start"}
 					}
 				},
-				"grp_sin_2000_fu_237/grp_sin_2000_fu_237_activity": {
+				"grp_sin_2000_fu_191/grp_sin_2000_fu_191_activity": {
 					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
 					"ports": {
 						"AP_CLK": { "actual": "ap_clk"},
@@ -23,7 +23,7 @@
 						"AP_START": { "actual": "ap_start"}
 					}
 				},
-				"grp_sin_2000_fu_244/grp_sin_2000_fu_244_activity": {
+				"grp_sin_2000_fu_198/grp_sin_2000_fu_198_activity": {
 					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
 					"ports": {
 						"AP_CLK": { "actual": "ap_clk"},
@@ -33,7 +33,7 @@
 						"AP_START": { "actual": "ap_start"}
 					}
 				},
-				"grp_sin_2000_fu_251/grp_sin_2000_fu_251_activity": {
+				"grp_sin_2000_fu_205/grp_sin_2000_fu_205_activity": {
 					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
 					"ports": {
 						"AP_CLK": { "actual": "ap_clk"},
@@ -43,7 +43,7 @@
 						"AP_START": { "actual": "ap_start"}
 					}
 				},
-				"grp_sin_2000_fu_258/grp_sin_2000_fu_258_activity": {
+				"grp_sin_2000_fu_212/grp_sin_2000_fu_212_activity": {
 					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
 					"ports": {
 						"AP_CLK": { "actual": "ap_clk"},
@@ -53,7 +53,7 @@
 						"AP_START": { "actual": "ap_start"}
 					}
 				},
-				"grp_sin_2000_fu_265/grp_sin_2000_fu_265_activity": {
+				"grp_sin_2000_fu_219/grp_sin_2000_fu_219_activity": {
 					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
 					"ports": {
 						"AP_CLK": { "actual": "ap_clk"},
@@ -63,7 +63,17 @@
 						"AP_START": { "actual": "ap_start"}
 					}
 				},
-				"grp_sin_2000_fu_272/grp_sin_2000_fu_272_activity": {
+				"grp_sin_2000_fu_226/grp_sin_2000_fu_226_activity": {
+					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
+					"ports": {
+						"AP_CLK": { "actual": "ap_clk"},
+						"AP_DONE": { "actual": "ap_done"},
+						"AP_READY": { "actual": "ap_ready"},
+						"AP_RESET": { "actual": "ap_rst"},
+						"AP_START": { "actual": "ap_start"}
+					}
+				},
+				"grp_sin_2000_fu_233/grp_sin_2000_fu_233_activity": {
 					"interface": "xilinx.com:interface:internal_hls_dataflow:1.0",
 					"ports": {
 						"AP_CLK": { "actual": "ap_clk"},

@@ -4,7 +4,7 @@
 // ==============================================================
 `timescale 1 ns / 1 ps
 module PLL2026_x64_sin_2000_table_V_rom (
-addr0, ce0, q0, addr1, ce1, q1, addr2, ce2, q2, clk);
+addr0, ce0, q0, addr1, ce1, q1, addr2, ce2, q2, addr3, ce3, q3, clk);
 
 parameter DWIDTH = 49;
 parameter AWIDTH = 9;
@@ -19,6 +19,9 @@ output reg[DWIDTH-1:0] q1;
 input[AWIDTH-1:0] addr2;
 input ce2;
 output reg[DWIDTH-1:0] q2;
+input[AWIDTH-1:0] addr3;
+input ce3;
+output reg[DWIDTH-1:0] q3;
 input clk;
 
 reg [DWIDTH-1:0] ram0[0:MEM_SIZE-1];
@@ -61,6 +64,16 @@ end
 
 
 
+always @(posedge clk)  
+begin 
+    if (ce3) 
+    begin
+        q3 <= ram1[addr3];
+    end
+end
+
+
+
 endmodule
 
 `timescale 1 ns / 1 ps
@@ -75,7 +88,10 @@ module PLL2026_x64_sin_2000_table_V(
     q1,
     address2,
     ce2,
-    q2);
+    q2,
+    address3,
+    ce3,
+    q3);
 
 parameter DataWidth = 32'd49;
 parameter AddressRange = 32'd500;
@@ -91,6 +107,9 @@ output[DataWidth - 1:0] q1;
 input[AddressWidth - 1:0] address2;
 input ce2;
 output[DataWidth - 1:0] q2;
+input[AddressWidth - 1:0] address3;
+input ce3;
+output[DataWidth - 1:0] q3;
 
 
 
@@ -104,7 +123,10 @@ PLL2026_x64_sin_2000_table_V_rom PLL2026_x64_sin_2000_table_V_rom_U(
     .q1( q1 ),
     .addr2( address2 ),
     .ce2( ce2 ),
-    .q2( q2 ));
+    .q2( q2 ),
+    .addr3( address3 ),
+    .ce3( ce3 ),
+    .q3( q3 ));
 
 endmodule
 

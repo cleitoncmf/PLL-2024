@@ -15,26 +15,26 @@
         <PipelineType>none</PipelineType>
         <SummaryOfTimingAnalysis>
             <unit>ns</unit>
-            <EstimatedClockPeriod>8.140</EstimatedClockPeriod>
+            <EstimatedClockPeriod>7.300</EstimatedClockPeriod>
         </SummaryOfTimingAnalysis>
         <SummaryOfOverallLatency>
             <unit>clock cycles</unit>
             <Best-caseLatency>1</Best-caseLatency>
-            <Average-caseLatency>39</Average-caseLatency>
-            <Worst-caseLatency>76</Worst-caseLatency>
+            <Average-caseLatency>21</Average-caseLatency>
+            <Worst-caseLatency>41</Worst-caseLatency>
             <Best-caseRealTimeLatency>10.000 ns</Best-caseRealTimeLatency>
-            <Average-caseRealTimeLatency>0.390 us</Average-caseRealTimeLatency>
-            <Worst-caseRealTimeLatency>0.760 us</Worst-caseRealTimeLatency>
+            <Average-caseRealTimeLatency>0.210 us</Average-caseRealTimeLatency>
+            <Worst-caseRealTimeLatency>0.410 us</Worst-caseRealTimeLatency>
             <Interval-min>2</Interval-min>
-            <Interval-max>77</Interval-max>
+            <Interval-max>42</Interval-max>
         </SummaryOfOverallLatency>
     </PerformanceEstimates>
     <AreaEstimates>
         <Resources>
-            <BRAM_18K>36</BRAM_18K>
-            <DSP>70</DSP>
-            <FF>20445</FF>
-            <LUT>22242</LUT>
+            <BRAM_18K>42</BRAM_18K>
+            <DSP>52</DSP>
+            <FF>13657</FF>
+            <LUT>19527</LUT>
             <URAM>0</URAM>
         </Resources>
         <AvailableResources>
@@ -418,40 +418,46 @@
             <ModuleName>sin_gen_varAmp2_3phi_x64</ModuleName>
             <InstancesList>
                 <Instance>
-                    <InstName>grp_sin_2000_fu_237</InstName>
+                    <InstName>grp_sin_2000_fu_191</InstName>
                     <ModuleName>sin_2000</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>237</ID>
+                    <ID>191</ID>
                 </Instance>
                 <Instance>
-                    <InstName>grp_sin_2000_fu_244</InstName>
+                    <InstName>grp_sin_2000_fu_198</InstName>
                     <ModuleName>sin_2000</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>244</ID>
+                    <ID>198</ID>
                 </Instance>
                 <Instance>
-                    <InstName>grp_sin_2000_fu_251</InstName>
+                    <InstName>grp_sin_2000_fu_205</InstName>
                     <ModuleName>sin_2000</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>251</ID>
+                    <ID>205</ID>
                 </Instance>
                 <Instance>
-                    <InstName>grp_sin_2000_fu_258</InstName>
+                    <InstName>grp_sin_2000_fu_212</InstName>
                     <ModuleName>sin_2000</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>258</ID>
+                    <ID>212</ID>
                 </Instance>
                 <Instance>
-                    <InstName>grp_sin_2000_fu_265</InstName>
+                    <InstName>grp_sin_2000_fu_219</InstName>
                     <ModuleName>sin_2000</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>265</ID>
+                    <ID>219</ID>
                 </Instance>
                 <Instance>
-                    <InstName>grp_sin_2000_fu_272</InstName>
+                    <InstName>grp_sin_2000_fu_226</InstName>
                     <ModuleName>sin_2000</ModuleName>
                     <IsCompInst>true</IsCompInst>
-                    <ID>272</ID>
+                    <ID>226</ID>
+                </Instance>
+                <Instance>
+                    <InstName>grp_sin_2000_fu_233</InstName>
+                    <ModuleName>sin_2000</ModuleName>
+                    <IsCompInst>true</IsCompInst>
+                    <ID>233</ID>
                 </Instance>
             </InstancesList>
         </TopModule>
@@ -592,33 +598,33 @@
                 <SummaryOfTimingAnalysis>
                     <TargetClockPeriod>10.00</TargetClockPeriod>
                     <ClockUncertainty>2.70</ClockUncertainty>
-                    <EstimatedClockPeriod>8.140</EstimatedClockPeriod>
+                    <EstimatedClockPeriod>7.300</EstimatedClockPeriod>
                 </SummaryOfTimingAnalysis>
                 <SummaryOfOverallLatency>
                     <Best-caseLatency>1</Best-caseLatency>
-                    <Average-caseLatency>39</Average-caseLatency>
-                    <Worst-caseLatency>76</Worst-caseLatency>
+                    <Average-caseLatency>21</Average-caseLatency>
+                    <Worst-caseLatency>41</Worst-caseLatency>
                     <Best-caseRealTimeLatency>10.000 ns</Best-caseRealTimeLatency>
-                    <Average-caseRealTimeLatency>0.390 us</Average-caseRealTimeLatency>
-                    <Worst-caseRealTimeLatency>0.760 us</Worst-caseRealTimeLatency>
-                    <PipelineInitiationInterval>2 ~ 77</PipelineInitiationInterval>
+                    <Average-caseRealTimeLatency>0.210 us</Average-caseRealTimeLatency>
+                    <Worst-caseRealTimeLatency>0.410 us</Worst-caseRealTimeLatency>
+                    <PipelineInitiationInterval>2 ~ 42</PipelineInitiationInterval>
                     <PipelineType>none</PipelineType>
                 </SummaryOfOverallLatency>
             </PerformanceEstimates>
             <AreaEstimates>
                 <Resources>
-                    <BRAM_18K>36</BRAM_18K>
+                    <BRAM_18K>42</BRAM_18K>
                     <AVAIL_BRAM>730</AVAIL_BRAM>
-                    <UTIL_BRAM>4</UTIL_BRAM>
-                    <DSP>70</DSP>
+                    <UTIL_BRAM>5</UTIL_BRAM>
+                    <DSP>52</DSP>
                     <AVAIL_DSP>740</AVAIL_DSP>
-                    <UTIL_DSP>9</UTIL_DSP>
-                    <FF>20445</FF>
+                    <UTIL_DSP>7</UTIL_DSP>
+                    <FF>13657</FF>
                     <AVAIL_FF>269200</AVAIL_FF>
-                    <UTIL_FF>7</UTIL_FF>
-                    <LUT>22242</LUT>
+                    <UTIL_FF>5</UTIL_FF>
+                    <LUT>19527</LUT>
                     <AVAIL_LUT>134600</AVAIL_LUT>
-                    <UTIL_LUT>16</UTIL_LUT>
+                    <UTIL_LUT>14</UTIL_LUT>
                     <URAM>0</URAM>
                     <AVAIL_URAM>0</AVAIL_URAM>
                     <UTIL_URAM>0</UTIL_URAM>

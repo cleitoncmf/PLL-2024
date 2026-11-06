@@ -55,7 +55,7 @@
 						<name>x_read</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>1015</lineNumber>
+						<lineNumber>962</lineNumber>
 						<contextFuncName>busca_binaria</contextFuncName>
 						<contextNormFuncName>busca_binaria</contextNormFuncName>
 						<inlineStackInfo>
@@ -71,7 +71,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>busca_binaria</second>
 										</first>
-										<second>1015</second>
+										<second>962</second>
 									</item>
 								</second>
 							</item>
@@ -82,7 +82,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>141</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -106,10 +106,10 @@
 					<Obj>
 						<type>0</type>
 						<id>9</id>
-						<name>br_ln1024</name>
+						<name>br_ln971</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>1024</lineNumber>
+						<lineNumber>971</lineNumber>
 						<contextFuncName>busca_binaria</contextFuncName>
 						<contextNormFuncName>busca_binaria</contextNormFuncName>
 						<inlineStackInfo>
@@ -125,7 +125,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>busca_binaria</second>
 										</first>
-										<second>1024</second>
+										<second>971</second>
 									</item>
 								</second>
 							</item>
@@ -136,7 +136,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1885415456</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -175,7 +175,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>694510703</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -217,7 +217,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>725177456</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -243,10 +243,10 @@
 					<Obj>
 						<type>0</type>
 						<id>14</id>
-						<name>sub_ln1024</name>
+						<name>sub_ln971</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>1024</lineNumber>
+						<lineNumber>971</lineNumber>
 						<contextFuncName>busca_binaria</contextFuncName>
 						<contextNormFuncName>busca_binaria</contextNormFuncName>
 						<inlineStackInfo>
@@ -262,7 +262,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>busca_binaria</second>
 										</first>
-										<second>1024</second>
+										<second>971</second>
 									</item>
 								</second>
 							</item>
@@ -273,7 +273,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4202776112</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -284,10 +284,10 @@
 					<item>62</item>
 				</oprand_edges>
 				<opcode>sub</opcode>
-				<m_Display>1</m_Display>
+				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>1</m_isLCDNode>
-				<m_isStartOfPath>1</m_isStartOfPath>
+				<m_isLCDNode>0</m_isLCDNode>
+				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>2.18</m_delay>
 				<m_topoIndex>5</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
@@ -300,7 +300,7 @@
 						<name>tmp</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>1024</lineNumber>
+						<lineNumber>971</lineNumber>
 						<contextFuncName>busca_binaria</contextFuncName>
 						<contextNormFuncName>busca_binaria</contextNormFuncName>
 						<inlineStackInfo>
@@ -316,7 +316,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>busca_binaria</second>
 										</first>
-										<second>1024</second>
+										<second>971</second>
 									</item>
 								</second>
 							</item>
@@ -327,7 +327,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1701667182</coreId>
+						<coreId>1</coreId>
 					</Obj>
 					<bitwidth>31</bitwidth>
 				</Value>
@@ -353,10 +353,10 @@
 					<Obj>
 						<type>0</type>
 						<id>16</id>
-						<name>icmp_ln1024</name>
+						<name>icmp_ln971</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>1024</lineNumber>
+						<lineNumber>971</lineNumber>
 						<contextFuncName>busca_binaria</contextFuncName>
 						<contextNormFuncName>busca_binaria</contextNormFuncName>
 						<inlineStackInfo>
@@ -372,7 +372,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>busca_binaria</second>
 										</first>
-										<second>1024</second>
+										<second>971</second>
 									</item>
 								</second>
 							</item>
@@ -383,7 +383,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>708718624</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -407,10 +407,10 @@
 					<Obj>
 						<type>0</type>
 						<id>17</id>
-						<name>br_ln1024</name>
+						<name>br_ln971</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>1024</lineNumber>
+						<lineNumber>971</lineNumber>
 						<contextFuncName>busca_binaria</contextFuncName>
 						<contextNormFuncName>busca_binaria</contextNormFuncName>
 						<inlineStackInfo>
@@ -426,7 +426,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>busca_binaria</second>
 										</first>
-										<second>1024</second>
+										<second>971</second>
 									</item>
 								</second>
 							</item>
@@ -437,7 +437,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>997420912</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -465,7 +465,7 @@
 						<name>div1_i</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>1024</lineNumber>
+						<lineNumber>971</lineNumber>
 						<contextFuncName>busca_binaria</contextFuncName>
 						<contextNormFuncName>busca_binaria</contextNormFuncName>
 						<inlineStackInfo>
@@ -481,7 +481,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>busca_binaria</second>
 										</first>
-										<second>1024</second>
+										<second>971</second>
 									</item>
 								</second>
 							</item>
@@ -492,7 +492,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1630019628</coreId>
+						<coreId>824192053</coreId>
 					</Obj>
 					<bitwidth>31</bitwidth>
 				</Value>
@@ -505,9 +505,9 @@
 					<item>78</item>
 				</oprand_edges>
 				<opcode>partselect</opcode>
-				<m_Display>1</m_Display>
+				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>1</m_isLCDNode>
+				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
 				<m_topoIndex>9</m_topoIndex>
@@ -521,7 +521,7 @@
 						<name>div1_i_cast</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>1024</lineNumber>
+						<lineNumber>971</lineNumber>
 						<contextFuncName>busca_binaria</contextFuncName>
 						<contextNormFuncName>busca_binaria</contextNormFuncName>
 						<inlineStackInfo>
@@ -537,7 +537,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>busca_binaria</second>
 										</first>
-										<second>1024</second>
+										<second>971</second>
 									</item>
 								</second>
 							</item>
@@ -548,7 +548,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4202751216</coreId>
+						<coreId>1684371561</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -558,9 +558,9 @@
 					<item>79</item>
 				</oprand_edges>
 				<opcode>zext</opcode>
-				<m_Display>1</m_Display>
+				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>1</m_isLCDNode>
+				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
 				<m_topoIndex>10</m_topoIndex>
@@ -574,7 +574,7 @@
 						<name>half_list</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>1027</lineNumber>
+						<lineNumber>974</lineNumber>
 						<contextFuncName>busca_binaria</contextFuncName>
 						<contextNormFuncName>busca_binaria</contextNormFuncName>
 						<inlineStackInfo>
@@ -590,7 +590,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>busca_binaria</second>
 										</first>
-										<second>1027</second>
+										<second>974</second>
 									</item>
 								</second>
 							</item>
@@ -601,7 +601,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1936290921</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -612,9 +612,9 @@
 					<item>81</item>
 				</oprand_edges>
 				<opcode>add</opcode>
-				<m_Display>1</m_Display>
+				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>1</m_isLCDNode>
+				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>2.18</m_delay>
 				<m_topoIndex>11</m_topoIndex>
@@ -625,10 +625,10 @@
 					<Obj>
 						<type>0</type>
 						<id>23</id>
-						<name>zext_ln1029</name>
+						<name>zext_ln976</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>1029</lineNumber>
+						<lineNumber>976</lineNumber>
 						<contextFuncName>busca_binaria</contextFuncName>
 						<contextNormFuncName>busca_binaria</contextNormFuncName>
 						<inlineStackInfo>
@@ -644,7 +644,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>busca_binaria</second>
 										</first>
-										<second>1029</second>
+										<second>976</second>
 									</item>
 								</second>
 							</item>
@@ -655,7 +655,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>741681509</coreId>
+						<coreId>774843950</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -665,9 +665,9 @@
 					<item>82</item>
 				</oprand_edges>
 				<opcode>zext</opcode>
-				<m_Display>1</m_Display>
+				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>1</m_isLCDNode>
+				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
 				<m_topoIndex>12</m_topoIndex>
@@ -708,7 +708,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>824192052</coreId>
+						<coreId>795766637</coreId>
 					</Obj>
 					<bitwidth>5</bitwidth>
 				</Value>
@@ -720,9 +720,9 @@
 					<item>86</item>
 				</oprand_edges>
 				<opcode>getelementptr</opcode>
-				<m_Display>1</m_Display>
+				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>1</m_isLCDNode>
+				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>0.00</m_delay>
 				<m_topoIndex>13</m_topoIndex>
@@ -763,20 +763,19 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>694510703</coreId>
+						<coreId>793988168</coreId>
 					</Obj>
 					<bitwidth>59</bitwidth>
 				</Value>
 				<oprand_edges>
-					<count>2</count>
+					<count>1</count>
 					<item_version>0</item_version>
 					<item>87</item>
-					<item>2147483647</item>
 				</oprand_edges>
 				<opcode>load</opcode>
-				<m_Display>1</m_Display>
+				<m_Display>0</m_Display>
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
-				<m_isLCDNode>1</m_isLCDNode>
+				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
 				<m_delay>2.77</m_delay>
 				<m_topoIndex>14</m_topoIndex>
@@ -817,7 +816,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1702390118</coreId>
+						<coreId>1717924464</coreId>
 					</Obj>
 					<bitwidth>63</bitwidth>
 				</Value>
@@ -870,7 +869,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1885413420</coreId>
+						<coreId>1601200442</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -923,7 +922,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>741749024</coreId>
+						<coreId>1768321121</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -947,10 +946,10 @@
 					<Obj>
 						<type>0</type>
 						<id>29</id>
-						<name>intervalo_begin_10</name>
+						<name>intervalo_begin_3</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>1031</lineNumber>
+						<lineNumber>978</lineNumber>
 						<contextFuncName>busca_binaria</contextFuncName>
 						<contextNormFuncName>busca_binaria</contextNormFuncName>
 						<inlineStackInfo>
@@ -966,7 +965,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>busca_binaria</second>
 										</first>
-										<second>1031</second>
+										<second>978</second>
 									</item>
 								</second>
 							</item>
@@ -977,7 +976,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1685024095</coreId>
+						<coreId>694510703</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1002,10 +1001,10 @@
 					<Obj>
 						<type>0</type>
 						<id>30</id>
-						<name>intervalo_end_8</name>
+						<name>intervalo_end_3</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>1031</lineNumber>
+						<lineNumber>978</lineNumber>
 						<contextFuncName>busca_binaria</contextFuncName>
 						<contextNormFuncName>busca_binaria</contextNormFuncName>
 						<inlineStackInfo>
@@ -1021,7 +1020,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>busca_binaria</second>
 										</first>
-										<second>1031</second>
+										<second>978</second>
 									</item>
 								</second>
 							</item>
@@ -1032,7 +1031,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>673197110</coreId>
+						<coreId>824192053</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -1057,10 +1056,10 @@
 					<Obj>
 						<type>0</type>
 						<id>31</id>
-						<name>br_ln1024</name>
+						<name>br_ln971</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>1024</lineNumber>
+						<lineNumber>971</lineNumber>
 						<contextFuncName>busca_binaria</contextFuncName>
 						<contextNormFuncName>busca_binaria</contextNormFuncName>
 						<inlineStackInfo>
@@ -1076,7 +1075,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>busca_binaria</second>
 										</first>
-										<second>1024</second>
+										<second>971</second>
 									</item>
 								</second>
 							</item>
@@ -1087,7 +1086,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>694510703</coreId>
+						<coreId>1713399662</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -1110,10 +1109,10 @@
 					<Obj>
 						<type>0</type>
 						<id>33</id>
-						<name>zext_ln1398</name>
+						<name>zext_ln1345</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>1398</lineNumber>
+						<lineNumber>1345</lineNumber>
 						<contextFuncName>ATAN_LUT</contextFuncName>
 						<contextNormFuncName>ATAN_LUT</contextNormFuncName>
 						<inlineStackInfo>
@@ -1129,7 +1128,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>ATAN_LUT</second>
 										</first>
-										<second>1398</second>
+										<second>1345</second>
 									</item>
 								</second>
 							</item>
@@ -1140,7 +1139,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1885415456</coreId>
+						<coreId>825046065</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -1193,7 +1192,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1834971487</coreId>
+						<coreId>1601200424</coreId>
 					</Obj>
 					<bitwidth>5</bitwidth>
 				</Value>
@@ -1248,7 +1247,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1702390118</coreId>
+						<coreId>997485606</coreId>
 					</Obj>
 					<bitwidth>48</bitwidth>
 				</Value>
@@ -1301,7 +1300,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1868525665</coreId>
+						<coreId>1919250543</coreId>
 					</Obj>
 					<bitwidth>112</bitwidth>
 				</Value>
@@ -1354,7 +1353,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1717530721</coreId>
+						<coreId>1030647657</coreId>
 					</Obj>
 					<bitwidth>112</bitwidth>
 				</Value>
@@ -1377,7 +1376,7 @@
 					<Obj>
 						<type>0</type>
 						<id>38</id>
-						<name>r_V_41</name>
+						<name>r_V_32</name>
 						<fileName>C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
 						<lineNumber>703</lineNumber>
@@ -1407,7 +1406,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>673197109</coreId>
+						<coreId>1601134448</coreId>
 					</Obj>
 					<bitwidth>112</bitwidth>
 				</Value>
@@ -1422,7 +1421,7 @@
 				<m_isOnCriticalPath>0</m_isOnCriticalPath>
 				<m_isLCDNode>0</m_isLCDNode>
 				<m_isStartOfPath>0</m_isStartOfPath>
-				<m_delay>5.71</m_delay>
+				<m_delay>10.4</m_delay>
 				<m_topoIndex>28</m_topoIndex>
 				<m_clusterGroupNumber>-1</m_clusterGroupNumber>
 			</item>
@@ -1461,7 +1460,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1601200424</coreId>
+						<coreId>539767862</coreId>
 					</Obj>
 					<bitwidth>5</bitwidth>
 				</Value>
@@ -1516,7 +1515,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>741550437</coreId>
+						<coreId>1601200424</coreId>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
@@ -1539,7 +1538,7 @@
 					<Obj>
 						<type>0</type>
 						<id>41</id>
-						<name>rhs_15</name>
+						<name>rhs_8</name>
 						<fileName>C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
 						<lineNumber>728</lineNumber>
@@ -1569,7 +1568,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2020173407</coreId>
+						<coreId>1869438831</coreId>
 					</Obj>
 					<bitwidth>97</bitwidth>
 				</Value>
@@ -1624,7 +1623,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>807414835</coreId>
+						<coreId>741681509</coreId>
 					</Obj>
 					<bitwidth>112</bitwidth>
 				</Value>
@@ -1677,7 +1676,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1853187616</coreId>
+						<coreId>1601265520</coreId>
 					</Obj>
 					<bitwidth>112</bitwidth>
 				</Value>
@@ -1731,7 +1730,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>741681509</coreId>
+						<coreId>1885420403</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -1757,10 +1756,10 @@
 					<Obj>
 						<type>0</type>
 						<id>45</id>
-						<name>_ln1401</name>
+						<name>_ln1348</name>
 						<fileName>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>1401</lineNumber>
+						<lineNumber>1348</lineNumber>
 						<contextFuncName>ATAN_LUT</contextFuncName>
 						<contextNormFuncName>ATAN_LUT</contextNormFuncName>
 						<inlineStackInfo>
@@ -1776,7 +1775,7 @@
 											<first>../../C-Codes/Fixed_x64/PLL2026_x64.cpp</first>
 											<second>ATAN_LUT</second>
 										</first>
-										<second>1401</second>
+										<second>1348</second>
 									</item>
 								</second>
 							</item>
@@ -1787,7 +1786,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1684371561</coreId>
+						<coreId>644113784</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -1914,7 +1913,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1735355503</coreId>
 					</Obj>
 					<bitwidth>31</bitwidth>
 				</Value>
@@ -1942,7 +1941,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1630019628</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -1970,7 +1969,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>891905380</coreId>
 					</Obj>
 					<bitwidth>48</bitwidth>
 				</Value>
@@ -1998,7 +1997,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>4218759714</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2026,7 +2025,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>1919906913</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -2180,7 +2179,7 @@
 			</item>
 		</blocks>
 		<edges class_id="19" tracking_level="0" version="0">
-			<count>69</count>
+			<count>68</count>
 			<item_version>0</item_version>
 			<item class_id="20" tracking_level="1" version="0" object_id="_47">
 				<id>49</id>
@@ -2658,19 +2657,12 @@
 				<sink_obj>18</sink_obj>
 				<is_back_edge>1</is_back_edge>
 			</item>
-			<item class_id_reference="20" object_id="_115">
-				<id>2147483647</id>
-				<edge_type>1</edge_type>
-				<source_obj>25</source_obj>
-				<sink_obj>14</sink_obj>
-				<is_back_edge>1</is_back_edge>
-			</item>
 		</edges>
 	</cdfg>
 	<cdfg_regions class_id="21" tracking_level="0" version="0">
 		<count>4</count>
 		<item_version>0</item_version>
-		<item class_id="22" tracking_level="1" version="0" object_id="_116">
+		<item class_id="22" tracking_level="1" version="0" object_id="_115">
 			<mId>1</mId>
 			<mTag>ATAN_LUT</mTag>
 			<mNormTag>ATAN_LUT</mNormTag>
@@ -2695,7 +2687,7 @@
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
-		<item class_id_reference="22" object_id="_117">
+		<item class_id_reference="22" object_id="_116">
 			<mId>2</mId>
 			<mTag>Entry</mTag>
 			<mNormTag>Entry</mNormTag>
@@ -2718,10 +2710,10 @@
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
-		<item class_id_reference="22" object_id="_118">
+		<item class_id_reference="22" object_id="_117">
 			<mId>3</mId>
-			<mTag>VITIS_LOOP_1024_1</mTag>
-			<mNormTag>VITIS_LOOP_1024_1</mNormTag>
+			<mTag>VITIS_LOOP_971_1</mTag>
+			<mNormTag>VITIS_LOOP_971_1</mNormTag>
 			<mType>1</mType>
 			<sub_regions>
 				<count>0</count>
@@ -2733,7 +2725,7 @@
 				<item>18</item>
 				<item>32</item>
 			</basic_blocks>
-			<mII>2</mII>
+			<mII>1</mII>
 			<mDepth>2</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
@@ -2742,7 +2734,7 @@
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
-		<item class_id_reference="22" object_id="_119">
+		<item class_id_reference="22" object_id="_118">
 			<mId>4</mId>
 			<mTag>Return</mTag>
 			<mNormTag>Return</mNormTag>
@@ -2760,8 +2752,8 @@
 			<mDepth>-1</mDepth>
 			<mMinTripCount>-1</mMinTripCount>
 			<mMaxTripCount>-1</mMaxTripCount>
-			<mMinLatency>7</mMinLatency>
-			<mMaxLatency>7</mMaxLatency>
+			<mMinLatency>2</mMinLatency>
+			<mMaxLatency>2</mMaxLatency>
 			<mIsDfPipe>0</mIsDfPipe>
 			<mDfPipe class_id="-1"></mDfPipe>
 		</item>
@@ -2935,22 +2927,22 @@
 		<item>
 			<first>36</first>
 			<second>
-				<first>5</first>
+				<first>4</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>37</first>
 			<second>
-				<first>5</first>
+				<first>4</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>38</first>
 			<second>
-				<first>5</first>
-				<second>4</second>
+				<first>4</first>
+				<second>0</second>
 			</second>
 		</item>
 		<item>
@@ -2970,35 +2962,35 @@
 		<item>
 			<first>41</first>
 			<second>
-				<first>10</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>42</first>
 			<second>
-				<first>10</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>43</first>
 			<second>
-				<first>10</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>44</first>
 			<second>
-				<first>10</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
 		<item>
 			<first>45</first>
 			<second>
-				<first>10</first>
+				<first>5</first>
 				<second>0</second>
 			</second>
 		</item>
@@ -3031,15 +3023,15 @@
 			<first>46</first>
 			<second>
 				<first>2</first>
-				<second>9</second>
+				<second>4</second>
 			</second>
 		</item>
 	</bblk_ent_exit>
 	<regions class_id="32" tracking_level="0" version="0">
 		<count>1</count>
 		<item_version>0</item_version>
-		<item class_id="33" tracking_level="1" version="0" object_id="_120">
-			<region_name>VITIS_LOOP_1024_1</region_name>
+		<item class_id="33" tracking_level="1" version="0" object_id="_119">
+			<region_name>VITIS_LOOP_971_1</region_name>
 			<basic_blocks>
 				<count>2</count>
 				<item_version>0</item_version>
@@ -3052,7 +3044,7 @@
 			</nodes>
 			<anchor_node>-1</anchor_node>
 			<region_type>8</region_type>
-			<interval>2</interval>
+			<interval>1</interval>
 			<pipe_depth>2</pipe_depth>
 		</item>
 	</regions>

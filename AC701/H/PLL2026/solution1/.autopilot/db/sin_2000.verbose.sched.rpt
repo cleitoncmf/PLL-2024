@@ -3,7 +3,7 @@
 ================================================================
 == Vitis HLS Report for 'sin_2000'
 ================================================================
-* Date:           Wed Jul 22 15:27:21 2026
+* Date:           Fri Nov  6 14:47:56 2026
 
 * Version:        2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)
 * Project:        PLL2026
@@ -17,20 +17,20 @@
 ================================================================
 + Timing: 
     * Summary: 
-    +--------+----------+----------+------------+
-    |  Clock |  Target  | Estimated| Uncertainty|
-    +--------+----------+----------+------------+
-    |ap_clk  |  10.00 ns|  7.153 ns|     2.70 ns|
-    +--------+----------+----------+------------+
+    +--------+----------+-----------+------------+
+    |  Clock |  Target  | Estimated | Uncertainty|
+    +--------+----------+-----------+------------+
+    |ap_clk  |  20.00 ns|  14.007 ns|     5.40 ns|
+    +--------+----------+-----------+------------+
 
 + Latency: 
     * Summary: 
-    +---------+---------+----------+----------+-----+-----+---------+
-    |  Latency (cycles) |  Latency (absolute) |  Interval | Pipeline|
-    |   min   |   max   |    min   |    max   | min | max |   Type  |
-    +---------+---------+----------+----------+-----+-----+---------+
-    |       10|       10|  0.100 us|  0.100 us|   10|   10|     none|
-    +---------+---------+----------+----------+-----+-----+---------+
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |  Latency (cycles) |   Latency (absolute)  |  Interval | Pipeline|
+    |   min   |   max   |    min    |    max    | min | max |   Type  |
+    +---------+---------+-----------+-----------+-----+-----+---------+
+    |        3|        3|  60.000 ns|  60.000 ns|    3|    3|     none|
+    +---------+---------+-----------+-----------+-----+-----+---------+
 
     + Detail: 
         * Instance: 
@@ -65,7 +65,7 @@ IsGatedGlobalClock: 0
 ============================================================
 + Verbose Summary: Schedule
 ============================================================
-* Number of FSM states : 11
+* Number of FSM states : 4
 * Pipeline : 0
 * Dataflow Pipeline: 0
 
@@ -73,200 +73,150 @@ IsGatedGlobalClock: 0
 1 --> 2 
 2 --> 3 
 3 --> 4 
-4 --> 5 
-5 --> 6 
-6 --> 7 
-7 --> 8 
-8 --> 9 
-9 --> 10 
-10 --> 11 
-11 --> 
+4 --> 
 
 * FSM state operations: 
 
-State 1 <SV = 0> <Delay = 7.15>
-ST_1 : Operation 12 [1/1] (0.00ns)   --->   "%theta_in_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %theta_in" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:394]   --->   Operation 12 'read' 'theta_in_read' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 13 [1/1] (2.34ns)   --->   "%icmp_ln1494 = icmp_sgt  i64 %theta_in_read, i64 5305678314021330"   --->   Operation 13 'icmp' 'icmp_ln1494' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 14 [1/1] (2.99ns)   --->   "%angulo_V_1 = add i64 %theta_in_read, i64 18441438395395530286"   --->   Operation 14 'add' 'angulo_V_1' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 15 [1/1] (2.34ns)   --->   "%icmp_ln1494_1 = icmp_sgt  i64 %theta_in_read, i64 3537118876014220"   --->   Operation 15 'icmp' 'icmp_ln1494_1' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 16 [1/1] (2.34ns)   --->   "%icmp_ln1495 = icmp_slt  i64 %theta_in_read, i64 5305678314021330"   --->   Operation 16 'icmp' 'icmp_ln1495' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 17 [1/1] (0.80ns)   --->   "%and_ln405 = and i1 %icmp_ln1494_1, i1 %icmp_ln1495" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:405]   --->   Operation 17 'and' 'and_ln405' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 18 [1/1] (2.99ns)   --->   "%angulo_V_2 = add i64 %theta_in_read, i64 18443206954833537396"   --->   Operation 18 'add' 'angulo_V_2' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 19 [1/1] (2.34ns)   --->   "%icmp_ln1494_2 = icmp_sgt  i64 %theta_in_read, i64 1768559438007110"   --->   Operation 19 'icmp' 'icmp_ln1494_2' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 20 [1/1] (2.34ns)   --->   "%icmp_ln1495_1 = icmp_slt  i64 %theta_in_read, i64 3537118876014220"   --->   Operation 20 'icmp' 'icmp_ln1495_1' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 21 [1/1] (0.80ns)   --->   "%and_ln408 = and i1 %icmp_ln1494_2, i1 %icmp_ln1495_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:408]   --->   Operation 21 'and' 'and_ln408' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 22 [1/1] (2.99ns)   --->   "%angulo_V_3 = add i64 %theta_in_read, i64 18444975514271544506"   --->   Operation 22 'add' 'angulo_V_3' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 23 [1/1] (2.34ns)   --->   "%icmp_ln1494_3 = icmp_sgt  i64 %theta_in_read, i64 18444975514271544506"   --->   Operation 23 'icmp' 'icmp_ln1494_3' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 24 [1/1] (0.00ns)   --->   "%tmp_1 = bitselect i1 @_ssdm_op_BitSelect.i1.i64.i32, i64 %theta_in_read, i32 63"   --->   Operation 24 'bitselect' 'tmp_1' <Predicate = true> <Delay = 0.00>
-ST_1 : Operation 25 [1/1] (0.80ns)   --->   "%and_ln411 = and i1 %icmp_ln1494_3, i1 %tmp_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:411]   --->   Operation 25 'and' 'and_ln411' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 26 [1/1] (2.99ns)   --->   "%angulo_V_4 = add i64 %theta_in_read, i64 1768559438007110"   --->   Operation 26 'add' 'angulo_V_4' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 27 [1/1] (2.34ns)   --->   "%icmp_ln1494_4 = icmp_sgt  i64 %theta_in_read, i64 18443206954833537396"   --->   Operation 27 'icmp' 'icmp_ln1494_4' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 28 [1/1] (2.34ns)   --->   "%icmp_ln1495_2 = icmp_slt  i64 %theta_in_read, i64 18444975514271544506"   --->   Operation 28 'icmp' 'icmp_ln1495_2' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 29 [1/1] (2.99ns)   --->   "%angulo_V_5 = add i64 %theta_in_read, i64 3537118876014220"   --->   Operation 29 'add' 'angulo_V_5' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 30 [1/1] (2.34ns)   --->   "%icmp_ln1495_3 = icmp_slt  i64 %theta_in_read, i64 18443206954833537396"   --->   Operation 30 'icmp' 'icmp_ln1495_3' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 31 [1/1] (2.99ns)   --->   "%angulo_V_6 = add i64 %theta_in_read, i64 5305678314021330"   --->   Operation 31 'add' 'angulo_V_6' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 32 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_7)   --->   "%select_ln417 = select i1 %icmp_ln1495_3, i64 %angulo_V_6, i64 %theta_in_read" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:417]   --->   Operation 32 'select' 'select_ln417' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_1 : Operation 33 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_7 = select i1 %icmp_ln1494, i64 %angulo_V_1, i64 %select_ln417"   --->   Operation 33 'select' 'angulo_V_7' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_1 : Operation 34 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_8)   --->   "%xor_ln1494 = xor i1 %icmp_ln1494, i1 1"   --->   Operation 34 'xor' 'xor_ln1494' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 35 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_8)   --->   "%and_ln405_1 = and i1 %and_ln405, i1 %xor_ln1494" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:405]   --->   Operation 35 'and' 'and_ln405_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 36 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_8 = select i1 %and_ln405_1, i64 %angulo_V_2, i64 %angulo_V_7" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:405]   --->   Operation 36 'select' 'angulo_V_8' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_1 : Operation 37 [1/1] (0.80ns)   --->   "%or_ln405 = or i1 %icmp_ln1494, i1 %and_ln405" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:405]   --->   Operation 37 'or' 'or_ln405' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 38 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_9)   --->   "%xor_ln405 = xor i1 %or_ln405, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:405]   --->   Operation 38 'xor' 'xor_ln405' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 39 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_9)   --->   "%and_ln408_1 = and i1 %and_ln408, i1 %xor_ln405" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:408]   --->   Operation 39 'and' 'and_ln408_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 40 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_9 = select i1 %and_ln408_1, i64 %angulo_V_3, i64 %angulo_V_8" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:408]   --->   Operation 40 'select' 'angulo_V_9' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_1 : Operation 41 [1/1] (0.80ns)   --->   "%or_ln408 = or i1 %or_ln405, i1 %and_ln408" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:408]   --->   Operation 41 'or' 'or_ln408' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 42 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_10)   --->   "%xor_ln408 = xor i1 %or_ln408, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:408]   --->   Operation 42 'xor' 'xor_ln408' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 43 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_10)   --->   "%and_ln411_1 = and i1 %and_ln411, i1 %xor_ln408" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:411]   --->   Operation 43 'and' 'and_ln411_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 44 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_10 = select i1 %and_ln411_1, i64 %angulo_V_4, i64 %angulo_V_9" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:411]   --->   Operation 44 'select' 'angulo_V_10' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_1 : Operation 45 [1/1] (0.00ns) (grouped into LUT with out node angulo_V)   --->   "%or_ln411 = or i1 %or_ln408, i1 %and_ln411" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:411]   --->   Operation 45 'or' 'or_ln411' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 46 [1/1] (0.00ns) (grouped into LUT with out node angulo_V)   --->   "%xor_ln411 = xor i1 %or_ln411, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:411]   --->   Operation 46 'xor' 'xor_ln411' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 47 [1/1] (0.00ns) (grouped into LUT with out node angulo_V)   --->   "%and_ln414 = and i1 %icmp_ln1495_2, i1 %xor_ln411" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:414]   --->   Operation 47 'and' 'and_ln414' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 48 [1/1] (0.00ns) (grouped into LUT with out node angulo_V)   --->   "%and_ln414_1 = and i1 %and_ln414, i1 %icmp_ln1494_4" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:414]   --->   Operation 48 'and' 'and_ln414_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_1 : Operation 49 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V = select i1 %and_ln414_1, i64 %angulo_V_5, i64 %angulo_V_10" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:414]   --->   Operation 49 'select' 'angulo_V' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_1 : Operation 50 [1/1] (0.00ns)   --->   "%p_Result_s = bitselect i1 @_ssdm_op_BitSelect.i1.i64.i32, i64 %angulo_V, i32 63"   --->   Operation 50 'bitselect' 'p_Result_s' <Predicate = true> <Delay = 0.00>
+State 1 <SV = 0> <Delay = 10.9>
+ST_1 : Operation 5 [1/1] (0.00ns)   --->   "%theta_in_read = read i64 @_ssdm_op_Read.ap_auto.i64, i64 %theta_in" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:341]   --->   Operation 5 'read' 'theta_in_read' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 6 [1/1] (2.34ns)   --->   "%icmp_ln1494 = icmp_sgt  i64 %theta_in_read, i64 5305678314021330"   --->   Operation 6 'icmp' 'icmp_ln1494' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 7 [1/1] (2.99ns)   --->   "%angulo_V_1 = add i64 %theta_in_read, i64 18441438395395530286"   --->   Operation 7 'add' 'angulo_V_1' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 8 [1/1] (2.34ns)   --->   "%icmp_ln1494_1 = icmp_sgt  i64 %theta_in_read, i64 3537118876014220"   --->   Operation 8 'icmp' 'icmp_ln1494_1' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 9 [1/1] (2.34ns)   --->   "%icmp_ln1495 = icmp_slt  i64 %theta_in_read, i64 5305678314021330"   --->   Operation 9 'icmp' 'icmp_ln1495' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 10 [1/1] (0.80ns)   --->   "%and_ln352 = and i1 %icmp_ln1494_1, i1 %icmp_ln1495" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:352]   --->   Operation 10 'and' 'and_ln352' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 11 [1/1] (2.99ns)   --->   "%angulo_V_2 = add i64 %theta_in_read, i64 18443206954833537396"   --->   Operation 11 'add' 'angulo_V_2' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 12 [1/1] (2.34ns)   --->   "%icmp_ln1494_2 = icmp_sgt  i64 %theta_in_read, i64 1768559438007110"   --->   Operation 12 'icmp' 'icmp_ln1494_2' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 13 [1/1] (2.34ns)   --->   "%icmp_ln1495_1 = icmp_slt  i64 %theta_in_read, i64 3537118876014220"   --->   Operation 13 'icmp' 'icmp_ln1495_1' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 14 [1/1] (0.80ns)   --->   "%and_ln355 = and i1 %icmp_ln1494_2, i1 %icmp_ln1495_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:355]   --->   Operation 14 'and' 'and_ln355' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 15 [1/1] (2.99ns)   --->   "%angulo_V_3 = add i64 %theta_in_read, i64 18444975514271544506"   --->   Operation 15 'add' 'angulo_V_3' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 16 [1/1] (2.34ns)   --->   "%icmp_ln1494_3 = icmp_sgt  i64 %theta_in_read, i64 18444975514271544506"   --->   Operation 16 'icmp' 'icmp_ln1494_3' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 17 [1/1] (0.00ns)   --->   "%tmp_1 = bitselect i1 @_ssdm_op_BitSelect.i1.i64.i32, i64 %theta_in_read, i32 63"   --->   Operation 17 'bitselect' 'tmp_1' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 18 [1/1] (0.80ns)   --->   "%and_ln358 = and i1 %icmp_ln1494_3, i1 %tmp_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:358]   --->   Operation 18 'and' 'and_ln358' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 19 [1/1] (2.99ns)   --->   "%angulo_V_4 = add i64 %theta_in_read, i64 1768559438007110"   --->   Operation 19 'add' 'angulo_V_4' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 20 [1/1] (2.34ns)   --->   "%icmp_ln1494_4 = icmp_sgt  i64 %theta_in_read, i64 18443206954833537396"   --->   Operation 20 'icmp' 'icmp_ln1494_4' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 21 [1/1] (2.34ns)   --->   "%icmp_ln1495_2 = icmp_slt  i64 %theta_in_read, i64 18444975514271544506"   --->   Operation 21 'icmp' 'icmp_ln1495_2' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 22 [1/1] (2.99ns)   --->   "%angulo_V_5 = add i64 %theta_in_read, i64 3537118876014220"   --->   Operation 22 'add' 'angulo_V_5' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 23 [1/1] (2.34ns)   --->   "%icmp_ln1495_3 = icmp_slt  i64 %theta_in_read, i64 18443206954833537396"   --->   Operation 23 'icmp' 'icmp_ln1495_3' <Predicate = true> <Delay = 2.34> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 24 [1/1] (2.99ns)   --->   "%angulo_V_6 = add i64 %theta_in_read, i64 5305678314021330"   --->   Operation 24 'add' 'angulo_V_6' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 25 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_7)   --->   "%select_ln364 = select i1 %icmp_ln1495_3, i64 %angulo_V_6, i64 %theta_in_read" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:364]   --->   Operation 25 'select' 'select_ln364' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 26 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_7 = select i1 %icmp_ln1494, i64 %angulo_V_1, i64 %select_ln364"   --->   Operation 26 'select' 'angulo_V_7' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 27 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_8)   --->   "%xor_ln1494 = xor i1 %icmp_ln1494, i1 1"   --->   Operation 27 'xor' 'xor_ln1494' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 28 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_8)   --->   "%and_ln352_1 = and i1 %and_ln352, i1 %xor_ln1494" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:352]   --->   Operation 28 'and' 'and_ln352_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 29 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_8 = select i1 %and_ln352_1, i64 %angulo_V_2, i64 %angulo_V_7" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:352]   --->   Operation 29 'select' 'angulo_V_8' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 30 [1/1] (0.80ns)   --->   "%or_ln352 = or i1 %icmp_ln1494, i1 %and_ln352" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:352]   --->   Operation 30 'or' 'or_ln352' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 31 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_9)   --->   "%xor_ln352 = xor i1 %or_ln352, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:352]   --->   Operation 31 'xor' 'xor_ln352' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 32 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_9)   --->   "%and_ln355_1 = and i1 %and_ln355, i1 %xor_ln352" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:355]   --->   Operation 32 'and' 'and_ln355_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 33 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_9 = select i1 %and_ln355_1, i64 %angulo_V_3, i64 %angulo_V_8" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:355]   --->   Operation 33 'select' 'angulo_V_9' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 34 [1/1] (0.80ns)   --->   "%or_ln355 = or i1 %or_ln352, i1 %and_ln355" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:355]   --->   Operation 34 'or' 'or_ln355' <Predicate = true> <Delay = 0.80> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 35 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_10)   --->   "%xor_ln355 = xor i1 %or_ln355, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:355]   --->   Operation 35 'xor' 'xor_ln355' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 36 [1/1] (0.00ns) (grouped into LUT with out node angulo_V_10)   --->   "%and_ln358_1 = and i1 %and_ln358, i1 %xor_ln355" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:358]   --->   Operation 36 'and' 'and_ln358_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 37 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V_10 = select i1 %and_ln358_1, i64 %angulo_V_4, i64 %angulo_V_9" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:358]   --->   Operation 37 'select' 'angulo_V_10' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 38 [1/1] (0.00ns) (grouped into LUT with out node angulo_V)   --->   "%or_ln358 = or i1 %or_ln355, i1 %and_ln358" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:358]   --->   Operation 38 'or' 'or_ln358' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 39 [1/1] (0.00ns) (grouped into LUT with out node angulo_V)   --->   "%xor_ln358 = xor i1 %or_ln358, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:358]   --->   Operation 39 'xor' 'xor_ln358' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 40 [1/1] (0.00ns) (grouped into LUT with out node angulo_V)   --->   "%and_ln361 = and i1 %icmp_ln1495_2, i1 %xor_ln358" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:361]   --->   Operation 40 'and' 'and_ln361' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 41 [1/1] (0.00ns) (grouped into LUT with out node angulo_V)   --->   "%and_ln361_1 = and i1 %and_ln361, i1 %icmp_ln1494_4" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:361]   --->   Operation 41 'and' 'and_ln361_1' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 42 [1/1] (0.83ns) (out node of the LUT)   --->   "%angulo_V = select i1 %and_ln361_1, i64 %angulo_V_5, i64 %angulo_V_10" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:361]   --->   Operation 42 'select' 'angulo_V' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_1 : Operation 43 [1/1] (2.99ns)   --->   "%p_Val2_s = sub i64 0, i64 %angulo_V"   --->   Operation 43 'sub' 'p_Val2_s' <Predicate = true> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_1 : Operation 44 [1/1] (0.00ns)   --->   "%p_Result_2 = bitset i64 @_ssdm_op_BitSet.i64.i64.i32.i1, i64 %p_Val2_s, i32 63, i1 0"   --->   Operation 44 'bitset' 'p_Result_2' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 45 [1/1] (0.00ns)   --->   "%p_Result_s = bitselect i1 @_ssdm_op_BitSelect.i1.i64.i32, i64 %angulo_V, i32 63"   --->   Operation 45 'bitselect' 'p_Result_s' <Predicate = true> <Delay = 0.00>
+ST_1 : Operation 46 [1/1] (0.83ns)   --->   "%theta_abs_V = select i1 %p_Result_s, i64 %p_Result_2, i64 %angulo_V" [C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/hls_round_copysign_apfixed.h:180]   --->   Operation 46 'select' 'theta_abs_V' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
 
-State 2 <SV = 1> <Delay = 3.82>
-ST_2 : Operation 51 [1/1] (2.99ns)   --->   "%p_Val2_s = sub i64 0, i64 %angulo_V"   --->   Operation 51 'sub' 'p_Val2_s' <Predicate = (p_Result_s)> <Delay = 2.99> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_2 : Operation 52 [1/1] (0.00ns)   --->   "%p_Result_2 = bitset i64 @_ssdm_op_BitSet.i64.i64.i32.i1, i64 %p_Val2_s, i32 63, i1 0"   --->   Operation 52 'bitset' 'p_Result_2' <Predicate = (p_Result_s)> <Delay = 0.00>
-ST_2 : Operation 53 [1/1] (0.83ns)   --->   "%theta_abs_V = select i1 %p_Result_s, i64 %p_Result_2, i64 %angulo_V" [C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/hls_round_copysign_apfixed.h:180]   --->   Operation 53 'select' 'theta_abs_V' <Predicate = true> <Delay = 0.83> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+State 2 <SV = 1> <Delay = 14.0>
+ST_2 : Operation 47 [1/1] (0.00ns)   --->   "%sext_ln1118 = sext i64 %theta_abs_V"   --->   Operation 47 'sext' 'sext_ln1118' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 48 [1/1] (10.4ns)   --->   "%r_V = mul i121 %sext_ln1118, i121 89775819439232432"   --->   Operation 48 'mul' 'r_V' <Predicate = true> <Delay = 10.4> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 0> <II = 1> <Delay = 10.4> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 49 [1/1] (0.00ns)   --->   "%ret_V = partselect i25 @_ssdm_op_PartSelect.i25.i121.i32.i32, i121 %r_V, i32 96, i32 120"   --->   Operation 49 'partselect' 'ret_V' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 50 [1/1] (0.00ns)   --->   "%sext_ln831 = sext i25 %ret_V"   --->   Operation 50 'sext' 'sext_ln831' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 51 [1/1] (0.00ns) (grouped into LUT with out node ret_V_2)   --->   "%p_Result_1 = bitselect i1 @_ssdm_op_BitSelect.i1.i121.i32, i121 %r_V, i32 120"   --->   Operation 51 'bitselect' 'p_Result_1' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 52 [1/1] (0.00ns)   --->   "%trunc_ln851 = trunc i121 %r_V"   --->   Operation 52 'trunc' 'trunc_ln851' <Predicate = true> <Delay = 0.00>
+ST_2 : Operation 53 [1/1] (2.62ns)   --->   "%icmp_ln851 = icmp_ne  i96 %trunc_ln851, i96 0"   --->   Operation 53 'icmp' 'icmp_ln851' <Predicate = true> <Delay = 2.62> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 54 [1/1] (2.03ns)   --->   "%add_ln691 = add i26 %sext_ln831, i26 1"   --->   Operation 54 'add' 'add_ln691' <Predicate = true> <Delay = 2.03> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_2 : Operation 55 [1/1] (0.00ns) (grouped into LUT with out node ret_V_2)   --->   "%select_ln850 = select i1 %icmp_ln851, i26 %add_ln691, i26 %sext_ln831"   --->   Operation 55 'select' 'select_ln850' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_2 : Operation 56 [1/1] (0.93ns) (out node of the LUT)   --->   "%ret_V_2 = select i1 %p_Result_1, i26 %select_ln850, i26 %sext_ln831"   --->   Operation 56 'select' 'ret_V_2' <Predicate = true> <Delay = 0.93> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_2 : Operation 57 [1/1] (0.00ns)   --->   "%trunc_ln831 = trunc i26 %ret_V_2"   --->   Operation 57 'trunc' 'trunc_ln831' <Predicate = true> <Delay = 0.00>
 
-State 3 <SV = 2> <Delay = 5.71>
-ST_3 : Operation 54 [1/1] (0.00ns)   --->   "%sext_ln1118 = sext i64 %theta_abs_V"   --->   Operation 54 'sext' 'sext_ln1118' <Predicate = true> <Delay = 0.00>
-ST_3 : Operation 55 [5/5] (5.71ns)   --->   "%r_V = mul i121 %sext_ln1118, i121 89775819439232432"   --->   Operation 55 'mul' 'r_V' <Predicate = true> <Delay = 5.71> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 4> <II = 1> <Delay = 5.71> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
+State 3 <SV = 2> <Delay = 4.50>
+ST_3 : Operation 58 [1/1] (2.06ns)   --->   "%icmp_ln931 = icmp_slt  i26 %ret_V_2, i26 500" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:931]   --->   Operation 58 'icmp' 'icmp_ln931' <Predicate = true> <Delay = 2.06> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 59 [1/1] (0.00ns)   --->   "%zext_ln932 = zext i9 %trunc_ln831" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:932]   --->   Operation 59 'zext' 'zext_ln932' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 60 [1/1] (0.00ns)   --->   "%table_V_addr = getelementptr i49 %table_V, i64 0, i64 %zext_ln932" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:932]   --->   Operation 60 'getelementptr' 'table_V_addr' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 61 [2/2] (2.77ns)   --->   "%out_sin_V = load i9 %table_V_addr" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:932]   --->   Operation 61 'load' 'out_sin_V' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
+ST_3 : Operation 62 [1/1] (2.06ns)   --->   "%icmp_ln934 = icmp_slt  i26 %ret_V_2, i26 1000" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:934]   --->   Operation 62 'icmp' 'icmp_ln934' <Predicate = true> <Delay = 2.06> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 63 [1/1] (1.73ns)   --->   "%sub_ln936 = sub i9 487, i9 %trunc_ln831" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:936]   --->   Operation 63 'sub' 'sub_ln936' <Predicate = true> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 64 [1/1] (0.00ns)   --->   "%zext_ln936 = zext i9 %sub_ln936" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:936]   --->   Operation 64 'zext' 'zext_ln936' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 65 [1/1] (0.00ns)   --->   "%table_V_addr_1 = getelementptr i49 %table_V, i64 0, i64 %zext_ln936" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:936]   --->   Operation 65 'getelementptr' 'table_V_addr_1' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 66 [2/2] (2.77ns)   --->   "%out_sin_V_1 = load i9 %table_V_addr_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:936]   --->   Operation 66 'load' 'out_sin_V_1' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
+ST_3 : Operation 67 [1/1] (2.06ns)   --->   "%icmp_ln938 = icmp_slt  i26 %ret_V_2, i26 1500" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:938]   --->   Operation 67 'icmp' 'icmp_ln938' <Predicate = true> <Delay = 2.06> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 68 [1/1] (1.73ns)   --->   "%n_aux = add i9 %trunc_ln831, i9 24" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:939]   --->   Operation 68 'add' 'n_aux' <Predicate = true> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 69 [1/1] (0.00ns)   --->   "%zext_ln940 = zext i9 %n_aux" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:940]   --->   Operation 69 'zext' 'zext_ln940' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 70 [1/1] (0.00ns)   --->   "%table_V_addr_2 = getelementptr i49 %table_V, i64 0, i64 %zext_ln940"   --->   Operation 70 'getelementptr' 'table_V_addr_2' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 71 [2/2] (2.77ns)   --->   "%table_V_load = load i9 %table_V_addr_2"   --->   Operation 71 'load' 'table_V_load' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
+ST_3 : Operation 72 [1/1] (1.73ns)   --->   "%sub_ln944 = sub i9 463, i9 %trunc_ln831" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:944]   --->   Operation 72 'sub' 'sub_ln944' <Predicate = true> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_3 : Operation 73 [1/1] (0.00ns)   --->   "%zext_ln944 = zext i9 %sub_ln944" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:944]   --->   Operation 73 'zext' 'zext_ln944' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 74 [1/1] (0.00ns)   --->   "%table_V_addr_3 = getelementptr i49 %table_V, i64 0, i64 %zext_ln944"   --->   Operation 74 'getelementptr' 'table_V_addr_3' <Predicate = true> <Delay = 0.00>
+ST_3 : Operation 75 [2/2] (2.77ns)   --->   "%table_V_load_1 = load i9 %table_V_addr_3"   --->   Operation 75 'load' 'table_V_load_1' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
 
-State 4 <SV = 3> <Delay = 5.71>
-ST_4 : Operation 56 [4/5] (5.71ns)   --->   "%r_V = mul i121 %sext_ln1118, i121 89775819439232432"   --->   Operation 56 'mul' 'r_V' <Predicate = true> <Delay = 5.71> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 4> <II = 1> <Delay = 5.71> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
-
-State 5 <SV = 4> <Delay = 5.71>
-ST_5 : Operation 57 [3/5] (5.71ns)   --->   "%r_V = mul i121 %sext_ln1118, i121 89775819439232432"   --->   Operation 57 'mul' 'r_V' <Predicate = true> <Delay = 5.71> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 4> <II = 1> <Delay = 5.71> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
-
-State 6 <SV = 5> <Delay = 5.71>
-ST_6 : Operation 58 [2/5] (5.71ns)   --->   "%r_V = mul i121 %sext_ln1118, i121 89775819439232432"   --->   Operation 58 'mul' 'r_V' <Predicate = true> <Delay = 5.71> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 4> <II = 1> <Delay = 5.71> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
-
-State 7 <SV = 6> <Delay = 5.71>
-ST_7 : Operation 59 [1/5] (5.71ns)   --->   "%r_V = mul i121 %sext_ln1118, i121 89775819439232432"   --->   Operation 59 'mul' 'r_V' <Predicate = true> <Delay = 5.71> <CoreInst = "Multiplier">   --->   Core 3 'Multiplier' <Latency = 4> <II = 1> <Delay = 5.71> <FuncUnit> <Opcode : 'mul'> <InPorts = 2> <OutPorts = 1>
-ST_7 : Operation 60 [1/1] (0.00ns)   --->   "%ret_V = partselect i25 @_ssdm_op_PartSelect.i25.i121.i32.i32, i121 %r_V, i32 96, i32 120"   --->   Operation 60 'partselect' 'ret_V' <Predicate = true> <Delay = 0.00>
-ST_7 : Operation 61 [1/1] (0.00ns)   --->   "%trunc_ln851 = trunc i121 %r_V"   --->   Operation 61 'trunc' 'trunc_ln851' <Predicate = true> <Delay = 0.00>
-
-State 8 <SV = 7> <Delay = 5.61>
-ST_8 : Operation 62 [1/1] (0.00ns)   --->   "%sext_ln831 = sext i25 %ret_V"   --->   Operation 62 'sext' 'sext_ln831' <Predicate = true> <Delay = 0.00>
-ST_8 : Operation 63 [1/1] (0.00ns) (grouped into LUT with out node ret_V_2)   --->   "%p_Result_1 = bitselect i1 @_ssdm_op_BitSelect.i1.i121.i32, i121 %r_V, i32 120"   --->   Operation 63 'bitselect' 'p_Result_1' <Predicate = true> <Delay = 0.00>
-ST_8 : Operation 64 [1/1] (2.62ns)   --->   "%icmp_ln851 = icmp_ne  i96 %trunc_ln851, i96 0"   --->   Operation 64 'icmp' 'icmp_ln851' <Predicate = true> <Delay = 2.62> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_8 : Operation 65 [1/1] (2.03ns)   --->   "%add_ln691 = add i26 %sext_ln831, i26 1"   --->   Operation 65 'add' 'add_ln691' <Predicate = true> <Delay = 2.03> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_8 : Operation 66 [1/1] (0.00ns) (grouped into LUT with out node ret_V_2)   --->   "%select_ln850 = select i1 %icmp_ln851, i26 %add_ln691, i26 %sext_ln831"   --->   Operation 66 'select' 'select_ln850' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_8 : Operation 67 [1/1] (0.93ns) (out node of the LUT)   --->   "%ret_V_2 = select i1 %p_Result_1, i26 %select_ln850, i26 %sext_ln831"   --->   Operation 67 'select' 'ret_V_2' <Predicate = true> <Delay = 0.93> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_8 : Operation 68 [1/1] (0.00ns)   --->   "%trunc_ln831 = trunc i26 %ret_V_2"   --->   Operation 68 'trunc' 'trunc_ln831' <Predicate = true> <Delay = 0.00>
-ST_8 : Operation 69 [1/1] (2.06ns)   --->   "%icmp_ln984 = icmp_slt  i26 %ret_V_2, i26 500" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:984]   --->   Operation 69 'icmp' 'icmp_ln984' <Predicate = true> <Delay = 2.06> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_8 : Operation 70 [1/1] (2.06ns)   --->   "%icmp_ln987 = icmp_slt  i26 %ret_V_2, i26 1000" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:987]   --->   Operation 70 'icmp' 'icmp_ln987' <Predicate = true> <Delay = 2.06> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-ST_8 : Operation 71 [1/1] (2.06ns)   --->   "%icmp_ln991 = icmp_slt  i26 %ret_V_2, i26 1500" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:991]   --->   Operation 71 'icmp' 'icmp_ln991' <Predicate = true> <Delay = 2.06> <CoreInst = "Cmp">   --->   Core 9 'Cmp' <Latency = 0> <II = 1> <Delay = 2.06> <FuncUnit> <Opcode : 'icmp'> <InPorts = 2> <OutPorts = 1>
-
-State 9 <SV = 8> <Delay = 4.50>
-ST_9 : Operation 72 [1/1] (0.00ns)   --->   "%zext_ln985 = zext i9 %trunc_ln831" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:985]   --->   Operation 72 'zext' 'zext_ln985' <Predicate = (icmp_ln984)> <Delay = 0.00>
-ST_9 : Operation 73 [1/1] (0.00ns)   --->   "%table_V_addr = getelementptr i49 %table_V, i64 0, i64 %zext_ln985" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:985]   --->   Operation 73 'getelementptr' 'table_V_addr' <Predicate = (icmp_ln984)> <Delay = 0.00>
-ST_9 : Operation 74 [2/2] (2.77ns)   --->   "%out_sin_V = load i9 %table_V_addr" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:985]   --->   Operation 74 'load' 'out_sin_V' <Predicate = (icmp_ln984)> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
-ST_9 : Operation 75 [1/1] (1.73ns)   --->   "%sub_ln989 = sub i9 487, i9 %trunc_ln831" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:989]   --->   Operation 75 'sub' 'sub_ln989' <Predicate = true> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_9 : Operation 76 [1/1] (0.00ns)   --->   "%zext_ln989 = zext i9 %sub_ln989" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:989]   --->   Operation 76 'zext' 'zext_ln989' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 77 [1/1] (0.00ns)   --->   "%table_V_addr_1 = getelementptr i49 %table_V, i64 0, i64 %zext_ln989" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:989]   --->   Operation 77 'getelementptr' 'table_V_addr_1' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 78 [2/2] (2.77ns)   --->   "%out_sin_V_1 = load i9 %table_V_addr_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:989]   --->   Operation 78 'load' 'out_sin_V_1' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
-ST_9 : Operation 79 [1/1] (1.73ns)   --->   "%n_aux = add i9 %trunc_ln831, i9 24" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:992]   --->   Operation 79 'add' 'n_aux' <Predicate = true> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_9 : Operation 80 [1/1] (0.00ns)   --->   "%zext_ln993 = zext i9 %n_aux" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:993]   --->   Operation 80 'zext' 'zext_ln993' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 81 [1/1] (0.00ns)   --->   "%table_V_addr_2 = getelementptr i49 %table_V, i64 0, i64 %zext_ln993"   --->   Operation 81 'getelementptr' 'table_V_addr_2' <Predicate = true> <Delay = 0.00>
-ST_9 : Operation 82 [2/2] (2.77ns)   --->   "%table_V_load = load i9 %table_V_addr_2"   --->   Operation 82 'load' 'table_V_load' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
-ST_9 : Operation 83 [1/1] (1.73ns)   --->   "%sub_ln997 = sub i9 463, i9 %trunc_ln831" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:997]   --->   Operation 83 'sub' 'sub_ln997' <Predicate = (!icmp_ln984)> <Delay = 1.73> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_9 : Operation 84 [1/1] (0.00ns)   --->   "%zext_ln997 = zext i9 %sub_ln997" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:997]   --->   Operation 84 'zext' 'zext_ln997' <Predicate = (!icmp_ln984)> <Delay = 0.00>
-ST_9 : Operation 85 [1/1] (0.00ns)   --->   "%table_V_addr_3 = getelementptr i49 %table_V, i64 0, i64 %zext_ln997"   --->   Operation 85 'getelementptr' 'table_V_addr_3' <Predicate = (!icmp_ln984)> <Delay = 0.00>
-ST_9 : Operation 86 [2/2] (2.77ns)   --->   "%table_V_load_1 = load i9 %table_V_addr_3"   --->   Operation 86 'load' 'table_V_load_1' <Predicate = (!icmp_ln984)> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
-
-State 10 <SV = 9> <Delay = 7.00>
-ST_10 : Operation 87 [1/2] (2.77ns)   --->   "%out_sin_V = load i9 %table_V_addr" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:985]   --->   Operation 87 'load' 'out_sin_V' <Predicate = (icmp_ln984)> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
-ST_10 : Operation 88 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_5)   --->   "%zext_ln975 = zext i49 %out_sin_V" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:975]   --->   Operation 88 'zext' 'zext_ln975' <Predicate = (icmp_ln984)> <Delay = 0.00>
-ST_10 : Operation 89 [1/2] (2.77ns)   --->   "%out_sin_V_1 = load i9 %table_V_addr_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:989]   --->   Operation 89 'load' 'out_sin_V_1' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
-ST_10 : Operation 90 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_5)   --->   "%zext_ln975_1 = zext i49 %out_sin_V_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:975]   --->   Operation 90 'zext' 'zext_ln975_1' <Predicate = true> <Delay = 0.00>
-ST_10 : Operation 91 [1/2] (2.77ns)   --->   "%table_V_load = load i9 %table_V_addr_2"   --->   Operation 91 'load' 'table_V_load' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
-ST_10 : Operation 92 [1/1] (2.63ns)   --->   "%out_sin_V_2 = sub i49 0, i49 %table_V_load"   --->   Operation 92 'sub' 'out_sin_V_2' <Predicate = true> <Delay = 2.63> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_10 : Operation 93 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_6)   --->   "%sext_ln975 = sext i49 %out_sin_V_2" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:975]   --->   Operation 93 'sext' 'sext_ln975' <Predicate = true> <Delay = 0.00>
-ST_10 : Operation 94 [1/2] (2.77ns)   --->   "%table_V_load_1 = load i9 %table_V_addr_3"   --->   Operation 94 'load' 'table_V_load_1' <Predicate = (!icmp_ln984)> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
-ST_10 : Operation 95 [1/1] (2.63ns)   --->   "%out_sin_V_3 = sub i49 0, i49 %table_V_load_1"   --->   Operation 95 'sub' 'out_sin_V_3' <Predicate = (!icmp_ln984)> <Delay = 2.63> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_10 : Operation 96 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_5)   --->   "%sext_ln975_1 = sext i49 %out_sin_V_3" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:975]   --->   Operation 96 'sext' 'sext_ln975_1' <Predicate = (!icmp_ln984)> <Delay = 0.00>
-ST_10 : Operation 97 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_5)   --->   "%out_sin_V_4 = select i1 %icmp_ln984, i50 %zext_ln975, i50 %sext_ln975_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:984]   --->   Operation 97 'select' 'out_sin_V_4' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_10 : Operation 98 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_5)   --->   "%xor_ln984 = xor i1 %icmp_ln984, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:984]   --->   Operation 98 'xor' 'xor_ln984' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_10 : Operation 99 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_5)   --->   "%and_ln987 = and i1 %icmp_ln987, i1 %xor_ln984" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:987]   --->   Operation 99 'and' 'and_ln987' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_10 : Operation 100 [1/1] (0.80ns) (out node of the LUT)   --->   "%out_sin_V_5 = select i1 %and_ln987, i50 %zext_ln975_1, i50 %out_sin_V_4" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:987]   --->   Operation 100 'select' 'out_sin_V_5' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_10 : Operation 101 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_6)   --->   "%xor_ln987 = xor i1 %icmp_ln987, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:987]   --->   Operation 101 'xor' 'xor_ln987' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_10 : Operation 102 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_6)   --->   "%and_ln991 = and i1 %icmp_ln991, i1 %xor_ln987" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:991]   --->   Operation 102 'and' 'and_ln991' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
-ST_10 : Operation 103 [1/1] (0.80ns) (out node of the LUT)   --->   "%out_sin_V_6 = select i1 %and_ln991, i50 %sext_ln975, i50 %out_sin_V_5" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:991]   --->   Operation 103 'select' 'out_sin_V_6' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-
-State 11 <SV = 10> <Delay = 3.40>
-ST_11 : Operation 104 [1/1] (2.65ns)   --->   "%sub_ln703 = sub i50 0, i50 %out_sin_V_6"   --->   Operation 104 'sub' 'sub_ln703' <Predicate = (p_Result_s)> <Delay = 2.65> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
-ST_11 : Operation 105 [1/1] (0.74ns)   --->   "%out_sin_V_8 = select i1 %p_Result_s, i50 %sub_ln703, i50 %out_sin_V_6" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1000]   --->   Operation 105 'select' 'out_sin_V_8' <Predicate = true> <Delay = 0.74> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
-ST_11 : Operation 106 [1/1] (0.00ns)   --->   "%ret_ln1007 = ret i50 %out_sin_V_8" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1007]   --->   Operation 106 'ret' 'ret_ln1007' <Predicate = true> <Delay = 0.00>
+State 4 <SV = 3> <Delay = 10.4>
+ST_4 : Operation 76 [1/2] (2.77ns)   --->   "%out_sin_V = load i9 %table_V_addr" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:932]   --->   Operation 76 'load' 'out_sin_V' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
+ST_4 : Operation 77 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_5)   --->   "%zext_ln922 = zext i49 %out_sin_V" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:922]   --->   Operation 77 'zext' 'zext_ln922' <Predicate = (icmp_ln931)> <Delay = 0.00>
+ST_4 : Operation 78 [1/2] (2.77ns)   --->   "%out_sin_V_1 = load i9 %table_V_addr_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:936]   --->   Operation 78 'load' 'out_sin_V_1' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
+ST_4 : Operation 79 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_5)   --->   "%zext_ln922_1 = zext i49 %out_sin_V_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:922]   --->   Operation 79 'zext' 'zext_ln922_1' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 80 [1/2] (2.77ns)   --->   "%table_V_load = load i9 %table_V_addr_2"   --->   Operation 80 'load' 'table_V_load' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
+ST_4 : Operation 81 [1/1] (2.63ns)   --->   "%out_sin_V_2 = sub i49 0, i49 %table_V_load"   --->   Operation 81 'sub' 'out_sin_V_2' <Predicate = true> <Delay = 2.63> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 82 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_6)   --->   "%sext_ln922 = sext i49 %out_sin_V_2" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:922]   --->   Operation 82 'sext' 'sext_ln922' <Predicate = true> <Delay = 0.00>
+ST_4 : Operation 83 [1/2] (2.77ns)   --->   "%table_V_load_1 = load i9 %table_V_addr_3"   --->   Operation 83 'load' 'table_V_load_1' <Predicate = true> <Delay = 2.77> <CoreInst = "ROM">   --->   Core 95 'ROM' <Latency = 1> <II = 1> <Delay = 2.77> <Storage> <Opcode : 'load'> <Ports = 0> <Width = 49> <Depth = 500> <ROM>
+ST_4 : Operation 84 [1/1] (2.63ns)   --->   "%out_sin_V_3 = sub i49 0, i49 %table_V_load_1"   --->   Operation 84 'sub' 'out_sin_V_3' <Predicate = (!icmp_ln931)> <Delay = 2.63> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 85 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_5)   --->   "%sext_ln922_1 = sext i49 %out_sin_V_3" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:922]   --->   Operation 85 'sext' 'sext_ln922_1' <Predicate = (!icmp_ln931)> <Delay = 0.00>
+ST_4 : Operation 86 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_5)   --->   "%out_sin_V_4 = select i1 %icmp_ln931, i50 %zext_ln922, i50 %sext_ln922_1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:931]   --->   Operation 86 'select' 'out_sin_V_4' <Predicate = true> <Delay = 0.00> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_4 : Operation 87 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_5)   --->   "%xor_ln931 = xor i1 %icmp_ln931, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:931]   --->   Operation 87 'xor' 'xor_ln931' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 88 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_5)   --->   "%and_ln934 = and i1 %icmp_ln934, i1 %xor_ln931" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:934]   --->   Operation 88 'and' 'and_ln934' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 89 [1/1] (0.80ns) (out node of the LUT)   --->   "%out_sin_V_5 = select i1 %and_ln934, i50 %zext_ln922_1, i50 %out_sin_V_4" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:934]   --->   Operation 89 'select' 'out_sin_V_5' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_4 : Operation 90 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_6)   --->   "%xor_ln934 = xor i1 %icmp_ln934, i1 1" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:934]   --->   Operation 90 'xor' 'xor_ln934' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 91 [1/1] (0.00ns) (grouped into LUT with out node out_sin_V_6)   --->   "%and_ln938 = and i1 %icmp_ln938, i1 %xor_ln934" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:938]   --->   Operation 91 'and' 'and_ln938' <Predicate = true> <Delay = 0.00> <CoreInst = "LogicGate">   --->   Core 74 'LogicGate' <Latency = 0> <II = 1> <Delay = 0.80> <FuncUnit> <Opcode : 'and' 'or' 'xor'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 92 [1/1] (0.80ns) (out node of the LUT)   --->   "%out_sin_V_6 = select i1 %and_ln938, i50 %sext_ln922, i50 %out_sin_V_5" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:938]   --->   Operation 92 'select' 'out_sin_V_6' <Predicate = true> <Delay = 0.80> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_4 : Operation 93 [1/1] (2.65ns)   --->   "%sub_ln703 = sub i50 0, i50 %out_sin_V_6"   --->   Operation 93 'sub' 'sub_ln703' <Predicate = (p_Result_s)> <Delay = 2.65> <CoreInst = "Adder">   --->   Core 1 'Adder' <Latency = 0> <II = 1> <Delay = 2.65> <FuncUnit> <Opcode : 'add' 'sub'> <InPorts = 2> <OutPorts = 1>
+ST_4 : Operation 94 [1/1] (0.74ns)   --->   "%out_sin_V_8 = select i1 %p_Result_s, i50 %sub_ln703, i50 %out_sin_V_6" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:947]   --->   Operation 94 'select' 'out_sin_V_8' <Predicate = true> <Delay = 0.74> <CoreInst = "Sel">   --->   Core 73 'Sel' <Latency = 0> <II = 1> <Delay = 0.74> <FuncUnit> <Opcode : 'select'> <InPorts = 3> <OutPorts = 1>
+ST_4 : Operation 95 [1/1] (0.00ns)   --->   "%ret_ln954 = ret i50 %out_sin_V_8" [../../C-Codes/Fixed_x64/PLL2026_x64.cpp:954]   --->   Operation 95 'ret' 'ret_ln954' <Predicate = true> <Delay = 0.00>
 
 
 ============================================================
 + Verbose Summary: Timing violations
 ============================================================
-Target clock period: 10ns, clock uncertainty: 2.7ns.
+Target clock period: 20ns, clock uncertainty: 5.4ns.
 
- <State 1>: 7.15ns
+ <State 1>: 11ns
 The critical path consists of the following:
-	wire read on port 'theta_in' (../../C-Codes/Fixed_x64/PLL2026_x64.cpp:394) [4]  (0 ns)
-	'add' operation ('angulo.V') [6]  (3 ns)
+	wire read on port 'theta_in' (../../C-Codes/Fixed_x64/PLL2026_x64.cpp:341) [4]  (0 ns)
+	'add' operation ('angulo.V') [23]  (3 ns)
+	'select' operation ('select_ln364', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:364) [24]  (0 ns)
 	'select' operation ('angulo.V') [25]  (0.831 ns)
-	'select' operation ('angulo.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:405) [28]  (0.831 ns)
-	'select' operation ('angulo.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:408) [32]  (0.831 ns)
-	'select' operation ('angulo.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:411) [36]  (0.831 ns)
-	'select' operation ('angulo.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:414) [41]  (0.831 ns)
-
- <State 2>: 3.83ns
-The critical path consists of the following:
+	'select' operation ('angulo.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:352) [28]  (0.831 ns)
+	'select' operation ('angulo.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:355) [32]  (0.831 ns)
+	'select' operation ('angulo.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:358) [36]  (0.831 ns)
+	'select' operation ('angulo.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:361) [41]  (0.831 ns)
 	'sub' operation ('__Val2__') [42]  (3 ns)
 	'select' operation ('theta_abs.V', C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot/hls_round_copysign_apfixed.h:180) [45]  (0.831 ns)
 
- <State 3>: 5.72ns
+ <State 2>: 14ns
 The critical path consists of the following:
-	'mul' operation ('r.V') [47]  (5.72 ns)
-
- <State 4>: 5.72ns
-The critical path consists of the following:
-	'mul' operation ('r.V') [47]  (5.72 ns)
-
- <State 5>: 5.72ns
-The critical path consists of the following:
-	'mul' operation ('r.V') [47]  (5.72 ns)
-
- <State 6>: 5.72ns
-The critical path consists of the following:
-	'mul' operation ('r.V') [47]  (5.72 ns)
-
- <State 7>: 5.72ns
-The critical path consists of the following:
-	'mul' operation ('r.V') [47]  (5.72 ns)
-
- <State 8>: 5.62ns
-The critical path consists of the following:
+	'mul' operation ('r.V') [47]  (10.4 ns)
 	'icmp' operation ('icmp_ln851') [52]  (2.63 ns)
 	'select' operation ('select_ln850') [54]  (0 ns)
 	'select' operation ('ret.V') [55]  (0.931 ns)
-	'icmp' operation ('icmp_ln984', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:984) [57]  (2.06 ns)
 
- <State 9>: 4.51ns
+ <State 3>: 4.51ns
 The critical path consists of the following:
-	'sub' operation ('sub_ln989', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:989) [63]  (1.73 ns)
-	'getelementptr' operation ('table_V_addr_1', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:989) [65]  (0 ns)
-	'load' operation ('out_sin.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:989) on array 'table_V' [66]  (2.77 ns)
+	'sub' operation ('sub_ln936', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:936) [63]  (1.73 ns)
+	'getelementptr' operation ('table_V_addr_1', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:936) [65]  (0 ns)
+	'load' operation ('out_sin.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:936) on array 'table_V' [66]  (2.77 ns)
 
- <State 10>: 7ns
+ <State 4>: 10.4ns
 The critical path consists of the following:
 	'load' operation ('table_V_load_1') on array 'table_V' [78]  (2.77 ns)
 	'sub' operation ('out_sin.V') [79]  (2.63 ns)
-	'select' operation ('out_sin.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:984) [81]  (0 ns)
-	'select' operation ('out_sin.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:987) [84]  (0.8 ns)
-	'select' operation ('out_sin.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:991) [87]  (0.8 ns)
-
- <State 11>: 3.4ns
-The critical path consists of the following:
+	'select' operation ('out_sin.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:931) [81]  (0 ns)
+	'select' operation ('out_sin.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:934) [84]  (0.8 ns)
+	'select' operation ('out_sin.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:938) [87]  (0.8 ns)
 	'sub' operation ('sub_ln703') [88]  (2.66 ns)
-	'select' operation ('out_sin.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:1000) [89]  (0.744 ns)
+	'select' operation ('out_sin.V', ../../C-Codes/Fixed_x64/PLL2026_x64.cpp:947) [89]  (0.744 ns)
 
 
 ============================================================
@@ -281,13 +231,6 @@ N/A
 	State 2
 	State 3
 	State 4
-	State 5
-	State 6
-	State 7
-	State 8
-	State 9
-	State 10
-	State 11
 
 
 ============================================================

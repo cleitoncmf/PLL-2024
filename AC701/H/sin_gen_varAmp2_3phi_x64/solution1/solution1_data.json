@@ -832,27 +832,31 @@
       "Instances": [
         {
           "ModuleName": "sin_2000",
-          "InstanceName": "grp_sin_2000_fu_237"
+          "InstanceName": "grp_sin_2000_fu_191"
         },
         {
           "ModuleName": "sin_2000",
-          "InstanceName": "grp_sin_2000_fu_244"
+          "InstanceName": "grp_sin_2000_fu_198"
         },
         {
           "ModuleName": "sin_2000",
-          "InstanceName": "grp_sin_2000_fu_251"
+          "InstanceName": "grp_sin_2000_fu_205"
         },
         {
           "ModuleName": "sin_2000",
-          "InstanceName": "grp_sin_2000_fu_258"
+          "InstanceName": "grp_sin_2000_fu_212"
         },
         {
           "ModuleName": "sin_2000",
-          "InstanceName": "grp_sin_2000_fu_265"
+          "InstanceName": "grp_sin_2000_fu_219"
         },
         {
           "ModuleName": "sin_2000",
-          "InstanceName": "grp_sin_2000_fu_272"
+          "InstanceName": "grp_sin_2000_fu_226"
+        },
+        {
+          "ModuleName": "sin_2000",
+          "InstanceName": "grp_sin_2000_fu_233"
         }
       ]
     },
@@ -908,32 +912,32 @@
       "sin_gen_varAmp2_3phi_x64": {
         "Latency": {
           "LatencyBest": "1",
-          "LatencyAvg": "39",
-          "LatencyWorst": "76",
+          "LatencyAvg": "21",
+          "LatencyWorst": "41",
           "PipelineIIMin": "2",
-          "PipelineIIMax": "77",
-          "PipelineII": "2 ~ 77",
+          "PipelineIIMax": "42",
+          "PipelineII": "2 ~ 42",
           "PipelineDepth": "",
           "PipelineType": "none"
         },
         "Timing": {
           "Target": "10.00",
           "Uncertainty": "2.70",
-          "Estimate": "8.140"
+          "Estimate": "7.300"
         },
         "Area": {
-          "BRAM_18K": "36",
+          "BRAM_18K": "42",
           "AVAIL_BRAM": "730",
-          "UTIL_BRAM": "4",
-          "DSP": "70",
+          "UTIL_BRAM": "5",
+          "DSP": "52",
           "AVAIL_DSP": "740",
-          "UTIL_DSP": "9",
-          "FF": "20445",
+          "UTIL_DSP": "7",
+          "FF": "13657",
           "AVAIL_FF": "269200",
-          "UTIL_FF": "7",
-          "LUT": "22242",
+          "UTIL_FF": "5",
+          "LUT": "19527",
           "AVAIL_LUT": "134600",
-          "UTIL_LUT": "16",
+          "UTIL_LUT": "14",
           "URAM": "0",
           "AVAIL_URAM": "0",
           "UTIL_URAM": "0"
@@ -944,7 +948,7 @@
   "GenerateBdFiles": "0",
   "GenData": {
     "DataVersion": "0.2",
-    "Time": "2026-07-08 15:09:52 -0300",
+    "Time": "2026-11-06 10:53:21 -0300",
     "ToolName": "vivado_hls",
     "ToolVersion": "2020.2"
   }

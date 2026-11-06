@@ -1,7 +1,7 @@
 <profile>
 
 <section name = "Vitis HLS Report for 'INV_LUT'" level="0">
-<item name = "Date">Wed Jul 22 15:27:22 2026
+<item name = "Date">Fri Nov  6 14:47:58 2026
 </item>
 <item name = "Version">2020.2 (Build 3064766 on Wed Nov 18 09:12:45 MST 2020)</item>
 <item name = "Project">PLL2026</item>
@@ -15,7 +15,7 @@
 <section name = "" level="1">
 <item name = "Summary"><table name="" hasTotal="0">
 <keys size="4">Clock, Target, Estimated, Uncertainty</keys>
-<column name="ap_clk">10.00 ns, 7.132 ns, 2.70 ns</column>
+<column name="ap_clk">20.00 ns, 13.222 ns, 5.40 ns</column>
 </table>
 </item>
 </section>
@@ -35,7 +35,7 @@
 </item>
 <item name = "Loop"><table name="" hasTotal="0">
 <keys size="8">Loop Name, min, max, Latency, achieved, target, Count, Pipelined</keys>
-<column name="- VITIS_LOOP_1024_1">?, ?, 2, 2, 1, ?, yes</column>
+<column name="- VITIS_LOOP_971_1">?, ?, 2, 1, 1, ?, yes</column>
 </table>
 </item>
 </section>

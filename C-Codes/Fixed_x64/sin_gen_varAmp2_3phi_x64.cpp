@@ -22,6 +22,7 @@ void sin_gen_varAmp2_3phi_x64(uint1_t sinc, uint1_t opt, data_t f,
     
 
     static data_t wt;
+    static data_t wt5;
     static data_t wt_old;
     static data_t dwt;
 
@@ -48,6 +49,7 @@ void sin_gen_varAmp2_3phi_x64(uint1_t sinc, uint1_t opt, data_t f,
 
 
 
+        /*
 
         // cálculo das tensões
         va = A_1p*sin_2000(wt + Ang_1p)+
@@ -76,6 +78,24 @@ void sin_gen_varAmp2_3phi_x64(uint1_t sinc, uint1_t opt, data_t f,
              A_7n*sin_2000(wt*data_t(7) + Ang_7n - alpha);
 
 
+*/
+
+        wt5 = wt*data_t(5);
+
+        // cálculo das tensões
+        va = A_1p*sin_2000(wt + Ang_1p)+
+             A_1n*sin_2000(wt + Ang_1n)+
+             A_5n*sin_2000(wt5 + Ang_5n);
+
+
+        vb = A_1p*sin_2000(wt + Ang_1p - alpha)+
+             A_1n*sin_2000(wt + Ang_1n + alpha)+
+             A_5n*sin_2000(wt5 + Ang_5n + alpha);
+
+
+        vc = A_1p*sin_2000(wt + Ang_1p + alpha)+
+             A_1n*sin_2000(wt + Ang_1n - alpha)+
+             A_5n*sin_2000(wt5 + Ang_5n - alpha);
 
 
              

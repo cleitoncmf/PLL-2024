@@ -1,6 +1,6 @@
 
 set TopModule "PLL2026_x64"
-set ClockPeriod 10
+set ClockPeriod 20
 set ClockList ap_clk
 set HasVivadoClockPeriod 0
 set CombLogicFlag 0

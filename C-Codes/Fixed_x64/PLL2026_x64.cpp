@@ -5,18 +5,9 @@
 
 
 void PLL2026_x64(uint1_t sinc,
-					uint1_t EN1,
-					uint1_t EN2,
-					uint1_t EN3,
-					uint1_t EN4,
-					uint1_t EN5,
-					uint1_t EN6,
                     data_t vin_a,
                     data_t vin_b,
                     data_t vin_c,
-					data_t in_1,
-					data_t in_2,
-					data_t in_3,
                     data_t *w_out,
 					data_t *wi_out,
                     data_t *theta_out,
@@ -36,13 +27,7 @@ void PLL2026_x64(uint1_t sinc,
 					data_t *v1_d_out,
 					data_t *v1_q_out,
 					data_t *v2_d_out,
-					data_t *v2_q_out,
-					data_t *in_inv,
-					data_t *out_inv,
-					data_t *in_atan,
-					data_t *out_atan,
-					data_t *in_sqrt,
-					data_t *out_sqrt,
+					data_t *v2_q_out
                     ){
 
 
@@ -92,16 +77,11 @@ void PLL2026_x64(uint1_t sinc,
     static data_t q_inv_d;
 
 
+    static data_t cos_teta1_v_alfa;
+	static data_t sen_teta1_v_beta;
+	static data_t sen_teta1_v_alfa;
+	static data_t cos_teta1_v_beta;
 
-    static data_t in_inv_aux;
-    static data_t in_inv_aux_old;
-	static data_t out_inv_aux;
-	static data_t in_atan_aux;
-	static data_t in_atan_aux_old;
-	static data_t out_atan_aux;
-	static data_t in_sqrt_aux;
-	static data_t in_sqrt_aux_old;
-	static data_t out_sqrt_aux;
 
 	static data_t v2_q_limpo_aux;
 	static data_t v2_d_limpo_aux;
@@ -176,16 +156,31 @@ void PLL2026_x64(uint1_t sinc,
 		cos_teta2 = cos_2000(theta1_2x);
 
 
+		// multiplica��es comuns
+		cos_teta1_v_alfa = cos_teta1 * v_alfa;
 
+		sen_teta1_v_beta = sen_teta1 * v_beta;
+
+		sen_teta1_v_alfa = sen_teta1 * v_alfa;
+
+		cos_teta1_v_beta = cos_teta1 * v_beta;
         
 
 		// Computação dos sinais dq de sequencia positiva
-		v1_q = cos_teta1 * v_alfa + sen_teta1 * v_beta;
-		v1_d = sen_teta1 * v_alfa - cos_teta1 * v_beta;
+//		v1_q = cos_teta1 * v_alfa + sen_teta1 * v_beta;
+//		v1_d = sen_teta1 * v_alfa - cos_teta1 * v_beta;
 
 		// Computação dos sinais dq de sequencia negativa
-		v2_q = cos_teta1 * v_alfa - sen_teta1 * v_beta;
-		v2_d = sen_teta1 * v_alfa + cos_teta1 * v_beta;
+//		v2_q = cos_teta1 * v_alfa - sen_teta1 * v_beta;
+//		v2_d = sen_teta1 * v_alfa + cos_teta1 * v_beta;
+
+		// Computação dos sinais dq de sequencia positiva
+		v1_q = cos_teta1_v_alfa + sen_teta1_v_beta;
+		v1_d = sen_teta1_v_alfa - cos_teta1_v_beta;
+
+		// Computação dos sinais dq de sequencia negativa
+		v2_q = cos_teta1_v_alfa - sen_teta1_v_beta;
+		v2_d = sen_teta1_v_alfa + cos_teta1_v_beta;
 
 
 		// Computação dos termos compensados de seq positiva
@@ -203,7 +198,8 @@ void PLL2026_x64(uint1_t sinc,
 
 		// Computação da malha de fase
 
-		wi = wi_old + Ts * ki_phi * v1_q_limpo;
+		//wi = wi_old + Ts * ki_phi * v1_q_limpo;
+		wi = wi_old + Ts_ki_phi * v1_q_limpo;
 		w = w0 + wi + kp_phi * v1_q_limpo;
 
 
@@ -244,10 +240,13 @@ void PLL2026_x64(uint1_t sinc,
 
 
 		// Filtragem do delta da seq negativa
-		delta = delta_old + Ts*wcd*(delta_raw - delta_old);
+		//delta = delta_old + Ts*wcd*(delta_raw - delta_old);
+		delta = delta_old + Ts_wcd*(delta_raw - delta_old);
 
 		// Filtragem da amplitude da seq negativa
-		Amp_vneg = Amp_vneg_old + Ts*wca*(Amp_vneg_raw - Amp_vneg_old);
+		//Amp_vneg = Amp_vneg_old + Ts*wca*(Amp_vneg_raw - Amp_vneg_old);
+		Amp_vneg = Amp_vneg_old + Ts_wca*(Amp_vneg_raw - Amp_vneg_old);
+
 		/*
 		if(time>data_t(100e-3)){
 			Amp_vneg = Amp_vneg_old + Ts*wca*(Amp_vneg_raw - Amp_vneg_old);
@@ -296,52 +295,6 @@ void PLL2026_x64(uint1_t sinc,
 
 
 
-		// Testes das fun��es
-
-
-		in_inv_aux_old = in_inv_aux;
-
-		if(in_inv_aux>data_t(1000)){
-			in_inv_aux = data_t(0.01);
-		}
-		else{
-			in_inv_aux = in_inv_aux_old + data_t(0.1);
-		}
-
-
-		out_inv_aux = INV_LUT_signed(in_inv_aux);
-
-
-
-		in_atan_aux_old = in_atan_aux;
-
-		if(in_atan_aux>data_t(10000) ){
-			in_atan_aux = data_t(0.2);
-		}
-		else{
-			in_atan_aux = in_atan_aux_old + data_t(0.1);
-		}
-
-
-		out_atan_aux = ATAN_LUT_signed(in_atan_aux);
-
-
-
-
-
-		in_sqrt_aux_old = in_sqrt_aux;
-
-		if(in_sqrt_aux > data_t(10000) ){
-			in_sqrt_aux = data_t(0.2);
-		}
-		else{
-			in_sqrt_aux = in_sqrt_aux_old + data_t(0.1);
-		}
-
-
-		out_sqrt_aux = SQRT_LUT(in_sqrt_aux);
-
-
 
        
 
@@ -374,12 +327,6 @@ void PLL2026_x64(uint1_t sinc,
     *v2_q_out = v2_q;
 
 
-    *in_inv = in_inv_aux;
-    *out_inv = out_inv_aux;
-    *in_atan = in_atan_aux;
-    *out_atan = out_atan_aux;
-    *in_sqrt = in_sqrt_aux;
-    *out_sqrt = out_sqrt_aux;
 
 
 

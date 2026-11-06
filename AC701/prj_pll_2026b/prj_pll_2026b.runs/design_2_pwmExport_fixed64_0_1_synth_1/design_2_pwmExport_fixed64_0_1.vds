@@ -1,0 +1,25 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Nov  6 09:32:03 2026
+# Process ID: 21488
+# Current directory: C:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/prj_pll_2026b/prj_pll_2026b.runs/design_2_pwmExport_fixed64_0_1_synth_1
+# Command line: vivado.exe -log design_2_pwmExport_fixed64_0_1.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_2_pwmExport_fixed64_0_1.tcl
+# Log file: C:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/prj_pll_2026b/prj_pll_2026b.runs/design_2_pwmExport_fixed64_0_1_synth_1/design_2_pwmExport_fixed64_0_1.vds
+# Journal file: C:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/prj_pll_2026b/prj_pll_2026b.runs/design_2_pwmExport_fixed64_0_1_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_2_pwmExport_fixed64_0_1.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/config_source_x64'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/muxPWMout_x64'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/sin_gen_varAmp2_3phi_x64'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/cleit/OneDrive/Documents/GitHub/FPGA-PLL/AC701/H/FreqDiv'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/cleit/OneDrive/Documents/GitHub/FPGA-PLL/AC701/H/pwmExport_fixed64'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/cleit/OneDrive/Documents/GitHub/FPGA-PLL/AC701/H/config_trans_harm'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/H/PLL2026'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-4995] The host OS only allows 260 characters in a normal path. The IP cache path is more than 80 characters. If you experience issues with IP caching, please consider changing the IP cache to a location with a shorter path. Alternately consider using the OS subst command to map part of the path to a drive letter. 
+Current IP cache path is c:/Users/cleit/OneDrive/Documents/GitHub/PLL-2024/AC701/prj_pll_2026b/prj_pll_2026b.cache/ip 
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_2_pwmExport_fixed64_0_1, cache-ID = ca4b1bf6a365f342.
+INFO: [Common 17-206] Exiting Vivado at Fri Nov  6 09:32:08 2026...

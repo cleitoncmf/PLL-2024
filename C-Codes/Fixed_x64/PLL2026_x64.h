@@ -46,6 +46,12 @@ typedef ap_uint<1> uint1_t;
 #define k_beta data_t(0.577350269189626)
 
 
+#define Ts_wcd data_t(0.009424750000000)
+#define Ts_wca data_t(0.037699100000000)
+
+#define Ts_ki_phi data_t(0.005000000000000)
+
+
 
 // Cabeçalho
 data_t sin_2000(data_t theta);
@@ -59,18 +65,9 @@ data_t INV_LUT(data_t x);
 data_t INV_LUT_signed(data_t x);
 int busca_binaria(data_t *vetor, int Tamanho, data_t valor);
 void PLL2026_x64(uint1_t sinc,
-					uint1_t EN1,
-					uint1_t EN2,
-					uint1_t EN3,
-					uint1_t EN4,
-					uint1_t EN5,
-					uint1_t EN6,
                     data_t vin_a,
                     data_t vin_b,
                     data_t vin_c,
-					data_t in_1,
-					data_t in_2,
-					data_t in_3,
                     data_t *w_out,
 					data_t *wi_out,
                     data_t *theta_out,
@@ -90,13 +87,7 @@ void PLL2026_x64(uint1_t sinc,
 					data_t *v1_d_out,
 					data_t *v1_q_out,
 					data_t *v2_d_out,
-					data_t *v2_q_out,
-					data_t *in_inv,
-					data_t *out_inv,
-					data_t *in_atan,
-					data_t *out_atan,
-					data_t *in_sqrt,
-					data_t *out_sqrt,
+					data_t *v2_q_out
                     );
 
 

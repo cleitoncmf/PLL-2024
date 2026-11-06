@@ -46,7 +46,7 @@ set RtlHierarchyInfo {[
 		"ControlExist" : "1", "ap_start" : "1", "ap_ready" : "1", "ap_done" : "1", "ap_continue" : "0", "ap_idle" : "1", "real_start" : "0",
 		"Pipeline" : "None", "UnalignedPipeline" : "0", "RewindPipeline" : "0", "ProcessNetwork" : "0",
 		"II" : "0",
-		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "12", "EstimateLatencyMax" : "12",
+		"VariableLatency" : "1", "ExactLatency" : "-1", "EstimateLatencyMin" : "4", "EstimateLatencyMax" : "4",
 		"Combinational" : "0",
 		"Datapath" : "0",
 		"ClockEnable" : "0",
@@ -57,7 +57,7 @@ set RtlHierarchyInfo {[
 			{"Name" : "theta_in", "Type" : "None", "Direction" : "I"},
 			{"Name" : "table_V", "Type" : "Memory", "Direction" : "I"}]},
 	{"ID" : "1", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.table_V_U", "Parent" : "0"},
-	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_58ns_121_5_1_U5", "Parent" : "0"}]}
+	{"ID" : "2", "Level" : "1", "Path" : "`AUTOTB_DUT_INST.mul_64s_58ns_121_1_1_U5", "Parent" : "0"}]}
 
 
 set ArgLastReadFirstWriteLatency {
@@ -68,8 +68,8 @@ set ArgLastReadFirstWriteLatency {
 set hasDtUnsupportedChannel 0
 
 set PerformanceInfo {[
-	{"Name" : "Latency", "Min" : "12", "Max" : "12"}
-	, {"Name" : "Interval", "Min" : "12", "Max" : "12"}
+	{"Name" : "Latency", "Min" : "4", "Max" : "4"}
+	, {"Name" : "Interval", "Min" : "4", "Max" : "4"}
 ]}
 
 set PipelineEnableSignalInfo {[

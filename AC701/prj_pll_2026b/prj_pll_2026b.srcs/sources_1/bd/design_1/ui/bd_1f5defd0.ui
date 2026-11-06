@@ -3,7 +3,7 @@
    "Default View_ScaleFactor":"1.14323",
    "Default View_TopLeft":"-136,297",
    "ExpandedHierarchyInLayout":"",
-   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS-threadsafe
 #  -string -flagsOSRD
 preplace inst xlconstant_0 -pg 1 -lvl 1 -x 100 -y 160 -defaultsOSRD
 preplace inst sim_clk_gen_0 -pg 1 -lvl 1 -x 100 -y 50 -defaultsOSRD
@@ -22,9 +22,9 @@ preplace inst xlconstant_9 -pg 1 -lvl 2 -x 360 -y 1150 -defaultsOSRD
 preplace inst xlconstant_10 -pg 1 -lvl 2 -x 360 -y 1450 -defaultsOSRD
 preplace inst xlconstant_11 -pg 1 -lvl 2 -x 360 -y 1350 -defaultsOSRD
 preplace inst xlconstant_12 -pg 1 -lvl 2 -x 360 -y 1250 -defaultsOSRD
-preplace inst sin_gen_varAmp2_3phi_0 -pg 1 -lvl 2 -x 360 -y 340 -defaultsOSRD
 preplace inst xlconstant_13 -pg 1 -lvl 1 -x 100 -y 580 -defaultsOSRD
 preplace inst xlconstant_14 -pg 1 -lvl 1 -x 100 -y 680 -defaultsOSRD
+preplace inst sin_gen_varAmp2_3phi_0 -pg 1 -lvl 2 -x 360 -y 340 -defaultsOSRD
 preplace inst PLL2026_x64_0 -pg 1 -lvl 3 -x 740 -y 1230 -defaultsOSRD
 preplace netloc xlconstant_0_dout 1 1 1 200J 160n
 preplace netloc sim_clk_gen_0_clk 1 1 1 230J 40n

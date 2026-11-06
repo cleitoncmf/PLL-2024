@@ -1,125 +1,119 @@
 {
    "ActiveEmotionalView":"Default View",
-   "Default View_ScaleFactor":"1.10486",
-   "Default View_TopLeft":"1369,1302",
+   "Default View_ScaleFactor":"0.966196",
+   "Default View_TopLeft":"-136,212",
    "ExpandedHierarchyInLayout":"",
-   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS
+   "guistr":"# # String gsaved with Nlview 7.0r6  2020-01-29 bk=1.5227 VDI=41 GEI=36 GUI=JA:10.0 non-TLS-threadsafe
 #  -string -flagsOSRD
-preplace port sys_diff_clock -pg 1 -lvl 0 -x -240 -y 380 -defaultsOSRD
-preplace portBus Sel_0 -pg 1 -lvl 0 -x -240 -y 870 -defaultsOSRD
-preplace portBus Sel_1 -pg 1 -lvl 0 -x -240 -y 990 -defaultsOSRD
-preplace inst xlconstant_0 -pg 1 -lvl 4 -x 820 -y 160 -defaultsOSRD
-preplace inst xlconstant_3 -pg 1 -lvl 5 -x 1100 -y 1650 -defaultsOSRD
-preplace inst xlconstant_4 -pg 1 -lvl 5 -x 1100 -y 1750 -defaultsOSRD
-preplace inst xlconstant_5 -pg 1 -lvl 5 -x 1100 -y 1850 -defaultsOSRD
-preplace inst xlconstant_6 -pg 1 -lvl 5 -x 1100 -y 830 -defaultsOSRD
-preplace inst xlconstant_7 -pg 1 -lvl 5 -x 1100 -y 1550 -defaultsOSRD
-preplace inst xlconstant_8 -pg 1 -lvl 5 -x 1100 -y 1050 -defaultsOSRD
-preplace inst xlconstant_9 -pg 1 -lvl 5 -x 1100 -y 1150 -defaultsOSRD
-preplace inst xlconstant_10 -pg 1 -lvl 5 -x 1100 -y 1450 -defaultsOSRD
-preplace inst xlconstant_11 -pg 1 -lvl 5 -x 1100 -y 1350 -defaultsOSRD
-preplace inst xlconstant_12 -pg 1 -lvl 5 -x 1100 -y 1250 -defaultsOSRD
-preplace inst sin_gen_varAmp2_3phi_0 -pg 1 -lvl 5 -x 1100 -y 340 -defaultsOSRD
-preplace inst PLL2026_x64_0 -pg 1 -lvl 6 -x 1510 -y 1270 -defaultsOSRD
-preplace inst clk_wiz_0 -pg 1 -lvl 3 -x 620 -y 380 -defaultsOSRD
-preplace inst pwmExport_fixed64_0 -pg 1 -lvl 7 -x 1970 -y 230 -defaultsOSRD
-preplace inst muxPWMout_x64_0 -pg 1 -lvl 8 -x 2830 -y 1370 -defaultsOSRD
-preplace inst pwmExport_fixed64_1 -pg 1 -lvl 7 -x 1970 -y 530 -defaultsOSRD
-preplace inst pwmExport_fixed64_2 -pg 1 -lvl 7 -x 1970 -y 790 -defaultsOSRD
-preplace inst pwmExport_fixed64_3 -pg 1 -lvl 7 -x 1970 -y 1090 -defaultsOSRD
-preplace inst pwmExport_fixed64_4 -pg 1 -lvl 7 -x 1970 -y 1350 -defaultsOSRD
-preplace inst pwmExport_fixed64_5 -pg 1 -lvl 7 -x 1970 -y 1610 -defaultsOSRD
-preplace inst pwmExport_fixed64_6 -pg 1 -lvl 7 -x 1970 -y 1870 -defaultsOSRD
-preplace inst pwmExport_fixed64_7 -pg 1 -lvl 7 -x 1970 -y 2230 -defaultsOSRD
-preplace inst xlconstant_15 -pg 1 -lvl 8 -x 2830 -y 1020 -defaultsOSRD
-preplace inst FreqDiV_0 -pg 1 -lvl 6 -x 1510 -y -370 -defaultsOSRD
-preplace inst xlconstant_16 -pg 1 -lvl 6 -x 1510 -y -510 -defaultsOSRD
-preplace inst xlconstant_17 -pg 1 -lvl 6 -x 1510 -y -230 -defaultsOSRD
-preplace inst config_source_x64_0 -pg 1 -lvl 2 -x 250 -y 950 -defaultsOSRD
-preplace inst xlconstant_13 -pg 1 -lvl 1 -x 20 -y 730 -defaultsOSRD
-preplace inst xlconstant_1 -pg 1 -lvl 6 -x 1510 -y -100 -defaultsOSRD
-preplace inst xlconstant_2 -pg 1 -lvl 6 -x 1510 -y 0 -defaultsOSRD
-preplace inst xlconstant_14 -pg 1 -lvl 6 -x 1510 -y 100 -defaultsOSRD
-preplace inst xlconstant_18 -pg 1 -lvl 6 -x 1510 -y 200 -defaultsOSRD
-preplace inst xlconstant_19 -pg 1 -lvl 6 -x 1510 -y 330 -defaultsOSRD
-preplace inst xlconstant_20 -pg 1 -lvl 6 -x 1510 -y 430 -defaultsOSRD
-preplace inst xlconstant_21 -pg 1 -lvl 6 -x 1510 -y 630 -defaultsOSRD
-preplace inst xlconstant_22 -pg 1 -lvl 6 -x 1510 -y 530 -defaultsOSRD
-preplace inst xlconstant_23 -pg 1 -lvl 6 -x 1510 -y 1910 -defaultsOSRD
-preplace inst xlconstant_24 -pg 1 -lvl 6 -x 1510 -y 2010 -defaultsOSRD
-preplace netloc xlconstant_0_dout 1 4 1 900J 160n
-preplace netloc sin_gen_varAmp2_3phi_0_vout_a 1 5 1 1280 280n
-preplace netloc sin_gen_varAmp2_3phi_0_vout_b 1 5 1 1260 320n
-preplace netloc sin_gen_varAmp2_3phi_0_vout_c 1 5 1 1240 360n
-preplace netloc xlconstant_3_dout 1 5 1 1310J 1380n
-preplace netloc xlconstant_4_dout 1 5 1 1320J 1400n
-preplace netloc xlconstant_5_dout 1 5 1 1330J 1420n
-preplace netloc xlconstant_6_dout 1 5 1 1290J 830n
-preplace netloc xlconstant_7_dout 1 5 1 1300J 1300n
-preplace netloc xlconstant_10_dout 1 5 1 1270J 1280n
-preplace netloc xlconstant_11_dout 1 5 1 1250J 1260n
-preplace netloc xlconstant_12_dout 1 5 1 1230J 1240n
-preplace netloc xlconstant_9_dout 1 5 1 1230J 1150n
-preplace netloc xlconstant_8_dout 1 5 1 1250J 1050n
-preplace netloc pwmExport_fixed64_0_pwm 1 7 1 2220 210n
-preplace netloc pwmExport_fixed64_1_pwm 1 7 1 2200 510n
-preplace netloc pwmExport_fixed64_2_pwm 1 7 1 2180 770n
-preplace netloc pwmExport_fixed64_3_pwm 1 7 1 2160 1070n
-preplace netloc pwmExport_fixed64_4_pwm 1 7 1 2110 1330n
-preplace netloc pwmExport_fixed64_5_pwm 1 7 1 2110 1370n
-preplace netloc pwmExport_fixed64_6_pwm 1 7 1 2160 1390n
-preplace netloc pwmExport_fixed64_7_pwm 1 7 1 2210 1410n
-preplace netloc pwmExport_fixed64_0_pwm_n 1 7 1 2190 250n
-preplace netloc pwmExport_fixed64_1_pwm_n 1 7 1 2170 550n
-preplace netloc pwmExport_fixed64_2_pwm_n 1 7 1 2120 810n
-preplace netloc pwmExport_fixed64_3_pwm_n 1 7 1 2100 1110n
-preplace netloc pwmExport_fixed64_4_pwm_n 1 7 1 2090 1370n
-preplace netloc pwmExport_fixed64_5_pwm_n 1 7 1 2190 1530n
-preplace netloc pwmExport_fixed64_6_pwm_n 1 7 1 2200 1550n
-preplace netloc pwmExport_fixed64_7_pwm_n 1 7 1 2220 1570n
-preplace netloc Sel_0_1 1 0 8 -220J 670 100 610 450 580 NJ 580 NJ 580 1230J 270 1800J 370 2210J
-preplace netloc xlconstant_15_dout 1 6 3 1840 2030 2130 1080 2950
-preplace netloc clk_wiz_0_clk_out1 1 1 7 110 220 N 220 740 100 910J 100 1310 -160 1780 2020 2140
-preplace netloc xlconstant_16_dout 1 5 2 1330 -570 1760
-preplace netloc clk_wiz_0_clk_out2 1 3 3 730 -350 NJ -350 NJ
-preplace netloc xlconstant_17_dout 1 5 2 1320 -580 1780
-preplace netloc FreqDiV_0_outPulse 1 1 7 120 570 N 570 N 570 960 570 1300 260 1790 2010 2150
-preplace netloc config_source_x64_0_f 1 2 3 390 270 NJ 270 NJ
-preplace netloc config_source_x64_0_A_1p 1 2 3 380 260 NJ 260 950J
-preplace netloc config_source_x64_0_Ang_1p 1 2 3 420 290 NJ 290 930J
-preplace netloc config_source_x64_0_A_1n 1 2 3 370 230 NJ 230 900J
-preplace netloc config_source_x64_0_Ang_1n 1 2 3 460 520 NJ 520 970J
-preplace netloc config_source_x64_0_A_5p 1 2 3 410 240 NJ 240 940J
-preplace netloc config_source_x64_0_Ang_5p 1 2 3 440 280 NJ 280 910J
-preplace netloc config_source_x64_0_A_5n 1 2 3 430 250 NJ 250 920J
-preplace netloc config_source_x64_0_Ang_5n 1 2 3 490 500 730J 430 NJ
-preplace netloc config_source_x64_0_A_7p 1 2 3 480 480 740J 450 NJ
-preplace netloc config_source_x64_0_Ang_7p 1 2 3 470 470 NJ 470 NJ
-preplace netloc config_source_x64_0_A_7n 1 2 3 500 490 NJ 490 NJ
-preplace netloc config_source_x64_0_Ang_7n 1 2 3 510 510 NJ 510 NJ
-preplace netloc Sel_1_1 1 0 2 N 990 N
-preplace netloc xlconstant_13_dout 1 1 1 100 730n
-preplace netloc PLL2026_x64_0_pll_alpha_out 1 6 1 1740 250n
-preplace netloc xlconstant_1_dout 1 6 1 1830 -100n
-preplace netloc xlconstant_2_dout 1 6 1 1810 0n
-preplace netloc PLL2026_x64_0_pll_beta_out 1 6 1 1750 950n
-preplace netloc xlconstant_18_dout 1 6 1 1760 200n
-preplace netloc xlconstant_14_dout 1 6 1 1770 100n
-preplace netloc PLL2026_x64_0_v_beta_in 1 6 1 1690 550n
-preplace netloc xlconstant_19_dout 1 6 1 1820 330n
-preplace netloc xlconstant_20_dout 1 6 1 1800 430n
-preplace netloc PLL2026_x64_0_w_out 1 6 1 1730 790n
-preplace netloc xlconstant_22_dout 1 6 1 1720 530n
-preplace netloc xlconstant_21_dout 1 6 1 1700 630n
-preplace netloc PLL2026_x64_0_v_alfa_in 1 6 1 1710 1110n
-preplace netloc PLL2026_x64_0_amp_vPos_out 1 6 1 1740 990n
-preplace netloc PLL2026_x64_0_Amp_vneg_out 1 6 1 1680 1030n
-preplace netloc xlconstant_23_dout 1 6 1 N 1910
-preplace netloc xlconstant_24_dout 1 6 1 1750 1930n
-preplace netloc PLL2026_x64_0_theta_out 1 6 1 1730 870n
-preplace netloc sys_diff_clock_1 1 0 3 NJ 380 N 380 400
-levelinfo -pg 1 -240 20 250 620 820 1100 1510 1970 2830 2970
-pagesize -pg 1 -db -bbox -sgen -380 -600 2970 2660
+preplace port sys_diff_clock -pg 1 -lvl 0 -x 0 -y 450 -defaultsOSRD
+preplace port reset -pg 1 -lvl 0 -x 0 -y 470 -defaultsOSRD
+preplace portBus Sel_0 -pg 1 -lvl 0 -x 0 -y 1410 -defaultsOSRD
+preplace portBus Sel_1 -pg 1 -lvl 0 -x 0 -y 930 -defaultsOSRD
+preplace portBus pwm0_0 -pg 1 -lvl 8 -x 2220 -y 1440 -defaultsOSRD
+preplace portBus pwm0_n_0 -pg 1 -lvl 8 -x 2220 -y 1480 -defaultsOSRD
+preplace portBus pwm1_0 -pg 1 -lvl 8 -x 2220 -y 1520 -defaultsOSRD
+preplace portBus pwm1_n_0 -pg 1 -lvl 8 -x 2220 -y 1560 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 640 -y 460 -defaultsOSRD
+preplace inst xlconstant_3 -pg 1 -lvl 2 -x 380 -y 1470 -defaultsOSRD
+preplace inst xlconstant_6 -pg 1 -lvl 4 -x 980 -y 460 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 130 -y 460 -defaultsOSRD
+preplace inst pwmExport_fixed64_0 -pg 1 -lvl 6 -x 1740 -y 920 -defaultsOSRD
+preplace inst muxPWMout_x64_0 -pg 1 -lvl 7 -x 2080 -y 1480 -defaultsOSRD
+preplace inst pwmExport_fixed64_1 -pg 1 -lvl 6 -x 1740 -y 1500 -defaultsOSRD
+preplace inst pwmExport_fixed64_2 -pg 1 -lvl 6 -x 1740 -y 1210 -defaultsOSRD
+preplace inst pwmExport_fixed64_3 -pg 1 -lvl 6 -x 1740 -y 2020 -defaultsOSRD
+preplace inst pwmExport_fixed64_4 -pg 1 -lvl 6 -x 1740 -y 660 -defaultsOSRD
+preplace inst pwmExport_fixed64_5 -pg 1 -lvl 6 -x 1740 -y 1760 -defaultsOSRD
+preplace inst pwmExport_fixed64_6 -pg 1 -lvl 6 -x 1740 -y 2540 -defaultsOSRD
+preplace inst pwmExport_fixed64_7 -pg 1 -lvl 6 -x 1740 -y 2280 -defaultsOSRD
+preplace inst xlconstant_15 -pg 1 -lvl 5 -x 1320 -y 1470 -defaultsOSRD
+preplace inst FreqDiV_0 -pg 1 -lvl 2 -x 380 -y 430 -defaultsOSRD
+preplace inst xlconstant_16 -pg 1 -lvl 1 -x 130 -y 330 -defaultsOSRD
+preplace inst xlconstant_17 -pg 1 -lvl 1 -x 130 -y 590 -defaultsOSRD
+preplace inst config_source_x64_0 -pg 1 -lvl 3 -x 640 -y 870 -defaultsOSRD
+preplace inst xlconstant_13 -pg 1 -lvl 2 -x 380 -y 870 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 5 -x 1320 -y 1030 -defaultsOSRD
+preplace inst xlconstant_2 -pg 1 -lvl 5 -x 1320 -y 1130 -defaultsOSRD
+preplace inst xlconstant_14 -pg 1 -lvl 5 -x 1320 -y 1570 -defaultsOSRD
+preplace inst xlconstant_18 -pg 1 -lvl 5 -x 1320 -y 1670 -defaultsOSRD
+preplace inst xlconstant_19 -pg 1 -lvl 5 -x 1320 -y 1250 -defaultsOSRD
+preplace inst xlconstant_20 -pg 1 -lvl 5 -x 1320 -y 1350 -defaultsOSRD
+preplace inst xlconstant_21 -pg 1 -lvl 5 -x 1320 -y 2160 -defaultsOSRD
+preplace inst xlconstant_22 -pg 1 -lvl 5 -x 1320 -y 2060 -defaultsOSRD
+preplace inst xlconstant_23 -pg 1 -lvl 5 -x 1320 -y 2500 -defaultsOSRD
+preplace inst xlconstant_24 -pg 1 -lvl 5 -x 1320 -y 2600 -defaultsOSRD
+preplace inst sin_gen_varAmp2_3phi_0 -pg 1 -lvl 4 -x 980 -y 760 -defaultsOSRD
+preplace inst PLL2026_x64_0 -pg 1 -lvl 5 -x 1320 -y 480 -defaultsOSRD
+preplace netloc xlconstant_0_dout 1 3 1 770J 460n
+preplace netloc sin_gen_varAmp2_3phi_0_vout_a 1 4 2 1140 1190 1550
+preplace netloc sin_gen_varAmp2_3phi_0_vout_b 1 4 1 1130 520n
+preplace netloc sin_gen_varAmp2_3phi_0_vout_c 1 4 1 1150 540n
+preplace netloc xlconstant_3_dout 1 2 1 N 1470
+preplace netloc xlconstant_6_dout 1 4 1 NJ 460
+preplace netloc pwmExport_fixed64_0_pwm 1 6 1 1950 900n
+preplace netloc pwmExport_fixed64_1_pwm 1 6 1 1860 1400n
+preplace netloc pwmExport_fixed64_2_pwm 1 6 1 1890 1190n
+preplace netloc pwmExport_fixed64_3_pwm 1 6 1 1890 1440n
+preplace netloc pwmExport_fixed64_4_pwm 1 6 1 1960 640n
+preplace netloc pwmExport_fixed64_5_pwm 1 6 1 1880 1480n
+preplace netloc pwmExport_fixed64_6_pwm 1 6 1 1940 1500n
+preplace netloc pwmExport_fixed64_7_pwm 1 6 1 1920 1520n
+preplace netloc pwmExport_fixed64_0_pwm_n 1 6 1 1910 940n
+preplace netloc pwmExport_fixed64_1_pwm_n 1 6 1 1860 1520n
+preplace netloc pwmExport_fixed64_2_pwm_n 1 6 1 1870 1230n
+preplace netloc pwmExport_fixed64_3_pwm_n 1 6 1 1930 1600n
+preplace netloc pwmExport_fixed64_4_pwm_n 1 6 1 1900 680n
+preplace netloc pwmExport_fixed64_5_pwm_n 1 6 1 1910 1640n
+preplace netloc pwmExport_fixed64_6_pwm_n 1 6 1 1960 1660n
+preplace netloc pwmExport_fixed64_7_pwm_n 1 6 1 1950 1680n
+preplace netloc Sel_0_1 1 0 7 NJ 1410 NJ 1410 NJ 1410 NJ 1410 NJ 1410 1620J 1360 NJ
+preplace netloc xlconstant_15_dout 1 5 2 1590 1070 1920
+preplace netloc clk_wiz_0_clk_out1 1 1 6 250 540 520 530 790 530 1110J 970 1580 1060 1940
+preplace netloc xlconstant_16_dout 1 1 1 260 330n
+preplace netloc clk_wiz_0_clk_out2 1 1 1 N 450
+preplace netloc xlconstant_17_dout 1 1 1 260J 470n
+preplace netloc FreqDiV_0_outPulse 1 2 5 510 520 780 520 1120 960 1520 1350 1860J
+preplace netloc config_source_x64_0_f 1 3 1 770 650n
+preplace netloc config_source_x64_0_A_1p 1 3 1 760 690n
+preplace netloc config_source_x64_0_Ang_1p 1 3 1 N 730
+preplace netloc config_source_x64_0_A_1n 1 3 1 760 750n
+preplace netloc config_source_x64_0_Ang_1n 1 3 1 770 770n
+preplace netloc config_source_x64_0_A_5p 1 3 1 780 790n
+preplace netloc config_source_x64_0_Ang_5p 1 3 1 790 810n
+preplace netloc config_source_x64_0_A_5n 1 3 1 800 830n
+preplace netloc config_source_x64_0_Ang_5n 1 3 1 810 850n
+preplace netloc config_source_x64_0_A_7p 1 3 1 820 870n
+preplace netloc config_source_x64_0_Ang_7p 1 3 1 830 890n
+preplace netloc config_source_x64_0_A_7n 1 3 1 840 910n
+preplace netloc config_source_x64_0_Ang_7n 1 3 1 850 930n
+preplace netloc Sel_1_1 1 0 3 NJ 930 NJ 930 510J
+preplace netloc xlconstant_13_dout 1 2 1 NJ 870
+preplace netloc PLL2026_x64_0_pll_alpha_out 1 5 1 1610 240n
+preplace netloc xlconstant_1_dout 1 5 1 1530 700n
+preplace netloc xlconstant_2_dout 1 5 1 1550 720n
+preplace netloc PLL2026_x64_0_pll_beta_out 1 5 1 1600 280n
+preplace netloc xlconstant_18_dout 1 5 1 1620 1560n
+preplace netloc xlconstant_14_dout 1 5 1 1610 1540n
+preplace netloc PLL2026_x64_0_v_beta_in 1 5 1 1570 480n
+preplace netloc xlconstant_19_dout 1 5 1 NJ 1250
+preplace netloc xlconstant_20_dout 1 5 1 1510J 1270n
+preplace netloc PLL2026_x64_0_w_out 1 5 1 1620 120n
+preplace netloc xlconstant_22_dout 1 5 1 1610 2060n
+preplace netloc xlconstant_21_dout 1 5 1 1620 2080n
+preplace netloc PLL2026_x64_0_amp_vPos_out 1 5 1 1560 320n
+preplace netloc PLL2026_x64_0_Amp_vneg_out 1 5 1 1540 360n
+preplace netloc xlconstant_23_dout 1 5 1 1490J 2500n
+preplace netloc xlconstant_24_dout 1 5 1 NJ 2600
+preplace netloc PLL2026_x64_0_theta_out 1 5 1 1500 200n
+preplace netloc muxPWMout_x64_0_pwm0 1 7 1 NJ 1440
+preplace netloc muxPWMout_x64_0_pwm0_n 1 7 1 NJ 1480
+preplace netloc muxPWMout_x64_0_pwm1 1 7 1 NJ 1520
+preplace netloc muxPWMout_x64_0_pwm1_n 1 7 1 NJ 1560
+preplace netloc clk_wiz_0_clk_out3 1 1 4 240J 530 500J 400 NJ 400 1120
+preplace netloc reset_1 1 0 1 N 470
+preplace netloc sys_diff_clock_1 1 0 1 NJ 450
+levelinfo -pg 1 0 130 380 640 980 1320 1740 2080 2220
+pagesize -pg 1 -db -bbox -sgen -140 0 2370 2680
 "
 }
 0

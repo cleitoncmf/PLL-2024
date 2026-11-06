@@ -9,8 +9,8 @@
 <ProductFamily>artix7</ProductFamily>
 <Part>xc7a200t-fbg676-2</Part>
 <TopModelName>sin_2000</TopModelName>
-<TargetClockPeriod>10.00</TargetClockPeriod>
-<ClockUncertainty>2.70</ClockUncertainty>
+<TargetClockPeriod>20.00</TargetClockPeriod>
+<ClockUncertainty>5.40</ClockUncertainty>
 <FlowTarget>vivado</FlowTarget>
 </UserAssignments>
 
@@ -18,27 +18,27 @@
 <PipelineType>none</PipelineType>
 <SummaryOfTimingAnalysis>
 <unit>ns</unit>
-<EstimatedClockPeriod>7.153</EstimatedClockPeriod>
+<EstimatedClockPeriod>14.007</EstimatedClockPeriod>
 </SummaryOfTimingAnalysis>
 <SummaryOfOverallLatency>
 <unit>clock cycles</unit>
-<Best-caseLatency>11</Best-caseLatency>
-<Average-caseLatency>11</Average-caseLatency>
-<Worst-caseLatency>11</Worst-caseLatency>
-<Best-caseRealTimeLatency>0.110 us</Best-caseRealTimeLatency>
-<Average-caseRealTimeLatency>0.110 us</Average-caseRealTimeLatency>
-<Worst-caseRealTimeLatency>0.110 us</Worst-caseRealTimeLatency>
-<Interval-min>11</Interval-min>
-<Interval-max>11</Interval-max>
+<Best-caseLatency>3</Best-caseLatency>
+<Average-caseLatency>3</Average-caseLatency>
+<Worst-caseLatency>3</Worst-caseLatency>
+<Best-caseRealTimeLatency>60.000 ns</Best-caseRealTimeLatency>
+<Average-caseRealTimeLatency>60.000 ns</Average-caseRealTimeLatency>
+<Worst-caseRealTimeLatency>60.000 ns</Worst-caseRealTimeLatency>
+<Interval-min>3</Interval-min>
+<Interval-max>3</Interval-max>
 </SummaryOfOverallLatency>
 </PerformanceEstimates>
 
 <AreaEstimates>
 <Resources>
-<BRAM_18K>6</BRAM_18K>
+<BRAM_18K>9</BRAM_18K>
 <DSP>4</DSP>
-<FF>885</FF>
-<LUT>2151</LUT>
+<FF>157</FF>
+<LUT>1910</LUT>
 <URAM>0</URAM>
 </Resources>
 <AvailableResources>

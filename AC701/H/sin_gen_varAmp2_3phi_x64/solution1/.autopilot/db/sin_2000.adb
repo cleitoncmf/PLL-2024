@@ -55,7 +55,7 @@
               <name>theta_in_read</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>101</lineNumber>
+              <lineNumber>121</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -71,7 +71,7 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>101</second>
+                      <second>121</second>
                     </item>
                   </second>
                 </item>
@@ -136,7 +136,7 @@
               <opType>icmp</opType>
               <implIndex/>
               <coreName/>
-              <coreId>1226845797</coreId>
+              <coreId>29</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -244,7 +244,7 @@
               <opType>icmp</opType>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>2060026336</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -298,7 +298,7 @@
               <opType>icmp</opType>
               <implIndex/>
               <coreName/>
-              <coreId>4294967292</coreId>
+              <coreId>0</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -322,10 +322,10 @@
             <Obj>
               <type>0</type>
               <id>9</id>
-              <name>and_ln112</name>
+              <name>and_ln132</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>112</lineNumber>
+              <lineNumber>132</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -341,18 +341,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>112</second>
+                      <second>132</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>and_ln112_fu_135_p2</rtlName>
+              <rtlName>and_ln132_fu_135_p2</rtlName>
               <control/>
               <opType>and</opType>
               <implIndex/>
               <coreName/>
-              <coreId>4294967292</coreId>
+              <coreId>2032309144</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -460,7 +460,7 @@
               <opType>icmp</opType>
               <implIndex/>
               <coreName/>
-              <coreId>29</coreId>
+              <coreId>0</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -514,7 +514,7 @@
               <opType>icmp</opType>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>2032311784</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -538,10 +538,10 @@
             <Obj>
               <type>0</type>
               <id>13</id>
-              <name>and_ln115</name>
+              <name>and_ln135</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>115</lineNumber>
+              <lineNumber>135</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -557,13 +557,13 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>115</second>
+                      <second>135</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>and_ln115_fu_159_p2</rtlName>
+              <rtlName>and_ln135_fu_159_p2</rtlName>
               <control/>
               <opType>and</opType>
               <implIndex/>
@@ -676,7 +676,7 @@
               <opType>icmp</opType>
               <implIndex/>
               <coreName/>
-              <coreId>4294967292</coreId>
+              <coreId>2032312624</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -730,7 +730,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>102</coreId>
+              <coreId>1685024095</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -755,10 +755,10 @@
             <Obj>
               <type>0</type>
               <id>17</id>
-              <name>and_ln118</name>
+              <name>and_ln138</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>118</lineNumber>
+              <lineNumber>138</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -774,18 +774,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>118</second>
+                      <second>138</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>and_ln118_fu_185_p2</rtlName>
+              <rtlName>and_ln138_fu_185_p2</rtlName>
               <control/>
               <opType>and</opType>
               <implIndex/>
               <coreName/>
-              <coreId>10</coreId>
+              <coreId>1597141101</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -893,7 +893,7 @@
               <opType>icmp</opType>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>807414835</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -947,7 +947,7 @@
               <opType>icmp</opType>
               <implIndex/>
               <coreName/>
-              <coreId>4294967292</coreId>
+              <coreId>0</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -1055,7 +1055,7 @@
               <opType>icmp</opType>
               <implIndex/>
               <coreName/>
-              <coreId>2147483647</coreId>
+              <coreId>807414835</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -1133,10 +1133,10 @@
             <Obj>
               <type>0</type>
               <id>24</id>
-              <name>select_ln124</name>
+              <name>select_ln144</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>124</lineNumber>
+              <lineNumber>144</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -1152,13 +1152,13 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>124</second>
+                      <second>144</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>select_ln124_fu_227_p3</rtlName>
+              <rtlName>select_ln144_fu_227_p3</rtlName>
               <control>auto</control>
               <opType>select</opType>
               <implIndex>auto_sel</implIndex>
@@ -1273,7 +1273,7 @@
               <opType>xor</opType>
               <implIndex/>
               <coreName/>
-              <coreId>1</coreId>
+              <coreId>943353968</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -1297,10 +1297,10 @@
             <Obj>
               <type>0</type>
               <id>27</id>
-              <name>and_ln112_1</name>
+              <name>and_ln132_1</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>112</lineNumber>
+              <lineNumber>132</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -1316,18 +1316,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>112</second>
+                      <second>132</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>and_ln112_1_fu_249_p2</rtlName>
+              <rtlName>and_ln132_1_fu_249_p2</rtlName>
               <control/>
               <opType>and</opType>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>909927525</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -1354,7 +1354,7 @@
               <name>angulo_V_8</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>112</lineNumber>
+              <lineNumber>132</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -1370,7 +1370,7 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>112</second>
+                      <second>132</second>
                     </item>
                   </second>
                 </item>
@@ -1406,10 +1406,10 @@
             <Obj>
               <type>0</type>
               <id>29</id>
-              <name>or_ln112</name>
+              <name>or_ln132</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>112</lineNumber>
+              <lineNumber>132</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -1425,13 +1425,13 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>112</second>
+                      <second>132</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>or_ln112_fu_263_p2</rtlName>
+              <rtlName>or_ln132_fu_263_p2</rtlName>
               <control/>
               <opType>or</opType>
               <implIndex/>
@@ -1460,10 +1460,10 @@
             <Obj>
               <type>0</type>
               <id>30</id>
-              <name>xor_ln112</name>
+              <name>xor_ln132</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>112</lineNumber>
+              <lineNumber>132</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -1479,18 +1479,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>112</second>
+                      <second>132</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>xor_ln112_fu_269_p2</rtlName>
+              <rtlName>xor_ln132_fu_269_p2</rtlName>
               <control/>
               <opType>xor</opType>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>1685024095</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -1514,10 +1514,10 @@
             <Obj>
               <type>0</type>
               <id>31</id>
-              <name>and_ln115_1</name>
+              <name>and_ln135_1</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>115</lineNumber>
+              <lineNumber>135</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -1533,18 +1533,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>115</second>
+                      <second>135</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>and_ln115_1_fu_275_p2</rtlName>
+              <rtlName>and_ln135_1_fu_275_p2</rtlName>
               <control/>
               <opType>and</opType>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>539768105</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -1571,7 +1571,7 @@
               <name>angulo_V_9</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>115</lineNumber>
+              <lineNumber>135</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -1587,7 +1587,7 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>115</second>
+                      <second>135</second>
                     </item>
                   </second>
                 </item>
@@ -1623,10 +1623,10 @@
             <Obj>
               <type>0</type>
               <id>33</id>
-              <name>or_ln115</name>
+              <name>or_ln135</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>115</lineNumber>
+              <lineNumber>135</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -1642,13 +1642,13 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>115</second>
+                      <second>135</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>or_ln115_fu_289_p2</rtlName>
+              <rtlName>or_ln135_fu_289_p2</rtlName>
               <control/>
               <opType>or</opType>
               <implIndex/>
@@ -1677,10 +1677,10 @@
             <Obj>
               <type>0</type>
               <id>34</id>
-              <name>xor_ln115</name>
+              <name>xor_ln135</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>115</lineNumber>
+              <lineNumber>135</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -1696,13 +1696,13 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>115</second>
+                      <second>135</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>xor_ln115_fu_295_p2</rtlName>
+              <rtlName>xor_ln135_fu_295_p2</rtlName>
               <control/>
               <opType>xor</opType>
               <implIndex/>
@@ -1731,10 +1731,10 @@
             <Obj>
               <type>0</type>
               <id>35</id>
-              <name>and_ln118_1</name>
+              <name>and_ln138_1</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>118</lineNumber>
+              <lineNumber>138</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -1750,18 +1750,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>118</second>
+                      <second>138</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>and_ln118_1_fu_301_p2</rtlName>
+              <rtlName>and_ln138_1_fu_301_p2</rtlName>
               <control/>
               <opType>and</opType>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>694510703</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -1788,7 +1788,7 @@
               <name>angulo_V_10</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>118</lineNumber>
+              <lineNumber>138</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -1804,7 +1804,7 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>118</second>
+                      <second>138</second>
                     </item>
                   </second>
                 </item>
@@ -1840,10 +1840,10 @@
             <Obj>
               <type>0</type>
               <id>37</id>
-              <name>or_ln118</name>
+              <name>or_ln138</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>118</lineNumber>
+              <lineNumber>138</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -1859,18 +1859,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>118</second>
+                      <second>138</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>or_ln118_fu_315_p2</rtlName>
+              <rtlName>or_ln138_fu_315_p2</rtlName>
               <control/>
               <opType>or</opType>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>1834970975</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -1894,10 +1894,10 @@
             <Obj>
               <type>0</type>
               <id>38</id>
-              <name>xor_ln118</name>
+              <name>xor_ln138</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>118</lineNumber>
+              <lineNumber>138</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -1913,18 +1913,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>118</second>
+                      <second>138</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>xor_ln118_fu_321_p2</rtlName>
+              <rtlName>xor_ln138_fu_321_p2</rtlName>
               <control/>
               <opType>xor</opType>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>2416234451</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -1948,10 +1948,10 @@
             <Obj>
               <type>0</type>
               <id>39</id>
-              <name>and_ln121</name>
+              <name>and_ln141</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>121</lineNumber>
+              <lineNumber>141</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -1967,18 +1967,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>121</second>
+                      <second>141</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>and_ln121_fu_327_p2</rtlName>
+              <rtlName>and_ln141_fu_327_p2</rtlName>
               <control/>
               <opType>and</opType>
               <implIndex/>
               <coreName/>
-              <coreId>6</coreId>
+              <coreId>0</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -2002,10 +2002,10 @@
             <Obj>
               <type>0</type>
               <id>40</id>
-              <name>and_ln121_1</name>
+              <name>and_ln141_1</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>121</lineNumber>
+              <lineNumber>141</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -2021,18 +2021,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>121</second>
+                      <second>141</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>and_ln121_1_fu_333_p2</rtlName>
+              <rtlName>and_ln141_1_fu_333_p2</rtlName>
               <control/>
               <opType>and</opType>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>1885413420</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -2059,7 +2059,7 @@
               <name>angulo_V</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>121</lineNumber>
+              <lineNumber>141</lineNumber>
               <contextFuncName>wrap_2pi</contextFuncName>
               <contextNormFuncName>wrap_2pi</contextNormFuncName>
               <inlineStackInfo>
@@ -2075,7 +2075,7 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>wrap_2pi</second>
                       </first>
-                      <second>121</second>
+                      <second>141</second>
                     </item>
                   </second>
                 </item>
@@ -2195,7 +2195,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>1601200424</coreId>
             </Obj>
             <bitwidth>64</bitwidth>
           </Value>
@@ -2361,7 +2361,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>1834971487</coreId>
             </Obj>
             <bitwidth>121</bitwidth>
           </Value>
@@ -2414,7 +2414,7 @@
               <opType>mul</opType>
               <implIndex/>
               <coreName/>
-              <coreId>1</coreId>
+              <coreId>1869438833</coreId>
             </Obj>
             <bitwidth>121</bitwidth>
           </Value>
@@ -2468,7 +2468,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>909927525</coreId>
             </Obj>
             <bitwidth>25</bitwidth>
           </Value>
@@ -2577,7 +2577,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>909927525</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -2632,7 +2632,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>741681509</coreId>
             </Obj>
             <bitwidth>96</bitwidth>
           </Value>
@@ -2685,7 +2685,7 @@
               <opType>icmp</opType>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>742273056</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -2818,7 +2818,7 @@
             <Obj>
               <type>0</type>
               <id>55</id>
-              <name>ret_V_38</name>
+              <name>ret_V_7</name>
               <fileName>C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h</fileName>
               <fileDirectory>..</fileDirectory>
               <lineNumber>850</lineNumber>
@@ -2843,7 +2843,7 @@
                 </item>
               </inlineStackInfo>
               <originalName>ret.V</originalName>
-              <rtlName>ret_V_38_fu_428_p3</rtlName>
+              <rtlName>ret_V_7_fu_428_p3</rtlName>
               <control>auto</control>
               <opType>select</opType>
               <implIndex>auto_sel</implIndex>
@@ -2903,7 +2903,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>1</coreId>
+              <coreId>1953721967</coreId>
             </Obj>
             <bitwidth>9</bitwidth>
           </Value>
@@ -2926,10 +2926,10 @@
             <Obj>
               <type>0</type>
               <id>57</id>
-              <name>icmp_ln681</name>
+              <name>icmp_ln701</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>681</lineNumber>
+              <lineNumber>701</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -2945,18 +2945,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>681</second>
+                      <second>701</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>icmp_ln681_fu_440_p2</rtlName>
+              <rtlName>icmp_ln701_fu_440_p2</rtlName>
               <control/>
               <opType>icmp</opType>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>1902080097</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -2980,10 +2980,10 @@
             <Obj>
               <type>0</type>
               <id>58</id>
-              <name>zext_ln682</name>
+              <name>zext_ln702</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>682</lineNumber>
+              <lineNumber>702</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -2999,18 +2999,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>682</second>
+                      <second>702</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>zext_ln682_fu_458_p1</rtlName>
+              <rtlName>zext_ln702_fu_458_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>6</coreId>
+              <coreId>2035569210</coreId>
             </Obj>
             <bitwidth>64</bitwidth>
           </Value>
@@ -3036,7 +3036,7 @@
               <name>table_addr</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>682</lineNumber>
+              <lineNumber>702</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -3052,7 +3052,7 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>682</second>
+                      <second>702</second>
                     </item>
                   </second>
                 </item>
@@ -3063,7 +3063,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>1702390118</coreId>
             </Obj>
             <bitwidth>9</bitwidth>
           </Value>
@@ -3091,7 +3091,7 @@
               <name>out_sin_V</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>682</lineNumber>
+              <lineNumber>702</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -3107,7 +3107,7 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>682</second>
+                      <second>702</second>
                     </item>
                   </second>
                 </item>
@@ -3141,10 +3141,10 @@
             <Obj>
               <type>0</type>
               <id>61</id>
-              <name>zext_ln672</name>
+              <name>zext_ln692</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>672</lineNumber>
+              <lineNumber>692</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -3160,18 +3160,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>672</second>
+                      <second>692</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>zext_ln672_fu_492_p1</rtlName>
+              <rtlName>zext_ln692_fu_492_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>1885413420</coreId>
             </Obj>
             <bitwidth>50</bitwidth>
           </Value>
@@ -3194,10 +3194,10 @@
             <Obj>
               <type>0</type>
               <id>62</id>
-              <name>icmp_ln684</name>
+              <name>icmp_ln704</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>684</lineNumber>
+              <lineNumber>704</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -3213,18 +3213,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>684</second>
+                      <second>704</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>icmp_ln684_fu_446_p2</rtlName>
+              <rtlName>icmp_ln704_fu_446_p2</rtlName>
               <control/>
               <opType>icmp</opType>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>673197109</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -3248,10 +3248,10 @@
             <Obj>
               <type>0</type>
               <id>63</id>
-              <name>sub_ln686</name>
+              <name>sub_ln706</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>686</lineNumber>
+              <lineNumber>706</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -3267,13 +3267,13 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>686</second>
+                      <second>706</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>sub_ln686_fu_462_p2</rtlName>
+              <rtlName>sub_ln706_fu_462_p2</rtlName>
               <control>auto</control>
               <opType>sub</opType>
               <implIndex>fabric</implIndex>
@@ -3302,10 +3302,10 @@
             <Obj>
               <type>0</type>
               <id>64</id>
-              <name>zext_ln686</name>
+              <name>zext_ln706</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>686</lineNumber>
+              <lineNumber>706</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -3321,18 +3321,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>686</second>
+                      <second>706</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>zext_ln686_fu_467_p1</rtlName>
+              <rtlName>zext_ln706_fu_467_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>1685024095</coreId>
             </Obj>
             <bitwidth>64</bitwidth>
           </Value>
@@ -3358,7 +3358,7 @@
               <name>table_addr_1</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>686</lineNumber>
+              <lineNumber>706</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -3374,7 +3374,7 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>686</second>
+                      <second>706</second>
                     </item>
                   </second>
                 </item>
@@ -3385,7 +3385,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>913858404</coreId>
             </Obj>
             <bitwidth>9</bitwidth>
           </Value>
@@ -3413,7 +3413,7 @@
               <name>out_sin_V_1</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>686</lineNumber>
+              <lineNumber>706</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -3429,7 +3429,7 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>686</second>
+                      <second>706</second>
                     </item>
                   </second>
                 </item>
@@ -3463,10 +3463,10 @@
             <Obj>
               <type>0</type>
               <id>67</id>
-              <name>zext_ln672_1</name>
+              <name>zext_ln692_1</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>672</lineNumber>
+              <lineNumber>692</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -3482,18 +3482,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>672</second>
+                      <second>692</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>zext_ln672_1_fu_496_p1</rtlName>
+              <rtlName>zext_ln692_1_fu_496_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>742273340</coreId>
             </Obj>
             <bitwidth>50</bitwidth>
           </Value>
@@ -3516,10 +3516,10 @@
             <Obj>
               <type>0</type>
               <id>68</id>
-              <name>icmp_ln688</name>
+              <name>icmp_ln708</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>688</lineNumber>
+              <lineNumber>708</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -3535,18 +3535,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>688</second>
+                      <second>708</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>icmp_ln688_fu_452_p2</rtlName>
+              <rtlName>icmp_ln708_fu_452_p2</rtlName>
               <control/>
               <opType>icmp</opType>
               <implIndex/>
               <coreName/>
-              <coreId>6</coreId>
+              <coreId>1601134448</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -3573,7 +3573,7 @@
               <name>n_aux</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>689</lineNumber>
+              <lineNumber>709</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -3589,7 +3589,7 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>689</second>
+                      <second>709</second>
                     </item>
                   </second>
                 </item>
@@ -3624,10 +3624,10 @@
             <Obj>
               <type>0</type>
               <id>70</id>
-              <name>zext_ln690</name>
+              <name>zext_ln710</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>690</lineNumber>
+              <lineNumber>710</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -3643,18 +3643,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>690</second>
+                      <second>710</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>zext_ln690_fu_477_p1</rtlName>
+              <rtlName>zext_ln710_fu_477_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>824192052</coreId>
             </Obj>
             <bitwidth>64</bitwidth>
           </Value>
@@ -3707,7 +3707,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>942813500</coreId>
             </Obj>
             <bitwidth>9</bitwidth>
           </Value>
@@ -3839,10 +3839,10 @@
             <Obj>
               <type>0</type>
               <id>74</id>
-              <name>sext_ln672</name>
+              <name>sext_ln692</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>672</lineNumber>
+              <lineNumber>692</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -3858,18 +3858,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>672</second>
+                      <second>692</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>sext_ln672_fu_506_p1</rtlName>
+              <rtlName>sext_ln692_fu_506_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>1701080941</coreId>
             </Obj>
             <bitwidth>50</bitwidth>
           </Value>
@@ -3892,10 +3892,10 @@
             <Obj>
               <type>0</type>
               <id>75</id>
-              <name>sub_ln694</name>
+              <name>sub_ln714</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>694</lineNumber>
+              <lineNumber>714</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -3911,13 +3911,13 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>694</second>
+                      <second>714</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>sub_ln694_fu_482_p2</rtlName>
+              <rtlName>sub_ln714_fu_482_p2</rtlName>
               <control>auto</control>
               <opType>sub</opType>
               <implIndex>fabric</implIndex>
@@ -3946,10 +3946,10 @@
             <Obj>
               <type>0</type>
               <id>76</id>
-              <name>zext_ln694</name>
+              <name>zext_ln714</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>694</lineNumber>
+              <lineNumber>714</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -3965,18 +3965,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>694</second>
+                      <second>714</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>zext_ln694_fu_487_p1</rtlName>
+              <rtlName>zext_ln714_fu_487_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>1601134448</coreId>
             </Obj>
             <bitwidth>64</bitwidth>
           </Value>
@@ -4029,7 +4029,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>2147483647</coreId>
             </Obj>
             <bitwidth>9</bitwidth>
           </Value>
@@ -4161,10 +4161,10 @@
             <Obj>
               <type>0</type>
               <id>80</id>
-              <name>sext_ln672_1</name>
+              <name>sext_ln692_1</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>672</lineNumber>
+              <lineNumber>692</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -4180,13 +4180,13 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>672</second>
+                      <second>692</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>sext_ln672_1_fu_516_p1</rtlName>
+              <rtlName>sext_ln692_1_fu_516_p1</rtlName>
               <control/>
               <opType/>
               <implIndex/>
@@ -4217,7 +4217,7 @@
               <name>out_sin_V_4</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>681</lineNumber>
+              <lineNumber>701</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -4233,7 +4233,7 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>681</second>
+                      <second>701</second>
                     </item>
                   </second>
                 </item>
@@ -4269,10 +4269,10 @@
             <Obj>
               <type>0</type>
               <id>82</id>
-              <name>xor_ln681</name>
+              <name>xor_ln701</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>681</lineNumber>
+              <lineNumber>701</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -4288,18 +4288,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>681</second>
+                      <second>701</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>xor_ln681_fu_527_p2</rtlName>
+              <rtlName>xor_ln701_fu_527_p2</rtlName>
               <control/>
               <opType>xor</opType>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>16</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -4323,10 +4323,10 @@
             <Obj>
               <type>0</type>
               <id>83</id>
-              <name>and_ln684</name>
+              <name>and_ln704</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>684</lineNumber>
+              <lineNumber>704</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -4342,18 +4342,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>684</second>
+                      <second>704</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>and_ln684_fu_532_p2</rtlName>
+              <rtlName>and_ln704_fu_532_p2</rtlName>
               <control/>
               <opType>and</opType>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>1769236822</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -4380,7 +4380,7 @@
               <name>out_sin_V_5</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>684</lineNumber>
+              <lineNumber>704</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -4396,7 +4396,7 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>684</second>
+                      <second>704</second>
                     </item>
                   </second>
                 </item>
@@ -4432,10 +4432,10 @@
             <Obj>
               <type>0</type>
               <id>85</id>
-              <name>xor_ln684</name>
+              <name>xor_ln704</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>684</lineNumber>
+              <lineNumber>704</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -4451,18 +4451,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>684</second>
+                      <second>704</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>xor_ln684_fu_545_p2</rtlName>
+              <rtlName>xor_ln704_fu_545_p2</rtlName>
               <control/>
               <opType>xor</opType>
               <implIndex/>
               <coreName/>
-              <coreId>0</coreId>
+              <coreId>2078421376</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -4486,10 +4486,10 @@
             <Obj>
               <type>0</type>
               <id>86</id>
-              <name>and_ln688</name>
+              <name>and_ln708</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>688</lineNumber>
+              <lineNumber>708</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -4505,18 +4505,18 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>688</second>
+                      <second>708</second>
                     </item>
                   </second>
                 </item>
               </inlineStackInfo>
               <originalName/>
-              <rtlName>and_ln688_fu_550_p2</rtlName>
+              <rtlName>and_ln708_fu_550_p2</rtlName>
               <control/>
               <opType>and</opType>
               <implIndex/>
               <coreName/>
-              <coreId>1953458271</coreId>
+              <coreId>4294967295</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -4543,7 +4543,7 @@
               <name>out_sin_V_6</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>688</lineNumber>
+              <lineNumber>708</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -4559,7 +4559,7 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>688</second>
+                      <second>708</second>
                     </item>
                   </second>
                 </item>
@@ -4652,7 +4652,7 @@
               <name>out_sin_V_8</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>697</lineNumber>
+              <lineNumber>717</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -4668,7 +4668,7 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>697</second>
+                      <second>717</second>
                     </item>
                   </second>
                 </item>
@@ -4704,10 +4704,10 @@
             <Obj>
               <type>0</type>
               <id>90</id>
-              <name>_ln704</name>
+              <name>_ln724</name>
               <fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
               <fileDirectory>..</fileDirectory>
-              <lineNumber>704</lineNumber>
+              <lineNumber>724</lineNumber>
               <contextFuncName>sin_2000</contextFuncName>
               <contextNormFuncName>sin_2000</contextNormFuncName>
               <inlineStackInfo>
@@ -4723,7 +4723,7 @@
                         <first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
                         <second>sin_2000</second>
                       </first>
-                      <second>704</second>
+                      <second>724</second>
                     </item>
                   </second>
                 </item>
@@ -4734,7 +4734,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>454625792</coreId>
+              <coreId>4294967295</coreId>
             </Obj>
             <bitwidth>0</bitwidth>
           </Value>
@@ -4945,7 +4945,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>1735355503</coreId>
+              <coreId>640688172</coreId>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
@@ -4973,7 +4973,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>1735355503</coreId>
+              <coreId>1953721967</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -5001,7 +5001,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>1735355503</coreId>
+              <coreId>1948265526</coreId>
             </Obj>
             <bitwidth>64</bitwidth>
           </Value>
@@ -5029,7 +5029,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>1735355503</coreId>
+              <coreId>1818849391</coreId>
             </Obj>
             <bitwidth>1</bitwidth>
           </Value>
@@ -5057,7 +5057,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>1735355503</coreId>
+              <coreId>2078466424</coreId>
             </Obj>
             <bitwidth>121</bitwidth>
           </Value>
@@ -5085,7 +5085,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>1735355503</coreId>
+              <coreId>2078467496</coreId>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
@@ -5113,7 +5113,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>1735355503</coreId>
+              <coreId>2078672648</coreId>
             </Obj>
             <bitwidth>32</bitwidth>
           </Value>
@@ -5141,7 +5141,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>1735355503</coreId>
+              <coreId>1886352501</coreId>
             </Obj>
             <bitwidth>96</bitwidth>
           </Value>
@@ -5169,7 +5169,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>1735355503</coreId>
+              <coreId>1852793632</coreId>
             </Obj>
             <bitwidth>26</bitwidth>
           </Value>
@@ -5197,7 +5197,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>1735355503</coreId>
+              <coreId>7</coreId>
             </Obj>
             <bitwidth>26</bitwidth>
           </Value>
@@ -5225,7 +5225,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>1735355503</coreId>
+              <coreId>1885420090</coreId>
             </Obj>
             <bitwidth>26</bitwidth>
           </Value>
@@ -5253,7 +5253,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>1735355503</coreId>
+              <coreId>1717530721</coreId>
             </Obj>
             <bitwidth>9</bitwidth>
           </Value>
@@ -5281,7 +5281,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>1735355503</coreId>
+              <coreId>2078468528</coreId>
             </Obj>
             <bitwidth>26</bitwidth>
           </Value>
@@ -5309,7 +5309,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>1735355503</coreId>
+              <coreId>909189164</coreId>
             </Obj>
             <bitwidth>9</bitwidth>
           </Value>
@@ -5337,7 +5337,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>759377710</coreId>
+              <coreId>1663050274</coreId>
             </Obj>
             <bitwidth>49</bitwidth>
           </Value>
@@ -5365,7 +5365,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>841887794</coreId>
+              <coreId>997485606</coreId>
             </Obj>
             <bitwidth>9</bitwidth>
           </Value>
@@ -5393,7 +5393,7 @@
               <opType/>
               <implIndex/>
               <coreName/>
-              <coreId>1953850912</coreId>
+              <coreId>539768118</coreId>
             </Obj>
             <bitwidth>50</bitwidth>
           </Value>
@@ -5424,7 +5424,7 @@
             <opType/>
             <implIndex/>
             <coreName/>
-            <coreId>1254852064</coreId>
+            <coreId>2017348800</coreId>
           </Obj>
           <node_objs>
             <count>87</count>
@@ -7539,7 +7539,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln112_1_fu_249_p2 ( and ) </first>
+          <first>and_ln132_1_fu_249_p2 ( and ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -7562,7 +7562,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln112_fu_135_p2 ( and ) </first>
+          <first>and_ln132_fu_135_p2 ( and ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -7585,7 +7585,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln115_1_fu_275_p2 ( and ) </first>
+          <first>and_ln135_1_fu_275_p2 ( and ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -7608,7 +7608,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln115_fu_159_p2 ( and ) </first>
+          <first>and_ln135_fu_159_p2 ( and ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -7631,7 +7631,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln118_1_fu_301_p2 ( and ) </first>
+          <first>and_ln138_1_fu_301_p2 ( and ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -7654,7 +7654,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln118_fu_185_p2 ( and ) </first>
+          <first>and_ln138_fu_185_p2 ( and ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -7677,7 +7677,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln121_1_fu_333_p2 ( and ) </first>
+          <first>and_ln141_1_fu_333_p2 ( and ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -7700,7 +7700,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln121_fu_327_p2 ( and ) </first>
+          <first>and_ln141_fu_327_p2 ( and ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -7723,7 +7723,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln684_fu_532_p2 ( and ) </first>
+          <first>and_ln704_fu_532_p2 ( and ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -7746,7 +7746,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln688_fu_550_p2 ( and ) </first>
+          <first>and_ln708_fu_550_p2 ( and ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -8276,7 +8276,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln681_fu_440_p2 ( icmp ) </first>
+          <first>icmp_ln701_fu_440_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -8299,7 +8299,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln684_fu_446_p2 ( icmp ) </first>
+          <first>icmp_ln704_fu_446_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -8322,7 +8322,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln688_fu_452_p2 ( icmp ) </first>
+          <first>icmp_ln708_fu_452_p2 ( icmp ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -8391,7 +8391,7 @@
           </second>
         </item>
         <item>
-          <first>or_ln112_fu_263_p2 ( or ) </first>
+          <first>or_ln132_fu_263_p2 ( or ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -8414,7 +8414,7 @@
           </second>
         </item>
         <item>
-          <first>or_ln115_fu_289_p2 ( or ) </first>
+          <first>or_ln135_fu_289_p2 ( or ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -8437,7 +8437,7 @@
           </second>
         </item>
         <item>
-          <first>or_ln118_fu_315_p2 ( or ) </first>
+          <first>or_ln138_fu_315_p2 ( or ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -8610,7 +8610,7 @@
           </second>
         </item>
         <item>
-          <first>ret_V_38_fu_428_p3 ( select ) </first>
+          <first>ret_V_7_fu_428_p3 ( select ) </first>
           <second>
             <count>5</count>
             <item_version>0</item_version>
@@ -8637,7 +8637,7 @@
           </second>
         </item>
         <item>
-          <first>select_ln124_fu_227_p3 ( select ) </first>
+          <first>select_ln144_fu_227_p3 ( select ) </first>
           <second>
             <count>5</count>
             <item_version>0</item_version>
@@ -8691,7 +8691,30 @@
           </second>
         </item>
         <item>
-          <first>sub_ln686_fu_462_p2 ( - ) </first>
+          <first>sub_ln703_fu_563_p2 ( - ) </first>
+          <second>
+            <count>4</count>
+            <item_version>0</item_version>
+            <item>
+              <first>(0P0)</first>
+              <second>1</second>
+            </item>
+            <item>
+              <first>(1P1)</first>
+              <second>50</second>
+            </item>
+            <item>
+              <first>FF</first>
+              <second>0</second>
+            </item>
+            <item>
+              <first>LUT</first>
+              <second>57</second>
+            </item>
+          </second>
+        </item>
+        <item>
+          <first>sub_ln706_fu_462_p2 ( - ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -8714,7 +8737,7 @@
           </second>
         </item>
         <item>
-          <first>sub_ln694_fu_482_p2 ( - ) </first>
+          <first>sub_ln714_fu_482_p2 ( - ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -8733,29 +8756,6 @@
             <item>
               <first>LUT</first>
               <second>16</second>
-            </item>
-          </second>
-        </item>
-        <item>
-          <first>sub_ln703_fu_563_p2 ( - ) </first>
-          <second>
-            <count>4</count>
-            <item_version>0</item_version>
-            <item>
-              <first>(0P0)</first>
-              <second>1</second>
-            </item>
-            <item>
-              <first>(1P1)</first>
-              <second>50</second>
-            </item>
-            <item>
-              <first>FF</first>
-              <second>0</second>
-            </item>
-            <item>
-              <first>LUT</first>
-              <second>57</second>
             </item>
           </second>
         </item>
@@ -8787,7 +8787,7 @@
           </second>
         </item>
         <item>
-          <first>xor_ln112_fu_269_p2 ( xor ) </first>
+          <first>xor_ln132_fu_269_p2 ( xor ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -8810,7 +8810,7 @@
           </second>
         </item>
         <item>
-          <first>xor_ln115_fu_295_p2 ( xor ) </first>
+          <first>xor_ln135_fu_295_p2 ( xor ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -8833,7 +8833,7 @@
           </second>
         </item>
         <item>
-          <first>xor_ln118_fu_321_p2 ( xor ) </first>
+          <first>xor_ln138_fu_321_p2 ( xor ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -8879,7 +8879,7 @@
           </second>
         </item>
         <item>
-          <first>xor_ln681_fu_527_p2 ( xor ) </first>
+          <first>xor_ln701_fu_527_p2 ( xor ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -8902,7 +8902,7 @@
           </second>
         </item>
         <item>
-          <first>xor_ln684_fu_545_p2 ( xor ) </first>
+          <first>xor_ln704_fu_545_p2 ( xor ) </first>
           <second>
             <count>4</count>
             <item_version>0</item_version>
@@ -9060,7 +9060,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln681_reg_619</first>
+          <first>icmp_ln701_reg_619</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -9079,7 +9079,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln684_reg_625</first>
+          <first>icmp_ln704_reg_625</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -9098,7 +9098,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln688_reg_631</first>
+          <first>icmp_ln708_reg_631</first>
           <second>
             <count>3</count>
             <item_version>0</item_version>
@@ -9285,7 +9285,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln112_1_fu_249_p2 ( and ) </first>
+          <first>and_ln132_1_fu_249_p2 ( and ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9293,7 +9293,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln112_fu_135_p2 ( and ) </first>
+          <first>and_ln132_fu_135_p2 ( and ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9301,7 +9301,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln115_1_fu_275_p2 ( and ) </first>
+          <first>and_ln135_1_fu_275_p2 ( and ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9309,7 +9309,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln115_fu_159_p2 ( and ) </first>
+          <first>and_ln135_fu_159_p2 ( and ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9317,7 +9317,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln118_1_fu_301_p2 ( and ) </first>
+          <first>and_ln138_1_fu_301_p2 ( and ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9325,7 +9325,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln118_fu_185_p2 ( and ) </first>
+          <first>and_ln138_fu_185_p2 ( and ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9333,7 +9333,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln121_1_fu_333_p2 ( and ) </first>
+          <first>and_ln141_1_fu_333_p2 ( and ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9341,7 +9341,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln121_fu_327_p2 ( and ) </first>
+          <first>and_ln141_fu_327_p2 ( and ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9349,7 +9349,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln684_fu_532_p2 ( and ) </first>
+          <first>and_ln704_fu_532_p2 ( and ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9357,7 +9357,7 @@
           </second>
         </item>
         <item>
-          <first>and_ln688_fu_550_p2 ( and ) </first>
+          <first>and_ln708_fu_550_p2 ( and ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9533,7 +9533,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln681_fu_440_p2 ( icmp ) </first>
+          <first>icmp_ln701_fu_440_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9541,7 +9541,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln684_fu_446_p2 ( icmp ) </first>
+          <first>icmp_ln704_fu_446_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9549,7 +9549,7 @@
           </second>
         </item>
         <item>
-          <first>icmp_ln688_fu_452_p2 ( icmp ) </first>
+          <first>icmp_ln708_fu_452_p2 ( icmp ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9573,7 +9573,7 @@
           </second>
         </item>
         <item>
-          <first>or_ln112_fu_263_p2 ( or ) </first>
+          <first>or_ln132_fu_263_p2 ( or ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9581,7 +9581,7 @@
           </second>
         </item>
         <item>
-          <first>or_ln115_fu_289_p2 ( or ) </first>
+          <first>or_ln135_fu_289_p2 ( or ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9589,7 +9589,7 @@
           </second>
         </item>
         <item>
-          <first>or_ln118_fu_315_p2 ( or ) </first>
+          <first>or_ln138_fu_315_p2 ( or ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9645,7 +9645,7 @@
           </second>
         </item>
         <item>
-          <first>ret_V_38_fu_428_p3 ( select ) </first>
+          <first>ret_V_7_fu_428_p3 ( select ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9653,7 +9653,7 @@
           </second>
         </item>
         <item>
-          <first>select_ln124_fu_227_p3 ( select ) </first>
+          <first>select_ln144_fu_227_p3 ( select ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9669,7 +9669,15 @@
           </second>
         </item>
         <item>
-          <first>sub_ln686_fu_462_p2 ( - ) </first>
+          <first>sub_ln703_fu_563_p2 ( - ) </first>
+          <second>
+            <count>1</count>
+            <item_version>0</item_version>
+            <item>88</item>
+          </second>
+        </item>
+        <item>
+          <first>sub_ln706_fu_462_p2 ( - ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9677,19 +9685,11 @@
           </second>
         </item>
         <item>
-          <first>sub_ln694_fu_482_p2 ( - ) </first>
+          <first>sub_ln714_fu_482_p2 ( - ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
             <item>75</item>
-          </second>
-        </item>
-        <item>
-          <first>sub_ln703_fu_563_p2 ( - ) </first>
-          <second>
-            <count>1</count>
-            <item_version>0</item_version>
-            <item>88</item>
           </second>
         </item>
         <item>
@@ -9701,7 +9701,7 @@
           </second>
         </item>
         <item>
-          <first>xor_ln112_fu_269_p2 ( xor ) </first>
+          <first>xor_ln132_fu_269_p2 ( xor ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9709,7 +9709,7 @@
           </second>
         </item>
         <item>
-          <first>xor_ln115_fu_295_p2 ( xor ) </first>
+          <first>xor_ln135_fu_295_p2 ( xor ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9717,7 +9717,7 @@
           </second>
         </item>
         <item>
-          <first>xor_ln118_fu_321_p2 ( xor ) </first>
+          <first>xor_ln138_fu_321_p2 ( xor ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9733,7 +9733,7 @@
           </second>
         </item>
         <item>
-          <first>xor_ln681_fu_527_p2 ( xor ) </first>
+          <first>xor_ln701_fu_527_p2 ( xor ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -9741,7 +9741,7 @@
           </second>
         </item>
         <item>
-          <first>xor_ln684_fu_545_p2 ( xor ) </first>
+          <first>xor_ln704_fu_545_p2 ( xor ) </first>
           <second>
             <count>1</count>
             <item_version>0</item_version>
@@ -11085,7 +11085,7 @@
         </second>
       </item>
       <item>
-        <first>and_ln112_1_fu_249</first>
+        <first>and_ln132_1_fu_249</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11093,7 +11093,7 @@
         </second>
       </item>
       <item>
-        <first>and_ln112_fu_135</first>
+        <first>and_ln132_fu_135</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11101,7 +11101,7 @@
         </second>
       </item>
       <item>
-        <first>and_ln115_1_fu_275</first>
+        <first>and_ln135_1_fu_275</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11109,7 +11109,7 @@
         </second>
       </item>
       <item>
-        <first>and_ln115_fu_159</first>
+        <first>and_ln135_fu_159</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11117,7 +11117,7 @@
         </second>
       </item>
       <item>
-        <first>and_ln118_1_fu_301</first>
+        <first>and_ln138_1_fu_301</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11125,7 +11125,7 @@
         </second>
       </item>
       <item>
-        <first>and_ln118_fu_185</first>
+        <first>and_ln138_fu_185</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11133,7 +11133,7 @@
         </second>
       </item>
       <item>
-        <first>and_ln121_1_fu_333</first>
+        <first>and_ln141_1_fu_333</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11141,7 +11141,7 @@
         </second>
       </item>
       <item>
-        <first>and_ln121_fu_327</first>
+        <first>and_ln141_fu_327</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11149,7 +11149,7 @@
         </second>
       </item>
       <item>
-        <first>and_ln684_fu_532</first>
+        <first>and_ln704_fu_532</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11157,7 +11157,7 @@
         </second>
       </item>
       <item>
-        <first>and_ln688_fu_550</first>
+        <first>and_ln708_fu_550</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11325,7 +11325,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln681_fu_440</first>
+        <first>icmp_ln701_fu_440</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11333,7 +11333,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln684_fu_446</first>
+        <first>icmp_ln704_fu_446</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11341,7 +11341,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln688_fu_452</first>
+        <first>icmp_ln708_fu_452</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11365,7 +11365,7 @@
         </second>
       </item>
       <item>
-        <first>or_ln112_fu_263</first>
+        <first>or_ln132_fu_263</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11373,7 +11373,7 @@
         </second>
       </item>
       <item>
-        <first>or_ln115_fu_289</first>
+        <first>or_ln135_fu_289</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11381,7 +11381,7 @@
         </second>
       </item>
       <item>
-        <first>or_ln118_fu_315</first>
+        <first>or_ln138_fu_315</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11469,7 +11469,7 @@
         </second>
       </item>
       <item>
-        <first>ret_V_38_fu_428</first>
+        <first>ret_V_7_fu_428</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11485,7 +11485,7 @@
         </second>
       </item>
       <item>
-        <first>select_ln124_fu_227</first>
+        <first>select_ln144_fu_227</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11509,7 +11509,7 @@
         </second>
       </item>
       <item>
-        <first>sext_ln672_1_fu_516</first>
+        <first>sext_ln692_1_fu_516</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11517,7 +11517,7 @@
         </second>
       </item>
       <item>
-        <first>sext_ln672_fu_506</first>
+        <first>sext_ln692_fu_506</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11533,7 +11533,15 @@
         </second>
       </item>
       <item>
-        <first>sub_ln686_fu_462</first>
+        <first>sub_ln703_fu_563</first>
+        <second>
+          <count>1</count>
+          <item_version>0</item_version>
+          <item>88</item>
+        </second>
+      </item>
+      <item>
+        <first>sub_ln706_fu_462</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11541,19 +11549,11 @@
         </second>
       </item>
       <item>
-        <first>sub_ln694_fu_482</first>
+        <first>sub_ln714_fu_482</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
           <item>75</item>
-        </second>
-      </item>
-      <item>
-        <first>sub_ln703_fu_563</first>
-        <second>
-          <count>1</count>
-          <item_version>0</item_version>
-          <item>88</item>
         </second>
       </item>
       <item>
@@ -11621,7 +11621,7 @@
         </second>
       </item>
       <item>
-        <first>xor_ln112_fu_269</first>
+        <first>xor_ln132_fu_269</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11629,7 +11629,7 @@
         </second>
       </item>
       <item>
-        <first>xor_ln115_fu_295</first>
+        <first>xor_ln135_fu_295</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11637,7 +11637,7 @@
         </second>
       </item>
       <item>
-        <first>xor_ln118_fu_321</first>
+        <first>xor_ln138_fu_321</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11653,7 +11653,7 @@
         </second>
       </item>
       <item>
-        <first>xor_ln681_fu_527</first>
+        <first>xor_ln701_fu_527</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11661,7 +11661,7 @@
         </second>
       </item>
       <item>
-        <first>xor_ln684_fu_545</first>
+        <first>xor_ln704_fu_545</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11669,7 +11669,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln672_1_fu_496</first>
+        <first>zext_ln692_1_fu_496</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11677,7 +11677,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln672_fu_492</first>
+        <first>zext_ln692_fu_492</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11685,7 +11685,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln682_fu_458</first>
+        <first>zext_ln702_fu_458</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11693,7 +11693,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln686_fu_467</first>
+        <first>zext_ln706_fu_467</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11701,7 +11701,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln690_fu_477</first>
+        <first>zext_ln710_fu_477</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11709,7 +11709,7 @@
         </second>
       </item>
       <item>
-        <first>zext_ln694_fu_487</first>
+        <first>zext_ln714_fu_487</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11943,7 +11943,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln681_reg_619</first>
+        <first>icmp_ln701_reg_619</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11951,7 +11951,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln684_reg_625</first>
+        <first>icmp_ln704_reg_625</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>
@@ -11959,7 +11959,7 @@
         </second>
       </item>
       <item>
-        <first>icmp_ln688_reg_631</first>
+        <first>icmp_ln708_reg_631</first>
         <second>
           <count>1</count>
           <item_version>0</item_version>

@@ -26221,6 +26221,7 @@ __attribute__((sdx_kernel("sin_gen_varAmp2_3phi_x64", 0))) void sin_gen_varAmp2_
 
 
     static data_t wt;
+    static data_t wt5;
     static data_t wt_old;
     static data_t dwt;
 
@@ -26244,37 +26245,23 @@ __attribute__((sdx_kernel("sin_gen_varAmp2_3phi_x64", 0))) void sin_gen_varAmp2_
         else{
          wt = data_t(0);
         }
-
-
-
+# 83 "../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp"
+        wt5 = wt*data_t(5);
 
 
         va = A_1p*sin_2000(wt + Ang_1p)+
              A_1n*sin_2000(wt + Ang_1n)+
-             A_5p*sin_2000(wt*data_t(5) + Ang_5p)+
-             A_5n*sin_2000(wt*data_t(5) + Ang_5n)+
-             A_7p*sin_2000(wt*data_t(7) + Ang_7p)+
-             A_7n*sin_2000(wt*data_t(7) + Ang_7n);
-
-
+             A_5n*sin_2000(wt5 + Ang_5n);
 
 
         vb = A_1p*sin_2000(wt + Ang_1p - data_t(2.094395102393195))+
              A_1n*sin_2000(wt + Ang_1n + data_t(2.094395102393195))+
-             A_5p*sin_2000(wt*data_t(5) + Ang_5p - data_t(2.094395102393195))+
-             A_5n*sin_2000(wt*data_t(5) + Ang_5n + data_t(2.094395102393195))+
-             A_7p*sin_2000(wt*data_t(7) + Ang_7p - data_t(2.094395102393195))+
-             A_7n*sin_2000(wt*data_t(7) + Ang_7n + data_t(2.094395102393195));
+             A_5n*sin_2000(wt5 + Ang_5n + data_t(2.094395102393195));
 
 
         vc = A_1p*sin_2000(wt + Ang_1p + data_t(2.094395102393195))+
              A_1n*sin_2000(wt + Ang_1n - data_t(2.094395102393195))+
-             A_5p*sin_2000(wt*data_t(5) + Ang_5p + data_t(2.094395102393195))+
-             A_5n*sin_2000(wt*data_t(5) + Ang_5n - data_t(2.094395102393195))+
-             A_7p*sin_2000(wt*data_t(7) + Ang_7p + data_t(2.094395102393195))+
-             A_7n*sin_2000(wt*data_t(7) + Ang_7n - data_t(2.094395102393195));
-
-
+             A_5n*sin_2000(wt5 + Ang_5n - data_t(2.094395102393195));
 
 
 
@@ -26323,7 +26310,7 @@ data_t wrap_2pi(data_t angulo_in){
     else if(angulo<-data_t(12.566370614359172)){
         angulo = angulo+data_t(18.849555921538759);
     }
-# 140 "../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp"
+# 160 "../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp"
     return angulo;
 
 }

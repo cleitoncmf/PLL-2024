@@ -55,7 +55,7 @@
 						<name>theta_in_read</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>101</lineNumber>
+						<lineNumber>121</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -71,7 +71,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>101</second>
+										<second>121</second>
 									</item>
 								</second>
 							</item>
@@ -136,7 +136,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1226845797</coreId>
+						<coreId>29</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -190,7 +190,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967292</coreId>
+						<coreId>50</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -244,7 +244,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2060026336</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -298,7 +298,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967292</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -322,10 +322,10 @@
 					<Obj>
 						<type>0</type>
 						<id>9</id>
-						<name>and_ln112</name>
+						<name>and_ln132</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>112</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -341,7 +341,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>112</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -352,7 +352,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967292</coreId>
+						<coreId>2032309144</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -406,7 +406,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1256744785</coreId>
+						<coreId>2032318368</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -460,7 +460,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>29</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -514,7 +514,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2032311784</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -538,10 +538,10 @@
 					<Obj>
 						<type>0</type>
 						<id>13</id>
-						<name>and_ln115</name>
+						<name>and_ln135</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>115</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -557,7 +557,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>115</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -622,7 +622,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967292</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -676,7 +676,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967292</coreId>
+						<coreId>2032312624</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -730,7 +730,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>102</coreId>
+						<coreId>1685024095</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -755,10 +755,10 @@
 					<Obj>
 						<type>0</type>
 						<id>17</id>
-						<name>and_ln118</name>
+						<name>and_ln138</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>118</lineNumber>
+						<lineNumber>138</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -774,7 +774,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>118</second>
+										<second>138</second>
 									</item>
 								</second>
 							</item>
@@ -785,7 +785,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>10</coreId>
+						<coreId>1597141101</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -839,7 +839,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>50</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -893,7 +893,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>807414835</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -947,7 +947,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967292</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1001,7 +1001,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>418594480</coreId>
+						<coreId>741749024</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -1055,7 +1055,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>2147483647</coreId>
+						<coreId>807414835</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1133,10 +1133,10 @@
 					<Obj>
 						<type>0</type>
 						<id>24</id>
-						<name>select_ln124</name>
+						<name>select_ln144</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>124</lineNumber>
+						<lineNumber>144</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1152,7 +1152,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>124</second>
+										<second>144</second>
 									</item>
 								</second>
 							</item>
@@ -1163,7 +1163,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>741550437</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -1273,7 +1273,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1</coreId>
+						<coreId>943353968</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1297,10 +1297,10 @@
 					<Obj>
 						<type>0</type>
 						<id>27</id>
-						<name>and_ln112_1</name>
+						<name>and_ln132_1</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>112</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1316,7 +1316,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>112</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -1327,7 +1327,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>909927525</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1354,7 +1354,7 @@
 						<name>angulo_V_8</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>112</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1370,7 +1370,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>112</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -1381,7 +1381,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1701080941</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -1406,10 +1406,10 @@
 					<Obj>
 						<type>0</type>
 						<id>29</id>
-						<name>or_ln112</name>
+						<name>or_ln132</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>112</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1425,7 +1425,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>112</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -1460,10 +1460,10 @@
 					<Obj>
 						<type>0</type>
 						<id>30</id>
-						<name>xor_ln112</name>
+						<name>xor_ln132</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>112</lineNumber>
+						<lineNumber>132</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1479,7 +1479,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>112</second>
+										<second>132</second>
 									</item>
 								</second>
 							</item>
@@ -1490,7 +1490,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1685024095</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1514,10 +1514,10 @@
 					<Obj>
 						<type>0</type>
 						<id>31</id>
-						<name>and_ln115_1</name>
+						<name>and_ln135_1</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>115</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1533,7 +1533,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>115</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -1544,7 +1544,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>539768105</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1571,7 +1571,7 @@
 						<name>angulo_V_9</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>115</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1587,7 +1587,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>115</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -1598,7 +1598,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1885415456</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -1623,10 +1623,10 @@
 					<Obj>
 						<type>0</type>
 						<id>33</id>
-						<name>or_ln115</name>
+						<name>or_ln135</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>115</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1642,7 +1642,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>115</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -1677,10 +1677,10 @@
 					<Obj>
 						<type>0</type>
 						<id>34</id>
-						<name>xor_ln115</name>
+						<name>xor_ln135</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>115</lineNumber>
+						<lineNumber>135</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1696,7 +1696,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>115</second>
+										<second>135</second>
 									</item>
 								</second>
 							</item>
@@ -1731,10 +1731,10 @@
 					<Obj>
 						<type>0</type>
 						<id>35</id>
-						<name>and_ln118_1</name>
+						<name>and_ln138_1</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>118</lineNumber>
+						<lineNumber>138</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1750,7 +1750,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>118</second>
+										<second>138</second>
 									</item>
 								</second>
 							</item>
@@ -1761,7 +1761,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>694510703</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1788,7 +1788,7 @@
 						<name>angulo_V_10</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>118</lineNumber>
+						<lineNumber>138</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1804,7 +1804,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>118</second>
+										<second>138</second>
 									</item>
 								</second>
 							</item>
@@ -1840,10 +1840,10 @@
 					<Obj>
 						<type>0</type>
 						<id>37</id>
-						<name>or_ln118</name>
+						<name>or_ln138</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>118</lineNumber>
+						<lineNumber>138</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1859,7 +1859,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>118</second>
+										<second>138</second>
 									</item>
 								</second>
 							</item>
@@ -1870,7 +1870,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1834970975</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1894,10 +1894,10 @@
 					<Obj>
 						<type>0</type>
 						<id>38</id>
-						<name>xor_ln118</name>
+						<name>xor_ln138</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>118</lineNumber>
+						<lineNumber>138</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1913,7 +1913,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>118</second>
+										<second>138</second>
 									</item>
 								</second>
 							</item>
@@ -1924,7 +1924,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2416234451</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -1948,10 +1948,10 @@
 					<Obj>
 						<type>0</type>
 						<id>39</id>
-						<name>and_ln121</name>
+						<name>and_ln141</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>121</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -1967,7 +1967,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>121</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -1978,7 +1978,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>6</coreId>
+						<coreId>0</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2002,10 +2002,10 @@
 					<Obj>
 						<type>0</type>
 						<id>40</id>
-						<name>and_ln121_1</name>
+						<name>and_ln141_1</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>121</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -2021,7 +2021,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>121</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -2032,7 +2032,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1885413420</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2059,7 +2059,7 @@
 						<name>angulo_V</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>121</lineNumber>
+						<lineNumber>141</lineNumber>
 						<contextFuncName>wrap_2pi</contextFuncName>
 						<contextNormFuncName>wrap_2pi</contextNormFuncName>
 						<inlineStackInfo>
@@ -2075,7 +2075,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>wrap_2pi</second>
 										</first>
-										<second>121</second>
+										<second>141</second>
 									</item>
 								</second>
 							</item>
@@ -2141,7 +2141,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1985965669</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -2195,7 +2195,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1601200424</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -2361,7 +2361,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1834971487</coreId>
 					</Obj>
 					<bitwidth>121</bitwidth>
 				</Value>
@@ -2414,7 +2414,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1</coreId>
+						<coreId>1869438833</coreId>
 					</Obj>
 					<bitwidth>121</bitwidth>
 				</Value>
@@ -2468,7 +2468,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>909927525</coreId>
 					</Obj>
 					<bitwidth>25</bitwidth>
 				</Value>
@@ -2577,7 +2577,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>909927525</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2632,7 +2632,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>741681509</coreId>
 					</Obj>
 					<bitwidth>96</bitwidth>
 				</Value>
@@ -2685,7 +2685,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>742273056</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2793,7 +2793,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>858350948</coreId>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
@@ -2818,7 +2818,7 @@
 					<Obj>
 						<type>0</type>
 						<id>55</id>
-						<name>ret_V_38</name>
+						<name>ret_V_7</name>
 						<fileName>C:/Xilinx/Vitis_HLS/2020.2/common/technology/autopilot\ap_fixed_base.h</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
 						<lineNumber>850</lineNumber>
@@ -2848,7 +2848,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>741681509</coreId>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
@@ -2903,7 +2903,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1</coreId>
+						<coreId>1953721967</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -2926,10 +2926,10 @@
 					<Obj>
 						<type>0</type>
 						<id>57</id>
-						<name>icmp_ln681</name>
+						<name>icmp_ln701</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>681</lineNumber>
+						<lineNumber>701</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -2945,7 +2945,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>681</second>
+										<second>701</second>
 									</item>
 								</second>
 							</item>
@@ -2956,7 +2956,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1902080097</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -2980,10 +2980,10 @@
 					<Obj>
 						<type>0</type>
 						<id>58</id>
-						<name>zext_ln682</name>
+						<name>zext_ln702</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>682</lineNumber>
+						<lineNumber>702</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -2999,7 +2999,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>682</second>
+										<second>702</second>
 									</item>
 								</second>
 							</item>
@@ -3010,7 +3010,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>6</coreId>
+						<coreId>2035569210</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -3036,7 +3036,7 @@
 						<name>table_addr</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>682</lineNumber>
+						<lineNumber>702</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3052,7 +3052,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>682</second>
+										<second>702</second>
 									</item>
 								</second>
 							</item>
@@ -3063,7 +3063,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1702390118</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -3091,7 +3091,7 @@
 						<name>out_sin_V</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>682</lineNumber>
+						<lineNumber>702</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3107,7 +3107,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>682</second>
+										<second>702</second>
 									</item>
 								</second>
 							</item>
@@ -3118,7 +3118,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>539767593</coreId>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
@@ -3141,10 +3141,10 @@
 					<Obj>
 						<type>0</type>
 						<id>61</id>
-						<name>zext_ln672</name>
+						<name>zext_ln692</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>672</lineNumber>
+						<lineNumber>692</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3160,7 +3160,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>672</second>
+										<second>692</second>
 									</item>
 								</second>
 							</item>
@@ -3171,7 +3171,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1885413420</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -3194,10 +3194,10 @@
 					<Obj>
 						<type>0</type>
 						<id>62</id>
-						<name>icmp_ln684</name>
+						<name>icmp_ln704</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>684</lineNumber>
+						<lineNumber>704</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3213,7 +3213,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>684</second>
+										<second>704</second>
 									</item>
 								</second>
 							</item>
@@ -3224,7 +3224,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>673197109</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -3248,10 +3248,10 @@
 					<Obj>
 						<type>0</type>
 						<id>63</id>
-						<name>sub_ln686</name>
+						<name>sub_ln706</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>686</lineNumber>
+						<lineNumber>706</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3267,7 +3267,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>686</second>
+										<second>706</second>
 									</item>
 								</second>
 							</item>
@@ -3278,7 +3278,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>6</coreId>
+						<coreId>1970435104</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -3302,10 +3302,10 @@
 					<Obj>
 						<type>0</type>
 						<id>64</id>
-						<name>zext_ln686</name>
+						<name>zext_ln706</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>686</lineNumber>
+						<lineNumber>706</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3321,7 +3321,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>686</second>
+										<second>706</second>
 									</item>
 								</second>
 							</item>
@@ -3332,7 +3332,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1685024095</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -3358,7 +3358,7 @@
 						<name>table_addr_1</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>686</lineNumber>
+						<lineNumber>706</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3374,7 +3374,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>686</second>
+										<second>706</second>
 									</item>
 								</second>
 							</item>
@@ -3385,7 +3385,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>913858404</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -3413,7 +3413,7 @@
 						<name>out_sin_V_1</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>686</lineNumber>
+						<lineNumber>706</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3429,7 +3429,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>686</second>
+										<second>706</second>
 									</item>
 								</second>
 							</item>
@@ -3440,7 +3440,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>741681509</coreId>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
@@ -3463,10 +3463,10 @@
 					<Obj>
 						<type>0</type>
 						<id>67</id>
-						<name>zext_ln672_1</name>
+						<name>zext_ln692_1</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>672</lineNumber>
+						<lineNumber>692</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3482,7 +3482,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>672</second>
+										<second>692</second>
 									</item>
 								</second>
 							</item>
@@ -3493,7 +3493,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>742273340</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -3516,10 +3516,10 @@
 					<Obj>
 						<type>0</type>
 						<id>68</id>
-						<name>icmp_ln688</name>
+						<name>icmp_ln708</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>688</lineNumber>
+						<lineNumber>708</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3535,7 +3535,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>688</second>
+										<second>708</second>
 									</item>
 								</second>
 							</item>
@@ -3546,7 +3546,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>6</coreId>
+						<coreId>1601134448</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -3573,7 +3573,7 @@
 						<name>n_aux</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>689</lineNumber>
+						<lineNumber>709</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3589,7 +3589,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>689</second>
+										<second>709</second>
 									</item>
 								</second>
 							</item>
@@ -3600,7 +3600,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1630019628</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -3624,10 +3624,10 @@
 					<Obj>
 						<type>0</type>
 						<id>70</id>
-						<name>zext_ln690</name>
+						<name>zext_ln710</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>690</lineNumber>
+						<lineNumber>710</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3643,7 +3643,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>690</second>
+										<second>710</second>
 									</item>
 								</second>
 							</item>
@@ -3654,7 +3654,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>824192052</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -3707,7 +3707,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>942813500</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -3762,7 +3762,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1717530721</coreId>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
@@ -3815,7 +3815,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1869438831</coreId>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
@@ -3839,10 +3839,10 @@
 					<Obj>
 						<type>0</type>
 						<id>74</id>
-						<name>sext_ln672</name>
+						<name>sext_ln692</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>672</lineNumber>
+						<lineNumber>692</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3858,7 +3858,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>672</second>
+										<second>692</second>
 									</item>
 								</second>
 							</item>
@@ -3869,7 +3869,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1701080941</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -3892,10 +3892,10 @@
 					<Obj>
 						<type>0</type>
 						<id>75</id>
-						<name>sub_ln694</name>
+						<name>sub_ln714</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>694</lineNumber>
+						<lineNumber>714</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3911,7 +3911,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>694</second>
+										<second>714</second>
 									</item>
 								</second>
 							</item>
@@ -3922,7 +3922,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2020173407</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -3946,10 +3946,10 @@
 					<Obj>
 						<type>0</type>
 						<id>76</id>
-						<name>zext_ln694</name>
+						<name>zext_ln714</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>694</lineNumber>
+						<lineNumber>714</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -3965,7 +3965,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>694</second>
+										<second>714</second>
 									</item>
 								</second>
 							</item>
@@ -3976,7 +3976,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1601134448</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -4029,7 +4029,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2147483647</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -4084,7 +4084,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1</coreId>
+						<coreId>1953458271</coreId>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
@@ -4137,7 +4137,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>16</coreId>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
@@ -4161,10 +4161,10 @@
 					<Obj>
 						<type>0</type>
 						<id>80</id>
-						<name>sext_ln672_1</name>
+						<name>sext_ln692_1</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>672</lineNumber>
+						<lineNumber>692</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4180,7 +4180,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>672</second>
+										<second>692</second>
 									</item>
 								</second>
 							</item>
@@ -4217,7 +4217,7 @@
 						<name>out_sin_V_4</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>681</lineNumber>
+						<lineNumber>701</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4233,7 +4233,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>681</second>
+										<second>701</second>
 									</item>
 								</second>
 							</item>
@@ -4244,7 +4244,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1</coreId>
+						<coreId>1953068832</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -4269,10 +4269,10 @@
 					<Obj>
 						<type>0</type>
 						<id>82</id>
-						<name>xor_ln681</name>
+						<name>xor_ln701</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>681</lineNumber>
+						<lineNumber>701</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4288,7 +4288,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>681</second>
+										<second>701</second>
 									</item>
 								</second>
 							</item>
@@ -4299,7 +4299,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>16</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -4323,10 +4323,10 @@
 					<Obj>
 						<type>0</type>
 						<id>83</id>
-						<name>and_ln684</name>
+						<name>and_ln704</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>684</lineNumber>
+						<lineNumber>704</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4342,7 +4342,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>684</second>
+										<second>704</second>
 									</item>
 								</second>
 							</item>
@@ -4353,7 +4353,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>1769236822</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -4380,7 +4380,7 @@
 						<name>out_sin_V_5</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>684</lineNumber>
+						<lineNumber>704</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4396,7 +4396,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>684</second>
+										<second>704</second>
 									</item>
 								</second>
 							</item>
@@ -4407,7 +4407,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>4294967295</coreId>
+						<coreId>2078424256</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -4432,10 +4432,10 @@
 					<Obj>
 						<type>0</type>
 						<id>85</id>
-						<name>xor_ln684</name>
+						<name>xor_ln704</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>684</lineNumber>
+						<lineNumber>704</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4451,7 +4451,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>684</second>
+										<second>704</second>
 									</item>
 								</second>
 							</item>
@@ -4462,7 +4462,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>0</coreId>
+						<coreId>2078421376</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -4486,10 +4486,10 @@
 					<Obj>
 						<type>0</type>
 						<id>86</id>
-						<name>and_ln688</name>
+						<name>and_ln708</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>688</lineNumber>
+						<lineNumber>708</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4505,7 +4505,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>688</second>
+										<second>708</second>
 									</item>
 								</second>
 							</item>
@@ -4516,7 +4516,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1953458271</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -4543,7 +4543,7 @@
 						<name>out_sin_V_6</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>688</lineNumber>
+						<lineNumber>708</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4559,7 +4559,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>688</second>
+										<second>708</second>
 									</item>
 								</second>
 							</item>
@@ -4570,7 +4570,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>454612352</coreId>
+						<coreId>1919950949</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -4625,7 +4625,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1702390118</coreId>
+						<coreId>1713401449</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -4652,7 +4652,7 @@
 						<name>out_sin_V_8</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>697</lineNumber>
+						<lineNumber>717</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4668,7 +4668,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>697</second>
+										<second>717</second>
 									</item>
 								</second>
 							</item>
@@ -4679,7 +4679,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1713401449</coreId>
+						<coreId>1769236822</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -4704,10 +4704,10 @@
 					<Obj>
 						<type>0</type>
 						<id>90</id>
-						<name>_ln704</name>
+						<name>_ln724</name>
 						<fileName>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</fileName>
 						<fileDirectory>C:\Users\cleit\OneDrive\Documents\GitHub\PLL-2024\AC701\H</fileDirectory>
-						<lineNumber>704</lineNumber>
+						<lineNumber>724</lineNumber>
 						<contextFuncName>sin_2000</contextFuncName>
 						<contextNormFuncName>sin_2000</contextNormFuncName>
 						<inlineStackInfo>
@@ -4723,7 +4723,7 @@
 											<first>../../C-Codes/Fixed_x64/sin_gen_varAmp2_3phi_x64.cpp</first>
 											<second>sin_2000</second>
 										</first>
-										<second>704</second>
+										<second>724</second>
 									</item>
 								</second>
 							</item>
@@ -4734,7 +4734,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>454625792</coreId>
+						<coreId>4294967295</coreId>
 					</Obj>
 					<bitwidth>0</bitwidth>
 				</Value>
@@ -4945,7 +4945,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>640688172</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -4973,7 +4973,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>1953721967</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -5001,7 +5001,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>1948265526</coreId>
 					</Obj>
 					<bitwidth>64</bitwidth>
 				</Value>
@@ -5029,7 +5029,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>1818849391</coreId>
 					</Obj>
 					<bitwidth>1</bitwidth>
 				</Value>
@@ -5057,7 +5057,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>2078466424</coreId>
 					</Obj>
 					<bitwidth>121</bitwidth>
 				</Value>
@@ -5085,7 +5085,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>2078467496</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -5113,7 +5113,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>2078672648</coreId>
 					</Obj>
 					<bitwidth>32</bitwidth>
 				</Value>
@@ -5141,7 +5141,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>1886352501</coreId>
 					</Obj>
 					<bitwidth>96</bitwidth>
 				</Value>
@@ -5169,7 +5169,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>1852793632</coreId>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
@@ -5197,7 +5197,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>7</coreId>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
@@ -5225,7 +5225,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>1885420090</coreId>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
@@ -5253,7 +5253,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>1717530721</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -5281,7 +5281,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>2078468528</coreId>
 					</Obj>
 					<bitwidth>26</bitwidth>
 				</Value>
@@ -5309,7 +5309,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1735355503</coreId>
+						<coreId>909189164</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -5337,7 +5337,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>759377710</coreId>
+						<coreId>1663050274</coreId>
 					</Obj>
 					<bitwidth>49</bitwidth>
 				</Value>
@@ -5365,7 +5365,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>841887794</coreId>
+						<coreId>997485606</coreId>
 					</Obj>
 					<bitwidth>9</bitwidth>
 				</Value>
@@ -5393,7 +5393,7 @@
 						<opType></opType>
 						<implIndex></implIndex>
 						<coreName></coreName>
-						<coreId>1953850912</coreId>
+						<coreId>539768118</coreId>
 					</Obj>
 					<bitwidth>50</bitwidth>
 				</Value>
@@ -5424,7 +5424,7 @@
 					<opType></opType>
 					<implIndex></implIndex>
 					<coreName></coreName>
-					<coreId>1254852064</coreId>
+					<coreId>2017348800</coreId>
 				</Obj>
 				<node_objs>
 					<count>87</count>
